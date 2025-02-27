@@ -3,7 +3,7 @@ all: deps fmt vet cmd aliyun_fc
 ragel-go: FORCE
 	@echo "ragel generate go code"
 	# @ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
-	@ragel -Z -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
+	@ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
 
 deps: FORCE
 	@echo "update dependency"

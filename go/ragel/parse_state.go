@@ -65,6 +65,22 @@ type Datetime struct {
 
 func (state *Datetime) String() string {
 	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, millisecond=%d, microsecond=%d\n",
-		state.Ad_bc, state.Year, state.Month, state.Day, state.Day_of_year, state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond)
+		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, millisecond=%d, microsecond=%d zoned=%v Zone_name_or_abbrev=%s Offset_hour=%d Offset_minute=%d\n",
+		state.Ad_bc, state.Year, state.Month, state.Day, state.Day_of_year,
+		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond,
+		state.Zoned,
+		state.Zone_name_or_abbrev, state.Offset_hour, state.Offset_minute)
+}
+
+func parse_year_2_digits(str string) int {
+	year, err := strconv.Atoi(str)
+	if err != nil {
+		panic(err)
+	}
+	if year >= 69 { // Unix time starts Dec 31 1969 in some time zones
+		year += 1900
+	} else {
+		year += 2000
+	}
+	return year
 }

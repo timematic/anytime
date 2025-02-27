@@ -7,7 +7,6 @@
 package ragel
 
 import (
-    "time"
     "fmt"
     "strconv"
     "errors"

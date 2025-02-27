@@ -16,6 +16,10 @@ action parse_year_4_digit {
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 }
 
+action parse_year_2_digit {
+    st.Year = parse_year_2_digits(data[pb:pb+2])
+}
+
 action parse_day_of_year {
     st.Day_of_year, _ = strconv.Atoi(data[pb:pb+3])
 }
@@ -27,8 +31,7 @@ action parse_yyyymmdd {
 }
 
 action parse_hhmmss_digits {
-    len := p - pb
-    switch len {
+    switch p - pb {
         case 4: 
             st.Hour, _ = strconv.Atoi(data[pb:pb+2])
             st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
@@ -47,24 +50,24 @@ action set_bc {
 }
 
 action set_ampm {
-    apm, err := parse_ampm(data[pb:]);
-    if err != nil {
-        return st, err
-    }
     if st.Hour > 12 {
         err = errors.New("hour out of range")
         return st, err
     }
-    switch apm {
-        case AMPM_AM:
-            if (st.Hour == 12) {
-                st.Hour -= 12; // 12:00:00 am == 00:00:00
+    if apm, err := parse_ampm(data[pb:]); err != nil {
+        return st, err
+    } else {
+        switch apm {
+            case AMPM_AM:
+                if (st.Hour == 12) {
+                    st.Hour -= 12; // 12:00:00 am == 00:00:00
+                }
+            case AMPM_PM: {
+                if (st.Hour < 12) {
+                    st.Hour += 12;
+                }
+                // else {} // 12:00:00 pm = 12:00:00, do nothing
             }
-        case AMPM_PM: {
-            if (st.Hour < 12) {
-                st.Hour += 12;
-            }
-            // else {} // 12:00:00 pm = 12:00:00, do nothing
         }
     }
 }
@@ -83,12 +86,11 @@ action set_month_11 { st.Month = 11 ;}
 action set_month_12 { st.Month = 12 ;}
 
 action parse_day_digit {
-    len := p - pb
-    switch len {
+    switch p - pb {
         case 1: st.Day, _ = strconv.Atoi(data[pb:pb+1])
         case 2: st.Day, _ = strconv.Atoi(data[pb:pb+2])
         default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:pb+len])
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
             return
     }
 }
@@ -112,8 +114,7 @@ action parse_second_1_digit {
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 }
 action parse_second_fraction {
-    len := p - pb
-    switch len {
+    switch p - pb {
         case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
         case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
         case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
@@ -132,8 +133,7 @@ action parse_second_fraction {
 action mark_negative_offset { st.Negative_offset = true }
 
 action parse_offset_hour {
-    len := p - pb
-    switch len {
+    switch p - pb {
         case 1: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])
         case 2: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+2])
         default:
@@ -143,8 +143,7 @@ action parse_offset_hour {
 }
 
 action parse_offset_minute {
-    len := p - pb
-    switch len {
+    switch p - pb {
         case 1: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+1])
         case 2: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+2])
         default:
@@ -161,12 +160,10 @@ action parse_offset_digits {
     // 如果超过4位则移除前缀0直到保留后4位；移除前缀0后如果还超过4位则溢出报错
     // - 00000012 as 12 minutes
     // - 0000001234 as 12 hours and 34 minutes
-    len := p - pb
-    for len > 4 &&  data[pb] =='0' { 
-        len -= 1
+    for p - pb > 4 &&  data[pb] =='0' {
         pb += 1 
     }
-    switch(len){
+    switch p-pb {
         case 1:{st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])}
         case 2:{st.Offset_hour, _ = strconv.Atoi(data[pb:pb+2])}
         case 3:{ 
@@ -194,13 +191,7 @@ action parse_offset_digits {
 }
 
 action parse_timezone_abbr {
-    len := p - pb;
-    zone_name_or_abbrev := data[pb:pb+len]
-    _, err = time.LoadLocation(zone_name_or_abbrev)
-    if err != nil {
-        return
-    }
-    st.Zone_name_or_abbrev = zone_name_or_abbrev
+    st.Zone_name_or_abbrev = data[pb:p]
     st.Zoned = true
 }
 
@@ -223,7 +214,10 @@ month_name = (('Jan' | 'January') %set_month_1 | ('Feb' | 'February') %set_month
 month_digits = (nonzerodigit | '0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
 month = (month_name | month_digits);
 
+week_day_name = ('Monday'|'Mon' | 'Tuesday'|'Tue' | 'Wednesday'|'Wed' | 'Thursday'|'Thu' | 'Friday'|'Fri' | 'Saturday'|'Sat' | 'Sunday'|'Sun');
+
 year_4digit = digit{4} >mark_pb %parse_year_4_digit;
+year_2digit = digit{2} >mark_pb %parse_year_2_digit;
 
 day_of_year = digit{3} >mark_pb %parse_day_of_year;
  
@@ -235,7 +229,10 @@ dmy = day datesp month datesp year_4digit;
 mdy = month datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
 yyyymmdd = year_4digit month day_2digit;
-date = ( ymd | yyyyddd | yyyymmdd);
+date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
+date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
+date_rfc822 = day sp month_name sp year_2digit;
+date = ( ymd | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;
@@ -258,18 +255,21 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = ('Z' | timenumoffset | timezone_abbreviation) %mark_zone;
+timezone = (timenumoffset | timezone_abbreviation) %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
 hhmmss = hour ( ':' minute ( ':' second)? )? (sp? am_pm)?;
 hhmmss_digits = ( (digit{4} | digit{6}) >mark_pb %parse_hhmmss_digits) . second_fraction? ;
-time =  (hhmmss_digits | hhmmss) . sp? . timezone?;
+time =  (hhmmss_digits | hhmmss) . (sp | 'Z')? . timezone?;
 time_without_zone = hhmmss_digits | hhmmss;
 
-fulldate = ( date . 'T'? . timezone? . (sp ad_bc)?);
+fulldate = ( date . ('T' | sp | 'Z')? . timezone? . (sp ad_bc)?);
 
-fulldatetime = fulldate | ( date ('T' | sp) time (sp ad_bc)?);
+# "Mon Jan 02 15:04:05 -0700 2006"
+ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
+
+fulldatetime = fulldate | ( date ('T' | sp) time (sp ad_bc)?) | ruby_datetime;
 
 fulltime = ('T'? . time) | ( date ('T' | sp) time );
 
