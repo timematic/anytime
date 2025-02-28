@@ -12331,7 +12331,7 @@ tr460:
         return
     }
 
-    if cs < atoi_first_final {
+    if cs < datetime_parser_first_final {
         err = fmt.Errorf("time parse error: %s", data)
     }
     return
