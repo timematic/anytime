@@ -17,14 +17,8 @@ vet:
 	@echo "Vetting code"
 	@go vet ./.
 
-aliyun_fc: FORCE
-	@echo "Building aliyun_fc"
-	cd aliyun_fc && GOOS=linux GOARCH=amd64 go build -o ../bin/aliyun_fc
-	@GIT_COMMIT=$$(git log -1 --pretty=format:"%h"); \
-	zip -r "aliyun_fc.$$GIT_COMMIT.zip" bin/aliyun_fc assets/*.json && echo "package success: aliyun_fc.$$GIT_COMMIT.zip"
-
-cmd: fmt
-	cd cmd && go build -o ../bin/make_cedict_json
+cli: fmt
+	cd cli && go build -o ../bin/anytime
 
 clean: FORCE
 	@echo "Cleaning"
