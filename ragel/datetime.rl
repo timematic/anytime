@@ -124,9 +124,21 @@ action parse_second_fraction {
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 }
 

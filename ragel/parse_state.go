@@ -54,6 +54,7 @@ type Datetime struct {
 	Second      int
 	Millisecond int
 	Microsecond int
+	Nanosecond  int
 
 	Zoned bool
 	// zone or offset
@@ -65,9 +66,9 @@ type Datetime struct {
 
 func (state *Datetime) String() string {
 	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, millisecond=%d, microsecond=%d zoned=%v Zone_name_or_abbrev=%s Offset_hour=%d Offset_minute=%d\n",
+		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v Zone_name_or_abbrev=%s Offset_hour=%d Offset_minute=%d\n",
 		state.Ad_bc, state.Year, state.Month, state.Day, state.Day_of_year,
-		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond,
+		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond, state.Nanosecond,
 		state.Zoned,
 		state.Zone_name_or_abbrev, state.Offset_hour, state.Offset_minute)
 }

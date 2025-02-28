@@ -152,15 +152,14 @@ func gen_datetime_formats() []string {
 func TestParseDateOnly(t *testing.T) {
 	now := time.Now()
 
-	for _, date_fmt := range gen_date_only_formats() {
-		str := now.Format(date_fmt)
-		expect, err := time.ParseInLocation(date_fmt, str, time.Local)
+	for _, layout := range gen_date_only_formats() {
+		str := now.Format(layout)
+		expect, err := time.ParseInLocation(layout, str, time.Local)
 		assert.Nil(t, err)
 
 		date, err := anytime.ParseInLocation(str, time.Local)
 		assert.Nil(t, err)
-		// fmt.Println(date)
-		assert.True(t, expect.Equal(date))
+		assert.True(t, expect.Equal(date), fmt.Sprintf("input=%s, layout=%s, expect=%s, output=%s", str, layout, expect, date))
 
 	}
 }
@@ -168,14 +167,14 @@ func TestParseDateOnly(t *testing.T) {
 func TestParseDateTime(t *testing.T) {
 	now := time.Now()
 
-	for _, date_fmt := range gen_datetime_formats() {
-		str := now.Format(date_fmt)
-		expect, err := time.ParseInLocation(date_fmt, str, time.Local)
+	for _, layout := range gen_datetime_formats() {
+		str := now.Format(layout)
+		expect, err := time.ParseInLocation(layout, str, time.Local)
 		assert.Nil(t, err)
 
 		date, err := anytime.ParseInLocation(str, time.Local)
 		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date))
+		assert.True(t, expect.Equal(date), fmt.Sprintf("input=%s, layout=%s, expect=%s, output=%s", str, layout, expect, date))
 
 	}
 }

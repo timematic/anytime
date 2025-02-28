@@ -1299,7 +1299,7 @@ tr713:
 		}
 		goto st0
 tr598:
-//line ragel/datetime.rl:155
+//line ragel/datetime.rl:167
  
     // 1 as 1 hour
     // 12 as 12 hours
@@ -1345,7 +1345,7 @@ tr602:
  st.Zoned = true 
 	goto st9
 tr605:
-//line ragel/datetime.rl:145
+//line ragel/datetime.rl:157
 
     switch p - pb {
         case 1: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+1])
@@ -1359,7 +1359,7 @@ tr605:
  st.Zoned = true 
 	goto st9
 tr607:
-//line ragel/datetime.rl:193
+//line ragel/datetime.rl:205
 
     st.Zone_name_or_abbrev = data[pb:p]
     st.Zoned = true
@@ -1495,9 +1495,21 @@ tr642:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st12
@@ -1558,7 +1570,7 @@ tr714:
 			goto _test_eof12
 		}
 	st_case_12:
-//line ragel/parse_datetime.go:1562
+//line ragel/parse_datetime.go:1574
 		if data[p] == 50 {
 			goto tr46
 		}
@@ -1576,7 +1588,7 @@ tr45:
  pb = p 
 	goto st417
 tr48:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -1586,7 +1598,7 @@ tr48:
 			goto _test_eof417
 		}
 	st_case_417:
-//line ragel/parse_datetime.go:1590
+//line ragel/parse_datetime.go:1602
 		switch data[p] {
 		case 32:
 			goto tr598
@@ -1602,7 +1614,7 @@ tr47:
  pb = p 
 	goto st418
 tr50:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -1612,7 +1624,7 @@ tr50:
 			goto _test_eof418
 		}
 	st_case_418:
-//line ragel/parse_datetime.go:1616
+//line ragel/parse_datetime.go:1628
 		switch data[p] {
 		case 32:
 			goto tr598
@@ -1636,7 +1648,7 @@ tr50:
 		}
 		goto st0
 tr600:
-//line ragel/datetime.rl:135
+//line ragel/datetime.rl:147
 
     switch p - pb {
         case 1: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])
@@ -1652,7 +1664,7 @@ tr600:
 			goto _test_eof420
 		}
 	st_case_420:
-//line ragel/parse_datetime.go:1656
+//line ragel/parse_datetime.go:1668
 		if data[p] == 32 {
 			goto tr602
 		}
@@ -1674,7 +1686,7 @@ tr603:
 			goto _test_eof421
 		}
 	st_case_421:
-//line ragel/parse_datetime.go:1678
+//line ragel/parse_datetime.go:1690
 		if data[p] == 32 {
 			goto tr605
 		}
@@ -1691,7 +1703,7 @@ tr604:
 			goto _test_eof422
 		}
 	st_case_422:
-//line ragel/parse_datetime.go:1695
+//line ragel/parse_datetime.go:1707
 		if data[p] == 32 {
 			goto tr605
 		}
@@ -1701,7 +1713,7 @@ tr46:
  pb = p 
 	goto st423
 tr49:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -1711,7 +1723,7 @@ tr49:
 			goto _test_eof423
 		}
 	st_case_423:
-//line ragel/parse_datetime.go:1715
+//line ragel/parse_datetime.go:1727
 		switch data[p] {
 		case 32:
 			goto tr598
@@ -1812,9 +1824,21 @@ tr643:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st13
@@ -1875,7 +1899,7 @@ tr715:
 			goto _test_eof13
 		}
 	st_case_13:
-//line ragel/parse_datetime.go:1879
+//line ragel/parse_datetime.go:1903
 		if data[p] == 50 {
 			goto tr49
 		}
@@ -1948,9 +1972,21 @@ tr644:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -2041,7 +2077,7 @@ tr716:
 			goto _test_eof14
 		}
 	st_case_14:
-//line ragel/parse_datetime.go:2045
+//line ragel/parse_datetime.go:2081
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2066,7 +2102,7 @@ tr654:
 			goto _test_eof15
 		}
 	st_case_15:
-//line ragel/parse_datetime.go:2070
+//line ragel/parse_datetime.go:2106
 		switch data[p] {
 		case 47:
 			goto st424
@@ -2118,7 +2154,7 @@ tr623:
 			goto _test_eof424
 		}
 	st_case_424:
-//line ragel/parse_datetime.go:2122
+//line ragel/parse_datetime.go:2158
 		switch data[p] {
 		case 32:
 			goto tr607
@@ -2145,7 +2181,7 @@ tr593:
 			goto _test_eof425
 		}
 	st_case_425:
-//line ragel/parse_datetime.go:2149
+//line ragel/parse_datetime.go:2185
 		switch data[p] {
 		case 32:
 			goto tr608
@@ -2208,9 +2244,21 @@ tr681:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st426
@@ -2243,7 +2291,7 @@ tr692:
 			goto _test_eof426
 		}
 	st_case_426:
-//line ragel/parse_datetime.go:2247
+//line ragel/parse_datetime.go:2295
 		switch data[p] {
 		case 32:
 			goto st9
@@ -2284,7 +2332,7 @@ tr617:
 			goto _test_eof16
 		}
 	st_case_16:
-//line ragel/parse_datetime.go:2288
+//line ragel/parse_datetime.go:2336
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2407,9 +2455,21 @@ tr641:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st429
@@ -2418,7 +2478,7 @@ tr641:
 			goto _test_eof429
 		}
 	st_case_429:
-//line ragel/parse_datetime.go:2422
+//line ragel/parse_datetime.go:2482
 		switch data[p] {
 		case 32:
 			goto st9
@@ -2453,7 +2513,7 @@ tr596:
 			goto _test_eof17
 		}
 	st_case_17:
-//line ragel/parse_datetime.go:2457
+//line ragel/parse_datetime.go:2517
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2480,7 +2540,7 @@ tr597:
 			goto _test_eof18
 		}
 	st_case_18:
-//line ragel/parse_datetime.go:2484
+//line ragel/parse_datetime.go:2544
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2550,7 +2610,7 @@ tr624:
 			goto _test_eof431
 		}
 	st_case_431:
-//line ragel/parse_datetime.go:2554
+//line ragel/parse_datetime.go:2614
 		switch data[p] {
 		case 32:
 			goto tr607
@@ -2605,9 +2665,21 @@ tr683:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -2650,7 +2722,7 @@ tr697:
 			goto _test_eof19
 		}
 	st_case_19:
-//line ragel/parse_datetime.go:2654
+//line ragel/parse_datetime.go:2726
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2701,9 +2773,21 @@ tr684:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -2746,7 +2830,7 @@ tr699:
 			goto _test_eof20
 		}
 	st_case_20:
-//line ragel/parse_datetime.go:2750
+//line ragel/parse_datetime.go:2834
 		switch data[p] {
 		case 47:
 			goto st15
@@ -2871,7 +2955,7 @@ tr637:
 			goto _test_eof22
 		}
 	st_case_22:
-//line ragel/parse_datetime.go:2875
+//line ragel/parse_datetime.go:2959
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr57
 		}
@@ -2885,7 +2969,7 @@ tr57:
 			goto _test_eof434
 		}
 	st_case_434:
-//line ragel/parse_datetime.go:2889
+//line ragel/parse_datetime.go:2973
 		switch data[p] {
 		case 32:
 			goto tr641
@@ -3221,9 +3305,21 @@ tr646:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -3314,7 +3410,7 @@ tr718:
 			goto _test_eof443
 		}
 	st_case_443:
-//line ragel/parse_datetime.go:3318
+//line ragel/parse_datetime.go:3414
 		switch data[p] {
 		case 32:
 			goto st9
@@ -3392,7 +3488,7 @@ tr630:
 			goto _test_eof24
 		}
 	st_case_24:
-//line ragel/parse_datetime.go:3396
+//line ragel/parse_datetime.go:3492
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
@@ -3411,7 +3507,7 @@ tr59:
 			goto _test_eof445
 		}
 	st_case_445:
-//line ragel/parse_datetime.go:3415
+//line ragel/parse_datetime.go:3511
 		switch data[p] {
 		case 32:
 			goto tr655
@@ -3504,7 +3600,7 @@ tr668:
 			goto _test_eof25
 		}
 	st_case_25:
-//line ragel/parse_datetime.go:3508
+//line ragel/parse_datetime.go:3604
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
@@ -3523,7 +3619,7 @@ tr61:
 			goto _test_eof447
 		}
 	st_case_447:
-//line ragel/parse_datetime.go:3527
+//line ragel/parse_datetime.go:3623
 		switch data[p] {
 		case 32:
 			goto tr672
@@ -3578,7 +3674,7 @@ tr695:
 			goto _test_eof26
 		}
 	st_case_26:
-//line ragel/parse_datetime.go:3582
+//line ragel/parse_datetime.go:3678
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr63
 		}
@@ -3592,7 +3688,7 @@ tr63:
 			goto _test_eof448
 		}
 	st_case_448:
-//line ragel/parse_datetime.go:3596
+//line ragel/parse_datetime.go:3692
 		switch data[p] {
 		case 32:
 			goto tr681
@@ -3991,7 +4087,7 @@ tr62:
 			goto _test_eof458
 		}
 	st_case_458:
-//line ragel/parse_datetime.go:3995
+//line ragel/parse_datetime.go:4091
 		switch data[p] {
 		case 32:
 			goto tr672
@@ -4034,7 +4130,7 @@ tr60:
 			goto _test_eof459
 		}
 	st_case_459:
-//line ragel/parse_datetime.go:4038
+//line ragel/parse_datetime.go:4134
 		switch data[p] {
 		case 32:
 			goto tr655
@@ -4077,7 +4173,7 @@ tr594:
 			goto _test_eof460
 		}
 	st_case_460:
-//line ragel/parse_datetime.go:4081
+//line ragel/parse_datetime.go:4177
 		switch data[p] {
 		case 32:
 			goto tr608
@@ -4138,7 +4234,7 @@ tr595:
 			goto _test_eof461
 		}
 	st_case_461:
-//line ragel/parse_datetime.go:4142
+//line ragel/parse_datetime.go:4238
 		switch data[p] {
 		case 32:
 			goto tr608
@@ -4237,7 +4333,7 @@ tr717:
 			goto _test_eof462
 		}
 	st_case_462:
-//line ragel/parse_datetime.go:4241
+//line ragel/parse_datetime.go:4337
 		switch data[p] {
 		case 32:
 			goto st9
@@ -4344,7 +4440,7 @@ tr117:
 			goto _test_eof29
 		}
 	st_case_29:
-//line ragel/parse_datetime.go:4348
+//line ragel/parse_datetime.go:4444
 		switch data[p] {
 		case 48:
 			goto tr66
@@ -4441,7 +4537,7 @@ tr200:
 			goto _test_eof30
 		}
 	st_case_30:
-//line ragel/parse_datetime.go:4445
+//line ragel/parse_datetime.go:4541
 		if 49 <= data[p] && data[p] <= 57 {
 			goto st463
 		}
@@ -4455,7 +4551,7 @@ tr69:
 			goto _test_eof463
 		}
 	st_case_463:
-//line ragel/parse_datetime.go:4459
+//line ragel/parse_datetime.go:4555
 		switch data[p] {
 		case 32:
 			goto tr701
@@ -4490,7 +4586,7 @@ tr67:
 			goto _test_eof464
 		}
 	st_case_464:
-//line ragel/parse_datetime.go:4494
+//line ragel/parse_datetime.go:4590
 		switch data[p] {
 		case 32:
 			goto tr701
@@ -4529,7 +4625,7 @@ tr68:
 			goto _test_eof465
 		}
 	st_case_465:
-//line ragel/parse_datetime.go:4533
+//line ragel/parse_datetime.go:4629
 		switch data[p] {
 		case 32:
 			goto tr701
@@ -4568,7 +4664,7 @@ tr28:
 			goto _test_eof31
 		}
 	st_case_31:
-//line ragel/parse_datetime.go:4572
+//line ragel/parse_datetime.go:4668
 		switch data[p] {
 		case 45:
 			goto tr65
@@ -4593,7 +4689,7 @@ tr29:
 			goto _test_eof32
 		}
 	st_case_32:
-//line ragel/parse_datetime.go:4597
+//line ragel/parse_datetime.go:4693
 		switch data[p] {
 		case 45:
 			goto tr65
@@ -5070,7 +5166,7 @@ tr15:
 			goto _test_eof76
 		}
 	st_case_76:
-//line ragel/parse_datetime.go:5074
+//line ragel/parse_datetime.go:5170
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr118
 		}
@@ -5084,7 +5180,7 @@ tr118:
 			goto _test_eof77
 		}
 	st_case_77:
-//line ragel/parse_datetime.go:5088
+//line ragel/parse_datetime.go:5184
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st8
 		}
@@ -5102,7 +5198,7 @@ tr16:
 			goto _test_eof78
 		}
 	st_case_78:
-//line ragel/parse_datetime.go:5106
+//line ragel/parse_datetime.go:5202
 		if data[p] == 48 {
 			goto st8
 		}
@@ -5143,7 +5239,7 @@ tr120:
 			goto _test_eof466
 		}
 	st_case_466:
-//line ragel/parse_datetime.go:5147
+//line ragel/parse_datetime.go:5243
 		switch data[p] {
 		case 32:
 			goto tr582
@@ -5186,7 +5282,7 @@ tr121:
 			goto _test_eof467
 		}
 	st_case_467:
-//line ragel/parse_datetime.go:5190
+//line ragel/parse_datetime.go:5286
 		switch data[p] {
 		case 32:
 			goto tr582
@@ -5229,7 +5325,7 @@ tr122:
 			goto _test_eof468
 		}
 	st_case_468:
-//line ragel/parse_datetime.go:5233
+//line ragel/parse_datetime.go:5329
 		switch data[p] {
 		case 32:
 			goto tr582
@@ -5272,7 +5368,7 @@ tr17:
 			goto _test_eof80
 		}
 	st_case_80:
-//line ragel/parse_datetime.go:5276
+//line ragel/parse_datetime.go:5372
 		switch data[p] {
 		case 48:
 			goto tr123
@@ -5301,7 +5397,7 @@ tr123:
 			goto _test_eof81
 		}
 	st_case_81:
-//line ragel/parse_datetime.go:5305
+//line ragel/parse_datetime.go:5401
 		switch data[p] {
 		case 48:
 			goto tr120
@@ -5330,7 +5426,7 @@ tr126:
 			goto _test_eof469
 		}
 	st_case_469:
-//line ragel/parse_datetime.go:5334
+//line ragel/parse_datetime.go:5430
 		switch data[p] {
 		case 32:
 			goto tr707
@@ -5373,7 +5469,7 @@ tr127:
 			goto _test_eof470
 		}
 	st_case_470:
-//line ragel/parse_datetime.go:5377
+//line ragel/parse_datetime.go:5473
 		switch data[p] {
 		case 32:
 			goto tr707
@@ -5446,7 +5542,7 @@ tr124:
 			goto _test_eof82
 		}
 	st_case_82:
-//line ragel/parse_datetime.go:5450
+//line ragel/parse_datetime.go:5546
 		switch data[p] {
 		case 48:
 			goto tr129
@@ -5475,7 +5571,7 @@ tr129:
 			goto _test_eof472
 		}
 	st_case_472:
-//line ragel/parse_datetime.go:5479
+//line ragel/parse_datetime.go:5575
 		switch data[p] {
 		case 32:
 			goto tr707
@@ -5518,7 +5614,7 @@ tr125:
 			goto _test_eof83
 		}
 	st_case_83:
-//line ragel/parse_datetime.go:5522
+//line ragel/parse_datetime.go:5618
 		switch {
 		case data[p] > 49:
 			if 50 <= data[p] && data[p] <= 57 {
@@ -5541,7 +5637,7 @@ tr18:
 			goto _test_eof84
 		}
 	st_case_84:
-//line ragel/parse_datetime.go:5545
+//line ragel/parse_datetime.go:5641
 		switch data[p] {
 		case 48:
 			goto tr130
@@ -5570,7 +5666,7 @@ tr130:
 			goto _test_eof85
 		}
 	st_case_85:
-//line ragel/parse_datetime.go:5574
+//line ragel/parse_datetime.go:5670
 		if data[p] == 48 {
 			goto st413
 		}
@@ -5591,7 +5687,7 @@ tr131:
 			goto _test_eof86
 		}
 	st_case_86:
-//line ragel/parse_datetime.go:5595
+//line ragel/parse_datetime.go:5691
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st471
 		}
@@ -5607,7 +5703,7 @@ tr19:
 			goto _test_eof87
 		}
 	st_case_87:
-//line ragel/parse_datetime.go:5611
+//line ragel/parse_datetime.go:5707
 		switch data[p] {
 		case 112:
 			goto st88
@@ -5718,7 +5814,7 @@ tr201:
 			goto _test_eof90
 		}
 	st_case_90:
-//line ragel/parse_datetime.go:5722
+//line ragel/parse_datetime.go:5818
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st463
 		}
@@ -5800,7 +5896,7 @@ tr202:
 			goto _test_eof91
 		}
 	st_case_91:
-//line ragel/parse_datetime.go:5804
+//line ragel/parse_datetime.go:5900
 		if 48 <= data[p] && data[p] <= 49 {
 			goto st463
 		}
@@ -5864,7 +5960,7 @@ tr20:
 			goto _test_eof96
 		}
 	st_case_96:
-//line ragel/parse_datetime.go:5868
+//line ragel/parse_datetime.go:5964
 		if data[p] == 101 {
 			goto st97
 		}
@@ -5904,7 +6000,7 @@ tr21:
 			goto _test_eof99
 		}
 	st_case_99:
-//line ragel/parse_datetime.go:5908
+//line ragel/parse_datetime.go:6004
 		if data[p] == 101 {
 			goto st100
 		}
@@ -5997,7 +6093,7 @@ tr22:
 			goto _test_eof107
 		}
 	st_case_107:
-//line ragel/parse_datetime.go:6001
+//line ragel/parse_datetime.go:6097
 		switch data[p] {
 		case 97:
 			goto st108
@@ -6126,7 +6222,7 @@ tr23:
 			goto _test_eof117
 		}
 	st_case_117:
-//line ragel/parse_datetime.go:6130
+//line ragel/parse_datetime.go:6226
 		if data[p] == 97 {
 			goto st118
 		}
@@ -6210,7 +6306,7 @@ tr24:
 			goto _test_eof123
 		}
 	st_case_123:
-//line ragel/parse_datetime.go:6214
+//line ragel/parse_datetime.go:6310
 		if data[p] == 111 {
 			goto st124
 		}
@@ -6250,7 +6346,7 @@ tr25:
 			goto _test_eof126
 		}
 	st_case_126:
-//line ragel/parse_datetime.go:6254
+//line ragel/parse_datetime.go:6350
 		if data[p] == 99 {
 			goto st127
 		}
@@ -6290,7 +6386,7 @@ tr26:
 			goto _test_eof129
 		}
 	st_case_129:
-//line ragel/parse_datetime.go:6294
+//line ragel/parse_datetime.go:6390
 		if data[p] == 101 {
 			goto st130
 		}
@@ -6348,7 +6444,7 @@ tr203:
 			goto _test_eof133
 		}
 	st_case_133:
-//line ragel/parse_datetime.go:6352
+//line ragel/parse_datetime.go:6448
 		switch data[p] {
 		case 65:
 			goto st134
@@ -6454,7 +6550,7 @@ tr260:
 			goto _test_eof137
 		}
 	st_case_137:
-//line ragel/parse_datetime.go:6458
+//line ragel/parse_datetime.go:6554
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr217
 		}
@@ -6468,7 +6564,7 @@ tr217:
 			goto _test_eof138
 		}
 	st_case_138:
-//line ragel/parse_datetime.go:6472
+//line ragel/parse_datetime.go:6568
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st473
 		}
@@ -6890,7 +6986,7 @@ tr2:
 			goto _test_eof179
 		}
 	st_case_179:
-//line ragel/parse_datetime.go:6894
+//line ragel/parse_datetime.go:6990
 		if data[p] == 32 {
 			goto tr203
 		}
@@ -6907,7 +7003,7 @@ tr3:
 			goto _test_eof180
 		}
 	st_case_180:
-//line ragel/parse_datetime.go:6911
+//line ragel/parse_datetime.go:7007
 		if data[p] == 32 {
 			goto tr203
 		}
@@ -6929,7 +7025,7 @@ tr4:
 			goto _test_eof181
 		}
 	st_case_181:
-//line ragel/parse_datetime.go:6933
+//line ragel/parse_datetime.go:7029
 		if data[p] == 32 {
 			goto tr203
 		}
@@ -7079,7 +7175,7 @@ tr456:
 			goto _test_eof189
 		}
 	st_case_189:
-//line ragel/parse_datetime.go:7083
+//line ragel/parse_datetime.go:7179
 		switch data[p] {
 		case 48:
 			goto tr279
@@ -7099,7 +7195,7 @@ tr279:
 			goto _test_eof190
 		}
 	st_case_190:
-//line ragel/parse_datetime.go:7103
+//line ragel/parse_datetime.go:7199
 		if 49 <= data[p] && data[p] <= 57 {
 			goto st191
 		}
@@ -7130,7 +7226,7 @@ tr283:
 			goto _test_eof192
 		}
 	st_case_192:
-//line ragel/parse_datetime.go:7134
+//line ragel/parse_datetime.go:7230
 		if data[p] == 50 {
 			goto tr285
 		}
@@ -7152,7 +7248,7 @@ tr284:
 			goto _test_eof193
 		}
 	st_case_193:
-//line ragel/parse_datetime.go:7156
+//line ragel/parse_datetime.go:7252
 		switch data[p] {
 		case 32:
 			goto tr287
@@ -7215,9 +7311,21 @@ tr395:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st194
@@ -7250,7 +7358,7 @@ tr406:
 			goto _test_eof194
 		}
 	st_case_194:
-//line ragel/parse_datetime.go:7254
+//line ragel/parse_datetime.go:7362
 		switch data[p] {
 		case 32:
 			goto st195
@@ -7285,7 +7393,7 @@ tr406:
 		}
 		goto tr0
 tr309:
-//line ragel/datetime.rl:155
+//line ragel/datetime.rl:167
  
     // 1 as 1 hour
     // 12 as 12 hours
@@ -7331,7 +7439,7 @@ tr313:
  st.Zoned = true 
 	goto st195
 tr316:
-//line ragel/datetime.rl:145
+//line ragel/datetime.rl:157
 
     switch p - pb {
         case 1: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+1])
@@ -7345,7 +7453,7 @@ tr316:
  st.Zoned = true 
 	goto st195
 tr323:
-//line ragel/datetime.rl:193
+//line ragel/datetime.rl:205
 
     st.Zone_name_or_abbrev = data[pb:p]
     st.Zoned = true
@@ -7358,7 +7466,7 @@ tr323:
 			goto _test_eof195
 		}
 	st_case_195:
-//line ragel/parse_datetime.go:7362
+//line ragel/parse_datetime.go:7470
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr300
 		}
@@ -7372,7 +7480,7 @@ tr300:
 			goto _test_eof196
 		}
 	st_case_196:
-//line ragel/parse_datetime.go:7376
+//line ragel/parse_datetime.go:7484
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st197
 		}
@@ -7468,9 +7576,21 @@ tr350:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st199
@@ -7503,7 +7623,7 @@ tr407:
 			goto _test_eof199
 		}
 	st_case_199:
-//line ragel/parse_datetime.go:7507
+//line ragel/parse_datetime.go:7627
 		if data[p] == 50 {
 			goto tr307
 		}
@@ -7521,7 +7641,7 @@ tr306:
  pb = p 
 	goto st200
 tr318:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -7531,7 +7651,7 @@ tr318:
 			goto _test_eof200
 		}
 	st_case_200:
-//line ragel/parse_datetime.go:7535
+//line ragel/parse_datetime.go:7655
 		switch data[p] {
 		case 32:
 			goto tr309
@@ -7547,7 +7667,7 @@ tr308:
  pb = p 
 	goto st201
 tr320:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -7557,7 +7677,7 @@ tr320:
 			goto _test_eof201
 		}
 	st_case_201:
-//line ragel/parse_datetime.go:7561
+//line ragel/parse_datetime.go:7681
 		switch data[p] {
 		case 32:
 			goto tr309
@@ -7581,7 +7701,7 @@ tr320:
 		}
 		goto tr0
 tr311:
-//line ragel/datetime.rl:135
+//line ragel/datetime.rl:147
 
     switch p - pb {
         case 1: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])
@@ -7597,7 +7717,7 @@ tr311:
 			goto _test_eof203
 		}
 	st_case_203:
-//line ragel/parse_datetime.go:7601
+//line ragel/parse_datetime.go:7721
 		if data[p] == 32 {
 			goto tr313
 		}
@@ -7619,7 +7739,7 @@ tr314:
 			goto _test_eof204
 		}
 	st_case_204:
-//line ragel/parse_datetime.go:7623
+//line ragel/parse_datetime.go:7743
 		if data[p] == 32 {
 			goto tr316
 		}
@@ -7636,7 +7756,7 @@ tr315:
 			goto _test_eof205
 		}
 	st_case_205:
-//line ragel/parse_datetime.go:7640
+//line ragel/parse_datetime.go:7760
 		if data[p] == 32 {
 			goto tr316
 		}
@@ -7646,7 +7766,7 @@ tr307:
  pb = p 
 	goto st206
 tr319:
-//line ragel/datetime.rl:133
+//line ragel/datetime.rl:145
  st.Negative_offset = true 
 //line ragel/datetime.rl:7
  pb = p 
@@ -7656,7 +7776,7 @@ tr319:
 			goto _test_eof206
 		}
 	st_case_206:
-//line ragel/parse_datetime.go:7660
+//line ragel/parse_datetime.go:7780
 		switch data[p] {
 		case 32:
 			goto tr309
@@ -7739,9 +7859,21 @@ tr351:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st207
@@ -7774,7 +7906,7 @@ tr408:
 			goto _test_eof207
 		}
 	st_case_207:
-//line ragel/parse_datetime.go:7778
+//line ragel/parse_datetime.go:7910
 		if data[p] == 50 {
 			goto tr319
 		}
@@ -7839,9 +7971,21 @@ tr352:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -7884,7 +8028,7 @@ tr410:
 			goto _test_eof208
 		}
 	st_case_208:
-//line ragel/parse_datetime.go:7888
+//line ragel/parse_datetime.go:8032
 		switch data[p] {
 		case 47:
 			goto st209
@@ -7909,7 +8053,7 @@ tr362:
 			goto _test_eof209
 		}
 	st_case_209:
-//line ragel/parse_datetime.go:7913
+//line ragel/parse_datetime.go:8057
 		switch data[p] {
 		case 47:
 			goto st210
@@ -7961,7 +8105,7 @@ tr328:
 			goto _test_eof210
 		}
 	st_case_210:
-//line ragel/parse_datetime.go:7965
+//line ragel/parse_datetime.go:8109
 		switch data[p] {
 		case 32:
 			goto tr323
@@ -8012,9 +8156,21 @@ tr397:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -8057,7 +8213,7 @@ tr411:
 			goto _test_eof211
 		}
 	st_case_211:
-//line ragel/parse_datetime.go:8061
+//line ragel/parse_datetime.go:8217
 		switch data[p] {
 		case 47:
 			goto st209
@@ -8158,9 +8314,21 @@ tr349:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 	goto st213
@@ -8169,7 +8337,7 @@ tr349:
 			goto _test_eof213
 		}
 	st_case_213:
-//line ragel/parse_datetime.go:8173
+//line ragel/parse_datetime.go:8341
 		switch data[p] {
 		case 32:
 			goto st195
@@ -8227,7 +8395,7 @@ tr329:
 			goto _test_eof214
 		}
 	st_case_214:
-//line ragel/parse_datetime.go:8231
+//line ragel/parse_datetime.go:8399
 		switch data[p] {
 		case 32:
 			goto tr323
@@ -8282,9 +8450,21 @@ tr398:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -8327,7 +8507,7 @@ tr413:
 			goto _test_eof215
 		}
 	st_case_215:
-//line ragel/parse_datetime.go:8331
+//line ragel/parse_datetime.go:8511
 		switch data[p] {
 		case 47:
 			goto st209
@@ -8452,7 +8632,7 @@ tr344:
 			goto _test_eof219
 		}
 	st_case_219:
-//line ragel/parse_datetime.go:8456
+//line ragel/parse_datetime.go:8636
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr348
 		}
@@ -8466,7 +8646,7 @@ tr348:
 			goto _test_eof220
 		}
 	st_case_220:
-//line ragel/parse_datetime.go:8470
+//line ragel/parse_datetime.go:8650
 		switch data[p] {
 		case 32:
 			goto tr349
@@ -8794,9 +8974,21 @@ tr354:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 //line ragel/datetime.rl:7
@@ -8839,7 +9031,7 @@ tr412:
 			goto _test_eof229
 		}
 	st_case_229:
-//line ragel/parse_datetime.go:8843
+//line ragel/parse_datetime.go:9035
 		switch data[p] {
 		case 32:
 			goto st195
@@ -8917,7 +9109,7 @@ tr336:
 			goto _test_eof232
 		}
 	st_case_232:
-//line ragel/parse_datetime.go:8921
+//line ragel/parse_datetime.go:9113
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
@@ -8936,7 +9128,7 @@ tr364:
 			goto _test_eof233
 		}
 	st_case_233:
-//line ragel/parse_datetime.go:8940
+//line ragel/parse_datetime.go:9132
 		switch data[p] {
 		case 32:
 			goto tr366
@@ -9029,7 +9221,7 @@ tr379:
 			goto _test_eof235
 		}
 	st_case_235:
-//line ragel/parse_datetime.go:9033
+//line ragel/parse_datetime.go:9225
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
@@ -9048,7 +9240,7 @@ tr383:
 			goto _test_eof236
 		}
 	st_case_236:
-//line ragel/parse_datetime.go:9052
+//line ragel/parse_datetime.go:9244
 		switch data[p] {
 		case 32:
 			goto tr385
@@ -9103,7 +9295,7 @@ tr409:
 			goto _test_eof237
 		}
 	st_case_237:
-//line ragel/parse_datetime.go:9107
+//line ragel/parse_datetime.go:9299
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr394
 		}
@@ -9117,7 +9309,7 @@ tr394:
 			goto _test_eof238
 		}
 	st_case_238:
-//line ragel/parse_datetime.go:9121
+//line ragel/parse_datetime.go:9313
 		switch data[p] {
 		case 32:
 			goto tr395
@@ -9516,7 +9708,7 @@ tr384:
 			goto _test_eof248
 		}
 	st_case_248:
-//line ragel/parse_datetime.go:9520
+//line ragel/parse_datetime.go:9712
 		switch data[p] {
 		case 32:
 			goto tr385
@@ -9559,7 +9751,7 @@ tr365:
 			goto _test_eof249
 		}
 	st_case_249:
-//line ragel/parse_datetime.go:9563
+//line ragel/parse_datetime.go:9755
 		switch data[p] {
 		case 32:
 			goto tr366
@@ -9602,7 +9794,7 @@ tr285:
 			goto _test_eof250
 		}
 	st_case_250:
-//line ragel/parse_datetime.go:9606
+//line ragel/parse_datetime.go:9798
 		switch data[p] {
 		case 32:
 			goto tr287
@@ -9663,7 +9855,7 @@ tr286:
 			goto _test_eof252
 		}
 	st_case_252:
-//line ragel/parse_datetime.go:9667
+//line ragel/parse_datetime.go:9859
 		switch data[p] {
 		case 32:
 			goto tr287
@@ -9710,7 +9902,7 @@ tr280:
 			goto _test_eof253
 		}
 	st_case_253:
-//line ragel/parse_datetime.go:9714
+//line ragel/parse_datetime.go:9906
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st191
 		}
@@ -9724,7 +9916,7 @@ tr281:
 			goto _test_eof254
 		}
 	st_case_254:
-//line ragel/parse_datetime.go:9728
+//line ragel/parse_datetime.go:9920
 		if 48 <= data[p] && data[p] <= 49 {
 			goto st191
 		}
@@ -10145,7 +10337,7 @@ tr458:
 			goto _test_eof297
 		}
 	st_case_297:
-//line ragel/parse_datetime.go:10149
+//line ragel/parse_datetime.go:10341
 		if 49 <= data[p] && data[p] <= 57 {
 			goto st298
 		}
@@ -10159,7 +10351,7 @@ tr461:
 			goto _test_eof298
 		}
 	st_case_298:
-//line ragel/parse_datetime.go:10163
+//line ragel/parse_datetime.go:10355
 		switch data[p] {
 		case 32:
 			goto tr463
@@ -10184,7 +10376,7 @@ tr463:
 			goto _test_eof299
 		}
 	st_case_299:
-//line ragel/parse_datetime.go:10188
+//line ragel/parse_datetime.go:10380
 		switch data[p] {
 		case 65:
 			goto st300
@@ -10290,7 +10482,7 @@ tr523:
 			goto _test_eof303
 		}
 	st_case_303:
-//line ragel/parse_datetime.go:10294
+//line ragel/parse_datetime.go:10486
 		if 48 <= data[p] && data[p] <= 57 {
 			goto tr478
 		}
@@ -10304,7 +10496,7 @@ tr478:
 			goto _test_eof304
 		}
 	st_case_304:
-//line ragel/parse_datetime.go:10308
+//line ragel/parse_datetime.go:10500
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st305
 		}
@@ -10752,7 +10944,7 @@ tr464:
 			goto _test_eof347
 		}
 	st_case_347:
-//line ragel/parse_datetime.go:10756
+//line ragel/parse_datetime.go:10948
 		switch data[p] {
 		case 65:
 			goto st348
@@ -11192,7 +11384,7 @@ tr459:
 			goto _test_eof391
 		}
 	st_case_391:
-//line ragel/parse_datetime.go:11196
+//line ragel/parse_datetime.go:11388
 		switch data[p] {
 		case 32:
 			goto tr463
@@ -11212,7 +11404,7 @@ tr460:
 			goto _test_eof392
 		}
 	st_case_392:
-//line ragel/parse_datetime.go:11216
+//line ragel/parse_datetime.go:11408
 		switch data[p] {
 		case 32:
 			goto tr463
@@ -12031,9 +12223,21 @@ tr460:
         case 5: 
             st.Millisecond = parse_digits(data[pb:pb+3]) 
             st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
         default: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+6]) 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
 		case 469, 470, 471, 472:
@@ -12052,7 +12256,7 @@ tr460:
     }
 
 		case 421, 422:
-//line ragel/datetime.rl:145
+//line ragel/datetime.rl:157
 
     switch p - pb {
         case 1: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+1])
@@ -12065,7 +12269,7 @@ tr460:
 //line ragel/datetime.rl:9
  st.Zoned = true 
 		case 417, 418, 419, 423:
-//line ragel/datetime.rl:155
+//line ragel/datetime.rl:167
  
     // 1 as 1 hour
     // 12 as 12 hours
@@ -12106,14 +12310,14 @@ tr460:
 //line ragel/datetime.rl:9
  st.Zoned = true 
 		case 424, 431:
-//line ragel/datetime.rl:193
+//line ragel/datetime.rl:205
 
     st.Zone_name_or_abbrev = data[pb:p]
     st.Zoned = true
 
 //line ragel/datetime.rl:9
  st.Zoned = true 
-//line ragel/parse_datetime.go:12117
+//line ragel/parse_datetime.go:12321
 		}
 	}
 
