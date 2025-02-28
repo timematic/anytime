@@ -1,8 +1,8 @@
 # anytime
 
-a high performance `time.Time` parser without specify the layout.
+a user friendly `time.Time` parser which no need specify the time `Layout`.
 
-## Usage
+## Example
 
 ```
 package main
@@ -21,21 +21,12 @@ func main() {
 
 ```
 
-## Benchmark
-
-```
-BenchmarkStdParse_DateOnly-4       	 9190088	       123.9 ns/op
-BenchmarkAnytimeParse_DateOnly-4   	14495055	        77.98 ns/op
-BenchmarkStdParse_RFC3339-4        	16821751	        67.50 ns/op
-BenchmarkAnytimeParse_RFC3339-4    	 7461024	       160.0 ns/op
-```
-
 ## APIs
 
 ### `anytime.Parse(value string) (time.Time, error)`
 
 automatically figure out the time `Layout` and parse to `time.Time`.
-possible implementation:
+**possible implementation**:
 
 ```go
 Parse(value string) (time.Time, error){
@@ -49,11 +40,10 @@ Parse(value string) (time.Time, error){
 
 ### `anytime.ParseInLocation(value string, loc *time.Location) (time.Time, error)`
 
-automatically figure out the time `Layout` and parse to `time.Time`.
-possible implementation:
+**possible implementation**:
 
 ```go
-Parse(value string, loc *time.Location) (time.Time, error){
+ParseInLocation(value string, loc *time.Location) (time.Time, error){
     layout, err := ExtractLayout(str)
     if err != nil {
         return time.Time{}, err
@@ -61,3 +51,12 @@ Parse(value string, loc *time.Location) (time.Time, error){
     return time.ParseInLocation(layout, value, loc)
 }
 ```
+
+## Benchmark
+
+|                         | ns/op       |
+| ----------------------- | ----------- |
+| time.Parse date_only    | 38.98 ns/op |
+| anytime.Parse date_only | 28.14 ns/op |
+| time.Parse rfc3339      | 26.79 ns/op |
+| anytime.Parse rfc3339   | 52.53 ns/op |
