@@ -8,17 +8,18 @@ a user friendly `time.Time` parser which no need specify the time `Layout`.
 package main
 
 import (
-    "github.com/longqimin/anytime"
+	"fmt"
+
+	"github.com/longqimin/anytime"
 )
 
 func main() {
-    datetime, err := anytime.Parse("2006-01-02T15:04:05+08")
-    if err != nil {
-        panic(err)
-    }
-    println(datetime) // 2006-01-02 15:04:05 +0800 CST
+	datetime, err := anytime.Parse("2006-01-02T15:04:05+08")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(datetime) // 2006-01-02 15:04:05 +0800 CST
 }
-
 ```
 
 ## APIs
