@@ -26,19 +26,19 @@ func parse(str string, defaultLoc *time.Location, targetLoc *time.Location) (tim
 	if !state.Zoned {
 		return time.Date(state.Year, time.Month(state.Month), state.Day,
 			state.Hour, state.Minute, state.Second,
-			ns, defaultLoc).In(targetLoc), nil
+			ns, defaultLoc), nil
 	}
 
-	if len(state.Zone_name_or_abbrev) != 0 && state.Zone_name_or_abbrev != "Z" {
-		if zone, err := time.LoadLocation(state.Zone_name_or_abbrev); err == nil {
+	if len(state.ZoneName) != 0 {
+		if zone, err := time.LoadLocation(state.ZoneName); err == nil {
 			return time.Date(state.Year, time.Month(state.Month), state.Day,
 				state.Hour, state.Minute, state.Second,
-				ns, zone).In(targetLoc), nil
+				ns, zone), nil
 		} else { // fallback to time.Parse() or time.ParseInLocation()
 			if defaultLoc != targetLoc {
-				date, err := time.Parse("2006-01-02 15:04:05.000000000 "+state.Zone_name_or_abbrev, fmt.Sprintf("%04d-%02d-%02d %02d:%02d:%02d.%09d %s", state.Year, state.Month, state.Day,
+				date, err := time.Parse("2006-01-02 15:04:05.000000000 "+state.ZoneName, fmt.Sprintf("%04d-%02d-%02d %02d:%02d:%02d.%09d %s", state.Year, state.Month, state.Day,
 					state.Hour, state.Minute, state.Second, ns,
-					state.Zone_name_or_abbrev))
+					state.ZoneName))
 				if err == nil {
 					date = date.In(targetLoc)
 				}
@@ -46,8 +46,8 @@ func parse(str string, defaultLoc *time.Location, targetLoc *time.Location) (tim
 			} else {
 				str = fmt.Sprintf("%04d-%02d-%02d %02d:%02d:%02d.%09d %s", state.Year, state.Month, state.Day,
 					state.Hour, state.Minute, state.Second, ns,
-					state.Zone_name_or_abbrev)
-				layout := "2006-01-02 15:04:05.000000000 " + state.Zone_name_or_abbrev
+					state.ZoneName)
+				layout := "2006-01-02 15:04:05.000000000 " + state.ZoneName
 				date, err := time.ParseInLocation(layout, str, targetLoc)
 				return date, err
 			}
@@ -58,13 +58,13 @@ func parse(str string, defaultLoc *time.Location, targetLoc *time.Location) (tim
 		state.Hour, state.Minute, state.Second,
 		ns, time.UTC)
 
-	offset := time.Duration(state.Offset_hour*int(time.Hour) + state.Offset_minute*int(time.Minute))
-	if state.Negative_offset {
+	offset := time.Duration(state.ZoneOffsetHour*int(time.Hour) + state.ZoneOffsetMinute*int(time.Minute))
+	if state.NegtiveZoneOffset {
 		utcdate = utcdate.Add(offset)
 	} else {
 		utcdate = utcdate.Add(-offset)
 	}
 
-	return utcdate.In(targetLoc), nil
+	return utcdate, nil
 
 }
