@@ -2,6 +2,7 @@ package anytime_test
 
 import (
 	"fmt"
+	"strings"
 	"testing"
 	"time"
 
@@ -65,6 +66,9 @@ func TestParseInLocation(t *testing.T) {
 	for _, fmtstr := range golang_time_formats {
 		now := time.Now()
 		str := now.Format(fmtstr)
+		if strings.HasSuffix(str, "Z") {
+			str = strings.TrimSuffix(str, "Z") + "+00:00"
+		}
 
 		expect, err := time.ParseInLocation(fmtstr, str, time.Local)
 		assert.Nil(t, err)
@@ -117,7 +121,7 @@ var time_fmts = []string{
 	"03PM", "03:04PM", "03:04:05PM", "03:04:05.0PM", "03:04:05.00PM", "03:04:05.000PM", "03:04:05.0000PM", "03:04:05.00000PM", "03:04:05.000000PM",
 }
 var zone_fmts = []string{
-	"Z", "-07", "-0700", "-07:00", "Z07:00",
+	"-07", "-0700", "-07:00", "Z07:00",
 }
 
 func gen_date_only_formats() []string {
