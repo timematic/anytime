@@ -24,7 +24,7 @@ write data;
 
 %% write data noerror noprefix nofinal;
 
-func Parse(data string) (st Datetime, err error) {
+func Parse(data string) (st ParsedDatetime, err error) {
     cs, p, pe := 0, 0, len(data)
     eof := pe
     pb := p

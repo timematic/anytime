@@ -43,34 +43,31 @@ func parse_digits(str string) int {
 	return num
 }
 
-type Datetime struct {
-	Ad_bc       ADBC
-	Year        int
-	Month       int
-	Day         int
-	Day_of_year int
-	Hour        int
-	Minute      int
-	Second      int
-	Millisecond int
-	Microsecond int
-	Nanosecond  int
+// ParsedDatetime is the struct representing a parsed time value.
+type ParsedDatetime struct {
+	Ad_bc                                ADBC
+	Year                                 int
+	Month                                int
+	Day                                  int
+	DayOfYear                            int
+	Hour, Minute, Second                 int
+	Millisecond, Microsecond, Nanosecond int
 
-	Zoned bool
-	// zone or offset
-	Zone_name_or_abbrev string
-	Negative_offset     bool
-	Offset_hour         int
-	Offset_minute       int
+	Zoned             bool
+	ZoneOffsetHour    int
+	ZoneOffsetMinute  int
+	NegtiveZoneOffset bool
+	ZoneName          string // e.g., "MST"
+
 }
 
-func (state *Datetime) String() string {
+func (state *ParsedDatetime) String() string {
 	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v Zone_name_or_abbrev=%s Offset_hour=%d Offset_minute=%d\n",
-		state.Ad_bc, state.Year, state.Month, state.Day, state.Day_of_year,
+		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s ZoneOffsetHour=%d ZoneOffstMinute=%d\n",
+		state.Ad_bc, state.Year, state.Month, state.Day, state.DayOfYear,
 		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond, state.Nanosecond,
 		state.Zoned,
-		state.Zone_name_or_abbrev, state.Offset_hour, state.Offset_minute)
+		state.ZoneName, state.ZoneOffsetHour, state.ZoneOffsetMinute)
 }
 
 func parse_year_2_digits(str string) int {

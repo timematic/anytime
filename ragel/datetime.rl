@@ -21,7 +21,7 @@ action parse_year_2_digit {
 }
 
 action parse_day_of_year {
-    st.Day_of_year, _ = strconv.Atoi(data[pb:pb+3])
+    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 }
 
 action parse_yyyymmdd {
@@ -87,8 +87,7 @@ action set_month_12 { st.Month = 12 ;}
 
 action parse_day_digit {
     switch p - pb {
-        case 1: st.Day, _ = strconv.Atoi(data[pb:pb+1])
-        case 2: st.Day, _ = strconv.Atoi(data[pb:pb+2])
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
         default:
             err = fmt.Errorf("invalid day digits %s", data[pb:p])
             return
@@ -142,12 +141,11 @@ action parse_second_fraction {
     }
 }
 
-action mark_negative_offset { st.Negative_offset = true }
+action mark_negative_offset { st.NegtiveZoneOffset = true }
 
 action parse_offset_hour {
     switch p - pb {
-        case 1: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])
-        case 2: st.Offset_hour, _ = strconv.Atoi(data[pb:pb+2])
+        case 1,2: st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])
         default:
             err = errors.New("invalid offset hour")
             return
@@ -156,8 +154,7 @@ action parse_offset_hour {
 
 action parse_offset_minute {
     switch p - pb {
-        case 1: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+1])
-        case 2: st.Offset_minute, _ = strconv.Atoi(data[pb:pb+2])
+        case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
         default:
             err = errors.New("invalid offset minute")
             return
@@ -176,22 +173,12 @@ action parse_offset_digits {
         pb += 1 
     }
     switch p-pb {
-        case 1:{st.Offset_hour, _ = strconv.Atoi(data[pb:pb+1])}
-        case 2:{st.Offset_hour, _ = strconv.Atoi(data[pb:pb+2])}
-        case 3:{ 
-            num , _ := strconv.Atoi(data[pb:pb+3])
-            st.Offset_hour = num/100
-            st.Offset_minute = num%100
-            if st.Offset_minute >=60 {
-                err = errors.New("invalid offset digits")
-                return
-            } 
-        }
-        case 4:{ 
-            num := parse_digits(data[pb:pb+4])
-            st.Offset_hour = num/100
-            st.Offset_minute = num%100
-            if st.Offset_minute >=60 || st.Offset_hour>=15 {
+        case 1,2:{st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])}
+        case 3,4:{
+            num := parse_digits(data[pb:p])
+            st.ZoneOffsetHour = num/100
+            st.ZoneOffsetMinute = num%100
+            if st.ZoneOffsetMinute >=60 || st.ZoneOffsetHour>=15 {
                 err = errors.New("invalid offset digits")
                 return
             } 
@@ -203,7 +190,7 @@ action parse_offset_digits {
 }
 
 action parse_timezone_abbr {
-    st.Zone_name_or_abbrev = data[pb:p]
+    st.ZoneName = data[pb:p]
     st.Zoned = true
 }
 
