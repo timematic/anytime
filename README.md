@@ -1,3 +1,5 @@
+![CI Status](https://github.com/longqimin/anytime/actions/workflows/test.yml/badge.svg)
+
 # anytime
 
 a user friendly `time.Time` parser which no need specify the time `Layout`.
