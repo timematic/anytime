@@ -77,7 +77,6 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 
 	day_of_year_fmt := state.DayOfYear != 0
 	if day_of_year_fmt {
-		state.DayOfYear -= 1
 		if state.Day == 0 {
 			state.Day = 1
 		}
@@ -93,7 +92,7 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 			state.Hour, state.Minute, state.Second,
 			ns, defaultLoc)
 		if day_of_year_fmt {
-			return date.AddDate(0, 0, state.DayOfYear), nil
+			return date.AddDate(0, 0, state.DayOfYear-1), nil
 		}
 		return date, nil
 	}
@@ -105,13 +104,13 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 				state.Hour, state.Minute, state.Second,
 				ns, zone)
 			if day_of_year_fmt {
-				return date.AddDate(0, 0, state.DayOfYear), nil
+				return date.AddDate(0, 0, state.DayOfYear-1), nil
 			}
 			return date, nil
 		} else { // fallback to time.Parse() or time.ParseInLocation()
 			if defaultLoc != targetLoc {
 				if day_of_year_fmt {
-					date, err = time.Parse("2006.002 15:04:05.000000000 MST", fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear+1,
+					date, err = time.Parse("2006.002 15:04:05.000000000 MST", fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear,
 						state.Hour, state.Minute, state.Second, ns,
 						state.ZoneName))
 				} else {
@@ -126,7 +125,7 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 				return date, err
 			} else {
 				if day_of_year_fmt {
-					str := fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear+1,
+					str := fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear,
 						state.Hour, state.Minute, state.Second, ns,
 						state.ZoneName)
 					layout := "2006.002 15:04:05.000000000 MST"
@@ -154,7 +153,10 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		utcdate = utcdate.Add(-offset)
 	}
 
-	return utcdate.AddDate(0, 0, state.DayOfYear), nil
+	if day_of_year_fmt {
+		return utcdate.AddDate(0, 0, state.DayOfYear-1), nil
+	}
+	return utcdate, nil
 }
 
 func parse_year_2_digits(str string) int {
