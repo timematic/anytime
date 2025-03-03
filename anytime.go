@@ -22,6 +22,7 @@ func parse(str string, defaultLoc *time.Location, targetLoc *time.Location) (tim
 	}
 
 	// fmt.Printf("%s\n", state.String())
+
 	ns := state.Millisecond*1000000 + state.Microsecond*1000 + state.Nanosecond
 	if !state.Zoned {
 		return time.Date(state.Year, time.Month(state.Month), state.Day,

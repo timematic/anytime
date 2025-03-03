@@ -8,7 +8,7 @@ import (
 
 var datetime_parser_start int = 1
 var _ = datetime_parser_start
-var datetime_parser_first_final int = 413
+var datetime_parser_first_final int = 362
 var _ = datetime_parser_first_final
 var datetime_parser_error int = 0
 var _ = datetime_parser_error
@@ -47,156 +47,156 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_7;
 			case 8:
 			goto st_case_8;
-			case 413:
-			goto st_case_413;
-			case 414:
-			goto st_case_414;
+			case 362:
+			goto st_case_362;
+			case 363:
+			goto st_case_363;
 			case 9:
 			goto st_case_9;
 			case 10:
 			goto st_case_10;
-			case 415:
-			goto st_case_415;
+			case 364:
+			goto st_case_364;
 			case 11:
 			goto st_case_11;
-			case 416:
-			goto st_case_416;
+			case 365:
+			goto st_case_365;
 			case 12:
 			goto st_case_12;
-			case 417:
-			goto st_case_417;
-			case 418:
-			goto st_case_418;
-			case 419:
-			goto st_case_419;
-			case 420:
-			goto st_case_420;
-			case 421:
-			goto st_case_421;
-			case 422:
-			goto st_case_422;
-			case 423:
-			goto st_case_423;
+			case 366:
+			goto st_case_366;
+			case 367:
+			goto st_case_367;
+			case 368:
+			goto st_case_368;
+			case 369:
+			goto st_case_369;
+			case 370:
+			goto st_case_370;
+			case 371:
+			goto st_case_371;
+			case 372:
+			goto st_case_372;
 			case 13:
 			goto st_case_13;
 			case 14:
 			goto st_case_14;
 			case 15:
 			goto st_case_15;
-			case 424:
-			goto st_case_424;
-			case 425:
-			goto st_case_425;
-			case 426:
-			goto st_case_426;
+			case 373:
+			goto st_case_373;
+			case 374:
+			goto st_case_374;
+			case 375:
+			goto st_case_375;
 			case 16:
 			goto st_case_16;
-			case 427:
-			goto st_case_427;
-			case 428:
-			goto st_case_428;
-			case 429:
-			goto st_case_429;
+			case 376:
+			goto st_case_376;
+			case 377:
+			goto st_case_377;
+			case 378:
+			goto st_case_378;
 			case 17:
 			goto st_case_17;
 			case 18:
 			goto st_case_18;
-			case 430:
-			goto st_case_430;
-			case 431:
-			goto st_case_431;
+			case 379:
+			goto st_case_379;
+			case 380:
+			goto st_case_380;
 			case 19:
 			goto st_case_19;
 			case 20:
 			goto st_case_20;
-			case 432:
-			goto st_case_432;
+			case 381:
+			goto st_case_381;
 			case 21:
 			goto st_case_21;
-			case 433:
-			goto st_case_433;
+			case 382:
+			goto st_case_382;
 			case 22:
 			goto st_case_22;
-			case 434:
-			goto st_case_434;
-			case 435:
-			goto st_case_435;
-			case 436:
-			goto st_case_436;
-			case 437:
-			goto st_case_437;
-			case 438:
-			goto st_case_438;
-			case 439:
-			goto st_case_439;
-			case 440:
-			goto st_case_440;
-			case 441:
-			goto st_case_441;
-			case 442:
-			goto st_case_442;
-			case 443:
-			goto st_case_443;
+			case 383:
+			goto st_case_383;
+			case 384:
+			goto st_case_384;
+			case 385:
+			goto st_case_385;
+			case 386:
+			goto st_case_386;
+			case 387:
+			goto st_case_387;
+			case 388:
+			goto st_case_388;
+			case 389:
+			goto st_case_389;
+			case 390:
+			goto st_case_390;
+			case 391:
+			goto st_case_391;
+			case 392:
+			goto st_case_392;
 			case 23:
 			goto st_case_23;
-			case 444:
-			goto st_case_444;
+			case 393:
+			goto st_case_393;
 			case 24:
 			goto st_case_24;
-			case 445:
-			goto st_case_445;
-			case 446:
-			goto st_case_446;
+			case 394:
+			goto st_case_394;
+			case 395:
+			goto st_case_395;
 			case 25:
 			goto st_case_25;
-			case 447:
-			goto st_case_447;
+			case 396:
+			goto st_case_396;
 			case 26:
 			goto st_case_26;
-			case 448:
-			goto st_case_448;
-			case 449:
-			goto st_case_449;
-			case 450:
-			goto st_case_450;
-			case 451:
-			goto st_case_451;
-			case 452:
-			goto st_case_452;
-			case 453:
-			goto st_case_453;
-			case 454:
-			goto st_case_454;
-			case 455:
-			goto st_case_455;
-			case 456:
-			goto st_case_456;
-			case 457:
-			goto st_case_457;
-			case 458:
-			goto st_case_458;
-			case 459:
-			goto st_case_459;
-			case 460:
-			goto st_case_460;
+			case 397:
+			goto st_case_397;
+			case 398:
+			goto st_case_398;
+			case 399:
+			goto st_case_399;
+			case 400:
+			goto st_case_400;
+			case 401:
+			goto st_case_401;
+			case 402:
+			goto st_case_402;
+			case 403:
+			goto st_case_403;
+			case 404:
+			goto st_case_404;
+			case 405:
+			goto st_case_405;
+			case 406:
+			goto st_case_406;
+			case 407:
+			goto st_case_407;
+			case 408:
+			goto st_case_408;
+			case 409:
+			goto st_case_409;
 			case 27:
 			goto st_case_27;
-			case 461:
-			goto st_case_461;
-			case 462:
-			goto st_case_462;
+			case 410:
+			goto st_case_410;
+			case 411:
+			goto st_case_411;
 			case 28:
 			goto st_case_28;
 			case 29:
 			goto st_case_29;
 			case 30:
 			goto st_case_30;
-			case 463:
-			goto st_case_463;
-			case 464:
-			goto st_case_464;
-			case 465:
-			goto st_case_465;
+			case 412:
+			goto st_case_412;
+			case 413:
+			goto st_case_413;
+			case 414:
+			goto st_case_414;
 			case 31:
 			goto st_case_31;
 			case 32:
@@ -295,26 +295,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_78;
 			case 79:
 			goto st_case_79;
-			case 466:
-			goto st_case_466;
-			case 467:
-			goto st_case_467;
-			case 468:
-			goto st_case_468;
+			case 415:
+			goto st_case_415;
+			case 416:
+			goto st_case_416;
+			case 417:
+			goto st_case_417;
 			case 80:
 			goto st_case_80;
 			case 81:
 			goto st_case_81;
-			case 469:
-			goto st_case_469;
-			case 470:
-			goto st_case_470;
-			case 471:
-			goto st_case_471;
 			case 82:
 			goto st_case_82;
-			case 472:
-			goto st_case_472;
 			case 83:
 			goto st_case_83;
 			case 84:
@@ -325,6 +317,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_86;
 			case 87:
 			goto st_case_87;
+			case 418:
+			goto st_case_418;
 			case 88:
 			goto st_case_88;
 			case 89:
@@ -427,8 +421,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_137;
 			case 138:
 			goto st_case_138;
-			case 473:
-			goto st_case_473;
 			case 139:
 			goto st_case_139;
 			case 140:
@@ -447,6 +439,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_146;
 			case 147:
 			goto st_case_147;
+			case 419:
+			goto st_case_419;
 			case 148:
 			goto st_case_148;
 			case 149:
@@ -549,8 +543,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_197;
 			case 198:
 			goto st_case_198;
-			case 474:
-			goto st_case_474;
 			case 199:
 			goto st_case_199;
 			case 200:
@@ -665,6 +657,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_254;
 			case 255:
 			goto st_case_255;
+			case 420:
+			goto st_case_420;
 			case 256:
 			goto st_case_256;
 			case 257:
@@ -767,8 +761,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_305;
 			case 306:
 			goto st_case_306;
-			case 475:
-			goto st_case_475;
 			case 307:
 			goto st_case_307;
 			case 308:
@@ -879,108 +871,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto st_case_360;
 			case 361:
 			goto st_case_361;
-			case 362:
-			goto st_case_362;
-			case 363:
-			goto st_case_363;
-			case 364:
-			goto st_case_364;
-			case 365:
-			goto st_case_365;
-			case 366:
-			goto st_case_366;
-			case 367:
-			goto st_case_367;
-			case 368:
-			goto st_case_368;
-			case 369:
-			goto st_case_369;
-			case 370:
-			goto st_case_370;
-			case 371:
-			goto st_case_371;
-			case 372:
-			goto st_case_372;
-			case 373:
-			goto st_case_373;
-			case 374:
-			goto st_case_374;
-			case 375:
-			goto st_case_375;
-			case 376:
-			goto st_case_376;
-			case 377:
-			goto st_case_377;
-			case 378:
-			goto st_case_378;
-			case 379:
-			goto st_case_379;
-			case 380:
-			goto st_case_380;
-			case 381:
-			goto st_case_381;
-			case 382:
-			goto st_case_382;
-			case 383:
-			goto st_case_383;
-			case 384:
-			goto st_case_384;
-			case 385:
-			goto st_case_385;
-			case 386:
-			goto st_case_386;
-			case 387:
-			goto st_case_387;
-			case 388:
-			goto st_case_388;
-			case 389:
-			goto st_case_389;
-			case 390:
-			goto st_case_390;
-			case 391:
-			goto st_case_391;
-			case 392:
-			goto st_case_392;
-			case 393:
-			goto st_case_393;
-			case 394:
-			goto st_case_394;
-			case 395:
-			goto st_case_395;
-			case 396:
-			goto st_case_396;
-			case 397:
-			goto st_case_397;
-			case 398:
-			goto st_case_398;
-			case 399:
-			goto st_case_399;
-			case 400:
-			goto st_case_400;
-			case 401:
-			goto st_case_401;
-			case 402:
-			goto st_case_402;
-			case 403:
-			goto st_case_403;
-			case 404:
-			goto st_case_404;
-			case 405:
-			goto st_case_405;
-			case 406:
-			goto st_case_406;
-			case 407:
-			goto st_case_407;
-			case 408:
-			goto st_case_408;
-			case 409:
-			goto st_case_409;
-			case 410:
-			goto st_case_410;
-			case 411:
-			goto st_case_411;
-			case 412:
-			goto st_case_412;
 			
 		}
 		_ctr1:
@@ -1014,27 +904,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 70:
 				{
-					goto _st182;
+					goto _st131;
 					
 				}
 				case 77:
 				{
-					goto _st396;
+					goto _st345;
 					
 				}
 				case 83:
 				{
-					goto _st398;
+					goto _st347;
 					
 				}
 				case 84:
 				{
-					goto _st403;
+					goto _st352;
 					
 				}
 				case 87:
 				{
-					goto _st409;
+					goto _st358;
 					
 				}
 				
@@ -1088,7 +978,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				
 			}
 			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st132;
+				goto _st81;
 				
 			}
 			goto _ctr2;
@@ -1178,46 +1068,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 					goto _ctr23;
 					
 				}
-				case 65:
-				{
-					goto _ctr25;
-					
-				}
-				case 68:
-				{
-					goto _ctr26;
-					
-				}
-				case 70:
-				{
-					goto _ctr27;
-					
-				}
-				case 74:
-				{
-					goto _ctr28;
-					
-				}
-				case 77:
-				{
-					goto _ctr29;
-					
-				}
-				case 78:
-				{
-					goto _ctr30;
-					
-				}
-				case 79:
-				{
-					goto _ctr31;
-					
-				}
-				case 83:
-				{
-					goto _ctr32;
-					
-				}
 				
 			}
 			if ( data[ p ] ) > 47 {
@@ -1233,7 +1083,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr33:
+		_ctr25:
 		{return st, err }
 		goto _st6;
 		_ctr20:
@@ -1252,18 +1102,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr33;
+			goto _ctr25;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 48:
 				{
-					goto _ctr34;
+					goto _ctr26;
 					
 				}
 				case 49:
 				{
-					goto _ctr35;
+					goto _ctr27;
 					
 				}
 				case 65:
@@ -1309,16 +1159,16 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				
 			}
 			if 50 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr36;
+				goto _ctr28;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr45:
+		_ctr37:
 		{return st, err }
 		goto _st7;
-		_ctr34:
+		_ctr26:
 		{pb = p }
 		goto _st7;
 		_st7:
@@ -1333,7 +1183,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr45;
+			goto _ctr37;
 			
 		} else {
 			if ( data[ p ] ) == 48 {
@@ -1347,7 +1197,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr48:
+		_ctr40:
 		{return st, err }
 		goto _st8;
 		_st8:
@@ -1362,91 +1212,91 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr48;
+			goto _ctr40;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st413;
+				goto _st362;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr995:
+		_ctr856:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
-		goto _st413;
-		_st413:
+		goto _st362;
+		_st362:
 		if p == eof {
-			goto _out413;
+			goto _out362;
 			
 		}
 		p+=1;
-		st_case_413:
+		st_case_362:
 		if p == pe && p != eof {
-			goto _out413;
+			goto _out362;
 			
 		}
 		if p == eof {
-			goto _ctr995;
+			goto _ctr856;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr996;
+					goto _ctr857;
 					
 				}
 				case 43:
 				{
-					goto _ctr997;
+					goto _ctr858;
 					
 				}
 				case 45:
 				{
-					goto _ctr998;
+					goto _ctr859;
 					
 				}
 				case 47:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				case 84:
 				{
-					goto _ctr1000;
+					goto _ctr861;
 					
 				}
 				case 90:
 				{
-					goto _ctr1001;
+					goto _ctr862;
 					
 				}
 				case 95:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr999;
+				goto _ctr860;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1192:
+		_ctr1043:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
-		goto _st414;
-		_ctr1162:
+		goto _st363;
+		_ctr1023:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -1454,39 +1304,28 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st414;
-		_ctr996:
+		goto _st363;
+		_ctr857:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
-		goto _st414;
-		_ctr1174:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st414;
-		_ctr1184:
+		goto _st363;
+		_ctr1035:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
-		goto _st414;
-		_st414:
+		goto _st363;
+		_st363:
 		if p == eof {
-			goto _out414;
+			goto _out363;
 			
 		}
 		p+=1;
-		st_case_414:
+		st_case_363:
 		if p == pe && p != eof {
-			goto _out414;
+			goto _out363;
 			
 		}
 		if p == eof {
-			goto _st414;
+			goto _st363;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -1507,60 +1346,60 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				case 50:
 				{
-					goto _ctr1008;
+					goto _ctr869;
 					
 				}
 				case 65:
 				{
-					goto _ctr1010;
+					goto _ctr871;
 					
 				}
 				case 66:
 				{
-					goto _ctr1011;
+					goto _ctr872;
 					
 				}
 				case 95:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 51 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-					goto _ctr1007;
+					goto _ctr868;
 					
 				}
 				
 			} else if ( data[ p ] ) > 57 {
 				if ( data[ p ] ) > 90 {
 					if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-						goto _ctr1006;
+						goto _ctr867;
 						
 					}
 					
 				} else if ( data[ p ] ) >= 67 {
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				
 			} else {
-				goto _ctr1009;
+				goto _ctr870;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr50:
+		_ctr42:
 		{return st, err }
 		goto _st9;
-		_ctr1014:
+		_ctr875:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -1582,10 +1421,10 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{st.Zoned = true }
 		goto _st9;
-		_ctr1021:
+		_ctr882:
 		{st.Zoned = true }
 		goto _st9;
-		_ctr1025:
+		_ctr886:
 		{switch p - pb {
 				case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -1595,7 +1434,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{st.Zoned = true }
 		goto _st9;
-		_ctr1030:
+		_ctr891:
 		{st.ZoneName = data[pb:p]
 			st.Zoned = true
 		}
@@ -1613,7 +1452,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr50;
+			goto _ctr42;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -1632,7 +1471,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr53:
+		_ctr45:
 		{return st, err }
 		goto _st10;
 		_st10:
@@ -1647,35 +1486,35 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr53;
+			goto _ctr45;
 			
 		} else {
 			if ( data[ p ] ) == 68 {
-				goto _st415;
+				goto _st364;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_st415:
+		_st364:
 		if p == eof {
-			goto _out415;
+			goto _out364;
 			
 		}
 		p+=1;
-		st_case_415:
+		st_case_364:
 		if p == pe && p != eof {
-			goto _out415;
+			goto _out364;
 			
 		}
 		if p == eof {
-			goto _st415;
+			goto _st364;
 			
 		} else {
 			goto _st0;
 			
 		}
-		_ctr55:
+		_ctr47:
 		{return st, err }
 		goto _st11;
 		_st11:
@@ -1690,46 +1529,46 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr55;
+			goto _ctr47;
 			
 		} else {
 			if ( data[ p ] ) == 67 {
-				goto _st416;
+				goto _st365;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1012:
+		_ctr873:
 		{st.Ad_bc = ADBC_BC;
 		}
-		goto _st416;
-		_st416:
+		goto _st365;
+		_st365:
 		if p == eof {
-			goto _out416;
+			goto _out365;
 			
 		}
 		p+=1;
-		st_case_416:
+		st_case_365:
 		if p == pe && p != eof {
-			goto _out416;
+			goto _out365;
 			
 		}
 		if p == eof {
-			goto _ctr1012;
+			goto _ctr873;
 			
 		} else {
 			goto _st0;
 			
 		}
-		_ctr57:
+		_ctr49:
 		{return st, err }
 		goto _st12;
-		_ctr1193:
+		_ctr1044:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
 		goto _st12;
-		_ctr1163:
+		_ctr1024:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -1738,11 +1577,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st12;
-		_ctr1033:
+		_ctr894:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st12;
-		_ctr1047:
+		_ctr908:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -1765,11 +1604,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st12;
-		_ctr1057:
+		_ctr918:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st12;
-		_ctr1066:
+		_ctr927:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -1784,7 +1623,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st12;
-		_ctr1074:
+		_ctr935:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -1813,38 +1652,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st12;
-		_ctr1099:
+		_ctr960:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st12;
-		_ctr1109:
+		_ctr970:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st12;
-		_ctr1118:
+		_ctr979:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st12;
-		_ctr1148:
+		_ctr1009:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st12;
-		_ctr997:
+		_ctr858:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
 		goto _st12;
-		_ctr1175:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st12;
-		_ctr1185:
+		_ctr1036:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
 		goto _st12;
@@ -1860,34 +1688,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr57;
+			goto _ctr49;
 			
 		} else {
 			if ( data[ p ] ) == 50 {
-				goto _ctr59;
+				goto _ctr51;
 				
 			}
 			if ( data[ p ] ) > 49 {
 				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr60;
+					goto _ctr52;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _ctr58;
+				goto _ctr50;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr58:
+		_ctr50:
 		{pb = p }
-		goto _st417;
-		_ctr62:
+		goto _st366;
+		_ctr54:
 		{st.NegtiveZoneOffset = true }
 		{pb = p }
-		goto _st417;
-		_ctr1013:
+		goto _st366;
+		_ctr874:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -1908,50 +1736,50 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st417;
-		_st417:
+		goto _st366;
+		_st366:
 		if p == eof {
-			goto _out417;
+			goto _out366;
 			
 		}
 		p+=1;
-		st_case_417:
+		st_case_366:
 		if p == pe && p != eof {
-			goto _out417;
+			goto _out366;
 			
 		}
 		if p == eof {
-			goto _ctr1013;
+			goto _ctr874;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1014;
+					goto _ctr875;
 					
 				}
 				case 58:
 				{
-					goto _ctr1016;
+					goto _ctr877;
 					
 				}
 				
 			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st418;
+				goto _st367;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr60:
+		_ctr52:
 		{pb = p }
-		goto _st418;
-		_ctr64:
+		goto _st367;
+		_ctr56:
 		{st.NegtiveZoneOffset = true }
 		{pb = p }
-		goto _st418;
-		_ctr1017:
+		goto _st367;
+		_ctr878:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -1972,43 +1800,43 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st418;
-		_st418:
+		goto _st367;
+		_st367:
 		if p == eof {
-			goto _out418;
+			goto _out367;
 			
 		}
 		p+=1;
-		st_case_418:
+		st_case_367:
 		if p == pe && p != eof {
-			goto _out418;
+			goto _out367;
 			
 		}
 		if p == eof {
-			goto _ctr1017;
+			goto _ctr878;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1014;
+					goto _ctr875;
 					
 				}
 				case 58:
 				{
-					goto _ctr1016;
+					goto _ctr877;
 					
 				}
 				
 			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st419;
+				goto _st368;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1019:
+		_ctr880:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -2029,34 +1857,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st419;
-		_st419:
+		goto _st368;
+		_st368:
 		if p == eof {
-			goto _out419;
+			goto _out368;
 			
 		}
 		p+=1;
-		st_case_419:
+		st_case_368:
 		if p == pe && p != eof {
-			goto _out419;
+			goto _out368;
 			
 		}
 		if p == eof {
-			goto _ctr1019;
+			goto _ctr880;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr1014;
+				goto _ctr875;
 				
 			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st419;
+				goto _st368;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1016:
+		_ctr877:
 		{switch p - pb {
 				case 1,2: st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -2064,46 +1892,46 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st420;
-		_ctr1020:
+		goto _st369;
+		_ctr881:
 		{st.Zoned = true }
-		goto _st420;
-		_st420:
+		goto _st369;
+		_st369:
 		if p == eof {
-			goto _out420;
+			goto _out369;
 			
 		}
 		p+=1;
-		st_case_420:
+		st_case_369:
 		if p == pe && p != eof {
-			goto _out420;
+			goto _out369;
 			
 		}
 		if p == eof {
-			goto _ctr1020;
+			goto _ctr881;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr1021;
+				goto _ctr882;
 				
 			}
 			if ( data[ p ] ) > 53 {
 				if ( data[ p ] ) <= 57 {
-					goto _ctr1023;
+					goto _ctr884;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _ctr1022;
+				goto _ctr883;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1022:
+		_ctr883:
 		{pb = p }
-		goto _st421;
-		_ctr1024:
+		goto _st370;
+		_ctr885:
 		{switch p - pb {
 				case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -2112,37 +1940,37 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st421;
-		_st421:
+		goto _st370;
+		_st370:
 		if p == eof {
-			goto _out421;
+			goto _out370;
 			
 		}
 		p+=1;
-		st_case_421:
+		st_case_370:
 		if p == pe && p != eof {
-			goto _out421;
+			goto _out370;
 			
 		}
 		if p == eof {
-			goto _ctr1024;
+			goto _ctr885;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr1025;
+				goto _ctr886;
 				
 			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st422;
+				goto _st371;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1023:
+		_ctr884:
 		{pb = p }
-		goto _st422;
-		_ctr1027:
+		goto _st371;
+		_ctr888:
 		{switch p - pb {
 				case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -2151,37 +1979,37 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st422;
-		_st422:
+		goto _st371;
+		_st371:
 		if p == eof {
-			goto _out422;
+			goto _out371;
 			
 		}
 		p+=1;
-		st_case_422:
+		st_case_371:
 		if p == pe && p != eof {
-			goto _out422;
+			goto _out371;
 			
 		}
 		if p == eof {
-			goto _ctr1027;
+			goto _ctr888;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr1025;
+				goto _ctr886;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr59:
+		_ctr51:
 		{pb = p }
-		goto _st423;
-		_ctr63:
+		goto _st372;
+		_ctr55:
 		{st.NegtiveZoneOffset = true }
 		{pb = p }
-		goto _st423;
-		_ctr1028:
+		goto _st372;
+		_ctr889:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -2202,56 +2030,56 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st423;
-		_st423:
+		goto _st372;
+		_st372:
 		if p == eof {
-			goto _out423;
+			goto _out372;
 			
 		}
 		p+=1;
-		st_case_423:
+		st_case_372:
 		if p == pe && p != eof {
-			goto _out423;
+			goto _out372;
 			
 		}
 		if p == eof {
-			goto _ctr1028;
+			goto _ctr889;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1014;
+					goto _ctr875;
 					
 				}
 				case 58:
 				{
-					goto _ctr1016;
+					goto _ctr877;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 51 {
 				if ( data[ p ] ) <= 57 {
-					goto _st419;
+					goto _st368;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _st418;
+				goto _st367;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr61:
+		_ctr53:
 		{return st, err }
 		goto _st13;
-		_ctr1194:
+		_ctr1045:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
 		goto _st13;
-		_ctr1164:
+		_ctr1025:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -2260,11 +2088,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st13;
-		_ctr1034:
+		_ctr895:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st13;
-		_ctr1048:
+		_ctr909:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -2287,11 +2115,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st13;
-		_ctr1058:
+		_ctr919:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st13;
-		_ctr1067:
+		_ctr928:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -2306,7 +2134,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st13;
-		_ctr1075:
+		_ctr936:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -2335,38 +2163,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		goto _st13;
-		_ctr1100:
+		_ctr961:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st13;
-		_ctr1110:
+		_ctr971:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st13;
-		_ctr1119:
+		_ctr980:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st13;
-		_ctr1149:
+		_ctr1010:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st13;
-		_ctr998:
+		_ctr859:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
 		goto _st13;
-		_ctr1176:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st13;
-		_ctr1186:
+		_ctr1037:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
 		goto _st13;
@@ -2382,48 +2199,48 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr61;
+			goto _ctr53;
 			
 		} else {
 			if ( data[ p ] ) == 50 {
-				goto _ctr63;
+				goto _ctr55;
 				
 			}
 			if ( data[ p ] ) > 49 {
 				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr64;
+					goto _ctr56;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _ctr62;
+				goto _ctr54;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr65:
+		_ctr57:
 		{return st, err }
 		goto _st14;
-		_ctr1006:
+		_ctr867:
 		{pb = p }
 		goto _st14;
-		_ctr1195:
+		_ctr1046:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1035:
+		_ctr896:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1059:
+		_ctr920:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1069:
+		_ctr930:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -2439,7 +2256,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1076:
+		_ctr937:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -2469,32 +2286,32 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1101:
+		_ctr962:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1111:
+		_ctr972:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1121:
+		_ctr982:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1151:
+		_ctr1012:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr999:
+		_ctr860:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1165:
+		_ctr1026:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -2504,19 +2321,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{pb = p }
 		goto _st14;
-		_ctr1177:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		{pb = p }
-		goto _st14;
-		_ctr1187:
+		_ctr1038:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
 		{pb = p }
@@ -2533,7 +2338,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr65;
+			goto _ctr57;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -2562,10 +2367,10 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr67:
+		_ctr59:
 		{return st, err }
 		goto _st15;
-		_ctr1095:
+		_ctr956:
 		{pb = p }
 		goto _st15;
 		_st15:
@@ -2580,45 +2385,45 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr67;
+			goto _ctr59;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 47:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				case 95:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _st424;
+				goto _st373;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1054:
+		_ctr915:
 		{pb = p }
-		goto _st424;
-		_ctr1029:
+		goto _st373;
+		_ctr890:
 		{st.ZoneName = data[pb:p]
 			st.Zoned = true
 		}
 		{st.Zoned = true }
-		goto _st424;
-		_ctr1049:
+		goto _st373;
+		_ctr910:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -2641,161 +2446,161 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st424;
-		_st424:
+		goto _st373;
+		_st373:
 		if p == eof {
-			goto _out424;
+			goto _out373;
 			
 		}
 		p+=1;
-		st_case_424:
+		st_case_373:
 		if p == pe && p != eof {
-			goto _out424;
+			goto _out373;
 			
 		}
 		if p == eof {
-			goto _ctr1029;
+			goto _ctr890;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1030;
+					goto _ctr891;
 					
 				}
 				case 47:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				case 95:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _st424;
+				goto _st373;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1007:
+		_ctr868:
 		{pb = p }
-		goto _st425;
-		_ctr1031:
+		goto _st374;
+		_ctr892:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st425;
-		_st425:
+		goto _st374;
+		_st374:
 		if p == eof {
-			goto _out425;
+			goto _out374;
 			
 		}
 		p+=1;
-		st_case_425:
+		st_case_374:
 		if p == pe && p != eof {
-			goto _out425;
+			goto _out374;
 			
 		}
 		if p == eof {
-			goto _ctr1031;
+			goto _ctr892;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1032;
+					goto _ctr893;
 					
 				}
 				case 43:
 				{
-					goto _ctr1033;
+					goto _ctr894;
 					
 				}
 				case 45:
 				{
-					goto _ctr1034;
+					goto _ctr895;
 					
 				}
 				case 47:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 58:
 				{
-					goto _ctr1037;
+					goto _ctr898;
 					
 				}
 				case 65:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 80:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 90:
 				{
-					goto _ctr1039;
+					goto _ctr900;
 					
 				}
 				case 95:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 97:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				case 112:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st432;
+					goto _st381;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				
 			} else {
-				goto _ctr1035;
+				goto _ctr896;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1032:
+		_ctr893:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st426;
-		_ctr1056:
+		goto _st375;
+		_ctr917:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st426;
-		_ctr1127:
+		goto _st375;
+		_ctr988:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -2823,36 +2628,36 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st426;
-		_ctr1098:
+		goto _st375;
+		_ctr959:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st426;
-		_ctr1108:
+		goto _st375;
+		_ctr969:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st426;
-		_ctr1117:
+		goto _st375;
+		_ctr978:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st426;
-		_ctr1147:
+		goto _st375;
+		_ctr1008:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st426;
-		_st426:
+		goto _st375;
+		_st375:
 		if p == eof {
-			goto _out426;
+			goto _out375;
 			
 		}
 		p+=1;
-		st_case_426:
+		st_case_375:
 		if p == pe && p != eof {
-			goto _out426;
+			goto _out375;
 			
 		}
 		if p == eof {
-			goto _st426;
+			goto _st375;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -2873,58 +2678,58 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				case 65:
 				{
-					goto _ctr1042;
+					goto _ctr903;
 					
 				}
 				case 66:
 				{
-					goto _ctr1011;
+					goto _ctr872;
 					
 				}
 				case 80:
 				{
-					goto _ctr1043;
+					goto _ctr904;
 					
 				}
 				case 95:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				case 97:
 				{
-					goto _ctr1044;
+					goto _ctr905;
 					
 				}
 				case 112:
 				{
-					goto _ctr1044;
+					goto _ctr905;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 67 {
-				goto _ctr1006;
+				goto _ctr867;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr69:
+		_ctr61:
 		{return st, err }
 		goto _st16;
-		_ctr1042:
+		_ctr903:
 		{pb = p }
 		goto _st16;
 		_st16:
@@ -2939,7 +2744,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr69;
+			goto _ctr61;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -2950,12 +2755,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 68:
 				{
-					goto _st427;
+					goto _st376;
 					
 				}
 				case 77:
 				{
-					goto _st428;
+					goto _st377;
 					
 				}
 				case 95:
@@ -2978,48 +2783,48 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_st427:
+		_st376:
 		if p == eof {
-			goto _out427;
+			goto _out376;
 			
 		}
 		p+=1;
-		st_case_427:
+		st_case_376:
 		if p == pe && p != eof {
-			goto _out427;
+			goto _out376;
 			
 		}
 		if p == eof {
-			goto _st427;
+			goto _st376;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 47:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				case 95:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _st424;
+				goto _st373;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1045:
+		_ctr906:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -3041,69 +2846,69 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 			}
 		}
-		goto _st428;
-		_st428:
+		goto _st377;
+		_st377:
 		if p == eof {
-			goto _out428;
+			goto _out377;
 			
 		}
 		p+=1;
-		st_case_428:
+		st_case_377:
 		if p == pe && p != eof {
-			goto _out428;
+			goto _out377;
 			
 		}
 		if p == eof {
-			goto _ctr1045;
+			goto _ctr906;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1046;
+					goto _ctr907;
 					
 				}
 				case 43:
 				{
-					goto _ctr1047;
+					goto _ctr908;
 					
 				}
 				case 45:
 				{
-					goto _ctr1048;
+					goto _ctr909;
 					
 				}
 				case 47:
 				{
-					goto _ctr1049;
+					goto _ctr910;
 					
 				}
 				case 90:
 				{
-					goto _ctr1050;
+					goto _ctr911;
 					
 				}
 				case 95:
 				{
-					goto _ctr1049;
+					goto _ctr910;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1049;
+					goto _ctr910;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1049;
+				goto _ctr910;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1046:
+		_ctr907:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -3125,8 +2930,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 			}
 		}
-		goto _st429;
-		_ctr1065:
+		goto _st378;
+		_ctr926:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -3140,8 +2945,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st429;
-		_ctr1073:
+		goto _st378;
+		_ctr934:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -3169,20 +2974,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st429;
-		_st429:
+		goto _st378;
+		_st378:
 		if p == eof {
-			goto _out429;
+			goto _out378;
 			
 		}
 		p+=1;
-		st_case_429:
+		st_case_378:
 		if p == pe && p != eof {
-			goto _out429;
+			goto _out378;
 			
 		}
 		if p == eof {
-			goto _st429;
+			goto _st378;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -3203,43 +3008,43 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				case 65:
 				{
-					goto _ctr1010;
+					goto _ctr871;
 					
 				}
 				case 66:
 				{
-					goto _ctr1011;
+					goto _ctr872;
 					
 				}
 				case 95:
 				{
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1006;
+					goto _ctr867;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 67 {
-				goto _ctr1006;
+				goto _ctr867;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr72:
+		_ctr64:
 		{return st, err }
 		goto _st17;
-		_ctr1010:
+		_ctr871:
 		{pb = p }
 		goto _st17;
 		_st17:
@@ -3254,7 +3059,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr72;
+			goto _ctr64;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -3265,7 +3070,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 68:
 				{
-					goto _st427;
+					goto _st376;
 					
 				}
 				case 95:
@@ -3288,10 +3093,10 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr73:
+		_ctr65:
 		{return st, err }
 		goto _st18;
-		_ctr1011:
+		_ctr872:
 		{pb = p }
 		goto _st18;
 		_st18:
@@ -3306,7 +3111,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr73;
+			goto _ctr65;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -3317,7 +3122,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 67:
 				{
-					goto _st430;
+					goto _st379;
 					
 				}
 				case 95:
@@ -3340,58 +3145,58 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr1052:
+		_ctr913:
 		{st.Ad_bc = ADBC_BC;
 		}
-		goto _st430;
-		_st430:
+		goto _st379;
+		_st379:
 		if p == eof {
-			goto _out430;
+			goto _out379;
 			
 		}
 		p+=1;
-		st_case_430:
+		st_case_379:
 		if p == pe && p != eof {
-			goto _out430;
+			goto _out379;
 			
 		}
 		if p == eof {
-			goto _ctr1052;
+			goto _ctr913;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 47:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				case 95:
 				{
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st424;
+					goto _st373;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _st424;
+				goto _st373;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1053:
+		_ctr914:
 		{st.ZoneName = data[pb:p]
 			st.Zoned = true
 		}
 		{st.Zoned = true }
-		goto _st431;
-		_ctr1050:
+		goto _st380;
+		_ctr911:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -3414,26 +3219,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st431;
-		_st431:
+		goto _st380;
+		_st380:
 		if p == eof {
-			goto _out431;
+			goto _out380;
 			
 		}
 		p+=1;
-		st_case_431:
+		st_case_380:
 		if p == pe && p != eof {
-			goto _out431;
+			goto _out380;
 			
 		}
 		if p == eof {
-			goto _ctr1053;
+			goto _ctr914;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1030;
+					goto _ctr891;
 					
 				}
 				case 43:
@@ -3448,46 +3253,46 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1054;
+					goto _ctr915;
 					
 				}
 				case 95:
 				{
-					goto _ctr1054;
+					goto _ctr915;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1054;
+					goto _ctr915;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1054;
+				goto _ctr915;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr75:
+		_ctr67:
 		{return st, err }
 		goto _st19;
-		_ctr1043:
+		_ctr904:
 		{pb = p }
 		goto _st19;
-		_ctr1038:
+		_ctr899:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1061:
+		_ctr922:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1129:
+		_ctr990:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -3517,22 +3322,22 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1104:
+		_ctr965:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1113:
+		_ctr974:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1123:
+		_ctr984:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st19;
-		_ctr1152:
+		_ctr1013:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
@@ -3549,7 +3354,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr75;
+			goto _ctr67;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -3560,7 +3365,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 77:
 				{
-					goto _st428;
+					goto _st377;
 					
 				}
 				case 95:
@@ -3583,23 +3388,23 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr76:
+		_ctr68:
 		{return st, err }
 		goto _st20;
-		_ctr1044:
+		_ctr905:
 		{pb = p }
 		goto _st20;
-		_ctr1040:
+		_ctr901:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1063:
+		_ctr924:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1130:
+		_ctr991:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -3629,22 +3434,22 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1106:
+		_ctr967:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1115:
+		_ctr976:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1125:
+		_ctr986:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
 		goto _st20;
-		_ctr1154:
+		_ctr1015:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
@@ -3661,7 +3466,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr76;
+			goto _ctr68;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -3677,7 +3482,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 109:
 				{
-					goto _st428;
+					goto _st377;
 					
 				}
 				
@@ -3695,79 +3500,79 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr1055:
+		_ctr916:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st432;
-		_st432:
+		goto _st381;
+		_st381:
 		if p == eof {
-			goto _out432;
+			goto _out381;
 			
 		}
 		p+=1;
-		st_case_432:
+		st_case_381:
 		if p == pe && p != eof {
-			goto _out432;
+			goto _out381;
 			
 		}
 		if p == eof {
-			goto _ctr1055;
+			goto _ctr916;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1056;
+					goto _ctr917;
 					
 				}
 				case 43:
 				{
-					goto _ctr1057;
+					goto _ctr918;
 					
 				}
 				case 45:
 				{
-					goto _ctr1058;
+					goto _ctr919;
 					
 				}
 				case 47:
 				{
-					goto _ctr1059;
+					goto _ctr920;
 					
 				}
 				case 58:
 				{
-					goto _ctr1060;
+					goto _ctr921;
 					
 				}
 				case 65:
 				{
-					goto _ctr1061;
+					goto _ctr922;
 					
 				}
 				case 80:
 				{
-					goto _ctr1061;
+					goto _ctr922;
 					
 				}
 				case 90:
 				{
-					goto _ctr1062;
+					goto _ctr923;
 					
 				}
 				case 95:
 				{
-					goto _ctr1059;
+					goto _ctr920;
 					
 				}
 				case 97:
 				{
-					goto _ctr1063;
+					goto _ctr924;
 					
 				}
 				case 112:
 				{
-					goto _ctr1063;
+					goto _ctr924;
 					
 				}
 				
@@ -3780,18 +3585,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1059;
+					goto _ctr920;
 					
 				}
 				
 			} else {
-				goto _ctr1059;
+				goto _ctr920;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr77:
+		_ctr69:
 		{return st, err }
 		goto _st21;
 		_st21:
@@ -3806,17 +3611,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr77;
+			goto _ctr69;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st433;
+				goto _st382;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1064:
+		_ctr925:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -3830,56 +3635,56 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st433;
-		_st433:
+		goto _st382;
+		_st382:
 		if p == eof {
-			goto _out433;
+			goto _out382;
 			
 		}
 		p+=1;
-		st_case_433:
+		st_case_382:
 		if p == pe && p != eof {
-			goto _out433;
+			goto _out382;
 			
 		}
 		if p == eof {
-			goto _ctr1064;
+			goto _ctr925;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1065;
+					goto _ctr926;
 					
 				}
 				case 43:
 				{
-					goto _ctr1066;
+					goto _ctr927;
 					
 				}
 				case 45:
 				{
-					goto _ctr1067;
+					goto _ctr928;
 					
 				}
 				case 46:
 				{
-					goto _ctr1068;
+					goto _ctr929;
 					
 				}
 				case 47:
 				{
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				case 90:
 				{
-					goto _ctr1071;
+					goto _ctr932;
 					
 				}
 				case 95:
 				{
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				
@@ -3892,21 +3697,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				
 			} else {
-				goto _ctr1069;
+				goto _ctr930;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr79:
+		_ctr71:
 		{return st, err }
 		goto _st22;
-		_ctr1068:
+		_ctr929:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -3933,20 +3738,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr79;
+			goto _ctr71;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr80;
+				goto _ctr72;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr80:
+		_ctr72:
 		{pb = p }
-		goto _st434;
-		_ctr1072:
+		goto _st383;
+		_ctr933:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -3974,75 +3779,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st434;
-		_st434:
+		goto _st383;
+		_st383:
 		if p == eof {
-			goto _out434;
+			goto _out383;
 			
 		}
 		p+=1;
-		st_case_434:
+		st_case_383:
 		if p == pe && p != eof {
-			goto _out434;
+			goto _out383;
 			
 		}
 		if p == eof {
-			goto _ctr1072;
+			goto _ctr933;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st435;
+					goto _st384;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1079:
+		_ctr940:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4070,75 +3875,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st435;
-		_st435:
+		goto _st384;
+		_st384:
 		if p == eof {
-			goto _out435;
+			goto _out384;
 			
 		}
 		p+=1;
-		st_case_435:
+		st_case_384:
 		if p == pe && p != eof {
-			goto _out435;
+			goto _out384;
 			
 		}
 		if p == eof {
-			goto _ctr1079;
+			goto _ctr940;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st436;
+					goto _st385;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1081:
+		_ctr942:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4166,75 +3971,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st436;
-		_st436:
+		goto _st385;
+		_st385:
 		if p == eof {
-			goto _out436;
+			goto _out385;
 			
 		}
 		p+=1;
-		st_case_436:
+		st_case_385:
 		if p == pe && p != eof {
-			goto _out436;
+			goto _out385;
 			
 		}
 		if p == eof {
-			goto _ctr1081;
+			goto _ctr942;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st437;
+					goto _st386;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1083:
+		_ctr944:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4262,75 +4067,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st437;
-		_st437:
+		goto _st386;
+		_st386:
 		if p == eof {
-			goto _out437;
+			goto _out386;
 			
 		}
 		p+=1;
-		st_case_437:
+		st_case_386:
 		if p == pe && p != eof {
-			goto _out437;
+			goto _out386;
 			
 		}
 		if p == eof {
-			goto _ctr1083;
+			goto _ctr944;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st438;
+					goto _st387;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1085:
+		_ctr946:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4358,75 +4163,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st438;
-		_st438:
+		goto _st387;
+		_st387:
 		if p == eof {
-			goto _out438;
+			goto _out387;
 			
 		}
 		p+=1;
-		st_case_438:
+		st_case_387:
 		if p == pe && p != eof {
-			goto _out438;
+			goto _out387;
 			
 		}
 		if p == eof {
-			goto _ctr1085;
+			goto _ctr946;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st439;
+					goto _st388;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1087:
+		_ctr948:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4454,75 +4259,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st439;
-		_st439:
+		goto _st388;
+		_st388:
 		if p == eof {
-			goto _out439;
+			goto _out388;
 			
 		}
 		p+=1;
-		st_case_439:
+		st_case_388:
 		if p == pe && p != eof {
-			goto _out439;
+			goto _out388;
 			
 		}
 		if p == eof {
-			goto _ctr1087;
+			goto _ctr948;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st440;
+					goto _st389;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1089:
+		_ctr950:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4550,75 +4355,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st440;
-		_st440:
+		goto _st389;
+		_st389:
 		if p == eof {
-			goto _out440;
+			goto _out389;
 			
 		}
 		p+=1;
-		st_case_440:
+		st_case_389:
 		if p == pe && p != eof {
-			goto _out440;
+			goto _out389;
 			
 		}
 		if p == eof {
-			goto _ctr1089;
+			goto _ctr950;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st441;
+					goto _st390;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1091:
+		_ctr952:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4646,75 +4451,75 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st441;
-		_st441:
+		goto _st390;
+		_st390:
 		if p == eof {
-			goto _out441;
+			goto _out390;
 			
 		}
 		p+=1;
-		st_case_441:
+		st_case_390:
 		if p == pe && p != eof {
-			goto _out441;
+			goto _out390;
 			
 		}
 		if p == eof {
-			goto _ctr1091;
+			goto _ctr952;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st442;
+					goto _st391;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1093:
+		_ctr954:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4742,84 +4547,84 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st442;
-		_st442:
+		goto _st391;
+		_st391:
 		if p == eof {
-			goto _out442;
+			goto _out391;
 			
 		}
 		p+=1;
-		st_case_442:
+		st_case_391:
 		if p == pe && p != eof {
-			goto _out442;
+			goto _out391;
 			
 		}
 		if p == eof {
-			goto _ctr1093;
+			goto _ctr954;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1073;
+					goto _ctr934;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1197:
+		_ctr1048:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1039:
+		goto _st392;
+		_ctr900:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1062:
+		goto _st392;
+		_ctr923:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1071:
+		goto _st392;
+		_ctr932:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -4834,8 +4639,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1078:
+		goto _st392;
+		_ctr939:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -4864,33 +4669,33 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1105:
+		goto _st392;
+		_ctr966:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1114:
+		goto _st392;
+		_ctr975:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1124:
+		goto _st392;
+		_ctr985:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1153:
+		goto _st392;
+		_ctr1014:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1001:
+		goto _st392;
+		_ctr862:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1167:
+		goto _st392;
+		_ctr1028:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -4899,37 +4704,25 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st443;
-		_ctr1179:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		{pb = p }
-		goto _st443;
-		_ctr1189:
+		goto _st392;
+		_ctr1040:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
 		{pb = p }
-		goto _st443;
-		_st443:
+		goto _st392;
+		_st392:
 		if p == eof {
-			goto _out443;
+			goto _out392;
 			
 		}
 		p+=1;
-		st_case_443:
+		st_case_392:
 		if p == pe && p != eof {
-			goto _out443;
+			goto _out392;
 			
 		}
 		if p == eof {
-			goto _st443;
+			goto _st392;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -4950,30 +4743,30 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				case 95:
 				{
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 90 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1095;
+				goto _ctr956;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr81:
+		_ctr73:
 		{return st, err }
 		goto _st23;
 		_st23:
@@ -4988,17 +4781,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr81;
+			goto _ctr73;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st444;
+				goto _st393;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1096:
+		_ctr957:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -5012,81 +4805,81 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st444;
-		_st444:
+		goto _st393;
+		_st393:
 		if p == eof {
-			goto _out444;
+			goto _out393;
 			
 		}
 		p+=1;
-		st_case_444:
+		st_case_393:
 		if p == pe && p != eof {
-			goto _out444;
+			goto _out393;
 			
 		}
 		if p == eof {
-			goto _ctr1096;
+			goto _ctr957;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1065;
+					goto _ctr926;
 					
 				}
 				case 43:
 				{
-					goto _ctr1066;
+					goto _ctr927;
 					
 				}
 				case 45:
 				{
-					goto _ctr1067;
+					goto _ctr928;
 					
 				}
 				case 46:
 				{
-					goto _ctr1068;
+					goto _ctr929;
 					
 				}
 				case 47:
 				{
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				case 90:
 				{
-					goto _ctr1071;
+					goto _ctr932;
 					
 				}
 				case 95:
 				{
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1069;
+					goto _ctr930;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1069;
+				goto _ctr930;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr83:
+		_ctr75:
 		{return st, err }
 		goto _st24;
-		_ctr1037:
+		_ctr898:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st24;
-		_ctr1060:
+		_ctr921:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st24;
@@ -5102,219 +4895,219 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr83;
+			goto _ctr75;
 			
 		} else {
 			if ( data[ p ] ) > 53 {
 				if ( data[ p ] ) <= 57 {
-					goto _ctr85;
+					goto _ctr77;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _ctr84;
+				goto _ctr76;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr84:
+		_ctr76:
 		{pb = p }
-		goto _st445;
-		_ctr1097:
+		goto _st394;
+		_ctr958:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st445;
-		_st445:
+		goto _st394;
+		_st394:
 		if p == eof {
-			goto _out445;
+			goto _out394;
 			
 		}
 		p+=1;
-		st_case_445:
+		st_case_394:
 		if p == pe && p != eof {
-			goto _out445;
+			goto _out394;
 			
 		}
 		if p == eof {
-			goto _ctr1097;
+			goto _ctr958;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1098;
+					goto _ctr959;
 					
 				}
 				case 43:
 				{
-					goto _ctr1099;
+					goto _ctr960;
 					
 				}
 				case 45:
 				{
-					goto _ctr1100;
+					goto _ctr961;
 					
 				}
 				case 47:
 				{
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				case 58:
 				{
-					goto _ctr1103;
+					goto _ctr964;
 					
 				}
 				case 65:
 				{
-					goto _ctr1104;
+					goto _ctr965;
 					
 				}
 				case 80:
 				{
-					goto _ctr1104;
+					goto _ctr965;
 					
 				}
 				case 90:
 				{
-					goto _ctr1105;
+					goto _ctr966;
 					
 				}
 				case 95:
 				{
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				case 97:
 				{
-					goto _ctr1106;
+					goto _ctr967;
 					
 				}
 				case 112:
 				{
-					goto _ctr1106;
+					goto _ctr967;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st446;
+					goto _st395;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				
 			} else {
-				goto _ctr1101;
+				goto _ctr962;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1107:
+		_ctr968:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st446;
-		_st446:
+		goto _st395;
+		_st395:
 		if p == eof {
-			goto _out446;
+			goto _out395;
 			
 		}
 		p+=1;
-		st_case_446:
+		st_case_395:
 		if p == pe && p != eof {
-			goto _out446;
+			goto _out395;
 			
 		}
 		if p == eof {
-			goto _ctr1107;
+			goto _ctr968;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1108;
+					goto _ctr969;
 					
 				}
 				case 43:
 				{
-					goto _ctr1109;
+					goto _ctr970;
 					
 				}
 				case 45:
 				{
-					goto _ctr1110;
+					goto _ctr971;
 					
 				}
 				case 47:
 				{
-					goto _ctr1111;
+					goto _ctr972;
 					
 				}
 				case 58:
 				{
-					goto _ctr1112;
+					goto _ctr973;
 					
 				}
 				case 65:
 				{
-					goto _ctr1113;
+					goto _ctr974;
 					
 				}
 				case 80:
 				{
-					goto _ctr1113;
+					goto _ctr974;
 					
 				}
 				case 90:
 				{
-					goto _ctr1114;
+					goto _ctr975;
 					
 				}
 				case 95:
 				{
-					goto _ctr1111;
+					goto _ctr972;
 					
 				}
 				case 97:
 				{
-					goto _ctr1115;
+					goto _ctr976;
 					
 				}
 				case 112:
 				{
-					goto _ctr1115;
+					goto _ctr976;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1111;
+					goto _ctr972;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 66 {
-				goto _ctr1111;
+				goto _ctr972;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr86:
+		_ctr78:
 		{return st, err }
 		goto _st25;
-		_ctr1103:
+		_ctr964:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st25;
-		_ctr1112:
+		_ctr973:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st25;
@@ -5330,129 +5123,129 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr86;
+			goto _ctr78;
 			
 		} else {
 			if ( data[ p ] ) > 53 {
 				if ( data[ p ] ) <= 57 {
-					goto _ctr88;
+					goto _ctr80;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 48 {
-				goto _ctr87;
+				goto _ctr79;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr87:
+		_ctr79:
 		{pb = p }
-		goto _st447;
-		_ctr1116:
+		goto _st396;
+		_ctr977:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st447;
-		_st447:
+		goto _st396;
+		_st396:
 		if p == eof {
-			goto _out447;
+			goto _out396;
 			
 		}
 		p+=1;
-		st_case_447:
+		st_case_396:
 		if p == pe && p != eof {
-			goto _out447;
+			goto _out396;
 			
 		}
 		if p == eof {
-			goto _ctr1116;
+			goto _ctr977;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1117;
+					goto _ctr978;
 					
 				}
 				case 43:
 				{
-					goto _ctr1118;
+					goto _ctr979;
 					
 				}
 				case 45:
 				{
-					goto _ctr1119;
+					goto _ctr980;
 					
 				}
 				case 46:
 				{
-					goto _ctr1120;
+					goto _ctr981;
 					
 				}
 				case 47:
 				{
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				case 65:
 				{
-					goto _ctr1123;
+					goto _ctr984;
 					
 				}
 				case 80:
 				{
-					goto _ctr1123;
+					goto _ctr984;
 					
 				}
 				case 90:
 				{
-					goto _ctr1124;
+					goto _ctr985;
 					
 				}
 				case 95:
 				{
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				case 97:
 				{
-					goto _ctr1125;
+					goto _ctr986;
 					
 				}
 				case 112:
 				{
-					goto _ctr1125;
+					goto _ctr986;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st457;
+					goto _st406;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				
 			} else {
-				goto _ctr1121;
+				goto _ctr982;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr89:
+		_ctr81:
 		{return st, err }
 		goto _st26;
-		_ctr1120:
+		_ctr981:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
 		goto _st26;
-		_ctr1150:
+		_ctr1011:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
 		goto _st26;
@@ -5468,20 +5261,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr89;
+			goto _ctr81;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr90;
+				goto _ctr82;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr90:
+		_ctr82:
 		{pb = p }
-		goto _st448;
-		_ctr1126:
+		goto _st397;
+		_ctr987:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -5509,95 +5302,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st448;
-		_st448:
+		goto _st397;
+		_st397:
 		if p == eof {
-			goto _out448;
+			goto _out397;
 			
 		}
 		p+=1;
-		st_case_448:
+		st_case_397:
 		if p == pe && p != eof {
-			goto _out448;
+			goto _out397;
 			
 		}
 		if p == eof {
-			goto _ctr1126;
+			goto _ctr987;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st449;
+					goto _st398;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1131:
+		_ctr992:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -5625,95 +5418,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st449;
-		_st449:
+		goto _st398;
+		_st398:
 		if p == eof {
-			goto _out449;
+			goto _out398;
 			
 		}
 		p+=1;
-		st_case_449:
+		st_case_398:
 		if p == pe && p != eof {
-			goto _out449;
+			goto _out398;
 			
 		}
 		if p == eof {
-			goto _ctr1131;
+			goto _ctr992;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st450;
+					goto _st399;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1133:
+		_ctr994:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -5741,95 +5534,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st450;
-		_st450:
+		goto _st399;
+		_st399:
 		if p == eof {
-			goto _out450;
+			goto _out399;
 			
 		}
 		p+=1;
-		st_case_450:
+		st_case_399:
 		if p == pe && p != eof {
-			goto _out450;
+			goto _out399;
 			
 		}
 		if p == eof {
-			goto _ctr1133;
+			goto _ctr994;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st451;
+					goto _st400;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1135:
+		_ctr996:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -5857,95 +5650,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st451;
-		_st451:
+		goto _st400;
+		_st400:
 		if p == eof {
-			goto _out451;
+			goto _out400;
 			
 		}
 		p+=1;
-		st_case_451:
+		st_case_400:
 		if p == pe && p != eof {
-			goto _out451;
+			goto _out400;
 			
 		}
 		if p == eof {
-			goto _ctr1135;
+			goto _ctr996;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st452;
+					goto _st401;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1137:
+		_ctr998:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -5973,95 +5766,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st452;
-		_st452:
+		goto _st401;
+		_st401:
 		if p == eof {
-			goto _out452;
+			goto _out401;
 			
 		}
 		p+=1;
-		st_case_452:
+		st_case_401:
 		if p == pe && p != eof {
-			goto _out452;
+			goto _out401;
 			
 		}
 		if p == eof {
-			goto _ctr1137;
+			goto _ctr998;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st453;
+					goto _st402;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1139:
+		_ctr1000:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -6089,95 +5882,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st453;
-		_st453:
+		goto _st402;
+		_st402:
 		if p == eof {
-			goto _out453;
+			goto _out402;
 			
 		}
 		p+=1;
-		st_case_453:
+		st_case_402:
 		if p == pe && p != eof {
-			goto _out453;
+			goto _out402;
 			
 		}
 		if p == eof {
-			goto _ctr1139;
+			goto _ctr1000;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st454;
+					goto _st403;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1141:
+		_ctr1002:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -6205,95 +5998,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st454;
-		_st454:
+		goto _st403;
+		_st403:
 		if p == eof {
-			goto _out454;
+			goto _out403;
 			
 		}
 		p+=1;
-		st_case_454:
+		st_case_403:
 		if p == pe && p != eof {
-			goto _out454;
+			goto _out403;
 			
 		}
 		if p == eof {
-			goto _ctr1141;
+			goto _ctr1002;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st455;
+					goto _st404;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1143:
+		_ctr1004:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -6321,95 +6114,95 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st455;
-		_st455:
+		goto _st404;
+		_st404:
 		if p == eof {
-			goto _out455;
+			goto _out404;
 			
 		}
 		p+=1;
-		st_case_455:
+		st_case_404:
 		if p == pe && p != eof {
-			goto _out455;
+			goto _out404;
 			
 		}
 		if p == eof {
-			goto _ctr1143;
+			goto _ctr1004;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st456;
+					goto _st405;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1145:
+		_ctr1006:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -6437,459 +6230,459 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st456;
-		_st456:
+		goto _st405;
+		_st405:
 		if p == eof {
-			goto _out456;
+			goto _out405;
 			
 		}
 		p+=1;
-		st_case_456:
+		st_case_405:
 		if p == pe && p != eof {
-			goto _out456;
+			goto _out405;
 			
 		}
 		if p == eof {
-			goto _ctr1145;
+			goto _ctr1006;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1127;
+					goto _ctr988;
 					
 				}
 				case 43:
 				{
-					goto _ctr1074;
+					goto _ctr935;
 					
 				}
 				case 45:
 				{
-					goto _ctr1075;
+					goto _ctr936;
 					
 				}
 				case 47:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 65:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 80:
 				{
-					goto _ctr1129;
+					goto _ctr990;
 					
 				}
 				case 90:
 				{
-					goto _ctr1078;
+					goto _ctr939;
 					
 				}
 				case 95:
 				{
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				case 97:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				case 112:
 				{
-					goto _ctr1130;
+					goto _ctr991;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1076;
+					goto _ctr937;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 66 {
-				goto _ctr1076;
+				goto _ctr937;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1146:
+		_ctr1007:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st457;
-		_st457:
+		goto _st406;
+		_st406:
 		if p == eof {
-			goto _out457;
+			goto _out406;
 			
 		}
 		p+=1;
-		st_case_457:
+		st_case_406:
 		if p == pe && p != eof {
-			goto _out457;
+			goto _out406;
 			
 		}
 		if p == eof {
-			goto _ctr1146;
+			goto _ctr1007;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1147;
+					goto _ctr1008;
 					
 				}
 				case 43:
 				{
-					goto _ctr1148;
+					goto _ctr1009;
 					
 				}
 				case 45:
 				{
-					goto _ctr1149;
+					goto _ctr1010;
 					
 				}
 				case 46:
 				{
-					goto _ctr1150;
+					goto _ctr1011;
 					
 				}
 				case 47:
 				{
-					goto _ctr1151;
+					goto _ctr1012;
 					
 				}
 				case 65:
 				{
-					goto _ctr1152;
+					goto _ctr1013;
 					
 				}
 				case 80:
 				{
-					goto _ctr1152;
+					goto _ctr1013;
 					
 				}
 				case 90:
 				{
-					goto _ctr1153;
+					goto _ctr1014;
 					
 				}
 				case 95:
 				{
-					goto _ctr1151;
+					goto _ctr1012;
 					
 				}
 				case 97:
 				{
-					goto _ctr1154;
+					goto _ctr1015;
 					
 				}
 				case 112:
 				{
-					goto _ctr1154;
+					goto _ctr1015;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1151;
+					goto _ctr1012;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 66 {
-				goto _ctr1151;
+				goto _ctr1012;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr88:
+		_ctr80:
 		{pb = p }
-		goto _st458;
-		_ctr1155:
+		goto _st407;
+		_ctr1016:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st458;
-		_st458:
+		goto _st407;
+		_st407:
 		if p == eof {
-			goto _out458;
+			goto _out407;
 			
 		}
 		p+=1;
-		st_case_458:
+		st_case_407:
 		if p == pe && p != eof {
-			goto _out458;
+			goto _out407;
 			
 		}
 		if p == eof {
-			goto _ctr1155;
+			goto _ctr1016;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1117;
+					goto _ctr978;
 					
 				}
 				case 43:
 				{
-					goto _ctr1118;
+					goto _ctr979;
 					
 				}
 				case 45:
 				{
-					goto _ctr1119;
+					goto _ctr980;
 					
 				}
 				case 46:
 				{
-					goto _ctr1120;
+					goto _ctr981;
 					
 				}
 				case 47:
 				{
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				case 65:
 				{
-					goto _ctr1123;
+					goto _ctr984;
 					
 				}
 				case 80:
 				{
-					goto _ctr1123;
+					goto _ctr984;
 					
 				}
 				case 90:
 				{
-					goto _ctr1124;
+					goto _ctr985;
 					
 				}
 				case 95:
 				{
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				case 97:
 				{
-					goto _ctr1125;
+					goto _ctr986;
 					
 				}
 				case 112:
 				{
-					goto _ctr1125;
+					goto _ctr986;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1121;
+					goto _ctr982;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 66 {
-				goto _ctr1121;
+				goto _ctr982;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr85:
+		_ctr77:
 		{pb = p }
-		goto _st459;
-		_ctr1156:
+		goto _st408;
+		_ctr1017:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st459;
-		_st459:
+		goto _st408;
+		_st408:
 		if p == eof {
-			goto _out459;
+			goto _out408;
 			
 		}
 		p+=1;
-		st_case_459:
+		st_case_408:
 		if p == pe && p != eof {
-			goto _out459;
+			goto _out408;
 			
 		}
 		if p == eof {
-			goto _ctr1156;
+			goto _ctr1017;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1098;
+					goto _ctr959;
 					
 				}
 				case 43:
 				{
-					goto _ctr1099;
+					goto _ctr960;
 					
 				}
 				case 45:
 				{
-					goto _ctr1100;
+					goto _ctr961;
 					
 				}
 				case 47:
 				{
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				case 58:
 				{
-					goto _ctr1103;
+					goto _ctr964;
 					
 				}
 				case 65:
 				{
-					goto _ctr1104;
+					goto _ctr965;
 					
 				}
 				case 80:
 				{
-					goto _ctr1104;
+					goto _ctr965;
 					
 				}
 				case 90:
 				{
-					goto _ctr1105;
+					goto _ctr966;
 					
 				}
 				case 95:
 				{
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				case 97:
 				{
-					goto _ctr1106;
+					goto _ctr967;
 					
 				}
 				case 112:
 				{
-					goto _ctr1106;
+					goto _ctr967;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1101;
+					goto _ctr962;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 66 {
-				goto _ctr1101;
+				goto _ctr962;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1008:
+		_ctr869:
 		{pb = p }
-		goto _st460;
-		_ctr1157:
+		goto _st409;
+		_ctr1018:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st460;
-		_st460:
+		goto _st409;
+		_st409:
 		if p == eof {
-			goto _out460;
+			goto _out409;
 			
 		}
 		p+=1;
-		st_case_460:
+		st_case_409:
 		if p == pe && p != eof {
-			goto _out460;
+			goto _out409;
 			
 		}
 		if p == eof {
-			goto _ctr1157;
+			goto _ctr1018;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1032;
+					goto _ctr893;
 					
 				}
 				case 43:
 				{
-					goto _ctr1033;
+					goto _ctr894;
 					
 				}
 				case 45:
 				{
-					goto _ctr1034;
+					goto _ctr895;
 					
 				}
 				case 47:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 58:
 				{
-					goto _ctr1037;
+					goto _ctr898;
 					
 				}
 				case 65:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 80:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 90:
 				{
-					goto _ctr1039;
+					goto _ctr900;
 					
 				}
 				case 95:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 97:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				case 112:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 52 {
 				if 48 <= ( data[ p ] ) {
-					goto _st432;
+					goto _st381;
 					
 				}
 				
 			} else if ( data[ p ] ) > 57 {
 				if ( data[ p ] ) > 89 {
 					if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-						goto _ctr1035;
+						goto _ctr896;
 						
 					}
 					
 				} else if ( data[ p ] ) >= 66 {
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				
@@ -6900,7 +6693,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _st0;
 			
 		}
-		_ctr91:
+		_ctr83:
 		{return st, err }
 		goto _st27;
 		_st27:
@@ -6915,7 +6708,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr91;
+			goto _ctr83;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
@@ -6925,82 +6718,82 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr1009:
+		_ctr870:
 		{pb = p }
-		goto _st461;
-		_ctr1159:
+		goto _st410;
+		_ctr1020:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st461;
-		_st461:
+		goto _st410;
+		_st410:
 		if p == eof {
-			goto _out461;
+			goto _out410;
 			
 		}
 		p+=1;
-		st_case_461:
+		st_case_410:
 		if p == pe && p != eof {
-			goto _out461;
+			goto _out410;
 			
 		}
 		if p == eof {
-			goto _ctr1159;
+			goto _ctr1020;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1032;
+					goto _ctr893;
 					
 				}
 				case 43:
 				{
-					goto _ctr1033;
+					goto _ctr894;
 					
 				}
 				case 45:
 				{
-					goto _ctr1034;
+					goto _ctr895;
 					
 				}
 				case 47:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 58:
 				{
-					goto _ctr1037;
+					goto _ctr898;
 					
 				}
 				case 65:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 80:
 				{
-					goto _ctr1038;
+					goto _ctr899;
 					
 				}
 				case 90:
 				{
-					goto _ctr1039;
+					goto _ctr900;
 					
 				}
 				case 95:
 				{
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				case 97:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				case 112:
 				{
-					goto _ctr1040;
+					goto _ctr901;
 					
 				}
 				
@@ -7013,28 +6806,28 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1035;
+					goto _ctr896;
 					
 				}
 				
 			} else {
-				goto _ctr1035;
+				goto _ctr896;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr1196:
+		_ctr1047:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
 		{pb = p }
-		goto _st462;
-		_ctr1000:
+		goto _st411;
+		_ctr861:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
 		{pb = p }
-		goto _st462;
-		_ctr1166:
+		goto _st411;
+		_ctr1027:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -7043,37 +6836,25 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{pb = p }
-		goto _st462;
-		_ctr1178:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		{pb = p }
-		goto _st462;
-		_ctr1188:
+		goto _st411;
+		_ctr1039:
 		{st.Year = parse_year_2_digits(data[pb:pb+2])
 		}
 		{pb = p }
-		goto _st462;
-		_st462:
+		goto _st411;
+		_st411:
 		if p == eof {
-			goto _out462;
+			goto _out411;
 			
 		}
 		p+=1;
-		st_case_462:
+		st_case_411:
 		if p == pe && p != eof {
-			goto _out462;
+			goto _out411;
 			
 		}
 		if p == eof {
-			goto _st462;
+			goto _st411;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -7094,47 +6875,47 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 				case 47:
 				{
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				case 50:
 				{
-					goto _ctr1008;
+					goto _ctr869;
 					
 				}
 				case 95:
 				{
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 51 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-					goto _ctr1007;
+					goto _ctr868;
 					
 				}
 				
 			} else if ( data[ p ] ) > 57 {
 				if ( data[ p ] ) > 90 {
 					if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-						goto _ctr1095;
+						goto _ctr956;
 						
 					}
 					
 				} else if ( data[ p ] ) >= 65 {
-					goto _ctr1095;
+					goto _ctr956;
 					
 				}
 				
 			} else {
-				goto _ctr1009;
+				goto _ctr870;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr93:
+		_ctr85:
 		{return st, err }
 		goto _st28;
 		_st28:
@@ -7149,70 +6930,70 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr93;
+			goto _ctr85;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				case 47:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				
 			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st413;
+				goto _st362;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr95:
+		_ctr87:
 		{return st, err }
 		goto _st29;
-		_ctr94:
+		_ctr86:
 		{st.Month, _ = strconv.Atoi(data[pb:p])
 		}
 		goto _st29;
-		_ctr110:
+		_ctr102:
 		{st.Month = 4 ;}
 		goto _st29;
-		_ctr118:
+		_ctr110:
 		{st.Month = 8 ;}
 		goto _st29;
-		_ctr124:
+		_ctr116:
 		{st.Month = 12 ;}
 		goto _st29;
-		_ctr130:
+		_ctr122:
 		{st.Month = 2 ;}
 		goto _st29;
-		_ctr147:
+		_ctr139:
 		{st.Month = 1 ;}
 		goto _st29;
-		_ctr160:
+		_ctr152:
 		{st.Month = 7 ;}
 		goto _st29;
-		_ctr162:
+		_ctr154:
 		{st.Month = 6 ;}
 		goto _st29;
-		_ctr169:
+		_ctr161:
 		{st.Month = 3 ;}
 		goto _st29;
-		_ctr175:
+		_ctr167:
 		{st.Month = 5 ;}
 		goto _st29;
-		_ctr181:
+		_ctr173:
 		{st.Month = 11 ;}
 		goto _st29;
-		_ctr187:
+		_ctr179:
 		{st.Month = 10 ;}
 		goto _st29;
-		_ctr193:
+		_ctr185:
 		{st.Month = 9 ;}
 		goto _st29;
 		_st29:
@@ -7227,87 +7008,39 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr95;
+			goto _ctr87;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 48:
 				{
-					goto _ctr96;
+					goto _ctr88;
 					
 				}
 				case 51:
 				{
-					goto _ctr98;
+					goto _ctr90;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 50 {
 				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr99;
+					goto _ctr91;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 49 {
-				goto _ctr97;
+				goto _ctr89;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr100:
+		_ctr92:
 		{return st, err }
 		goto _st30;
-		_ctr96:
-		{pb = p }
-		goto _st30;
-		_ctr225:
-		{st.Month = 4 ;}
-		{pb = p }
-		goto _st30;
-		_ctr237:
-		{st.Month = 8 ;}
-		{pb = p }
-		goto _st30;
-		_ctr245:
-		{st.Month = 12 ;}
-		{pb = p }
-		goto _st30;
-		_ctr253:
-		{st.Month = 2 ;}
-		{pb = p }
-		goto _st30;
-		_ctr272:
-		{st.Month = 1 ;}
-		{pb = p }
-		goto _st30;
-		_ctr287:
-		{st.Month = 7 ;}
-		{pb = p }
-		goto _st30;
-		_ctr291:
-		{st.Month = 6 ;}
-		{pb = p }
-		goto _st30;
-		_ctr300:
-		{st.Month = 3 ;}
-		{pb = p }
-		goto _st30;
-		_ctr308:
-		{st.Month = 5 ;}
-		{pb = p }
-		goto _st30;
-		_ctr316:
-		{st.Month = 11 ;}
-		{pb = p }
-		goto _st30;
-		_ctr324:
-		{st.Month = 10 ;}
-		{pb = p }
-		goto _st30;
-		_ctr332:
-		{st.Month = 9 ;}
+		_ctr88:
 		{pb = p }
 		goto _st30;
 		_st30:
@@ -7322,20 +7055,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr100;
+			goto _ctr92;
 			
 		} else {
 			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st463;
+				goto _st412;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr99:
+		_ctr91:
 		{pb = p }
-		goto _st463;
-		_ctr1161:
+		goto _st412;
+		_ctr1022:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -7343,77 +7076,77 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st463;
-		_st463:
+		goto _st412;
+		_st412:
 		if p == eof {
-			goto _out463;
+			goto _out412;
 			
 		}
 		p+=1;
-		st_case_463:
+		st_case_412:
 		if p == pe && p != eof {
-			goto _out463;
+			goto _out412;
 			
 		}
 		if p == eof {
-			goto _ctr1161;
+			goto _ctr1022;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1162;
+					goto _ctr1023;
 					
 				}
 				case 43:
 				{
-					goto _ctr1163;
+					goto _ctr1024;
 					
 				}
 				case 45:
 				{
-					goto _ctr1164;
+					goto _ctr1025;
 					
 				}
 				case 47:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				case 84:
 				{
-					goto _ctr1166;
+					goto _ctr1027;
 					
 				}
 				case 90:
 				{
-					goto _ctr1167;
+					goto _ctr1028;
 					
 				}
 				case 95:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1165;
+				goto _ctr1026;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr97:
+		_ctr89:
 		{pb = p }
-		goto _st464;
-		_ctr1168:
+		goto _st413;
+		_ctr1029:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -7421,83 +7154,83 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st464;
-		_st464:
+		goto _st413;
+		_st413:
 		if p == eof {
-			goto _out464;
+			goto _out413;
 			
 		}
 		p+=1;
-		st_case_464:
+		st_case_413:
 		if p == pe && p != eof {
-			goto _out464;
+			goto _out413;
 			
 		}
 		if p == eof {
-			goto _ctr1168;
+			goto _ctr1029;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1162;
+					goto _ctr1023;
 					
 				}
 				case 43:
 				{
-					goto _ctr1163;
+					goto _ctr1024;
 					
 				}
 				case 45:
 				{
-					goto _ctr1164;
+					goto _ctr1025;
 					
 				}
 				case 47:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				case 84:
 				{
-					goto _ctr1166;
+					goto _ctr1027;
 					
 				}
 				case 90:
 				{
-					goto _ctr1167;
+					goto _ctr1028;
 					
 				}
 				case 95:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st463;
+					goto _st412;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			} else {
-				goto _ctr1165;
+				goto _ctr1026;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr98:
+		_ctr90:
 		{pb = p }
-		goto _st465;
-		_ctr1169:
+		goto _st414;
+		_ctr1030:
 		{switch p - pb {
 				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -7505,83 +7238,83 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st465;
-		_st465:
+		goto _st414;
+		_st414:
 		if p == eof {
-			goto _out465;
+			goto _out414;
 			
 		}
 		p+=1;
-		st_case_465:
+		st_case_414:
 		if p == pe && p != eof {
-			goto _out465;
+			goto _out414;
 			
 		}
 		if p == eof {
-			goto _ctr1169;
+			goto _ctr1030;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr1162;
+					goto _ctr1023;
 					
 				}
 				case 43:
 				{
-					goto _ctr1163;
+					goto _ctr1024;
 					
 				}
 				case 45:
 				{
-					goto _ctr1164;
+					goto _ctr1025;
 					
 				}
 				case 47:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				case 84:
 				{
-					goto _ctr1166;
+					goto _ctr1027;
 					
 				}
 				case 90:
 				{
-					goto _ctr1167;
+					goto _ctr1028;
 					
 				}
 				case 95:
 				{
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-					goto _st463;
+					goto _st412;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1165;
+					goto _ctr1026;
 					
 				}
 				
 			} else {
-				goto _ctr1165;
+				goto _ctr1026;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr102:
+		_ctr94:
 		{return st, err }
 		goto _st31;
-		_ctr35:
+		_ctr27:
 		{pb = p }
 		goto _st31;
 		_st31:
@@ -7596,18 +7329,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr102;
+			goto _ctr94;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				case 47:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				
@@ -7625,10 +7358,10 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr103:
+		_ctr95:
 		{return st, err }
 		goto _st32;
-		_ctr36:
+		_ctr28:
 		{pb = p }
 		goto _st32;
 		_st32:
@@ -7643,18 +7376,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr103;
+			goto _ctr95;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				case 47:
 				{
-					goto _ctr94;
+					goto _ctr86;
 					
 				}
 				
@@ -7666,7 +7399,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr104:
+		_ctr96:
 		{return st, err }
 		goto _st33;
 		_st33:
@@ -7681,7 +7414,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr104;
+			goto _ctr96;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -7700,7 +7433,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr107:
+		_ctr99:
 		{return st, err }
 		goto _st34;
 		_st34:
@@ -7715,7 +7448,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr107;
+			goto _ctr99;
 			
 		} else {
 			if ( data[ p ] ) == 114 {
@@ -7725,7 +7458,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr109:
+		_ctr101:
 		{return st, err }
 		goto _st35;
 		_st35:
@@ -7737,6 +7470,129 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		st_case_35:
 		if p == pe && p != eof {
 			goto _out35;
+			
+		}
+		if p == eof {
+			goto _ctr101;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 45:
+				{
+					goto _ctr102;
+					
+				}
+				case 47:
+				{
+					goto _ctr102;
+					
+				}
+				case 105:
+				{
+					goto _st36;
+					
+				}
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr104:
+		{return st, err }
+		goto _st36;
+		_st36:
+		if p == eof {
+			goto _out36;
+			
+		}
+		p+=1;
+		st_case_36:
+		if p == pe && p != eof {
+			goto _out36;
+			
+		}
+		if p == eof {
+			goto _ctr104;
+			
+		} else {
+			if ( data[ p ] ) == 108 {
+				goto _st37;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr106:
+		{return st, err }
+		goto _st37;
+		_st37:
+		if p == eof {
+			goto _out37;
+			
+		}
+		p+=1;
+		st_case_37:
+		if p == pe && p != eof {
+			goto _out37;
+			
+		}
+		if p == eof {
+			goto _ctr106;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 45:
+				{
+					goto _ctr102;
+					
+				}
+				case 47:
+				{
+					goto _ctr102;
+					
+				}
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr107:
+		{return st, err }
+		goto _st38;
+		_st38:
+		if p == eof {
+			goto _out38;
+			
+		}
+		p+=1;
+		st_case_38:
+		if p == pe && p != eof {
+			goto _out38;
+			
+		}
+		if p == eof {
+			goto _ctr107;
+			
+		} else {
+			if ( data[ p ] ) == 103 {
+				goto _st39;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr109:
+		{return st, err }
+		goto _st39;
+		_st39:
+		if p == eof {
+			goto _out39;
+			
+		}
+		p+=1;
+		st_case_39:
+		if p == pe && p != eof {
+			goto _out39;
 			
 		}
 		if p == eof {
@@ -7754,135 +7610,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 					goto _ctr110;
 					
 				}
-				case 105:
-				{
-					goto _st36;
-					
-				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr112:
-		{return st, err }
-		goto _st36;
-		_st36:
-		if p == eof {
-			goto _out36;
-			
-		}
-		p+=1;
-		st_case_36:
-		if p == pe && p != eof {
-			goto _out36;
-			
-		}
-		if p == eof {
-			goto _ctr112;
-			
-		} else {
-			if ( data[ p ] ) == 108 {
-				goto _st37;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr114:
-		{return st, err }
-		goto _st37;
-		_st37:
-		if p == eof {
-			goto _out37;
-			
-		}
-		p+=1;
-		st_case_37:
-		if p == pe && p != eof {
-			goto _out37;
-			
-		}
-		if p == eof {
-			goto _ctr114;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 45:
-				{
-					goto _ctr110;
-					
-				}
-				case 47:
-				{
-					goto _ctr110;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr115:
-		{return st, err }
-		goto _st38;
-		_st38:
-		if p == eof {
-			goto _out38;
-			
-		}
-		p+=1;
-		st_case_38:
-		if p == pe && p != eof {
-			goto _out38;
-			
-		}
-		if p == eof {
-			goto _ctr115;
-			
-		} else {
-			if ( data[ p ] ) == 103 {
-				goto _st39;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr117:
-		{return st, err }
-		goto _st39;
-		_st39:
-		if p == eof {
-			goto _out39;
-			
-		}
-		p+=1;
-		st_case_39:
-		if p == pe && p != eof {
-			goto _out39;
-			
-		}
-		if p == eof {
-			goto _ctr117;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 45:
-				{
-					goto _ctr118;
-					
-				}
-				case 47:
-				{
-					goto _ctr118;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr119:
+		_ctr111:
 		{return st, err }
 		goto _st40;
 		_st40:
@@ -7897,7 +7630,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr119;
+			goto _ctr111;
 			
 		} else {
 			if ( data[ p ] ) == 101 {
@@ -7907,7 +7640,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr121:
+		_ctr113:
 		{return st, err }
 		goto _st41;
 		_st41:
@@ -7922,7 +7655,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr121;
+			goto _ctr113;
 			
 		} else {
 			if ( data[ p ] ) == 99 {
@@ -7932,7 +7665,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr123:
+		_ctr115:
 		{return st, err }
 		goto _st42;
 		_st42:
@@ -7947,18 +7680,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr123;
+			goto _ctr115;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr124;
+					goto _ctr116;
 					
 				}
 				case 47:
 				{
-					goto _ctr124;
+					goto _ctr116;
 					
 				}
 				
@@ -7966,7 +7699,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr125:
+		_ctr117:
 		{return st, err }
 		goto _st43;
 		_st43:
@@ -7981,7 +7714,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr125;
+			goto _ctr117;
 			
 		} else {
 			if ( data[ p ] ) == 101 {
@@ -7991,7 +7724,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr127:
+		_ctr119:
 		{return st, err }
 		goto _st44;
 		_st44:
@@ -8006,7 +7739,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr127;
+			goto _ctr119;
 			
 		} else {
 			if ( data[ p ] ) == 98 {
@@ -8016,7 +7749,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr129:
+		_ctr121:
 		{return st, err }
 		goto _st45;
 		_st45:
@@ -8031,18 +7764,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr129;
+			goto _ctr121;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr130;
+					goto _ctr122;
 					
 				}
 				case 47:
 				{
-					goto _ctr130;
+					goto _ctr122;
 					
 				}
 				case 114:
@@ -8055,7 +7788,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr132:
+		_ctr124:
 		{return st, err }
 		goto _st46;
 		_st46:
@@ -8070,7 +7803,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr132;
+			goto _ctr124;
 			
 		} else {
 			if ( data[ p ] ) == 117 {
@@ -8080,7 +7813,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr134:
+		_ctr126:
 		{return st, err }
 		goto _st47;
 		_st47:
@@ -8095,7 +7828,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr134;
+			goto _ctr126;
 			
 		} else {
 			if ( data[ p ] ) == 97 {
@@ -8105,7 +7838,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr136:
+		_ctr128:
 		{return st, err }
 		goto _st48;
 		_st48:
@@ -8120,7 +7853,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr136;
+			goto _ctr128;
 			
 		} else {
 			if ( data[ p ] ) == 114 {
@@ -8130,7 +7863,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr138:
+		_ctr130:
 		{return st, err }
 		goto _st49;
 		_st49:
@@ -8145,7 +7878,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr138;
+			goto _ctr130;
 			
 		} else {
 			if ( data[ p ] ) == 121 {
@@ -8155,7 +7888,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr140:
+		_ctr132:
 		{return st, err }
 		goto _st50;
 		_st50:
@@ -8170,18 +7903,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr140;
+			goto _ctr132;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr130;
+					goto _ctr122;
 					
 				}
 				case 47:
 				{
-					goto _ctr130;
+					goto _ctr122;
 					
 				}
 				
@@ -8189,7 +7922,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr141:
+		_ctr133:
 		{return st, err }
 		goto _st51;
 		_st51:
@@ -8204,7 +7937,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr141;
+			goto _ctr133;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -8223,7 +7956,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr144:
+		_ctr136:
 		{return st, err }
 		goto _st52;
 		_st52:
@@ -8238,7 +7971,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr144;
+			goto _ctr136;
 			
 		} else {
 			if ( data[ p ] ) == 110 {
@@ -8248,7 +7981,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr146:
+		_ctr138:
 		{return st, err }
 		goto _st53;
 		_st53:
@@ -8263,18 +7996,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr146;
+			goto _ctr138;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr147;
+					goto _ctr139;
 					
 				}
 				case 47:
 				{
-					goto _ctr147;
+					goto _ctr139;
 					
 				}
 				case 117:
@@ -8287,7 +8020,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr149:
+		_ctr141:
 		{return st, err }
 		goto _st54;
 		_st54:
@@ -8302,7 +8035,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr149;
+			goto _ctr141;
 			
 		} else {
 			if ( data[ p ] ) == 97 {
@@ -8312,7 +8045,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr151:
+		_ctr143:
 		{return st, err }
 		goto _st55;
 		_st55:
@@ -8327,7 +8060,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr151;
+			goto _ctr143;
 			
 		} else {
 			if ( data[ p ] ) == 114 {
@@ -8337,7 +8070,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr153:
+		_ctr145:
 		{return st, err }
 		goto _st56;
 		_st56:
@@ -8352,7 +8085,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr153;
+			goto _ctr145;
 			
 		} else {
 			if ( data[ p ] ) == 121 {
@@ -8362,7 +8095,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr155:
+		_ctr147:
 		{return st, err }
 		goto _st57;
 		_st57:
@@ -8377,18 +8110,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr155;
+			goto _ctr147;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr147;
+					goto _ctr139;
 					
 				}
 				case 47:
 				{
-					goto _ctr147;
+					goto _ctr139;
 					
 				}
 				
@@ -8396,7 +8129,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr156:
+		_ctr148:
 		{return st, err }
 		goto _st58;
 		_st58:
@@ -8411,7 +8144,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr156;
+			goto _ctr148;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -8430,7 +8163,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr159:
+		_ctr151:
 		{return st, err }
 		goto _st59;
 		_st59:
@@ -8445,18 +8178,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr159;
+			goto _ctr151;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr160;
+					goto _ctr152;
 					
 				}
 				case 47:
 				{
-					goto _ctr160;
+					goto _ctr152;
 					
 				}
 				
@@ -8464,7 +8197,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr161:
+		_ctr153:
 		{return st, err }
 		goto _st60;
 		_st60:
@@ -8479,18 +8212,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr161;
+			goto _ctr153;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr162;
+					goto _ctr154;
 					
 				}
 				case 47:
 				{
-					goto _ctr162;
+					goto _ctr154;
 					
 				}
 				
@@ -8498,7 +8231,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr163:
+		_ctr155:
 		{return st, err }
 		goto _st61;
 		_st61:
@@ -8513,7 +8246,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr163;
+			goto _ctr155;
 			
 		} else {
 			if ( data[ p ] ) == 97 {
@@ -8523,7 +8256,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr165:
+		_ctr157:
 		{return st, err }
 		goto _st62;
 		_st62:
@@ -8538,7 +8271,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr165;
+			goto _ctr157;
 			
 		} else {
 			switch ( data[ p ] ) {
@@ -8557,7 +8290,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr168:
+		_ctr160:
 		{return st, err }
 		goto _st63;
 		_st63:
@@ -8572,18 +8305,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr168;
+			goto _ctr160;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr169;
+					goto _ctr161;
 					
 				}
 				case 47:
 				{
-					goto _ctr169;
+					goto _ctr161;
 					
 				}
 				case 99:
@@ -8596,7 +8329,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr171:
+		_ctr163:
 		{return st, err }
 		goto _st64;
 		_st64:
@@ -8611,7 +8344,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr171;
+			goto _ctr163;
 			
 		} else {
 			if ( data[ p ] ) == 104 {
@@ -8621,7 +8354,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr173:
+		_ctr165:
 		{return st, err }
 		goto _st65;
 		_st65:
@@ -8636,18 +8369,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr173;
+			goto _ctr165;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr169;
+					goto _ctr161;
 					
 				}
 				case 47:
 				{
-					goto _ctr169;
+					goto _ctr161;
 					
 				}
 				
@@ -8655,7 +8388,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr174:
+		_ctr166:
 		{return st, err }
 		goto _st66;
 		_st66:
@@ -8670,18 +8403,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr174;
+			goto _ctr166;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr175;
+					goto _ctr167;
 					
 				}
 				case 47:
 				{
-					goto _ctr175;
+					goto _ctr167;
 					
 				}
 				
@@ -8689,7 +8422,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr176:
+		_ctr168:
 		{return st, err }
 		goto _st67;
 		_st67:
@@ -8704,7 +8437,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr176;
+			goto _ctr168;
 			
 		} else {
 			if ( data[ p ] ) == 111 {
@@ -8714,7 +8447,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr178:
+		_ctr170:
 		{return st, err }
 		goto _st68;
 		_st68:
@@ -8729,7 +8462,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr178;
+			goto _ctr170;
 			
 		} else {
 			if ( data[ p ] ) == 118 {
@@ -8739,7 +8472,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr180:
+		_ctr172:
 		{return st, err }
 		goto _st69;
 		_st69:
@@ -8754,18 +8487,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr180;
+			goto _ctr172;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr181;
+					goto _ctr173;
 					
 				}
 				case 47:
 				{
-					goto _ctr181;
+					goto _ctr173;
 					
 				}
 				
@@ -8773,7 +8506,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr182:
+		_ctr174:
 		{return st, err }
 		goto _st70;
 		_st70:
@@ -8788,7 +8521,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr182;
+			goto _ctr174;
 			
 		} else {
 			if ( data[ p ] ) == 99 {
@@ -8798,7 +8531,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr184:
+		_ctr176:
 		{return st, err }
 		goto _st71;
 		_st71:
@@ -8813,7 +8546,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr184;
+			goto _ctr176;
 			
 		} else {
 			if ( data[ p ] ) == 116 {
@@ -8823,7 +8556,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr186:
+		_ctr178:
 		{return st, err }
 		goto _st72;
 		_st72:
@@ -8838,18 +8571,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr186;
+			goto _ctr178;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr187;
+					goto _ctr179;
 					
 				}
 				case 47:
 				{
-					goto _ctr187;
+					goto _ctr179;
 					
 				}
 				
@@ -8857,7 +8590,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr188:
+		_ctr180:
 		{return st, err }
 		goto _st73;
 		_st73:
@@ -8872,7 +8605,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr188;
+			goto _ctr180;
 			
 		} else {
 			if ( data[ p ] ) == 101 {
@@ -8882,7 +8615,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr190:
+		_ctr182:
 		{return st, err }
 		goto _st74;
 		_st74:
@@ -8897,7 +8630,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr190;
+			goto _ctr182;
 			
 		} else {
 			if ( data[ p ] ) == 112 {
@@ -8907,7 +8640,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr192:
+		_ctr184:
 		{return st, err }
 		goto _st75;
 		_st75:
@@ -8922,18 +8655,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr192;
+			goto _ctr184;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 45:
 				{
-					goto _ctr193;
+					goto _ctr185;
 					
 				}
 				case 47:
 				{
-					goto _ctr193;
+					goto _ctr185;
 					
 				}
 				
@@ -8941,7 +8674,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr194:
+		_ctr186:
 		{return st, err }
 		goto _st76;
 		_ctr21:
@@ -8960,20 +8693,25 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr194;
+			goto _ctr186;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr195;
+				goto _ctr187;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr196:
+		_ctr188:
 		{return st, err }
 		goto _st77;
-		_ctr195:
+		_ctr187:
+		{pb = p }
+		goto _st77;
+		_ctr24:
+		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
+		}
 		{pb = p }
 		goto _st77;
 		_st77:
@@ -8988,7 +8726,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr196;
+			goto _ctr188;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
@@ -8998,7 +8736,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr197:
+		_ctr189:
 		{return st, err }
 		goto _st78;
 		_ctr22:
@@ -9018,7 +8756,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr197;
+			goto _ctr189;
 			
 		} else {
 			if ( data[ p ] ) == 48 {
@@ -9032,7 +8770,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr199:
+		_ctr191:
 		{return st, err }
 		goto _st79;
 		_st79:
@@ -9047,279 +8785,279 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr199;
+			goto _ctr191;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 48:
 				{
-					goto _ctr200;
+					goto _ctr192;
 					
 				}
 				case 51:
 				{
-					goto _ctr202;
+					goto _ctr194;
 					
 				}
 				
 			}
 			if ( data[ p ] ) > 50 {
 				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st413;
+					goto _st362;
 					
 				}
 				
 			} else if ( data[ p ] ) >= 49 {
-				goto _ctr201;
+				goto _ctr193;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr200:
+		_ctr192:
 		{st.Month, _ = strconv.Atoi(data[pb:p])
 		}
 		{pb = p }
-		goto _st466;
-		_ctr1170:
+		goto _st415;
+		_ctr1031:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
-		goto _st466;
-		_st466:
+		goto _st415;
+		_st415:
 		if p == eof {
-			goto _out466;
+			goto _out415;
 			
 		}
 		p+=1;
-		st_case_466:
+		st_case_415:
 		if p == pe && p != eof {
-			goto _out466;
+			goto _out415;
 			
 		}
 		if p == eof {
-			goto _ctr1170;
+			goto _ctr1031;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr996;
+					goto _ctr857;
 					
 				}
 				case 43:
 				{
-					goto _ctr997;
+					goto _ctr858;
 					
 				}
 				case 45:
 				{
-					goto _ctr998;
+					goto _ctr859;
 					
 				}
 				case 47:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				case 84:
 				{
-					goto _ctr1000;
+					goto _ctr861;
 					
 				}
 				case 90:
 				{
-					goto _ctr1001;
+					goto _ctr862;
 					
 				}
 				case 95:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st463;
+					goto _st412;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			} else {
-				goto _ctr999;
+				goto _ctr860;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr201:
+		_ctr193:
 		{st.Month, _ = strconv.Atoi(data[pb:p])
 		}
 		{pb = p }
-		goto _st467;
-		_ctr1171:
+		goto _st416;
+		_ctr1032:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
-		goto _st467;
-		_st467:
+		goto _st416;
+		_st416:
 		if p == eof {
-			goto _out467;
+			goto _out416;
 			
 		}
 		p+=1;
-		st_case_467:
+		st_case_416:
 		if p == pe && p != eof {
-			goto _out467;
+			goto _out416;
 			
 		}
 		if p == eof {
-			goto _ctr1171;
+			goto _ctr1032;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr996;
+					goto _ctr857;
 					
 				}
 				case 43:
 				{
-					goto _ctr997;
+					goto _ctr858;
 					
 				}
 				case 45:
 				{
-					goto _ctr998;
+					goto _ctr859;
 					
 				}
 				case 47:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				case 84:
 				{
-					goto _ctr1000;
+					goto _ctr861;
 					
 				}
 				case 90:
 				{
-					goto _ctr1001;
+					goto _ctr862;
 					
 				}
 				case 95:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st463;
+					goto _st412;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			} else {
-				goto _ctr999;
+				goto _ctr860;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr202:
+		_ctr194:
 		{st.Month, _ = strconv.Atoi(data[pb:p])
 		}
 		{pb = p }
-		goto _st468;
-		_ctr1172:
+		goto _st417;
+		_ctr1033:
 		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 		}
-		goto _st468;
-		_st468:
+		goto _st417;
+		_st417:
 		if p == eof {
-			goto _out468;
+			goto _out417;
 			
 		}
 		p+=1;
-		st_case_468:
+		st_case_417:
 		if p == pe && p != eof {
-			goto _out468;
+			goto _out417;
 			
 		}
 		if p == eof {
-			goto _ctr1172;
+			goto _ctr1033;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr996;
+					goto _ctr857;
 					
 				}
 				case 43:
 				{
-					goto _ctr997;
+					goto _ctr858;
 					
 				}
 				case 45:
 				{
-					goto _ctr998;
+					goto _ctr859;
 					
 				}
 				case 47:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				case 84:
 				{
-					goto _ctr1000;
+					goto _ctr861;
 					
 				}
 				case 90:
 				{
-					goto _ctr1001;
+					goto _ctr862;
 					
 				}
 				case 95:
 				{
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 65 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-					goto _st463;
+					goto _st412;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr999;
+					goto _ctr860;
 					
 				}
 				
 			} else {
-				goto _ctr999;
+				goto _ctr860;
 				
 			}
 			goto _st0;
 			
 		}
-		_ctr203:
+		_ctr195:
 		{return st, err }
 		goto _st80;
 		_ctr23:
@@ -9339,42 +9077,24 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr203;
+			goto _ctr195;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr204;
-					
-				}
-				case 51:
-				{
-					goto _ctr206;
-					
-				}
-				
-			}
 			if ( data[ p ] ) > 50 {
-				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				if ( data[ p ] ) <= 57 {
 					goto _st8;
 					
 				}
 				
-			} else if ( data[ p ] ) >= 49 {
-				goto _ctr205;
+			} else if ( data[ p ] ) >= 48 {
+				goto _st79;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr207:
+		_ctr196:
 		{return st, err }
-		goto _st81;
-		_ctr204:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
 		goto _st81;
 		_st81:
 		if p == eof {
@@ -9388,295 +9108,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr207;
+			goto _ctr196;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr200;
-					
-				}
-				case 51:
-				{
-					goto _ctr209;
-					
-				}
+			if ( data[ p ] ) == 32 {
+				goto _ctr197;
 				
 			}
-			if ( data[ p ] ) > 50 {
-				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st471;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 49 {
-				goto _ctr208;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st4;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr208:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
-		goto _st469;
-		_ctr1173:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st469;
-		_st469:
-		if p == eof {
-			goto _out469;
-			
-		}
-		p+=1;
-		st_case_469:
-		if p == pe && p != eof {
-			goto _out469;
-			
-		}
-		if p == eof {
-			goto _ctr1173;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1174;
-					
-				}
-				case 43:
-				{
-					goto _ctr1175;
-					
-				}
-				case 45:
-				{
-					goto _ctr1176;
-					
-				}
-				case 47:
-				{
-					goto _ctr1177;
-					
-				}
-				case 84:
-				{
-					goto _ctr1178;
-					
-				}
-				case 90:
-				{
-					goto _ctr1179;
-					
-				}
-				case 95:
-				{
-					goto _ctr1177;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st463;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1177;
-					
-				}
-				
-			} else {
-				goto _ctr1177;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr209:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
-		goto _st470;
-		_ctr1180:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st470;
-		_st470:
-		if p == eof {
-			goto _out470;
-			
-		}
-		p+=1;
-		st_case_470:
-		if p == pe && p != eof {
-			goto _out470;
-			
-		}
-		if p == eof {
-			goto _ctr1180;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1174;
-					
-				}
-				case 43:
-				{
-					goto _ctr1175;
-					
-				}
-				case 45:
-				{
-					goto _ctr1176;
-					
-				}
-				case 47:
-				{
-					goto _ctr1177;
-					
-				}
-				case 84:
-				{
-					goto _ctr1178;
-					
-				}
-				case 90:
-				{
-					goto _ctr1179;
-					
-				}
-				case 95:
-				{
-					goto _ctr1177;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-					goto _st463;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1177;
-					
-				}
-				
-			} else {
-				goto _ctr1177;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr1181:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st471;
-		_st471:
-		if p == eof {
-			goto _out471;
-			
-		}
-		p+=1;
-		st_case_471:
-		if p == pe && p != eof {
-			goto _out471;
-			
-		}
-		if p == eof {
-			goto _ctr1181;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1174;
-					
-				}
-				case 43:
-				{
-					goto _ctr1175;
-					
-				}
-				case 45:
-				{
-					goto _ctr1176;
-					
-				}
-				case 47:
-				{
-					goto _ctr1177;
-					
-				}
-				case 84:
-				{
-					goto _ctr1178;
-					
-				}
-				case 90:
-				{
-					goto _ctr1179;
-					
-				}
-				case 95:
-				{
-					goto _ctr1177;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1177;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1177;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr211:
+		_ctr198:
 		{return st, err }
 		goto _st82;
-		_ctr205:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
+		_ctr197:
+		{switch p - pb {
+				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+				default:
+				err = fmt.Errorf("invalid day digits %s", data[pb:p])
+				return
+			}
 		}
-		{pb = p }
 		goto _st82;
 		_st82:
 		if p == eof {
@@ -9690,130 +9146,57 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr211;
+			goto _ctr198;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 48:
+				case 65:
 				{
-					goto _ctr212;
+					goto _st83;
 					
 				}
-				case 51:
+				case 68:
 				{
-					goto _ctr209;
+					goto _st92;
 					
 				}
-				
-			}
-			if ( data[ p ] ) > 50 {
-				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st471;
+				case 70:
+				{
+					goto _st95;
 					
 				}
-				
-			} else if ( data[ p ] ) >= 49 {
-				goto _ctr208;
+				case 74:
+				{
+					goto _st103;
+					
+				}
+				case 77:
+				{
+					goto _st113;
+					
+				}
+				case 78:
+				{
+					goto _st119;
+					
+				}
+				case 79:
+				{
+					goto _st122;
+					
+				}
+				case 83:
+				{
+					goto _st125;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr212:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
-		goto _st472;
-		_ctr1182:
-		{st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-		}
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st472;
-		_st472:
-		if p == eof {
-			goto _out472;
-			
-		}
-		p+=1;
-		st_case_472:
-		if p == pe && p != eof {
-			goto _out472;
-			
-		}
-		if p == eof {
-			goto _ctr1182;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1174;
-					
-				}
-				case 43:
-				{
-					goto _ctr1175;
-					
-				}
-				case 45:
-				{
-					goto _ctr1176;
-					
-				}
-				case 47:
-				{
-					goto _ctr1177;
-					
-				}
-				case 84:
-				{
-					goto _ctr1178;
-					
-				}
-				case 90:
-				{
-					goto _ctr1179;
-					
-				}
-				case 95:
-				{
-					goto _ctr1177;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st463;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1177;
-					
-				}
-				
-			} else {
-				goto _ctr1177;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr213:
+		_ctr207:
 		{return st, err }
-		goto _st83;
-		_ctr206:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
 		goto _st83;
 		_st83:
 		if p == eof {
@@ -9827,29 +9210,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr213;
+			goto _ctr207;
 			
 		} else {
-			if ( data[ p ] ) > 49 {
-				if ( data[ p ] ) <= 57 {
-					goto _st413;
+			switch ( data[ p ] ) {
+				case 112:
+				{
+					goto _st84;
 					
 				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _st471;
+				case 117:
+				{
+					goto _st90;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr214:
+		_ctr210:
 		{return st, err }
-		goto _st84;
-		_ctr24:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
-		{pb = p }
 		goto _st84;
 		_st84:
 		if p == eof {
@@ -9863,42 +9244,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr214;
+			goto _ctr210;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr215;
-					
-				}
-				case 51:
-				{
-					goto _ctr206;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 50 {
-				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st8;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 49 {
-				goto _ctr216;
+			if ( data[ p ] ) == 114 {
+				goto _st85;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr217:
+		_ctr212:
 		{return st, err }
-		goto _st85;
-		_ctr215:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
 		goto _st85;
 		_st85:
 		if p == eof {
@@ -9912,27 +9269,63 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr217;
+			goto _ctr212;
 			
 		} else {
-			if ( data[ p ] ) == 48 {
-				goto _st413;
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st471;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr213;
+					
+				}
+				case 105:
+				{
+					goto _st88;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr218:
+		_ctr215:
 		{return st, err }
 		goto _st86;
-		_ctr216:
-		{st.Month, _ = strconv.Atoi(data[pb:p])
-		}
-		{pb = p }
+		_ctr213:
+		{st.Month = 4 ;}
+		goto _st86;
+		_ctr225:
+		{st.Month = 8 ;}
+		goto _st86;
+		_ctr231:
+		{st.Month = 12 ;}
+		goto _st86;
+		_ctr237:
+		{st.Month = 2 ;}
+		goto _st86;
+		_ctr254:
+		{st.Month = 1 ;}
+		goto _st86;
+		_ctr267:
+		{st.Month = 7 ;}
+		goto _st86;
+		_ctr269:
+		{st.Month = 6 ;}
+		goto _st86;
+		_ctr276:
+		{st.Month = 3 ;}
+		goto _st86;
+		_ctr282:
+		{st.Month = 5 ;}
+		goto _st86;
+		_ctr288:
+		{st.Month = 11 ;}
+		goto _st86;
+		_ctr294:
+		{st.Month = 10 ;}
+		goto _st86;
+		_ctr300:
+		{st.Month = 9 ;}
 		goto _st86;
 		_st86:
 		if p == eof {
@@ -9946,22 +9339,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr218;
+			goto _ctr215;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st471;
+				goto _ctr216;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr219:
+		_ctr217:
 		{return st, err }
 		goto _st87;
-		_ctr25:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
+		_ctr216:
+		{pb = p }
 		goto _st87;
 		_st87:
 		if p == eof {
@@ -9975,26 +9367,87 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr219;
+			goto _ctr217;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 112:
-				{
-					goto _st88;
-					
-				}
-				case 117:
-				{
-					goto _st94;
-					
-				}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st418;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr222:
+		_ctr1034:
+		{st.Year = parse_year_2_digits(data[pb:pb+2])
+		}
+		goto _st418;
+		_st418:
+		if p == eof {
+			goto _out418;
+			
+		}
+		p+=1;
+		st_case_418:
+		if p == pe && p != eof {
+			goto _out418;
+			
+		}
+		if p == eof {
+			goto _ctr1034;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr1035;
+					
+				}
+				case 43:
+				{
+					goto _ctr1036;
+					
+				}
+				case 45:
+				{
+					goto _ctr1037;
+					
+				}
+				case 47:
+				{
+					goto _ctr1038;
+					
+				}
+				case 84:
+				{
+					goto _ctr1039;
+					
+				}
+				case 90:
+				{
+					goto _ctr1040;
+					
+				}
+				case 95:
+				{
+					goto _ctr1038;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr1038;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr1038;
+				
+			}
+			goto _st0;
+			
+		}
+		_ctr219:
 		{return st, err }
 		goto _st88;
 		_st88:
@@ -10009,17 +9462,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr222;
+			goto _ctr219;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
+			if ( data[ p ] ) == 108 {
 				goto _st89;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr224:
+		_ctr221:
 		{return st, err }
 		goto _st89;
 		_st89:
@@ -10034,84 +9487,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr224;
+			goto _ctr221;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr225;
-					
-				}
-				case 51:
-				{
-					goto _ctr227;
-					
-				}
-				case 105:
-				{
-					goto _st92;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr226;
+			if ( data[ p ] ) == 32 {
+				goto _ctr213;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr229:
+		_ctr222:
 		{return st, err }
-		goto _st90;
-		_ctr226:
-		{st.Month = 4 ;}
-		{pb = p }
-		goto _st90;
-		_ctr238:
-		{st.Month = 8 ;}
-		{pb = p }
-		goto _st90;
-		_ctr246:
-		{st.Month = 12 ;}
-		{pb = p }
-		goto _st90;
-		_ctr254:
-		{st.Month = 2 ;}
-		{pb = p }
-		goto _st90;
-		_ctr273:
-		{st.Month = 1 ;}
-		{pb = p }
-		goto _st90;
-		_ctr288:
-		{st.Month = 7 ;}
-		{pb = p }
-		goto _st90;
-		_ctr292:
-		{st.Month = 6 ;}
-		{pb = p }
-		goto _st90;
-		_ctr301:
-		{st.Month = 3 ;}
-		{pb = p }
-		goto _st90;
-		_ctr309:
-		{st.Month = 5 ;}
-		{pb = p }
-		goto _st90;
-		_ctr317:
-		{st.Month = 11 ;}
-		{pb = p }
-		goto _st90;
-		_ctr325:
-		{st.Month = 10 ;}
-		{pb = p }
-		goto _st90;
-		_ctr333:
-		{st.Month = 9 ;}
-		{pb = p }
 		goto _st90;
 		_st90:
 		if p == eof {
@@ -10125,66 +9512,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr229;
+			goto _ctr222;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st463;
+			if ( data[ p ] ) == 103 {
+				goto _st91;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr230:
+		_ctr224:
 		{return st, err }
-		goto _st91;
-		_ctr227:
-		{st.Month = 4 ;}
-		{pb = p }
-		goto _st91;
-		_ctr239:
-		{st.Month = 8 ;}
-		{pb = p }
-		goto _st91;
-		_ctr247:
-		{st.Month = 12 ;}
-		{pb = p }
-		goto _st91;
-		_ctr255:
-		{st.Month = 2 ;}
-		{pb = p }
-		goto _st91;
-		_ctr274:
-		{st.Month = 1 ;}
-		{pb = p }
-		goto _st91;
-		_ctr289:
-		{st.Month = 7 ;}
-		{pb = p }
-		goto _st91;
-		_ctr293:
-		{st.Month = 6 ;}
-		{pb = p }
-		goto _st91;
-		_ctr302:
-		{st.Month = 3 ;}
-		{pb = p }
-		goto _st91;
-		_ctr310:
-		{st.Month = 5 ;}
-		{pb = p }
-		goto _st91;
-		_ctr318:
-		{st.Month = 11 ;}
-		{pb = p }
-		goto _st91;
-		_ctr326:
-		{st.Month = 10 ;}
-		{pb = p }
-		goto _st91;
-		_ctr334:
-		{st.Month = 9 ;}
-		{pb = p }
 		goto _st91;
 		_st91:
 		if p == eof {
@@ -10198,17 +9537,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr230;
+			goto _ctr224;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-				goto _st463;
+			if ( data[ p ] ) == 32 {
+				goto _ctr225;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr231:
+		_ctr226:
 		{return st, err }
 		goto _st92;
 		_st92:
@@ -10223,17 +9562,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr231;
+			goto _ctr226;
 			
 		} else {
-			if ( data[ p ] ) == 108 {
+			if ( data[ p ] ) == 101 {
 				goto _st93;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr233:
+		_ctr228:
 		{return st, err }
 		goto _st93;
 		_st93:
@@ -10248,30 +9587,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr233;
+			goto _ctr228;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr225;
-					
-				}
-				case 51:
-				{
-					goto _ctr227;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr226;
+			if ( data[ p ] ) == 99 {
+				goto _st94;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr234:
+		_ctr230:
 		{return st, err }
 		goto _st94;
 		_st94:
@@ -10286,17 +9612,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr234;
+			goto _ctr230;
 			
 		} else {
-			if ( data[ p ] ) == 103 {
-				goto _st95;
+			if ( data[ p ] ) == 32 {
+				goto _ctr231;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr236:
+		_ctr232:
 		{return st, err }
 		goto _st95;
 		_st95:
@@ -10311,35 +9637,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr236;
+			goto _ctr232;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr237;
-					
-				}
-				case 51:
-				{
-					goto _ctr239;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr238;
+			if ( data[ p ] ) == 101 {
+				goto _st96;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr240:
+		_ctr234:
 		{return st, err }
-		goto _st96;
-		_ctr26:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st96;
 		_st96:
 		if p == eof {
@@ -10353,17 +9662,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr240;
+			goto _ctr234;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
+			if ( data[ p ] ) == 98 {
 				goto _st97;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr242:
+		_ctr236:
 		{return st, err }
 		goto _st97;
 		_st97:
@@ -10378,17 +9687,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr242;
+			goto _ctr236;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st98;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr237;
+					
+				}
+				case 114:
+				{
+					goto _st98;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr244:
+		_ctr239:
 		{return st, err }
 		goto _st98;
 		_st98:
@@ -10403,35 +9721,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr244;
+			goto _ctr239;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr245;
-					
-				}
-				case 51:
-				{
-					goto _ctr247;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr246;
+			if ( data[ p ] ) == 117 {
+				goto _st99;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr248:
+		_ctr241:
 		{return st, err }
-		goto _st99;
-		_ctr27:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st99;
 		_st99:
 		if p == eof {
@@ -10445,17 +9746,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr248;
+			goto _ctr241;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
+			if ( data[ p ] ) == 97 {
 				goto _st100;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr250:
+		_ctr243:
 		{return st, err }
 		goto _st100;
 		_st100:
@@ -10470,17 +9771,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr250;
+			goto _ctr243;
 			
 		} else {
-			if ( data[ p ] ) == 98 {
+			if ( data[ p ] ) == 114 {
 				goto _st101;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr252:
+		_ctr245:
 		{return st, err }
 		goto _st101;
 		_st101:
@@ -10495,35 +9796,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr252;
+			goto _ctr245;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr253;
-					
-				}
-				case 51:
-				{
-					goto _ctr255;
-					
-				}
-				case 114:
-				{
-					goto _st102;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr254;
+			if ( data[ p ] ) == 121 {
+				goto _st102;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr257:
+		_ctr247:
 		{return st, err }
 		goto _st102;
 		_st102:
@@ -10538,17 +9821,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr257;
+			goto _ctr247;
 			
 		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st103;
+			if ( data[ p ] ) == 32 {
+				goto _ctr237;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr259:
+		_ctr248:
 		{return st, err }
 		goto _st103;
 		_st103:
@@ -10563,17 +9846,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr259;
+			goto _ctr248;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st104;
+			switch ( data[ p ] ) {
+				case 97:
+				{
+					goto _st104;
+					
+				}
+				case 117:
+				{
+					goto _st110;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr261:
+		_ctr251:
 		{return st, err }
 		goto _st104;
 		_st104:
@@ -10588,17 +9880,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr261;
+			goto _ctr251;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
+			if ( data[ p ] ) == 110 {
 				goto _st105;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr263:
+		_ctr253:
 		{return st, err }
 		goto _st105;
 		_st105:
@@ -10613,17 +9905,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr263;
+			goto _ctr253;
 			
 		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st106;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr254;
+					
+				}
+				case 117:
+				{
+					goto _st106;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr265:
+		_ctr256:
 		{return st, err }
 		goto _st106;
 		_st106:
@@ -10638,35 +9939,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr265;
+			goto _ctr256;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr253;
-					
-				}
-				case 51:
-				{
-					goto _ctr255;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr254;
+			if ( data[ p ] ) == 97 {
+				goto _st107;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr266:
+		_ctr258:
 		{return st, err }
-		goto _st107;
-		_ctr28:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st107;
 		_st107:
 		if p == eof {
@@ -10680,26 +9964,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr266;
+			goto _ctr258;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 97:
-				{
-					goto _st108;
-					
-				}
-				case 117:
-				{
-					goto _st114;
-					
-				}
+			if ( data[ p ] ) == 114 {
+				goto _st108;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr269:
+		_ctr260:
 		{return st, err }
 		goto _st108;
 		_st108:
@@ -10714,17 +9989,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr269;
+			goto _ctr260;
 			
 		} else {
-			if ( data[ p ] ) == 110 {
+			if ( data[ p ] ) == 121 {
 				goto _st109;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr271:
+		_ctr262:
 		{return st, err }
 		goto _st109;
 		_st109:
@@ -10739,35 +10014,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr271;
+			goto _ctr262;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr272;
-					
-				}
-				case 51:
-				{
-					goto _ctr274;
-					
-				}
-				case 117:
-				{
-					goto _st110;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr273;
+			if ( data[ p ] ) == 32 {
+				goto _ctr254;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr276:
+		_ctr263:
 		{return st, err }
 		goto _st110;
 		_st110:
@@ -10782,17 +10039,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr276;
+			goto _ctr263;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st111;
+			switch ( data[ p ] ) {
+				case 108:
+				{
+					goto _st111;
+					
+				}
+				case 110:
+				{
+					goto _st112;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr278:
+		_ctr266:
 		{return st, err }
 		goto _st111;
 		_st111:
@@ -10807,17 +10073,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr278;
+			goto _ctr266;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st112;
+			if ( data[ p ] ) == 32 {
+				goto _ctr267;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr280:
+		_ctr268:
 		{return st, err }
 		goto _st112;
 		_st112:
@@ -10832,17 +10098,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr280;
+			goto _ctr268;
 			
 		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st113;
+			if ( data[ p ] ) == 32 {
+				goto _ctr269;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr282:
+		_ctr270:
 		{return st, err }
 		goto _st113;
 		_st113:
@@ -10857,30 +10123,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr282;
+			goto _ctr270;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr272;
-					
-				}
-				case 51:
-				{
-					goto _ctr274;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr273;
+			if ( data[ p ] ) == 97 {
+				goto _st114;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr283:
+		_ctr272:
 		{return st, err }
 		goto _st114;
 		_st114:
@@ -10895,18 +10148,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr283;
+			goto _ctr272;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 108:
+				case 114:
 				{
 					goto _st115;
 					
 				}
-				case 110:
+				case 121:
 				{
-					goto _st116;
+					goto _st118;
 					
 				}
 				
@@ -10914,7 +10167,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr286:
+		_ctr275:
 		{return st, err }
 		goto _st115;
 		_st115:
@@ -10929,30 +10182,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr286;
+			goto _ctr275;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 48:
+				case 32:
 				{
-					goto _ctr287;
+					goto _ctr276;
 					
 				}
-				case 51:
+				case 99:
 				{
-					goto _ctr289;
+					goto _st116;
 					
 				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr288;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr290:
+		_ctr278:
 		{return st, err }
 		goto _st116;
 		_st116:
@@ -10967,35 +10216,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr290;
+			goto _ctr278;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr291;
-					
-				}
-				case 51:
-				{
-					goto _ctr293;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr292;
+			if ( data[ p ] ) == 104 {
+				goto _st117;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr294:
+		_ctr280:
 		{return st, err }
-		goto _st117;
-		_ctr29:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st117;
 		_st117:
 		if p == eof {
@@ -11009,17 +10241,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr294;
+			goto _ctr280;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st118;
+			if ( data[ p ] ) == 32 {
+				goto _ctr276;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr296:
+		_ctr281:
 		{return st, err }
 		goto _st118;
 		_st118:
@@ -11034,26 +10266,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr296;
+			goto _ctr281;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 114:
-				{
-					goto _st119;
-					
-				}
-				case 121:
-				{
-					goto _st122;
-					
-				}
+			if ( data[ p ] ) == 32 {
+				goto _ctr282;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr299:
+		_ctr283:
 		{return st, err }
 		goto _st119;
 		_st119:
@@ -11068,35 +10291,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr299;
+			goto _ctr283;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr300;
-					
-				}
-				case 51:
-				{
-					goto _ctr302;
-					
-				}
-				case 99:
-				{
-					goto _st120;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr301;
+			if ( data[ p ] ) == 111 {
+				goto _st120;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr304:
+		_ctr285:
 		{return st, err }
 		goto _st120;
 		_st120:
@@ -11111,17 +10316,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr304;
+			goto _ctr285;
 			
 		} else {
-			if ( data[ p ] ) == 104 {
+			if ( data[ p ] ) == 118 {
 				goto _st121;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr306:
+		_ctr287:
 		{return st, err }
 		goto _st121;
 		_st121:
@@ -11136,30 +10341,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr306;
+			goto _ctr287;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr300;
-					
-				}
-				case 51:
-				{
-					goto _ctr302;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr301;
+			if ( data[ p ] ) == 32 {
+				goto _ctr288;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr307:
+		_ctr289:
 		{return st, err }
 		goto _st122;
 		_st122:
@@ -11174,35 +10366,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr307;
+			goto _ctr289;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr308;
-					
-				}
-				case 51:
-				{
-					goto _ctr310;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr309;
+			if ( data[ p ] ) == 99 {
+				goto _st123;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr311:
+		_ctr291:
 		{return st, err }
-		goto _st123;
-		_ctr30:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st123;
 		_st123:
 		if p == eof {
@@ -11216,17 +10391,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr311;
+			goto _ctr291;
 			
 		} else {
-			if ( data[ p ] ) == 111 {
+			if ( data[ p ] ) == 116 {
 				goto _st124;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr313:
+		_ctr293:
 		{return st, err }
 		goto _st124;
 		_st124:
@@ -11241,17 +10416,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr313;
+			goto _ctr293;
 			
 		} else {
-			if ( data[ p ] ) == 118 {
-				goto _st125;
+			if ( data[ p ] ) == 32 {
+				goto _ctr294;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr315:
+		_ctr295:
 		{return st, err }
 		goto _st125;
 		_st125:
@@ -11266,35 +10441,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr315;
+			goto _ctr295;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr316;
-					
-				}
-				case 51:
-				{
-					goto _ctr318;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr317;
+			if ( data[ p ] ) == 101 {
+				goto _st126;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr319:
+		_ctr297:
 		{return st, err }
-		goto _st126;
-		_ctr31:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
 		goto _st126;
 		_st126:
 		if p == eof {
@@ -11308,17 +10466,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr319;
+			goto _ctr297;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
+			if ( data[ p ] ) == 112 {
 				goto _st127;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr321:
+		_ctr299:
 		{return st, err }
 		goto _st127;
 		_st127:
@@ -11333,18 +10491,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr321;
+			goto _ctr299;
 			
 		} else {
-			if ( data[ p ] ) == 116 {
-				goto _st128;
+			if ( data[ p ] ) == 32 {
+				goto _ctr300;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr323:
+		_ctr301:
 		{return st, err }
+		goto _st128;
+		_ctr4:
+		{pb = p }
 		goto _st128;
 		_st128:
 		if p == eof {
@@ -11358,35 +10519,25 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr323;
+			goto _ctr301;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr324;
-					
-				}
-				case 51:
-				{
-					goto _ctr326;
-					
-				}
+			if ( data[ p ] ) == 32 {
+				goto _ctr197;
 				
 			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr325;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st81;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr327:
+		_ctr302:
 		{return st, err }
 		goto _st129;
-		_ctr32:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
+		_ctr5:
+		{pb = p }
 		goto _st129;
 		_st129:
 		if p == eof {
@@ -11400,18 +10551,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr327;
+			goto _ctr302;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st130;
+			if ( data[ p ] ) == 32 {
+				goto _ctr197;
+				
+			}
+			if ( data[ p ] ) > 49 {
+				if ( data[ p ] ) <= 57 {
+					goto _st3;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _st81;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr329:
+		_ctr303:
 		{return st, err }
+		goto _st130;
+		_ctr6:
+		{pb = p }
 		goto _st130;
 		_st130:
 		if p == eof {
@@ -11425,17 +10589,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr329;
+			goto _ctr303;
 			
 		} else {
-			if ( data[ p ] ) == 112 {
-				goto _st131;
+			if ( data[ p ] ) == 32 {
+				goto _ctr197;
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st3;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr331:
+		_ctr304:
 		{return st, err }
 		goto _st131;
 		_st131:
@@ -11450,30 +10618,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr331;
+			goto _ctr304;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr332;
-					
-				}
-				case 51:
-				{
-					goto _ctr334;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr333;
+			if ( data[ p ] ) == 114 {
+				goto _st132;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr335:
+		_ctr306:
 		{return st, err }
 		goto _st132;
 		_st132:
@@ -11488,31 +10643,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr335;
+			goto _ctr306;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr336;
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st4;
+			if ( data[ p ] ) == 105 {
+				goto _st133;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr337:
+		_ctr308:
 		{return st, err }
-		goto _st133;
-		_ctr336:
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
 		goto _st133;
 		_st133:
 		if p == eof {
@@ -11526,48 +10668,23 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr337;
+			goto _ctr308;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 65:
+				case 32:
 				{
 					goto _st134;
 					
 				}
-				case 68:
+				case 44:
 				{
-					goto _st143;
+					goto _st244;
 					
 				}
-				case 70:
+				case 100:
 				{
-					goto _st146;
-					
-				}
-				case 74:
-				{
-					goto _st154;
-					
-				}
-				case 77:
-				{
-					goto _st164;
-					
-				}
-				case 78:
-				{
-					goto _st170;
-					
-				}
-				case 79:
-				{
-					goto _st173;
-					
-				}
-				case 83:
-				{
-					goto _st176;
+					goto _st342;
 					
 				}
 				
@@ -11575,7 +10692,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr346:
+		_ctr312:
 		{return st, err }
 		goto _st134;
 		_st134:
@@ -11590,18 +10707,48 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr346;
+			goto _ctr312;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 112:
+				case 65:
 				{
 					goto _st135;
 					
 				}
-				case 117:
+				case 68:
 				{
-					goto _st141;
+					goto _st208;
+					
+				}
+				case 70:
+				{
+					goto _st211;
+					
+				}
+				case 74:
+				{
+					goto _st219;
+					
+				}
+				case 77:
+				{
+					goto _st229;
+					
+				}
+				case 78:
+				{
+					goto _st235;
+					
+				}
+				case 79:
+				{
+					goto _st238;
+					
+				}
+				case 83:
+				{
+					goto _st241;
 					
 				}
 				
@@ -11609,7 +10756,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr349:
+		_ctr321:
 		{return st, err }
 		goto _st135;
 		_st135:
@@ -11624,17 +10771,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr349;
+			goto _ctr321;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st136;
+			switch ( data[ p ] ) {
+				case 112:
+				{
+					goto _st136;
+					
+				}
+				case 117:
+				{
+					goto _st206;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr351:
+		_ctr324:
 		{return st, err }
 		goto _st136;
 		_st136:
@@ -11649,63 +10805,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr351;
+			goto _ctr324;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr352;
-					
-				}
-				case 105:
-				{
-					goto _st139;
-					
-				}
+			if ( data[ p ] ) == 114 {
+				goto _st137;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr354:
+		_ctr326:
 		{return st, err }
-		goto _st137;
-		_ctr352:
-		{st.Month = 4 ;}
-		goto _st137;
-		_ctr364:
-		{st.Month = 8 ;}
-		goto _st137;
-		_ctr370:
-		{st.Month = 12 ;}
-		goto _st137;
-		_ctr376:
-		{st.Month = 2 ;}
-		goto _st137;
-		_ctr393:
-		{st.Month = 1 ;}
-		goto _st137;
-		_ctr406:
-		{st.Month = 7 ;}
-		goto _st137;
-		_ctr408:
-		{st.Month = 6 ;}
-		goto _st137;
-		_ctr415:
-		{st.Month = 3 ;}
-		goto _st137;
-		_ctr421:
-		{st.Month = 5 ;}
-		goto _st137;
-		_ctr427:
-		{st.Month = 11 ;}
-		goto _st137;
-		_ctr433:
-		{st.Month = 10 ;}
-		goto _st137;
-		_ctr439:
-		{st.Month = 9 ;}
 		goto _st137;
 		_st137:
 		if p == eof {
@@ -11719,21 +10830,63 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr354;
+			goto _ctr326;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr355;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr327;
+					
+				}
+				case 105:
+				{
+					goto _st204;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr356:
+		_ctr329:
 		{return st, err }
 		goto _st138;
-		_ctr355:
-		{pb = p }
+		_ctr327:
+		{st.Month = 4 ;}
+		goto _st138;
+		_ctr537:
+		{st.Month = 8 ;}
+		goto _st138;
+		_ctr543:
+		{st.Month = 12 ;}
+		goto _st138;
+		_ctr549:
+		{st.Month = 2 ;}
+		goto _st138;
+		_ctr566:
+		{st.Month = 1 ;}
+		goto _st138;
+		_ctr579:
+		{st.Month = 7 ;}
+		goto _st138;
+		_ctr581:
+		{st.Month = 6 ;}
+		goto _st138;
+		_ctr588:
+		{st.Month = 3 ;}
+		goto _st138;
+		_ctr594:
+		{st.Month = 5 ;}
+		goto _st138;
+		_ctr600:
+		{st.Month = 11 ;}
+		goto _st138;
+		_ctr606:
+		{st.Month = 10 ;}
+		goto _st138;
+		_ctr612:
+		{st.Month = 9 ;}
 		goto _st138;
 		_st138:
 		if p == eof {
@@ -11747,88 +10900,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr356;
+			goto _ctr329;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st473;
+			switch ( data[ p ] ) {
+				case 48:
+				{
+					goto _ctr330;
+					
+				}
+				case 51:
+				{
+					goto _ctr332;
+					
+				}
+				
+			}
+			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
+				goto _ctr331;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1183:
-		{st.Year = parse_year_2_digits(data[pb:pb+2])
-		}
-		goto _st473;
-		_st473:
-		if p == eof {
-			goto _out473;
-			
-		}
-		p+=1;
-		st_case_473:
-		if p == pe && p != eof {
-			goto _out473;
-			
-		}
-		if p == eof {
-			goto _ctr1183;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1184;
-					
-				}
-				case 43:
-				{
-					goto _ctr1185;
-					
-				}
-				case 45:
-				{
-					goto _ctr1186;
-					
-				}
-				case 47:
-				{
-					goto _ctr1187;
-					
-				}
-				case 84:
-				{
-					goto _ctr1188;
-					
-				}
-				case 90:
-				{
-					goto _ctr1189;
-					
-				}
-				case 95:
-				{
-					goto _ctr1187;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1187;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1187;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr358:
+		_ctr333:
 		{return st, err }
+		goto _st139;
+		_ctr330:
+		{pb = p }
 		goto _st139;
 		_st139:
 		if p == eof {
@@ -11842,17 +10941,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr358;
+			goto _ctr333;
 			
 		} else {
-			if ( data[ p ] ) == 108 {
+			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
 				goto _st140;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr360:
+		_ctr335:
 		{return st, err }
 		goto _st140;
 		_st140:
@@ -11867,18 +10966,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr360;
+			goto _ctr335;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr352;
+				goto _ctr336;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr361:
+		_ctr337:
 		{return st, err }
+		goto _st141;
+		_ctr336:
+		{switch p - pb {
+				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+				default:
+				err = fmt.Errorf("invalid day digits %s", data[pb:p])
+				return
+			}
+		}
 		goto _st141;
 		_st141:
 		if p == eof {
@@ -11892,18 +11000,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr361;
+			goto _ctr337;
 			
 		} else {
-			if ( data[ p ] ) == 103 {
-				goto _st142;
+			if ( data[ p ] ) == 50 {
+				goto _ctr339;
+				
+			}
+			if ( data[ p ] ) > 49 {
+				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _ctr340;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr338;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr363:
+		_ctr341:
 		{return st, err }
+		goto _st142;
+		_ctr338:
+		{pb = p }
 		goto _st142;
 		_st142:
 		if p == eof {
@@ -11917,1599 +11038,98 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr363;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr364;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr365:
-		{return st, err }
-		goto _st143;
-		_st143:
-		if p == eof {
-			goto _out143;
-			
-		}
-		p+=1;
-		st_case_143:
-		if p == pe && p != eof {
-			goto _out143;
-			
-		}
-		if p == eof {
-			goto _ctr365;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st144;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr367:
-		{return st, err }
-		goto _st144;
-		_st144:
-		if p == eof {
-			goto _out144;
-			
-		}
-		p+=1;
-		st_case_144:
-		if p == pe && p != eof {
-			goto _out144;
-			
-		}
-		if p == eof {
-			goto _ctr367;
-			
-		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st145;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr369:
-		{return st, err }
-		goto _st145;
-		_st145:
-		if p == eof {
-			goto _out145;
-			
-		}
-		p+=1;
-		st_case_145:
-		if p == pe && p != eof {
-			goto _out145;
-			
-		}
-		if p == eof {
-			goto _ctr369;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr370;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr371:
-		{return st, err }
-		goto _st146;
-		_st146:
-		if p == eof {
-			goto _out146;
-			
-		}
-		p+=1;
-		st_case_146:
-		if p == pe && p != eof {
-			goto _out146;
-			
-		}
-		if p == eof {
-			goto _ctr371;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st147;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr373:
-		{return st, err }
-		goto _st147;
-		_st147:
-		if p == eof {
-			goto _out147;
-			
-		}
-		p+=1;
-		st_case_147:
-		if p == pe && p != eof {
-			goto _out147;
-			
-		}
-		if p == eof {
-			goto _ctr373;
-			
-		} else {
-			if ( data[ p ] ) == 98 {
-				goto _st148;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr375:
-		{return st, err }
-		goto _st148;
-		_st148:
-		if p == eof {
-			goto _out148;
-			
-		}
-		p+=1;
-		st_case_148:
-		if p == pe && p != eof {
-			goto _out148;
-			
-		}
-		if p == eof {
-			goto _ctr375;
+			goto _ctr341;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr376;
-					
-				}
-				case 114:
-				{
-					goto _st149;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr378:
-		{return st, err }
-		goto _st149;
-		_st149:
-		if p == eof {
-			goto _out149;
-			
-		}
-		p+=1;
-		st_case_149:
-		if p == pe && p != eof {
-			goto _out149;
-			
-		}
-		if p == eof {
-			goto _ctr378;
-			
-		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st150;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr380:
-		{return st, err }
-		goto _st150;
-		_st150:
-		if p == eof {
-			goto _out150;
-			
-		}
-		p+=1;
-		st_case_150:
-		if p == pe && p != eof {
-			goto _out150;
-			
-		}
-		if p == eof {
-			goto _ctr380;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st151;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr382:
-		{return st, err }
-		goto _st151;
-		_st151:
-		if p == eof {
-			goto _out151;
-			
-		}
-		p+=1;
-		st_case_151:
-		if p == pe && p != eof {
-			goto _out151;
-			
-		}
-		if p == eof {
-			goto _ctr382;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st152;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr384:
-		{return st, err }
-		goto _st152;
-		_st152:
-		if p == eof {
-			goto _out152;
-			
-		}
-		p+=1;
-		st_case_152:
-		if p == pe && p != eof {
-			goto _out152;
-			
-		}
-		if p == eof {
-			goto _ctr384;
-			
-		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st153;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr386:
-		{return st, err }
-		goto _st153;
-		_st153:
-		if p == eof {
-			goto _out153;
-			
-		}
-		p+=1;
-		st_case_153:
-		if p == pe && p != eof {
-			goto _out153;
-			
-		}
-		if p == eof {
-			goto _ctr386;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr376;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr387:
-		{return st, err }
-		goto _st154;
-		_st154:
-		if p == eof {
-			goto _out154;
-			
-		}
-		p+=1;
-		st_case_154:
-		if p == pe && p != eof {
-			goto _out154;
-			
-		}
-		if p == eof {
-			goto _ctr387;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 97:
-				{
-					goto _st155;
-					
-				}
-				case 117:
-				{
-					goto _st161;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr390:
-		{return st, err }
-		goto _st155;
-		_st155:
-		if p == eof {
-			goto _out155;
-			
-		}
-		p+=1;
-		st_case_155:
-		if p == pe && p != eof {
-			goto _out155;
-			
-		}
-		if p == eof {
-			goto _ctr390;
-			
-		} else {
-			if ( data[ p ] ) == 110 {
-				goto _st156;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr392:
-		{return st, err }
-		goto _st156;
-		_st156:
-		if p == eof {
-			goto _out156;
-			
-		}
-		p+=1;
-		st_case_156:
-		if p == pe && p != eof {
-			goto _out156;
-			
-		}
-		if p == eof {
-			goto _ctr392;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr393;
-					
-				}
-				case 117:
-				{
-					goto _st157;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr395:
-		{return st, err }
-		goto _st157;
-		_st157:
-		if p == eof {
-			goto _out157;
-			
-		}
-		p+=1;
-		st_case_157:
-		if p == pe && p != eof {
-			goto _out157;
-			
-		}
-		if p == eof {
-			goto _ctr395;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st158;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr397:
-		{return st, err }
-		goto _st158;
-		_st158:
-		if p == eof {
-			goto _out158;
-			
-		}
-		p+=1;
-		st_case_158:
-		if p == pe && p != eof {
-			goto _out158;
-			
-		}
-		if p == eof {
-			goto _ctr397;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st159;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr399:
-		{return st, err }
-		goto _st159;
-		_st159:
-		if p == eof {
-			goto _out159;
-			
-		}
-		p+=1;
-		st_case_159:
-		if p == pe && p != eof {
-			goto _out159;
-			
-		}
-		if p == eof {
-			goto _ctr399;
-			
-		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st160;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr401:
-		{return st, err }
-		goto _st160;
-		_st160:
-		if p == eof {
-			goto _out160;
-			
-		}
-		p+=1;
-		st_case_160:
-		if p == pe && p != eof {
-			goto _out160;
-			
-		}
-		if p == eof {
-			goto _ctr401;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr393;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr402:
-		{return st, err }
-		goto _st161;
-		_st161:
-		if p == eof {
-			goto _out161;
-			
-		}
-		p+=1;
-		st_case_161:
-		if p == pe && p != eof {
-			goto _out161;
-			
-		}
-		if p == eof {
-			goto _ctr402;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 108:
-				{
-					goto _st162;
-					
-				}
-				case 110:
-				{
-					goto _st163;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr405:
-		{return st, err }
-		goto _st162;
-		_st162:
-		if p == eof {
-			goto _out162;
-			
-		}
-		p+=1;
-		st_case_162:
-		if p == pe && p != eof {
-			goto _out162;
-			
-		}
-		if p == eof {
-			goto _ctr405;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr406;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr407:
-		{return st, err }
-		goto _st163;
-		_st163:
-		if p == eof {
-			goto _out163;
-			
-		}
-		p+=1;
-		st_case_163:
-		if p == pe && p != eof {
-			goto _out163;
-			
-		}
-		if p == eof {
-			goto _ctr407;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr408;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr409:
-		{return st, err }
-		goto _st164;
-		_st164:
-		if p == eof {
-			goto _out164;
-			
-		}
-		p+=1;
-		st_case_164:
-		if p == pe && p != eof {
-			goto _out164;
-			
-		}
-		if p == eof {
-			goto _ctr409;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st165;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr411:
-		{return st, err }
-		goto _st165;
-		_st165:
-		if p == eof {
-			goto _out165;
-			
-		}
-		p+=1;
-		st_case_165:
-		if p == pe && p != eof {
-			goto _out165;
-			
-		}
-		if p == eof {
-			goto _ctr411;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 114:
-				{
-					goto _st166;
-					
-				}
-				case 121:
-				{
-					goto _st169;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr414:
-		{return st, err }
-		goto _st166;
-		_st166:
-		if p == eof {
-			goto _out166;
-			
-		}
-		p+=1;
-		st_case_166:
-		if p == pe && p != eof {
-			goto _out166;
-			
-		}
-		if p == eof {
-			goto _ctr414;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr415;
-					
-				}
-				case 99:
-				{
-					goto _st167;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr417:
-		{return st, err }
-		goto _st167;
-		_st167:
-		if p == eof {
-			goto _out167;
-			
-		}
-		p+=1;
-		st_case_167:
-		if p == pe && p != eof {
-			goto _out167;
-			
-		}
-		if p == eof {
-			goto _ctr417;
-			
-		} else {
-			if ( data[ p ] ) == 104 {
-				goto _st168;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr419:
-		{return st, err }
-		goto _st168;
-		_st168:
-		if p == eof {
-			goto _out168;
-			
-		}
-		p+=1;
-		st_case_168:
-		if p == pe && p != eof {
-			goto _out168;
-			
-		}
-		if p == eof {
-			goto _ctr419;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr415;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr420:
-		{return st, err }
-		goto _st169;
-		_st169:
-		if p == eof {
-			goto _out169;
-			
-		}
-		p+=1;
-		st_case_169:
-		if p == pe && p != eof {
-			goto _out169;
-			
-		}
-		if p == eof {
-			goto _ctr420;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr421;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr422:
-		{return st, err }
-		goto _st170;
-		_st170:
-		if p == eof {
-			goto _out170;
-			
-		}
-		p+=1;
-		st_case_170:
-		if p == pe && p != eof {
-			goto _out170;
-			
-		}
-		if p == eof {
-			goto _ctr422;
-			
-		} else {
-			if ( data[ p ] ) == 111 {
-				goto _st171;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr424:
-		{return st, err }
-		goto _st171;
-		_st171:
-		if p == eof {
-			goto _out171;
-			
-		}
-		p+=1;
-		st_case_171:
-		if p == pe && p != eof {
-			goto _out171;
-			
-		}
-		if p == eof {
-			goto _ctr424;
-			
-		} else {
-			if ( data[ p ] ) == 118 {
-				goto _st172;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr426:
-		{return st, err }
-		goto _st172;
-		_st172:
-		if p == eof {
-			goto _out172;
-			
-		}
-		p+=1;
-		st_case_172:
-		if p == pe && p != eof {
-			goto _out172;
-			
-		}
-		if p == eof {
-			goto _ctr426;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr427;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr428:
-		{return st, err }
-		goto _st173;
-		_st173:
-		if p == eof {
-			goto _out173;
-			
-		}
-		p+=1;
-		st_case_173:
-		if p == pe && p != eof {
-			goto _out173;
-			
-		}
-		if p == eof {
-			goto _ctr428;
-			
-		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st174;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr430:
-		{return st, err }
-		goto _st174;
-		_st174:
-		if p == eof {
-			goto _out174;
-			
-		}
-		p+=1;
-		st_case_174:
-		if p == pe && p != eof {
-			goto _out174;
-			
-		}
-		if p == eof {
-			goto _ctr430;
-			
-		} else {
-			if ( data[ p ] ) == 116 {
-				goto _st175;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr432:
-		{return st, err }
-		goto _st175;
-		_st175:
-		if p == eof {
-			goto _out175;
-			
-		}
-		p+=1;
-		st_case_175:
-		if p == pe && p != eof {
-			goto _out175;
-			
-		}
-		if p == eof {
-			goto _ctr432;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr433;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr434:
-		{return st, err }
-		goto _st176;
-		_st176:
-		if p == eof {
-			goto _out176;
-			
-		}
-		p+=1;
-		st_case_176:
-		if p == pe && p != eof {
-			goto _out176;
-			
-		}
-		if p == eof {
-			goto _ctr434;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st177;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr436:
-		{return st, err }
-		goto _st177;
-		_st177:
-		if p == eof {
-			goto _out177;
-			
-		}
-		p+=1;
-		st_case_177:
-		if p == pe && p != eof {
-			goto _out177;
-			
-		}
-		if p == eof {
-			goto _ctr436;
-			
-		} else {
-			if ( data[ p ] ) == 112 {
-				goto _st178;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr438:
-		{return st, err }
-		goto _st178;
-		_st178:
-		if p == eof {
-			goto _out178;
-			
-		}
-		p+=1;
-		st_case_178:
-		if p == pe && p != eof {
-			goto _out178;
-			
-		}
-		if p == eof {
-			goto _ctr438;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr439;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr440:
-		{return st, err }
-		goto _st179;
-		_ctr4:
-		{pb = p }
-		goto _st179;
-		_st179:
-		if p == eof {
-			goto _out179;
-			
-		}
-		p+=1;
-		st_case_179:
-		if p == pe && p != eof {
-			goto _out179;
-			
-		}
-		if p == eof {
-			goto _ctr440;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr336;
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st132;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr441:
-		{return st, err }
-		goto _st180;
-		_ctr5:
-		{pb = p }
-		goto _st180;
-		_st180:
-		if p == eof {
-			goto _out180;
-			
-		}
-		p+=1;
-		st_case_180:
-		if p == pe && p != eof {
-			goto _out180;
-			
-		}
-		if p == eof {
-			goto _ctr441;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr336;
-				
-			}
-			if ( data[ p ] ) > 49 {
-				if ( data[ p ] ) <= 57 {
-					goto _st3;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _st132;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr442:
-		{return st, err }
-		goto _st181;
-		_ctr6:
-		{pb = p }
-		goto _st181;
-		_st181:
-		if p == eof {
-			goto _out181;
-			
-		}
-		p+=1;
-		st_case_181:
-		if p == pe && p != eof {
-			goto _out181;
-			
-		}
-		if p == eof {
-			goto _ctr442;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr336;
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st3;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr443:
-		{return st, err }
-		goto _st182;
-		_st182:
-		if p == eof {
-			goto _out182;
-			
-		}
-		p+=1;
-		st_case_182:
-		if p == pe && p != eof {
-			goto _out182;
-			
-		}
-		if p == eof {
-			goto _ctr443;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st183;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr445:
-		{return st, err }
-		goto _st183;
-		_st183:
-		if p == eof {
-			goto _out183;
-			
-		}
-		p+=1;
-		st_case_183:
-		if p == pe && p != eof {
-			goto _out183;
-			
-		}
-		if p == eof {
-			goto _ctr445;
-			
-		} else {
-			if ( data[ p ] ) == 105 {
-				goto _st184;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr447:
-		{return st, err }
-		goto _st184;
-		_st184:
-		if p == eof {
-			goto _out184;
-			
-		}
-		p+=1;
-		st_case_184:
-		if p == pe && p != eof {
-			goto _out184;
-			
-		}
-		if p == eof {
-			goto _ctr447;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				case 100:
-				{
-					goto _st393;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr451:
-		{return st, err }
-		goto _st185;
-		_st185:
-		if p == eof {
-			goto _out185;
-			
-		}
-		p+=1;
-		st_case_185:
-		if p == pe && p != eof {
-			goto _out185;
-			
-		}
-		if p == eof {
-			goto _ctr451;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 65:
-				{
-					goto _st186;
-					
-				}
-				case 68:
-				{
-					goto _st259;
-					
-				}
-				case 70:
-				{
-					goto _st262;
-					
-				}
-				case 74:
-				{
-					goto _st270;
-					
-				}
-				case 77:
-				{
-					goto _st280;
-					
-				}
-				case 78:
-				{
-					goto _st286;
-					
-				}
-				case 79:
-				{
-					goto _st289;
-					
-				}
-				case 83:
-				{
-					goto _st292;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr460:
-		{return st, err }
-		goto _st186;
-		_st186:
-		if p == eof {
-			goto _out186;
-			
-		}
-		p+=1;
-		st_case_186:
-		if p == pe && p != eof {
-			goto _out186;
-			
-		}
-		if p == eof {
-			goto _ctr460;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 112:
-				{
-					goto _st187;
-					
-				}
-				case 117:
-				{
-					goto _st257;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr463:
-		{return st, err }
-		goto _st187;
-		_st187:
-		if p == eof {
-			goto _out187;
-			
-		}
-		p+=1;
-		st_case_187:
-		if p == pe && p != eof {
-			goto _out187;
-			
-		}
-		if p == eof {
-			goto _ctr463;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st188;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr465:
-		{return st, err }
-		goto _st188;
-		_st188:
-		if p == eof {
-			goto _out188;
-			
-		}
-		p+=1;
-		st_case_188:
-		if p == pe && p != eof {
-			goto _out188;
-			
-		}
-		if p == eof {
-			goto _ctr465;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr466;
-					
-				}
-				case 105:
-				{
-					goto _st255;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr468:
-		{return st, err }
-		goto _st189;
-		_ctr466:
-		{st.Month = 4 ;}
-		goto _st189;
-		_ctr676:
-		{st.Month = 8 ;}
-		goto _st189;
-		_ctr682:
-		{st.Month = 12 ;}
-		goto _st189;
-		_ctr688:
-		{st.Month = 2 ;}
-		goto _st189;
-		_ctr705:
-		{st.Month = 1 ;}
-		goto _st189;
-		_ctr718:
-		{st.Month = 7 ;}
-		goto _st189;
-		_ctr720:
-		{st.Month = 6 ;}
-		goto _st189;
-		_ctr727:
-		{st.Month = 3 ;}
-		goto _st189;
-		_ctr733:
-		{st.Month = 5 ;}
-		goto _st189;
-		_ctr739:
-		{st.Month = 11 ;}
-		goto _st189;
-		_ctr745:
-		{st.Month = 10 ;}
-		goto _st189;
-		_ctr751:
-		{st.Month = 9 ;}
-		goto _st189;
-		_st189:
-		if p == eof {
-			goto _out189;
-			
-		}
-		p+=1;
-		st_case_189:
-		if p == pe && p != eof {
-			goto _out189;
-			
-		}
-		if p == eof {
-			goto _ctr468;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 48:
-				{
-					goto _ctr469;
-					
-				}
-				case 51:
-				{
-					goto _ctr471;
-					
-				}
-				
-			}
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 50 {
-				goto _ctr470;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr472:
-		{return st, err }
-		goto _st190;
-		_ctr469:
-		{pb = p }
-		goto _st190;
-		_st190:
-		if p == eof {
-			goto _out190;
-			
-		}
-		p+=1;
-		st_case_190:
-		if p == pe && p != eof {
-			goto _out190;
-			
-		}
-		if p == eof {
-			goto _ctr472;
-			
-		} else {
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st191;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr474:
-		{return st, err }
-		goto _st191;
-		_st191:
-		if p == eof {
-			goto _out191;
-			
-		}
-		p+=1;
-		st_case_191:
-		if p == pe && p != eof {
-			goto _out191;
-			
-		}
-		if p == eof {
-			goto _ctr474;
-			
-		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr475;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr476:
-		{return st, err }
-		goto _st192;
-		_ctr475:
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
-		goto _st192;
-		_st192:
-		if p == eof {
-			goto _out192;
-			
-		}
-		p+=1;
-		st_case_192:
-		if p == pe && p != eof {
-			goto _out192;
-			
-		}
-		if p == eof {
-			goto _ctr476;
-			
-		} else {
-			if ( data[ p ] ) == 50 {
-				goto _ctr478;
-				
-			}
-			if ( data[ p ] ) > 49 {
-				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr479;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr477;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr480:
-		{return st, err }
-		goto _st193;
-		_ctr477:
-		{pb = p }
-		goto _st193;
-		_st193:
-		if p == eof {
-			goto _out193;
-			
-		}
-		p+=1;
-		st_case_193:
-		if p == pe && p != eof {
-			goto _out193;
-			
-		}
-		if p == eof {
-			goto _ctr480;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr481;
+					goto _ctr342;
 					
 				}
 				case 43:
 				{
-					goto _ctr482;
+					goto _ctr343;
 					
 				}
 				case 45:
 				{
-					goto _ctr483;
+					goto _ctr344;
 					
 				}
 				case 47:
 				{
-					goto _ctr484;
+					goto _ctr345;
 					
 				}
 				case 58:
 				{
-					goto _ctr486;
+					goto _ctr347;
 					
 				}
 				case 65:
 				{
-					goto _ctr487;
+					goto _ctr348;
 					
 				}
 				case 80:
 				{
-					goto _ctr487;
+					goto _ctr348;
 					
 				}
 				case 90:
 				{
-					goto _ctr488;
+					goto _ctr349;
 					
 				}
 				case 95:
 				{
-					goto _ctr484;
+					goto _ctr345;
 					
 				}
 				case 97:
 				{
-					goto _ctr489;
+					goto _ctr350;
 					
 				}
 				case 112:
 				{
-					goto _ctr489;
+					goto _ctr350;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st216;
+					goto _st165;
 					
 				}
 				
 			} else if ( data[ p ] ) > 89 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr484;
+					goto _ctr345;
 					
 				}
 				
 			} else {
-				goto _ctr484;
+				goto _ctr345;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr490:
+		_ctr351:
 		{return st, err }
-		goto _st194;
-		_ctr481:
+		goto _st143;
+		_ctr342:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st194;
-		_ctr548:
+		goto _st143;
+		_ctr409:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st194;
-		_ctr634:
+		goto _st143;
+		_ctr495:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -13537,109 +11157,109 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st194;
-		_ctr600:
+		goto _st143;
+		_ctr461:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st194;
-		_ctr610:
+		goto _st143;
+		_ctr471:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st194;
-		_ctr622:
+		goto _st143;
+		_ctr483:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st194;
-		_ctr654:
+		goto _st143;
+		_ctr515:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st194;
-		_st194:
+		goto _st143;
+		_st143:
 		if p == eof {
-			goto _out194;
+			goto _out143;
 			
 		}
 		p+=1;
-		st_case_194:
+		st_case_143:
 		if p == pe && p != eof {
-			goto _out194;
+			goto _out143;
 			
 		}
 		if p == eof {
-			goto _ctr490;
+			goto _ctr351;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _st195;
+					goto _st144;
 					
 				}
 				case 43:
 				{
-					goto _st199;
+					goto _st148;
 					
 				}
 				case 45:
 				{
-					goto _st207;
+					goto _st156;
 					
 				}
 				case 47:
 				{
-					goto _ctr494;
+					goto _ctr355;
 					
 				}
 				case 65:
 				{
-					goto _ctr496;
+					goto _ctr357;
 					
 				}
 				case 80:
 				{
-					goto _ctr496;
+					goto _ctr357;
 					
 				}
 				case 95:
 				{
-					goto _ctr494;
+					goto _ctr355;
 					
 				}
 				case 97:
 				{
-					goto _ctr497;
+					goto _ctr358;
 					
 				}
 				case 112:
 				{
-					goto _ctr497;
+					goto _ctr358;
 					
 				}
 				
 			}
 			if ( data[ p ] ) < 66 {
 				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr495;
+					goto _ctr356;
 					
 				}
 				
 			} else if ( data[ p ] ) > 90 {
 				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr494;
+					goto _ctr355;
 					
 				}
 				
 			} else {
-				goto _ctr494;
+				goto _ctr355;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr498:
+		_ctr359:
 		{return st, err }
-		goto _st195;
-		_ctr510:
+		goto _st144;
+		_ctr371:
 		{for p - pb > 4 &&  data[pb] =='0' {
 				pb += 1 
 			}
@@ -13660,11 +11280,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st195;
-		_ctr517:
+		goto _st144;
+		_ctr378:
 		{st.Zoned = true }
-		goto _st195;
-		_ctr521:
+		goto _st144;
+		_ctr382:
 		{switch p - pb {
 				case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
 				default:
@@ -13673,143 +11293,143 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			}
 		}
 		{st.Zoned = true }
-		goto _st195;
-		_ctr534:
+		goto _st144;
+		_ctr395:
 		{st.ZoneName = data[pb:p]
 			st.Zoned = true
 		}
 		{st.Zoned = true }
-		goto _st195;
-		_st195:
+		goto _st144;
+		_st144:
 		if p == eof {
-			goto _out195;
+			goto _out144;
 			
 		}
 		p+=1;
-		st_case_195:
+		st_case_144:
 		if p == pe && p != eof {
-			goto _out195;
+			goto _out144;
 			
 		}
 		if p == eof {
-			goto _ctr498;
+			goto _ctr359;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr495;
+				goto _ctr356;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr499:
+		_ctr360:
 		{return st, err }
-		goto _st196;
-		_ctr495:
+		goto _st145;
+		_ctr356:
 		{pb = p }
-		goto _st196;
-		_st196:
+		goto _st145;
+		_st145:
 		if p == eof {
-			goto _out196;
+			goto _out145;
 			
 		}
 		p+=1;
-		st_case_196:
+		st_case_145:
 		if p == pe && p != eof {
-			goto _out196;
+			goto _out145;
 			
 		}
 		if p == eof {
-			goto _ctr499;
+			goto _ctr360;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st197;
+				goto _st146;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr501:
+		_ctr362:
 		{return st, err }
-		goto _st197;
-		_st197:
+		goto _st146;
+		_st146:
 		if p == eof {
-			goto _out197;
+			goto _out146;
 			
 		}
 		p+=1;
-		st_case_197:
+		st_case_146:
 		if p == pe && p != eof {
-			goto _out197;
+			goto _out146;
 			
 		}
 		if p == eof {
-			goto _ctr501;
+			goto _ctr362;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st198;
+				goto _st147;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr503:
+		_ctr364:
 		{return st, err }
-		goto _st198;
-		_st198:
+		goto _st147;
+		_st147:
 		if p == eof {
-			goto _out198;
+			goto _out147;
 			
 		}
 		p+=1;
-		st_case_198:
+		st_case_147:
 		if p == pe && p != eof {
-			goto _out198;
+			goto _out147;
 			
 		}
 		if p == eof {
-			goto _ctr503;
+			goto _ctr364;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st474;
+				goto _st419;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1190:
+		_ctr1041:
 		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
 		}
-		goto _st474;
-		_st474:
+		goto _st419;
+		_st419:
 		if p == eof {
-			goto _out474;
+			goto _out419;
 			
 		}
 		p+=1;
-		st_case_474:
+		st_case_419:
 		if p == pe && p != eof {
-			goto _out474;
+			goto _out419;
 			
 		}
 		if p == eof {
-			goto _ctr1190;
+			goto _ctr1041;
 			
 		} else {
 			goto _st0;
 			
 		}
-		_ctr505:
+		_ctr366:
 		{return st, err }
-		goto _st199;
-		_ctr482:
+		goto _st148;
+		_ctr343:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st199;
-		_ctr539:
+		goto _st148;
+		_ctr400:
 		{if st.Hour > 12 {
 				err = errors.New("hour out of range")
 				return st, err
@@ -13831,12 +11451,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				}
 			}
 		}
-		goto _st199;
-		_ctr549:
+		goto _st148;
+		_ctr410:
 		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st199;
-		_ctr561:
+		goto _st148;
+		_ctr422:
 		{switch p - pb {
 				case 4: 
 				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
@@ -13850,8 +11470,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				return
 			}
 		}
-		goto _st199;
-		_ctr571:
+		goto _st148;
+		_ctr432:
 		{switch p - pb {
 				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
 				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
@@ -13879,22 +11499,3776 @@ func Parse(data string) (st ParsedDatetime, err error) {
 				st.Nanosecond =  parse_digits(data[pb+6:p])
 			}
 		}
-		goto _st199;
-		_ctr601:
+		goto _st148;
+		_ctr462:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st199;
-		_ctr611:
+		goto _st148;
+		_ctr472:
 		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 		}
-		goto _st199;
-		_ctr623:
+		goto _st148;
+		_ctr484:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
 		}
-		goto _st199;
-		_ctr655:
+		goto _st148;
+		_ctr516:
 		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
 		}
+		goto _st148;
+		_st148:
+		if p == eof {
+			goto _out148;
+			
+		}
+		p+=1;
+		st_case_148:
+		if p == pe && p != eof {
+			goto _out148;
+			
+		}
+		if p == eof {
+			goto _ctr366;
+			
+		} else {
+			if ( data[ p ] ) == 50 {
+				goto _ctr368;
+				
+			}
+			if ( data[ p ] ) > 49 {
+				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _ctr369;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr367;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr370:
+		{return st, err }
+		goto _st149;
+		_ctr367:
+		{pb = p }
+		goto _st149;
+		_ctr387:
+		{st.NegtiveZoneOffset = true }
+		{pb = p }
+		goto _st149;
+		_st149:
+		if p == eof {
+			goto _out149;
+			
+		}
+		p+=1;
+		st_case_149:
+		if p == pe && p != eof {
+			goto _out149;
+			
+		}
+		if p == eof {
+			goto _ctr370;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr371;
+					
+				}
+				case 58:
+				{
+					goto _ctr373;
+					
+				}
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st150;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr374:
+		{return st, err }
+		goto _st150;
+		_ctr369:
+		{pb = p }
+		goto _st150;
+		_ctr389:
+		{st.NegtiveZoneOffset = true }
+		{pb = p }
+		goto _st150;
+		_st150:
+		if p == eof {
+			goto _out150;
+			
+		}
+		p+=1;
+		st_case_150:
+		if p == pe && p != eof {
+			goto _out150;
+			
+		}
+		if p == eof {
+			goto _ctr374;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr371;
+					
+				}
+				case 58:
+				{
+					goto _ctr373;
+					
+				}
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st151;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr376:
+		{return st, err }
+		goto _st151;
+		_st151:
+		if p == eof {
+			goto _out151;
+			
+		}
+		p+=1;
+		st_case_151:
+		if p == pe && p != eof {
+			goto _out151;
+			
+		}
+		if p == eof {
+			goto _ctr376;
+			
+		} else {
+			if ( data[ p ] ) == 32 {
+				goto _ctr371;
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st151;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr377:
+		{return st, err }
+		goto _st152;
+		_ctr373:
+		{switch p - pb {
+				case 1,2: st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])
+				default:
+				err = errors.New("invalid offset hour")
+				return
+			}
+		}
+		goto _st152;
+		_st152:
+		if p == eof {
+			goto _out152;
+			
+		}
+		p+=1;
+		st_case_152:
+		if p == pe && p != eof {
+			goto _out152;
+			
+		}
+		if p == eof {
+			goto _ctr377;
+			
+		} else {
+			if ( data[ p ] ) == 32 {
+				goto _ctr378;
+				
+			}
+			if ( data[ p ] ) > 53 {
+				if ( data[ p ] ) <= 57 {
+					goto _ctr380;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr379;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr381:
+		{return st, err }
+		goto _st153;
+		_ctr379:
+		{pb = p }
+		goto _st153;
+		_st153:
+		if p == eof {
+			goto _out153;
+			
+		}
+		p+=1;
+		st_case_153:
+		if p == pe && p != eof {
+			goto _out153;
+			
+		}
+		if p == eof {
+			goto _ctr381;
+			
+		} else {
+			if ( data[ p ] ) == 32 {
+				goto _ctr382;
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st154;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr384:
+		{return st, err }
+		goto _st154;
+		_ctr380:
+		{pb = p }
+		goto _st154;
+		_st154:
+		if p == eof {
+			goto _out154;
+			
+		}
+		p+=1;
+		st_case_154:
+		if p == pe && p != eof {
+			goto _out154;
+			
+		}
+		if p == eof {
+			goto _ctr384;
+			
+		} else {
+			if ( data[ p ] ) == 32 {
+				goto _ctr382;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr385:
+		{return st, err }
+		goto _st155;
+		_ctr368:
+		{pb = p }
+		goto _st155;
+		_ctr388:
+		{st.NegtiveZoneOffset = true }
+		{pb = p }
+		goto _st155;
+		_st155:
+		if p == eof {
+			goto _out155;
+			
+		}
+		p+=1;
+		st_case_155:
+		if p == pe && p != eof {
+			goto _out155;
+			
+		}
+		if p == eof {
+			goto _ctr385;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr371;
+					
+				}
+				case 58:
+				{
+					goto _ctr373;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 51 {
+				if ( data[ p ] ) <= 57 {
+					goto _st151;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _st150;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr386:
+		{return st, err }
+		goto _st156;
+		_ctr344:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st156;
+		_ctr401:
+		{if st.Hour > 12 {
+				err = errors.New("hour out of range")
+				return st, err
+			}
+			if apm, err := parse_ampm(data[pb:]); err != nil {
+				return st, err
+			} else {
+				switch apm {
+					case AMPM_AM:
+					if (st.Hour == 12) {
+						st.Hour -= 12; // 12:00:00 am == 00:00:00
+					}
+					case AMPM_PM: {
+						if (st.Hour < 12) {
+							st.Hour += 12;
+						}
+						// else {} // 12:00:00 pm = 12:00:00, do nothing
+					}
+				}
+			}
+		}
+		goto _st156;
+		_ctr411:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st156;
+		_ctr423:
+		{switch p - pb {
+				case 4: 
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				case 6:
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+				default:
+				err = errors.New("invalid hhmmss digits")
+				return
+			}
+		}
+		goto _st156;
+		_ctr433:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		goto _st156;
+		_ctr463:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st156;
+		_ctr473:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st156;
+		_ctr485:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st156;
+		_ctr517:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st156;
+		_st156:
+		if p == eof {
+			goto _out156;
+			
+		}
+		p+=1;
+		st_case_156:
+		if p == pe && p != eof {
+			goto _out156;
+			
+		}
+		if p == eof {
+			goto _ctr386;
+			
+		} else {
+			if ( data[ p ] ) == 50 {
+				goto _ctr388;
+				
+			}
+			if ( data[ p ] ) > 49 {
+				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _ctr389;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr387;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr390:
+		{return st, err }
+		goto _st157;
+		_ctr355:
+		{pb = p }
+		goto _st157;
+		_ctr345:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st157;
+		_ctr412:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st157;
+		_ctr425:
+		{switch p - pb {
+				case 4: 
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				case 6:
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+				default:
+				err = errors.New("invalid hhmmss digits")
+				return
+			}
+		}
+		{pb = p }
+		goto _st157;
+		_ctr434:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		{pb = p }
+		goto _st157;
+		_ctr464:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st157;
+		_ctr474:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st157;
+		_ctr487:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st157;
+		_ctr519:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st157;
+		_st157:
+		if p == eof {
+			goto _out157;
+			
+		}
+		p+=1;
+		st_case_157:
+		if p == pe && p != eof {
+			goto _out157;
+			
+		}
+		if p == eof {
+			goto _ctr390;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 47:
+				{
+					goto _st158;
+					
+				}
+				case 95:
+				{
+					goto _st158;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _st158;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _st158;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr392:
+		{return st, err }
+		goto _st158;
+		_ctr453:
+		{pb = p }
+		goto _st158;
+		_st158:
+		if p == eof {
+			goto _out158;
+			
+		}
+		p+=1;
+		st_case_158:
+		if p == pe && p != eof {
+			goto _out158;
+			
+		}
+		if p == eof {
+			goto _ctr392;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 47:
+				{
+					goto _st159;
+					
+				}
+				case 95:
+				{
+					goto _st159;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _st159;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _st159;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr394:
+		{return st, err }
+		goto _st159;
+		_ctr406:
+		{pb = p }
+		goto _st159;
+		_ctr402:
+		{if st.Hour > 12 {
+				err = errors.New("hour out of range")
+				return st, err
+			}
+			if apm, err := parse_ampm(data[pb:]); err != nil {
+				return st, err
+			} else {
+				switch apm {
+					case AMPM_AM:
+					if (st.Hour == 12) {
+						st.Hour -= 12; // 12:00:00 am == 00:00:00
+					}
+					case AMPM_PM: {
+						if (st.Hour < 12) {
+							st.Hour += 12;
+						}
+						// else {} // 12:00:00 pm = 12:00:00, do nothing
+					}
+				}
+			}
+		}
+		{pb = p }
+		goto _st159;
+		_st159:
+		if p == eof {
+			goto _out159;
+			
+		}
+		p+=1;
+		st_case_159:
+		if p == pe && p != eof {
+			goto _out159;
+			
+		}
+		if p == eof {
+			goto _ctr394;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr395;
+					
+				}
+				case 47:
+				{
+					goto _st159;
+					
+				}
+				case 95:
+				{
+					goto _st159;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _st159;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _st159;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr396:
+		{return st, err }
+		goto _st160;
+		_ctr357:
+		{pb = p }
+		goto _st160;
+		_ctr348:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st160;
+		_ctr415:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st160;
+		_ctr497:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		{pb = p }
+		goto _st160;
+		_ctr467:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st160;
+		_ctr476:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st160;
+		_ctr489:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st160;
+		_ctr520:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st160;
+		_st160:
+		if p == eof {
+			goto _out160;
+			
+		}
+		p+=1;
+		st_case_160:
+		if p == pe && p != eof {
+			goto _out160;
+			
+		}
+		if p == eof {
+			goto _ctr396;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 47:
+				{
+					goto _st158;
+					
+				}
+				case 77:
+				{
+					goto _st161;
+					
+				}
+				case 95:
+				{
+					goto _st158;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _st158;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _st158;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr398:
+		{return st, err }
+		goto _st161;
+		_st161:
+		if p == eof {
+			goto _out161;
+			
+		}
+		p+=1;
+		st_case_161:
+		if p == pe && p != eof {
+			goto _out161;
+			
+		}
+		if p == eof {
+			goto _ctr398;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr399;
+					
+				}
+				case 43:
+				{
+					goto _ctr400;
+					
+				}
+				case 45:
+				{
+					goto _ctr401;
+					
+				}
+				case 47:
+				{
+					goto _ctr402;
+					
+				}
+				case 90:
+				{
+					goto _ctr403;
+					
+				}
+				case 95:
+				{
+					goto _ctr402;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr402;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr402;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr404:
+		{return st, err }
+		goto _st162;
+		_ctr399:
+		{if st.Hour > 12 {
+				err = errors.New("hour out of range")
+				return st, err
+			}
+			if apm, err := parse_ampm(data[pb:]); err != nil {
+				return st, err
+			} else {
+				switch apm {
+					case AMPM_AM:
+					if (st.Hour == 12) {
+						st.Hour -= 12; // 12:00:00 am == 00:00:00
+					}
+					case AMPM_PM: {
+						if (st.Hour < 12) {
+							st.Hour += 12;
+						}
+						// else {} // 12:00:00 pm = 12:00:00, do nothing
+					}
+				}
+			}
+		}
+		goto _st162;
+		_ctr421:
+		{switch p - pb {
+				case 4: 
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				case 6:
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+				default:
+				err = errors.New("invalid hhmmss digits")
+				return
+			}
+		}
+		goto _st162;
+		_ctr431:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		goto _st162;
+		_st162:
+		if p == eof {
+			goto _out162;
+			
+		}
+		p+=1;
+		st_case_162:
+		if p == pe && p != eof {
+			goto _out162;
+			
+		}
+		if p == eof {
+			goto _ctr404;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st144;
+					
+				}
+				case 43:
+				{
+					goto _st148;
+					
+				}
+				case 45:
+				{
+					goto _st156;
+					
+				}
+				case 47:
+				{
+					goto _ctr355;
+					
+				}
+				case 95:
+				{
+					goto _ctr355;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _ctr356;
+					
+				}
+				
+			} else if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr355;
+					
+				}
+				
+			} else {
+				goto _ctr355;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr405:
+		{return st, err }
+		goto _st163;
+		_ctr403:
+		{if st.Hour > 12 {
+				err = errors.New("hour out of range")
+				return st, err
+			}
+			if apm, err := parse_ampm(data[pb:]); err != nil {
+				return st, err
+			} else {
+				switch apm {
+					case AMPM_AM:
+					if (st.Hour == 12) {
+						st.Hour -= 12; // 12:00:00 am == 00:00:00
+					}
+					case AMPM_PM: {
+						if (st.Hour < 12) {
+							st.Hour += 12;
+						}
+						// else {} // 12:00:00 pm = 12:00:00, do nothing
+					}
+				}
+			}
+		}
+		{pb = p }
+		goto _st163;
+		_st163:
+		if p == eof {
+			goto _out163;
+			
+		}
+		p+=1;
+		st_case_163:
+		if p == pe && p != eof {
+			goto _out163;
+			
+		}
+		if p == eof {
+			goto _ctr405;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr395;
+					
+				}
+				case 43:
+				{
+					goto _st148;
+					
+				}
+				case 45:
+				{
+					goto _st156;
+					
+				}
+				case 47:
+				{
+					goto _ctr406;
+					
+				}
+				case 95:
+				{
+					goto _ctr406;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr406;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr406;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr407:
+		{return st, err }
+		goto _st164;
+		_ctr358:
+		{pb = p }
+		goto _st164;
+		_ctr350:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st164;
+		_ctr417:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st164;
+		_ctr498:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		{pb = p }
+		goto _st164;
+		_ctr469:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st164;
+		_ctr478:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st164;
+		_ctr491:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st164;
+		_ctr522:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st164;
+		_st164:
+		if p == eof {
+			goto _out164;
+			
+		}
+		p+=1;
+		st_case_164:
+		if p == pe && p != eof {
+			goto _out164;
+			
+		}
+		if p == eof {
+			goto _ctr407;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 47:
+				{
+					goto _st158;
+					
+				}
+				case 95:
+				{
+					goto _st158;
+					
+				}
+				case 109:
+				{
+					goto _st161;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _st158;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _st158;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr408:
+		{return st, err }
+		goto _st165;
+		_st165:
+		if p == eof {
+			goto _out165;
+			
+		}
+		p+=1;
+		st_case_165:
+		if p == pe && p != eof {
+			goto _out165;
+			
+		}
+		if p == eof {
+			goto _ctr408;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr409;
+					
+				}
+				case 43:
+				{
+					goto _ctr410;
+					
+				}
+				case 45:
+				{
+					goto _ctr411;
+					
+				}
+				case 47:
+				{
+					goto _ctr412;
+					
+				}
+				case 58:
+				{
+					goto _ctr414;
+					
+				}
+				case 65:
+				{
+					goto _ctr415;
+					
+				}
+				case 80:
+				{
+					goto _ctr415;
+					
+				}
+				case 90:
+				{
+					goto _ctr416;
+					
+				}
+				case 95:
+				{
+					goto _ctr412;
+					
+				}
+				case 97:
+				{
+					goto _ctr417;
+					
+				}
+				case 112:
+				{
+					goto _ctr417;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st166;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr412;
+					
+				}
+				
+			} else {
+				goto _ctr412;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr418:
+		{return st, err }
+		goto _st166;
+		_st166:
+		if p == eof {
+			goto _out166;
+			
+		}
+		p+=1;
+		st_case_166:
+		if p == pe && p != eof {
+			goto _out166;
+			
+		}
+		if p == eof {
+			goto _ctr418;
+			
+		} else {
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st167;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr420:
+		{return st, err }
+		goto _st167;
+		_st167:
+		if p == eof {
+			goto _out167;
+			
+		}
+		p+=1;
+		st_case_167:
+		if p == pe && p != eof {
+			goto _out167;
+			
+		}
+		if p == eof {
+			goto _ctr420;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr421;
+					
+				}
+				case 43:
+				{
+					goto _ctr422;
+					
+				}
+				case 45:
+				{
+					goto _ctr423;
+					
+				}
+				case 46:
+				{
+					goto _ctr424;
+					
+				}
+				case 47:
+				{
+					goto _ctr425;
+					
+				}
+				case 90:
+				{
+					goto _ctr427;
+					
+				}
+				case 95:
+				{
+					goto _ctr425;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st179;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr425;
+					
+				}
+				
+			} else {
+				goto _ctr425;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr428:
+		{return st, err }
+		goto _st168;
+		_ctr424:
+		{switch p - pb {
+				case 4: 
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				case 6:
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+				default:
+				err = errors.New("invalid hhmmss digits")
+				return
+			}
+		}
+		goto _st168;
+		_st168:
+		if p == eof {
+			goto _out168;
+			
+		}
+		p+=1;
+		st_case_168:
+		if p == pe && p != eof {
+			goto _out168;
+			
+		}
+		if p == eof {
+			goto _ctr428;
+			
+		} else {
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _ctr429;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr430:
+		{return st, err }
+		goto _st169;
+		_ctr429:
+		{pb = p }
+		goto _st169;
+		_st169:
+		if p == eof {
+			goto _out169;
+			
+		}
+		p+=1;
+		st_case_169:
+		if p == pe && p != eof {
+			goto _out169;
+			
+		}
+		if p == eof {
+			goto _ctr430;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st170;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr437:
+		{return st, err }
+		goto _st170;
+		_st170:
+		if p == eof {
+			goto _out170;
+			
+		}
+		p+=1;
+		st_case_170:
+		if p == pe && p != eof {
+			goto _out170;
+			
+		}
+		if p == eof {
+			goto _ctr437;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st171;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr439:
+		{return st, err }
+		goto _st171;
+		_st171:
+		if p == eof {
+			goto _out171;
+			
+		}
+		p+=1;
+		st_case_171:
+		if p == pe && p != eof {
+			goto _out171;
+			
+		}
+		if p == eof {
+			goto _ctr439;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st172;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr441:
+		{return st, err }
+		goto _st172;
+		_st172:
+		if p == eof {
+			goto _out172;
+			
+		}
+		p+=1;
+		st_case_172:
+		if p == pe && p != eof {
+			goto _out172;
+			
+		}
+		if p == eof {
+			goto _ctr441;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st173;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr443:
+		{return st, err }
+		goto _st173;
+		_st173:
+		if p == eof {
+			goto _out173;
+			
+		}
+		p+=1;
+		st_case_173:
+		if p == pe && p != eof {
+			goto _out173;
+			
+		}
+		if p == eof {
+			goto _ctr443;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st174;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr445:
+		{return st, err }
+		goto _st174;
+		_st174:
+		if p == eof {
+			goto _out174;
+			
+		}
+		p+=1;
+		st_case_174:
+		if p == pe && p != eof {
+			goto _out174;
+			
+		}
+		if p == eof {
+			goto _ctr445;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st175;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr447:
+		{return st, err }
+		goto _st175;
+		_st175:
+		if p == eof {
+			goto _out175;
+			
+		}
+		p+=1;
+		st_case_175:
+		if p == pe && p != eof {
+			goto _out175;
+			
+		}
+		if p == eof {
+			goto _ctr447;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st176;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr449:
+		{return st, err }
+		goto _st176;
+		_st176:
+		if p == eof {
+			goto _out176;
+			
+		}
+		p+=1;
+		st_case_176:
+		if p == pe && p != eof {
+			goto _out176;
+			
+		}
+		if p == eof {
+			goto _ctr449;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 65 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st177;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr451:
+		{return st, err }
+		goto _st177;
+		_st177:
+		if p == eof {
+			goto _out177;
+			
+		}
+		p+=1;
+		st_case_177:
+		if p == pe && p != eof {
+			goto _out177;
+			
+		}
+		if p == eof {
+			goto _ctr451;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr431;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr452:
+		{return st, err }
+		goto _st178;
+		_ctr349:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st178;
+		_ctr416:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st178;
+		_ctr427:
+		{switch p - pb {
+				case 4: 
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				case 6:
+				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+				default:
+				err = errors.New("invalid hhmmss digits")
+				return
+			}
+		}
+		{pb = p }
+		goto _st178;
+		_ctr436:
+		{switch p - pb {
+				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+				case 4: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+				case 5: 
+				st.Millisecond = parse_digits(data[pb:pb+3]) 
+				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+				case 6:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				case 7:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+				case 8:
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+				default: 
+				st.Millisecond = parse_digits(data[pb:pb+3])
+				st.Microsecond = parse_digits(data[pb+3:pb+6])
+				st.Nanosecond =  parse_digits(data[pb+6:p])
+			}
+		}
+		{pb = p }
+		goto _st178;
+		_ctr468:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st178;
+		_ctr477:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st178;
+		_ctr490:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		{pb = p }
+		goto _st178;
+		_ctr521:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		{pb = p }
+		goto _st178;
+		_st178:
+		if p == eof {
+			goto _out178;
+			
+		}
+		p+=1;
+		st_case_178:
+		if p == pe && p != eof {
+			goto _out178;
+			
+		}
+		if p == eof {
+			goto _ctr452;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st144;
+					
+				}
+				case 43:
+				{
+					goto _st148;
+					
+				}
+				case 45:
+				{
+					goto _st156;
+					
+				}
+				case 47:
+				{
+					goto _ctr453;
+					
+				}
+				case 95:
+				{
+					goto _ctr453;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 90 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr453;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr453;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr454:
+		{return st, err }
+		goto _st179;
+		_st179:
+		if p == eof {
+			goto _out179;
+			
+		}
+		p+=1;
+		st_case_179:
+		if p == pe && p != eof {
+			goto _out179;
+			
+		}
+		if p == eof {
+			goto _ctr454;
+			
+		} else {
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st180;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr456:
+		{return st, err }
+		goto _st180;
+		_st180:
+		if p == eof {
+			goto _out180;
+			
+		}
+		p+=1;
+		st_case_180:
+		if p == pe && p != eof {
+			goto _out180;
+			
+		}
+		if p == eof {
+			goto _ctr456;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr421;
+					
+				}
+				case 43:
+				{
+					goto _ctr422;
+					
+				}
+				case 45:
+				{
+					goto _ctr423;
+					
+				}
+				case 46:
+				{
+					goto _ctr424;
+					
+				}
+				case 47:
+				{
+					goto _ctr425;
+					
+				}
+				case 90:
+				{
+					goto _ctr427;
+					
+				}
+				case 95:
+				{
+					goto _ctr425;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr425;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr425;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr457:
+		{return st, err }
+		goto _st181;
+		_ctr347:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st181;
+		_ctr414:
+		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st181;
+		_st181:
+		if p == eof {
+			goto _out181;
+			
+		}
+		p+=1;
+		st_case_181:
+		if p == pe && p != eof {
+			goto _out181;
+			
+		}
+		if p == eof {
+			goto _ctr457;
+			
+		} else {
+			if ( data[ p ] ) > 53 {
+				if ( data[ p ] ) <= 57 {
+					goto _ctr459;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr458;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr460:
+		{return st, err }
+		goto _st182;
+		_ctr458:
+		{pb = p }
+		goto _st182;
+		_st182:
+		if p == eof {
+			goto _out182;
+			
+		}
+		p+=1;
+		st_case_182:
+		if p == pe && p != eof {
+			goto _out182;
+			
+		}
+		if p == eof {
+			goto _ctr460;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr461;
+					
+				}
+				case 43:
+				{
+					goto _ctr462;
+					
+				}
+				case 45:
+				{
+					goto _ctr463;
+					
+				}
+				case 47:
+				{
+					goto _ctr464;
+					
+				}
+				case 58:
+				{
+					goto _ctr466;
+					
+				}
+				case 65:
+				{
+					goto _ctr467;
+					
+				}
+				case 80:
+				{
+					goto _ctr467;
+					
+				}
+				case 90:
+				{
+					goto _ctr468;
+					
+				}
+				case 95:
+				{
+					goto _ctr464;
+					
+				}
+				case 97:
+				{
+					goto _ctr469;
+					
+				}
+				case 112:
+				{
+					goto _ctr469;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st183;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr464;
+					
+				}
+				
+			} else {
+				goto _ctr464;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr470:
+		{return st, err }
+		goto _st183;
+		_st183:
+		if p == eof {
+			goto _out183;
+			
+		}
+		p+=1;
+		st_case_183:
+		if p == pe && p != eof {
+			goto _out183;
+			
+		}
+		if p == eof {
+			goto _ctr470;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr471;
+					
+				}
+				case 43:
+				{
+					goto _ctr472;
+					
+				}
+				case 45:
+				{
+					goto _ctr473;
+					
+				}
+				case 47:
+				{
+					goto _ctr474;
+					
+				}
+				case 58:
+				{
+					goto _ctr475;
+					
+				}
+				case 65:
+				{
+					goto _ctr476;
+					
+				}
+				case 80:
+				{
+					goto _ctr476;
+					
+				}
+				case 90:
+				{
+					goto _ctr477;
+					
+				}
+				case 95:
+				{
+					goto _ctr474;
+					
+				}
+				case 97:
+				{
+					goto _ctr478;
+					
+				}
+				case 112:
+				{
+					goto _ctr478;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr474;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 66 {
+				goto _ctr474;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr479:
+		{return st, err }
+		goto _st184;
+		_ctr466:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st184;
+		_ctr475:
+		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st184;
+		_st184:
+		if p == eof {
+			goto _out184;
+			
+		}
+		p+=1;
+		st_case_184:
+		if p == pe && p != eof {
+			goto _out184;
+			
+		}
+		if p == eof {
+			goto _ctr479;
+			
+		} else {
+			if ( data[ p ] ) > 53 {
+				if ( data[ p ] ) <= 57 {
+					goto _ctr481;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 48 {
+				goto _ctr480;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr482:
+		{return st, err }
+		goto _st185;
+		_ctr480:
+		{pb = p }
+		goto _st185;
+		_st185:
+		if p == eof {
+			goto _out185;
+			
+		}
+		p+=1;
+		st_case_185:
+		if p == pe && p != eof {
+			goto _out185;
+			
+		}
+		if p == eof {
+			goto _ctr482;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr483;
+					
+				}
+				case 43:
+				{
+					goto _ctr484;
+					
+				}
+				case 45:
+				{
+					goto _ctr485;
+					
+				}
+				case 46:
+				{
+					goto _ctr486;
+					
+				}
+				case 47:
+				{
+					goto _ctr487;
+					
+				}
+				case 65:
+				{
+					goto _ctr489;
+					
+				}
+				case 80:
+				{
+					goto _ctr489;
+					
+				}
+				case 90:
+				{
+					goto _ctr490;
+					
+				}
+				case 95:
+				{
+					goto _ctr487;
+					
+				}
+				case 97:
+				{
+					goto _ctr491;
+					
+				}
+				case 112:
+				{
+					goto _ctr491;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st196;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr487;
+					
+				}
+				
+			} else {
+				goto _ctr487;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr492:
+		{return st, err }
+		goto _st186;
+		_ctr486:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
+		}
+		goto _st186;
+		_ctr518:
+		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
+		}
+		goto _st186;
+		_st186:
+		if p == eof {
+			goto _out186;
+			
+		}
+		p+=1;
+		st_case_186:
+		if p == pe && p != eof {
+			goto _out186;
+			
+		}
+		if p == eof {
+			goto _ctr492;
+			
+		} else {
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _ctr493;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr494:
+		{return st, err }
+		goto _st187;
+		_ctr493:
+		{pb = p }
+		goto _st187;
+		_st187:
+		if p == eof {
+			goto _out187;
+			
+		}
+		p+=1;
+		st_case_187:
+		if p == pe && p != eof {
+			goto _out187;
+			
+		}
+		if p == eof {
+			goto _ctr494;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st188;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr499:
+		{return st, err }
+		goto _st188;
+		_st188:
+		if p == eof {
+			goto _out188;
+			
+		}
+		p+=1;
+		st_case_188:
+		if p == pe && p != eof {
+			goto _out188;
+			
+		}
+		if p == eof {
+			goto _ctr499;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st189;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr501:
+		{return st, err }
+		goto _st189;
+		_st189:
+		if p == eof {
+			goto _out189;
+			
+		}
+		p+=1;
+		st_case_189:
+		if p == pe && p != eof {
+			goto _out189;
+			
+		}
+		if p == eof {
+			goto _ctr501;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st190;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr503:
+		{return st, err }
+		goto _st190;
+		_st190:
+		if p == eof {
+			goto _out190;
+			
+		}
+		p+=1;
+		st_case_190:
+		if p == pe && p != eof {
+			goto _out190;
+			
+		}
+		if p == eof {
+			goto _ctr503;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st191;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr505:
+		{return st, err }
+		goto _st191;
+		_st191:
+		if p == eof {
+			goto _out191;
+			
+		}
+		p+=1;
+		st_case_191:
+		if p == pe && p != eof {
+			goto _out191;
+			
+		}
+		if p == eof {
+			goto _ctr505;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st192;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr507:
+		{return st, err }
+		goto _st192;
+		_st192:
+		if p == eof {
+			goto _out192;
+			
+		}
+		p+=1;
+		st_case_192:
+		if p == pe && p != eof {
+			goto _out192;
+			
+		}
+		if p == eof {
+			goto _ctr507;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st193;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr509:
+		{return st, err }
+		goto _st193;
+		_st193:
+		if p == eof {
+			goto _out193;
+			
+		}
+		p+=1;
+		st_case_193:
+		if p == pe && p != eof {
+			goto _out193;
+			
+		}
+		if p == eof {
+			goto _ctr509;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st194;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr511:
+		{return st, err }
+		goto _st194;
+		_st194:
+		if p == eof {
+			goto _out194;
+			
+		}
+		p+=1;
+		st_case_194:
+		if p == pe && p != eof {
+			goto _out194;
+			
+		}
+		if p == eof {
+			goto _ctr511;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st195;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr513:
+		{return st, err }
+		goto _st195;
+		_st195:
+		if p == eof {
+			goto _out195;
+			
+		}
+		p+=1;
+		st_case_195:
+		if p == pe && p != eof {
+			goto _out195;
+			
+		}
+		if p == eof {
+			goto _ctr513;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr495;
+					
+				}
+				case 43:
+				{
+					goto _ctr432;
+					
+				}
+				case 45:
+				{
+					goto _ctr433;
+					
+				}
+				case 47:
+				{
+					goto _ctr434;
+					
+				}
+				case 65:
+				{
+					goto _ctr497;
+					
+				}
+				case 80:
+				{
+					goto _ctr497;
+					
+				}
+				case 90:
+				{
+					goto _ctr436;
+					
+				}
+				case 95:
+				{
+					goto _ctr434;
+					
+				}
+				case 97:
+				{
+					goto _ctr498;
+					
+				}
+				case 112:
+				{
+					goto _ctr498;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr434;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 66 {
+				goto _ctr434;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr514:
+		{return st, err }
+		goto _st196;
+		_st196:
+		if p == eof {
+			goto _out196;
+			
+		}
+		p+=1;
+		st_case_196:
+		if p == pe && p != eof {
+			goto _out196;
+			
+		}
+		if p == eof {
+			goto _ctr514;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr515;
+					
+				}
+				case 43:
+				{
+					goto _ctr516;
+					
+				}
+				case 45:
+				{
+					goto _ctr517;
+					
+				}
+				case 46:
+				{
+					goto _ctr518;
+					
+				}
+				case 47:
+				{
+					goto _ctr519;
+					
+				}
+				case 65:
+				{
+					goto _ctr520;
+					
+				}
+				case 80:
+				{
+					goto _ctr520;
+					
+				}
+				case 90:
+				{
+					goto _ctr521;
+					
+				}
+				case 95:
+				{
+					goto _ctr519;
+					
+				}
+				case 97:
+				{
+					goto _ctr522;
+					
+				}
+				case 112:
+				{
+					goto _ctr522;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr519;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 66 {
+				goto _ctr519;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr523:
+		{return st, err }
+		goto _st197;
+		_ctr481:
+		{pb = p }
+		goto _st197;
+		_st197:
+		if p == eof {
+			goto _out197;
+			
+		}
+		p+=1;
+		st_case_197:
+		if p == pe && p != eof {
+			goto _out197;
+			
+		}
+		if p == eof {
+			goto _ctr523;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr483;
+					
+				}
+				case 43:
+				{
+					goto _ctr484;
+					
+				}
+				case 45:
+				{
+					goto _ctr485;
+					
+				}
+				case 46:
+				{
+					goto _ctr486;
+					
+				}
+				case 47:
+				{
+					goto _ctr487;
+					
+				}
+				case 65:
+				{
+					goto _ctr489;
+					
+				}
+				case 80:
+				{
+					goto _ctr489;
+					
+				}
+				case 90:
+				{
+					goto _ctr490;
+					
+				}
+				case 95:
+				{
+					goto _ctr487;
+					
+				}
+				case 97:
+				{
+					goto _ctr491;
+					
+				}
+				case 112:
+				{
+					goto _ctr491;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr487;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 66 {
+				goto _ctr487;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr524:
+		{return st, err }
+		goto _st198;
+		_ctr459:
+		{pb = p }
+		goto _st198;
+		_st198:
+		if p == eof {
+			goto _out198;
+			
+		}
+		p+=1;
+		st_case_198:
+		if p == pe && p != eof {
+			goto _out198;
+			
+		}
+		if p == eof {
+			goto _ctr524;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr461;
+					
+				}
+				case 43:
+				{
+					goto _ctr462;
+					
+				}
+				case 45:
+				{
+					goto _ctr463;
+					
+				}
+				case 47:
+				{
+					goto _ctr464;
+					
+				}
+				case 58:
+				{
+					goto _ctr466;
+					
+				}
+				case 65:
+				{
+					goto _ctr467;
+					
+				}
+				case 80:
+				{
+					goto _ctr467;
+					
+				}
+				case 90:
+				{
+					goto _ctr468;
+					
+				}
+				case 95:
+				{
+					goto _ctr464;
+					
+				}
+				case 97:
+				{
+					goto _ctr469;
+					
+				}
+				case 112:
+				{
+					goto _ctr469;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr464;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 66 {
+				goto _ctr464;
+				
+			}
+			goto _ctr2;
+			
+		}
+		_ctr525:
+		{return st, err }
+		goto _st199;
+		_ctr339:
+		{pb = p }
 		goto _st199;
 		_st199:
 		if p == eof {
@@ -13908,35 +15282,94 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr505;
+			goto _ctr525;
 			
 		} else {
-			if ( data[ p ] ) == 50 {
-				goto _ctr507;
-				
-			}
-			if ( data[ p ] ) > 49 {
-				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr508;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr342;
+					
+				}
+				case 43:
+				{
+					goto _ctr343;
+					
+				}
+				case 45:
+				{
+					goto _ctr344;
+					
+				}
+				case 47:
+				{
+					goto _ctr345;
+					
+				}
+				case 58:
+				{
+					goto _ctr347;
+					
+				}
+				case 65:
+				{
+					goto _ctr348;
+					
+				}
+				case 80:
+				{
+					goto _ctr348;
+					
+				}
+				case 90:
+				{
+					goto _ctr349;
+					
+				}
+				case 95:
+				{
+					goto _ctr345;
+					
+				}
+				case 97:
+				{
+					goto _ctr350;
+					
+				}
+				case 112:
+				{
+					goto _ctr350;
 					
 				}
 				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr506;
+			}
+			if ( data[ p ] ) < 52 {
+				if 48 <= ( data[ p ] ) {
+					goto _st165;
+					
+				}
+				
+			} else if ( data[ p ] ) > 57 {
+				if ( data[ p ] ) > 89 {
+					if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+						goto _ctr345;
+						
+					}
+					
+				} else if ( data[ p ] ) >= 66 {
+					goto _ctr345;
+					
+				}
+				
+			} else {
+				goto _st200;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr509:
+		_ctr527:
 		{return st, err }
-		goto _st200;
-		_ctr506:
-		{pb = p }
-		goto _st200;
-		_ctr526:
-		{st.NegtiveZoneOffset = true }
-		{pb = p }
 		goto _st200;
 		_st200:
 		if p == eof {
@@ -13950,37 +15383,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr509;
+			goto _ctr527;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr510;
-					
-				}
-				case 58:
-				{
-					goto _ctr512;
-					
-				}
-				
-			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st201;
+				goto _st166;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr513:
+		_ctr528:
 		{return st, err }
 		goto _st201;
-		_ctr508:
-		{pb = p }
-		goto _st201;
-		_ctr528:
-		{st.NegtiveZoneOffset = true }
+		_ctr340:
 		{pb = p }
 		goto _st201;
 		_st201:
@@ -13995,31 +15411,91 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr513;
+			goto _ctr528;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr510;
+					goto _ctr342;
+					
+				}
+				case 43:
+				{
+					goto _ctr343;
+					
+				}
+				case 45:
+				{
+					goto _ctr344;
+					
+				}
+				case 47:
+				{
+					goto _ctr345;
 					
 				}
 				case 58:
 				{
-					goto _ctr512;
+					goto _ctr347;
+					
+				}
+				case 65:
+				{
+					goto _ctr348;
+					
+				}
+				case 80:
+				{
+					goto _ctr348;
+					
+				}
+				case 90:
+				{
+					goto _ctr349;
+					
+				}
+				case 95:
+				{
+					goto _ctr345;
+					
+				}
+				case 97:
+				{
+					goto _ctr350;
+					
+				}
+				case 112:
+				{
+					goto _ctr350;
 					
 				}
 				
 			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st202;
+			if ( data[ p ] ) < 66 {
+				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _st200;
+					
+				}
+				
+			} else if ( data[ p ] ) > 89 {
+				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr345;
+					
+				}
+				
+			} else {
+				goto _ctr345;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr515:
+		_ctr529:
 		{return st, err }
+		goto _st202;
+		_ctr331:
+		{pb = p }
 		goto _st202;
 		_st202:
 		if p == eof {
@@ -14033,31 +15509,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr515;
+			goto _ctr529;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr510;
-				
-			}
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st202;
+				goto _st140;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr516:
+		_ctr530:
 		{return st, err }
 		goto _st203;
-		_ctr512:
-		{switch p - pb {
-				case 1,2: st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = errors.New("invalid offset hour")
-				return
-			}
-		}
+		_ctr332:
+		{pb = p }
 		goto _st203;
 		_st203:
 		if p == eof {
@@ -14071,31 +15537,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr516;
+			goto _ctr530;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr517;
-				
-			}
-			if ( data[ p ] ) > 53 {
-				if ( data[ p ] ) <= 57 {
-					goto _ctr519;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr518;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
+				goto _st140;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr520:
+		_ctr531:
 		{return st, err }
-		goto _st204;
-		_ctr518:
-		{pb = p }
 		goto _st204;
 		_st204:
 		if p == eof {
@@ -14109,25 +15562,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr520;
+			goto _ctr531;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr521;
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+			if ( data[ p ] ) == 108 {
 				goto _st205;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr523:
+		_ctr533:
 		{return st, err }
-		goto _st205;
-		_ctr519:
-		{pb = p }
 		goto _st205;
 		_st205:
 		if p == eof {
@@ -14141,25 +15587,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr523;
+			goto _ctr533;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr521;
+				goto _ctr327;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr524:
+		_ctr534:
 		{return st, err }
-		goto _st206;
-		_ctr507:
-		{pb = p }
-		goto _st206;
-		_ctr527:
-		{st.NegtiveZoneOffset = true }
-		{pb = p }
 		goto _st206;
 		_st206:
 		if p == eof {
@@ -14173,128 +15612,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr524;
+			goto _ctr534;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr510;
-					
-				}
-				case 58:
-				{
-					goto _ctr512;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 51 {
-				if ( data[ p ] ) <= 57 {
-					goto _st202;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _st201;
+			if ( data[ p ] ) == 103 {
+				goto _st207;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr525:
+		_ctr536:
 		{return st, err }
-		goto _st207;
-		_ctr483:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st207;
-		_ctr540:
-		{if st.Hour > 12 {
-				err = errors.New("hour out of range")
-				return st, err
-			}
-			if apm, err := parse_ampm(data[pb:]); err != nil {
-				return st, err
-			} else {
-				switch apm {
-					case AMPM_AM:
-					if (st.Hour == 12) {
-						st.Hour -= 12; // 12:00:00 am == 00:00:00
-					}
-					case AMPM_PM: {
-						if (st.Hour < 12) {
-							st.Hour += 12;
-						}
-						// else {} // 12:00:00 pm = 12:00:00, do nothing
-					}
-				}
-			}
-		}
-		goto _st207;
-		_ctr550:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		goto _st207;
-		_ctr562:
-		{switch p - pb {
-				case 4: 
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				case 6:
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-				default:
-				err = errors.New("invalid hhmmss digits")
-				return
-			}
-		}
-		goto _st207;
-		_ctr572:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
-		goto _st207;
-		_ctr602:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st207;
-		_ctr612:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		goto _st207;
-		_ctr624:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st207;
-		_ctr656:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
 		goto _st207;
 		_st207:
 		if p == eof {
@@ -14308,107 +15637,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr525;
+			goto _ctr536;
 			
 		} else {
-			if ( data[ p ] ) == 50 {
-				goto _ctr527;
-				
-			}
-			if ( data[ p ] ) > 49 {
-				if 51 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr528;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr526;
+			if ( data[ p ] ) == 32 {
+				goto _ctr537;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr529:
+		_ctr538:
 		{return st, err }
-		goto _st208;
-		_ctr494:
-		{pb = p }
-		goto _st208;
-		_ctr484:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st208;
-		_ctr551:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st208;
-		_ctr564:
-		{switch p - pb {
-				case 4: 
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				case 6:
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-				default:
-				err = errors.New("invalid hhmmss digits")
-				return
-			}
-		}
-		{pb = p }
-		goto _st208;
-		_ctr573:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
-		{pb = p }
-		goto _st208;
-		_ctr603:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st208;
-		_ctr613:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st208;
-		_ctr626:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st208;
-		_ctr658:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
 		goto _st208;
 		_st208:
 		if p == eof {
@@ -14422,40 +15662,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr529;
+			goto _ctr538;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 47:
-				{
-					goto _st209;
-					
-				}
-				case 95:
-				{
-					goto _st209;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st209;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
+			if ( data[ p ] ) == 101 {
 				goto _st209;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr531:
+		_ctr540:
 		{return st, err }
-		goto _st209;
-		_ctr592:
-		{pb = p }
 		goto _st209;
 		_st209:
 		if p == eof {
@@ -14469,64 +15687,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr531;
+			goto _ctr540;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 47:
-				{
-					goto _st210;
-					
-				}
-				case 95:
-				{
-					goto _st210;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st210;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
+			if ( data[ p ] ) == 99 {
 				goto _st210;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr533:
+		_ctr542:
 		{return st, err }
-		goto _st210;
-		_ctr545:
-		{pb = p }
-		goto _st210;
-		_ctr541:
-		{if st.Hour > 12 {
-				err = errors.New("hour out of range")
-				return st, err
-			}
-			if apm, err := parse_ampm(data[pb:]); err != nil {
-				return st, err
-			} else {
-				switch apm {
-					case AMPM_AM:
-					if (st.Hour == 12) {
-						st.Hour -= 12; // 12:00:00 am == 00:00:00
-					}
-					case AMPM_PM: {
-						if (st.Hour < 12) {
-							st.Hour += 12;
-						}
-						// else {} // 12:00:00 pm = 12:00:00, do nothing
-					}
-				}
-			}
-		}
-		{pb = p }
 		goto _st210;
 		_st210:
 		if p == eof {
@@ -14540,105 +15712,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr533;
+			goto _ctr542;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr534;
-					
-				}
-				case 47:
-				{
-					goto _st210;
-					
-				}
-				case 95:
-				{
-					goto _st210;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st210;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _st210;
+			if ( data[ p ] ) == 32 {
+				goto _ctr543;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr535:
+		_ctr544:
 		{return st, err }
-		goto _st211;
-		_ctr496:
-		{pb = p }
-		goto _st211;
-		_ctr487:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st211;
-		_ctr554:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st211;
-		_ctr636:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
-		{pb = p }
-		goto _st211;
-		_ctr606:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st211;
-		_ctr615:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st211;
-		_ctr628:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st211;
-		_ctr659:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
 		goto _st211;
 		_st211:
 		if p == eof {
@@ -14652,41 +15737,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr535;
+			goto _ctr544;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 47:
-				{
-					goto _st209;
-					
-				}
-				case 77:
-				{
-					goto _st212;
-					
-				}
-				case 95:
-				{
-					goto _st209;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st209;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _st209;
+			if ( data[ p ] ) == 101 {
+				goto _st212;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr537:
+		_ctr546:
 		{return st, err }
 		goto _st212;
 		_st212:
@@ -14701,124 +15762,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr537;
+			goto _ctr546;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr538;
-					
-				}
-				case 43:
-				{
-					goto _ctr539;
-					
-				}
-				case 45:
-				{
-					goto _ctr540;
-					
-				}
-				case 47:
-				{
-					goto _ctr541;
-					
-				}
-				case 90:
-				{
-					goto _ctr542;
-					
-				}
-				case 95:
-				{
-					goto _ctr541;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr541;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr541;
+			if ( data[ p ] ) == 98 {
+				goto _st213;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr543:
+		_ctr548:
 		{return st, err }
-		goto _st213;
-		_ctr538:
-		{if st.Hour > 12 {
-				err = errors.New("hour out of range")
-				return st, err
-			}
-			if apm, err := parse_ampm(data[pb:]); err != nil {
-				return st, err
-			} else {
-				switch apm {
-					case AMPM_AM:
-					if (st.Hour == 12) {
-						st.Hour -= 12; // 12:00:00 am == 00:00:00
-					}
-					case AMPM_PM: {
-						if (st.Hour < 12) {
-							st.Hour += 12;
-						}
-						// else {} // 12:00:00 pm = 12:00:00, do nothing
-					}
-				}
-			}
-		}
-		goto _st213;
-		_ctr560:
-		{switch p - pb {
-				case 4: 
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				case 6:
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-				default:
-				err = errors.New("invalid hhmmss digits")
-				return
-			}
-		}
-		goto _st213;
-		_ctr570:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
 		goto _st213;
 		_st213:
 		if p == eof {
@@ -14832,82 +15787,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr543;
+			goto _ctr548;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _st195;
+					goto _ctr549;
 					
 				}
-				case 43:
+				case 114:
 				{
-					goto _st199;
+					goto _st214;
 					
 				}
-				case 45:
-				{
-					goto _st207;
-					
-				}
-				case 47:
-				{
-					goto _ctr494;
-					
-				}
-				case 95:
-				{
-					goto _ctr494;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr495;
-					
-				}
-				
-			} else if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr494;
-					
-				}
-				
-			} else {
-				goto _ctr494;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr544:
+		_ctr551:
 		{return st, err }
-		goto _st214;
-		_ctr542:
-		{if st.Hour > 12 {
-				err = errors.New("hour out of range")
-				return st, err
-			}
-			if apm, err := parse_ampm(data[pb:]); err != nil {
-				return st, err
-			} else {
-				switch apm {
-					case AMPM_AM:
-					if (st.Hour == 12) {
-						st.Hour -= 12; // 12:00:00 am == 00:00:00
-					}
-					case AMPM_PM: {
-						if (st.Hour < 12) {
-							st.Hour += 12;
-						}
-						// else {} // 12:00:00 pm = 12:00:00, do nothing
-					}
-				}
-			}
-		}
-		{pb = p }
 		goto _st214;
 		_st214:
 		if p == eof {
@@ -14921,115 +15821,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr544;
+			goto _ctr551;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr534;
-					
-				}
-				case 43:
-				{
-					goto _st199;
-					
-				}
-				case 45:
-				{
-					goto _st207;
-					
-				}
-				case 47:
-				{
-					goto _ctr545;
-					
-				}
-				case 95:
-				{
-					goto _ctr545;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr545;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr545;
+			if ( data[ p ] ) == 117 {
+				goto _st215;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr546:
+		_ctr553:
 		{return st, err }
-		goto _st215;
-		_ctr497:
-		{pb = p }
-		goto _st215;
-		_ctr489:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st215;
-		_ctr556:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st215;
-		_ctr637:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
-		{pb = p }
-		goto _st215;
-		_ctr608:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st215;
-		_ctr617:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st215;
-		_ctr630:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st215;
-		_ctr661:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
 		goto _st215;
 		_st215:
 		if p == eof {
@@ -15043,41 +15846,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr546;
+			goto _ctr553;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 47:
-				{
-					goto _st209;
-					
-				}
-				case 95:
-				{
-					goto _st209;
-					
-				}
-				case 109:
-				{
-					goto _st212;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _st209;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _st209;
+			if ( data[ p ] ) == 97 {
+				goto _st216;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr547:
+		_ctr555:
 		{return st, err }
 		goto _st216;
 		_st216:
@@ -15092,81 +15871,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr547;
+			goto _ctr555;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr548;
-					
-				}
-				case 43:
-				{
-					goto _ctr549;
-					
-				}
-				case 45:
-				{
-					goto _ctr550;
-					
-				}
-				case 47:
-				{
-					goto _ctr551;
-					
-				}
-				case 58:
-				{
-					goto _ctr553;
-					
-				}
-				case 65:
-				{
-					goto _ctr554;
-					
-				}
-				case 80:
-				{
-					goto _ctr554;
-					
-				}
-				case 90:
-				{
-					goto _ctr555;
-					
-				}
-				case 95:
-				{
-					goto _ctr551;
-					
-				}
-				case 97:
-				{
-					goto _ctr556;
-					
-				}
-				case 112:
-				{
-					goto _ctr556;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st217;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr551;
-					
-				}
-				
-			} else {
-				goto _ctr551;
+			if ( data[ p ] ) == 114 {
+				goto _st217;
 				
 			}
 			goto _ctr2;
@@ -15190,7 +15899,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr557;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+			if ( data[ p ] ) == 121 {
 				goto _st218;
 				
 			}
@@ -15215,80 +15924,15 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr559;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr560;
-					
-				}
-				case 43:
-				{
-					goto _ctr561;
-					
-				}
-				case 45:
-				{
-					goto _ctr562;
-					
-				}
-				case 46:
-				{
-					goto _ctr563;
-					
-				}
-				case 47:
-				{
-					goto _ctr564;
-					
-				}
-				case 90:
-				{
-					goto _ctr566;
-					
-				}
-				case 95:
-				{
-					goto _ctr564;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st230;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr564;
-					
-				}
-				
-			} else {
-				goto _ctr564;
+			if ( data[ p ] ) == 32 {
+				goto _ctr549;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr567:
+		_ctr560:
 		{return st, err }
-		goto _st219;
-		_ctr563:
-		{switch p - pb {
-				case 4: 
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				case 6:
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-				default:
-				err = errors.New("invalid hhmmss digits")
-				return
-			}
-		}
 		goto _st219;
 		_st219:
 		if p == eof {
@@ -15302,21 +15946,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr567;
+			goto _ctr560;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr568;
+			switch ( data[ p ] ) {
+				case 97:
+				{
+					goto _st220;
+					
+				}
+				case 117:
+				{
+					goto _st226;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr569:
+		_ctr563:
 		{return st, err }
-		goto _st220;
-		_ctr568:
-		{pb = p }
 		goto _st220;
 		_st220:
 		if p == eof {
@@ -15330,62 +15980,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr569;
+			goto _ctr563;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st221;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 110 {
+				goto _st221;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr576:
+		_ctr565:
 		{return st, err }
 		goto _st221;
 		_st221:
@@ -15400,62 +16005,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr576;
+			goto _ctr565;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr570;
+					goto _ctr566;
 					
 				}
-				case 43:
+				case 117:
 				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
 					goto _st222;
 					
 				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr578:
+		_ctr568:
 		{return st, err }
 		goto _st222;
 		_st222:
@@ -15470,62 +16039,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr578;
+			goto _ctr568;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st223;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 97 {
+				goto _st223;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr580:
+		_ctr570:
 		{return st, err }
 		goto _st223;
 		_st223:
@@ -15540,62 +16064,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr580;
+			goto _ctr570;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st224;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 114 {
+				goto _st224;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr582:
+		_ctr572:
 		{return st, err }
 		goto _st224;
 		_st224:
@@ -15610,62 +16089,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr582;
+			goto _ctr572;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st225;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 121 {
+				goto _st225;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr584:
+		_ctr574:
 		{return st, err }
 		goto _st225;
 		_st225:
@@ -15680,62 +16114,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr584;
+			goto _ctr574;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st226;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _ctr566;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr586:
+		_ctr575:
 		{return st, err }
 		goto _st226;
 		_st226:
@@ -15750,62 +16139,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr586;
+			goto _ctr575;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 32:
+				case 108:
 				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
 					goto _st227;
 					
 				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
+				case 110:
+				{
+					goto _st228;
 					
 				}
-				
-			} else {
-				goto _ctr573;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr588:
+		_ctr578:
 		{return st, err }
 		goto _st227;
 		_st227:
@@ -15820,62 +16173,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr588;
+			goto _ctr578;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 65 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st228;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _ctr579;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr590:
+		_ctr580:
 		{return st, err }
 		goto _st228;
 		_st228:
@@ -15890,133 +16198,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr590;
+			goto _ctr580;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr570;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _ctr581;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr591:
+		_ctr582:
 		{return st, err }
-		goto _st229;
-		_ctr488:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st229;
-		_ctr555:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st229;
-		_ctr566:
-		{switch p - pb {
-				case 4: 
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				case 6:
-				st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-				st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-				st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-				default:
-				err = errors.New("invalid hhmmss digits")
-				return
-			}
-		}
-		{pb = p }
-		goto _st229;
-		_ctr575:
-		{switch p - pb {
-				case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-				case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-				case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-				case 4: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-				case 5: 
-				st.Millisecond = parse_digits(data[pb:pb+3]) 
-				st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-				case 6:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				case 7:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-				case 8:
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-				default: 
-				st.Millisecond = parse_digits(data[pb:pb+3])
-				st.Microsecond = parse_digits(data[pb+3:pb+6])
-				st.Nanosecond =  parse_digits(data[pb+6:p])
-			}
-		}
-		{pb = p }
-		goto _st229;
-		_ctr607:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st229;
-		_ctr616:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
-		goto _st229;
-		_ctr629:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		{pb = p }
-		goto _st229;
-		_ctr660:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
-		{pb = p }
 		goto _st229;
 		_st229:
 		if p == eof {
@@ -16030,51 +16223,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr591;
+			goto _ctr582;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st195;
-					
-				}
-				case 43:
-				{
-					goto _st199;
-					
-				}
-				case 45:
-				{
-					goto _st207;
-					
-				}
-				case 47:
-				{
-					goto _ctr592;
-					
-				}
-				case 95:
-				{
-					goto _ctr592;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 90 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr592;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr592;
+			if ( data[ p ] ) == 97 {
+				goto _st230;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr593:
+		_ctr584:
 		{return st, err }
 		goto _st230;
 		_st230:
@@ -16089,17 +16248,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr593;
+			goto _ctr584;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st231;
+			switch ( data[ p ] ) {
+				case 114:
+				{
+					goto _st231;
+					
+				}
+				case 121:
+				{
+					goto _st234;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr595:
+		_ctr587:
 		{return st, err }
 		goto _st231;
 		_st231:
@@ -16114,70 +16282,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr595;
+			goto _ctr587;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr560;
+					goto _ctr588;
 					
 				}
-				case 43:
+				case 99:
 				{
-					goto _ctr561;
+					goto _st232;
 					
 				}
-				case 45:
-				{
-					goto _ctr562;
-					
-				}
-				case 46:
-				{
-					goto _ctr563;
-					
-				}
-				case 47:
-				{
-					goto _ctr564;
-					
-				}
-				case 90:
-				{
-					goto _ctr566;
-					
-				}
-				case 95:
-				{
-					goto _ctr564;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr564;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr564;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr596:
+		_ctr590:
 		{return st, err }
-		goto _st232;
-		_ctr486:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st232;
-		_ctr553:
-		{st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-		}
 		goto _st232;
 		_st232:
 		if p == eof {
@@ -16191,27 +16316,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr596;
+			goto _ctr590;
 			
 		} else {
-			if ( data[ p ] ) > 53 {
-				if ( data[ p ] ) <= 57 {
-					goto _ctr598;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr597;
+			if ( data[ p ] ) == 104 {
+				goto _st233;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr599:
+		_ctr592:
 		{return st, err }
-		goto _st233;
-		_ctr597:
-		{pb = p }
 		goto _st233;
 		_st233:
 		if p == eof {
@@ -16225,87 +16341,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr599;
+			goto _ctr592;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr600;
-					
-				}
-				case 43:
-				{
-					goto _ctr601;
-					
-				}
-				case 45:
-				{
-					goto _ctr602;
-					
-				}
-				case 47:
-				{
-					goto _ctr603;
-					
-				}
-				case 58:
-				{
-					goto _ctr605;
-					
-				}
-				case 65:
-				{
-					goto _ctr606;
-					
-				}
-				case 80:
-				{
-					goto _ctr606;
-					
-				}
-				case 90:
-				{
-					goto _ctr607;
-					
-				}
-				case 95:
-				{
-					goto _ctr603;
-					
-				}
-				case 97:
-				{
-					goto _ctr608;
-					
-				}
-				case 112:
-				{
-					goto _ctr608;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st234;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr603;
-					
-				}
-				
-			} else {
-				goto _ctr603;
+			if ( data[ p ] ) == 32 {
+				goto _ctr588;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr609:
+		_ctr593:
 		{return st, err }
 		goto _st234;
 		_st234:
@@ -16320,90 +16366,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr609;
+			goto _ctr593;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr610;
-					
-				}
-				case 43:
-				{
-					goto _ctr611;
-					
-				}
-				case 45:
-				{
-					goto _ctr612;
-					
-				}
-				case 47:
-				{
-					goto _ctr613;
-					
-				}
-				case 58:
-				{
-					goto _ctr614;
-					
-				}
-				case 65:
-				{
-					goto _ctr615;
-					
-				}
-				case 80:
-				{
-					goto _ctr615;
-					
-				}
-				case 90:
-				{
-					goto _ctr616;
-					
-				}
-				case 95:
-				{
-					goto _ctr613;
-					
-				}
-				case 97:
-				{
-					goto _ctr617;
-					
-				}
-				case 112:
-				{
-					goto _ctr617;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr613;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 66 {
-				goto _ctr613;
+			if ( data[ p ] ) == 32 {
+				goto _ctr594;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr618:
+		_ctr595:
 		{return st, err }
-		goto _st235;
-		_ctr605:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st235;
-		_ctr614:
-		{st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-		}
 		goto _st235;
 		_st235:
 		if p == eof {
@@ -16417,27 +16391,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr618;
+			goto _ctr595;
 			
 		} else {
-			if ( data[ p ] ) > 53 {
-				if ( data[ p ] ) <= 57 {
-					goto _ctr620;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 48 {
-				goto _ctr619;
+			if ( data[ p ] ) == 111 {
+				goto _st236;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr621:
+		_ctr597:
 		{return st, err }
-		goto _st236;
-		_ctr619:
-		{pb = p }
 		goto _st236;
 		_st236:
 		if p == eof {
@@ -16451,96 +16416,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr621;
+			goto _ctr597;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr622;
-					
-				}
-				case 43:
-				{
-					goto _ctr623;
-					
-				}
-				case 45:
-				{
-					goto _ctr624;
-					
-				}
-				case 46:
-				{
-					goto _ctr625;
-					
-				}
-				case 47:
-				{
-					goto _ctr626;
-					
-				}
-				case 65:
-				{
-					goto _ctr628;
-					
-				}
-				case 80:
-				{
-					goto _ctr628;
-					
-				}
-				case 90:
-				{
-					goto _ctr629;
-					
-				}
-				case 95:
-				{
-					goto _ctr626;
-					
-				}
-				case 97:
-				{
-					goto _ctr630;
-					
-				}
-				case 112:
-				{
-					goto _ctr630;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st247;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr626;
-					
-				}
-				
-			} else {
-				goto _ctr626;
+			if ( data[ p ] ) == 118 {
+				goto _st237;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr631:
+		_ctr599:
 		{return st, err }
-		goto _st237;
-		_ctr625:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+1])
-		}
-		goto _st237;
-		_ctr657:
-		{st.Second, _ = strconv.Atoi(data[pb:pb+2])
-		}
 		goto _st237;
 		_st237:
 		if p == eof {
@@ -16554,21 +16441,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr631;
+			goto _ctr599;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr632;
+			if ( data[ p ] ) == 32 {
+				goto _ctr600;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr633:
+		_ctr601:
 		{return st, err }
-		goto _st238;
-		_ctr632:
-		{pb = p }
 		goto _st238;
 		_st238:
 		if p == eof {
@@ -16582,82 +16466,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr633;
+			goto _ctr601;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st239;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 99 {
+				goto _st239;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr638:
+		_ctr603:
 		{return st, err }
 		goto _st239;
 		_st239:
@@ -16672,82 +16491,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr638;
+			goto _ctr603;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st240;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 116 {
+				goto _st240;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr640:
+		_ctr605:
 		{return st, err }
 		goto _st240;
 		_st240:
@@ -16762,82 +16516,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr640;
+			goto _ctr605;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st241;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _ctr606;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr642:
+		_ctr607:
 		{return st, err }
 		goto _st241;
 		_st241:
@@ -16852,82 +16541,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr642;
+			goto _ctr607;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st242;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 101 {
+				goto _st242;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr644:
+		_ctr609:
 		{return st, err }
 		goto _st242;
 		_st242:
@@ -16942,82 +16566,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr644;
+			goto _ctr609;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st243;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 112 {
+				goto _st243;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr646:
+		_ctr611:
 		{return st, err }
 		goto _st243;
 		_st243:
@@ -17032,82 +16591,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr646;
+			goto _ctr611;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st244;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _ctr612;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr648:
+		_ctr613:
 		{return st, err }
 		goto _st244;
 		_st244:
@@ -17122,82 +16616,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr648;
+			goto _ctr613;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st245;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			if ( data[ p ] ) == 32 {
+				goto _st245;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr650:
+		_ctr615:
 		{return st, err }
 		goto _st245;
 		_st245:
@@ -17212,83 +16641,40 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr650;
+			goto _ctr615;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 32:
+				case 48:
 				{
-					goto _ctr634;
+					goto _ctr616;
 					
 				}
-				case 43:
+				case 51:
 				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
+					goto _ctr618;
 					
 				}
 				
 			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st246;
+			if ( data[ p ] ) > 50 {
+				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+					goto _ctr619;
 					
 				}
 				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else {
-				goto _ctr573;
+			} else if ( data[ p ] ) >= 49 {
+				goto _ctr617;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr652:
+		_ctr620:
 		{return st, err }
+		goto _st246;
+		_ctr616:
+		{pb = p }
 		goto _st246;
 		_st246:
 		if p == eof {
@@ -17302,77 +16688,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr652;
+			goto _ctr620;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr634;
-					
-				}
-				case 43:
-				{
-					goto _ctr571;
-					
-				}
-				case 45:
-				{
-					goto _ctr572;
-					
-				}
-				case 47:
-				{
-					goto _ctr573;
-					
-				}
-				case 65:
-				{
-					goto _ctr636;
-					
-				}
-				case 80:
-				{
-					goto _ctr636;
-					
-				}
-				case 90:
-				{
-					goto _ctr575;
-					
-				}
-				case 95:
-				{
-					goto _ctr573;
-					
-				}
-				case 97:
-				{
-					goto _ctr637;
-					
-				}
-				case 112:
-				{
-					goto _ctr637;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr573;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 66 {
-				goto _ctr573;
+			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st247;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr653:
+		_ctr622:
 		{return st, err }
+		goto _st247;
+		_ctr619:
+		{pb = p }
 		goto _st247;
 		_st247:
 		if p == eof {
@@ -17386,85 +16716,36 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr653;
+			goto _ctr622;
 			
 		} else {
 			switch ( data[ p ] ) {
 				case 32:
 				{
-					goto _ctr654;
-					
-				}
-				case 43:
-				{
-					goto _ctr655;
+					goto _ctr623;
 					
 				}
 				case 45:
 				{
-					goto _ctr656;
+					goto _ctr624;
 					
 				}
-				case 46:
-				{
-					goto _ctr657;
-					
-				}
-				case 47:
-				{
-					goto _ctr658;
-					
-				}
-				case 65:
-				{
-					goto _ctr659;
-					
-				}
-				case 80:
-				{
-					goto _ctr659;
-					
-				}
-				case 90:
-				{
-					goto _ctr660;
-					
-				}
-				case 95:
-				{
-					goto _ctr658;
-					
-				}
-				case 97:
-				{
-					goto _ctr661;
-					
-				}
-				case 112:
-				{
-					goto _ctr661;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr658;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 66 {
-				goto _ctr658;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr662:
+		_ctr625:
 		{return st, err }
 		goto _st248;
-		_ctr620:
-		{pb = p }
+		_ctr623:
+		{switch p - pb {
+				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+				default:
+				err = fmt.Errorf("invalid day digits %s", data[pb:p])
+				return
+			}
+		}
 		goto _st248;
 		_st248:
 		if p == eof {
@@ -17478,85 +16759,57 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr662;
+			goto _ctr625;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr622;
-					
-				}
-				case 43:
-				{
-					goto _ctr623;
-					
-				}
-				case 45:
-				{
-					goto _ctr624;
-					
-				}
-				case 46:
-				{
-					goto _ctr625;
-					
-				}
-				case 47:
-				{
-					goto _ctr626;
-					
-				}
 				case 65:
 				{
-					goto _ctr628;
+					goto _st249;
 					
 				}
-				case 80:
+				case 68:
 				{
-					goto _ctr628;
+					goto _st260;
 					
 				}
-				case 90:
+				case 70:
 				{
-					goto _ctr629;
+					goto _st263;
 					
 				}
-				case 95:
+				case 74:
 				{
-					goto _ctr626;
+					goto _st271;
 					
 				}
-				case 97:
+				case 77:
 				{
-					goto _ctr630;
+					goto _st281;
 					
 				}
-				case 112:
+				case 78:
 				{
-					goto _ctr630;
+					goto _st287;
 					
 				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr626;
+				case 79:
+				{
+					goto _st290;
 					
 				}
-				
-			} else if ( data[ p ] ) >= 66 {
-				goto _ctr626;
+				case 83:
+				{
+					goto _st293;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr663:
+		_ctr634:
 		{return st, err }
-		goto _st249;
-		_ctr598:
-		{pb = p }
 		goto _st249;
 		_st249:
 		if p == eof {
@@ -17570,85 +16823,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr663;
+			goto _ctr634;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr600;
-					
-				}
-				case 43:
-				{
-					goto _ctr601;
-					
-				}
-				case 45:
-				{
-					goto _ctr602;
-					
-				}
-				case 47:
-				{
-					goto _ctr603;
-					
-				}
-				case 58:
-				{
-					goto _ctr605;
-					
-				}
-				case 65:
-				{
-					goto _ctr606;
-					
-				}
-				case 80:
-				{
-					goto _ctr606;
-					
-				}
-				case 90:
-				{
-					goto _ctr607;
-					
-				}
-				case 95:
-				{
-					goto _ctr603;
-					
-				}
-				case 97:
-				{
-					goto _ctr608;
-					
-				}
 				case 112:
 				{
-					goto _ctr608;
+					goto _st250;
 					
 				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr603;
+				case 117:
+				{
+					goto _st258;
 					
 				}
-				
-			} else if ( data[ p ] ) >= 66 {
-				goto _ctr603;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr664:
+		_ctr637:
 		{return st, err }
-		goto _st250;
-		_ctr478:
-		{pb = p }
 		goto _st250;
 		_st250:
 		if p == eof {
@@ -17662,93 +16857,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr664;
+			goto _ctr637;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr481;
-					
-				}
-				case 43:
-				{
-					goto _ctr482;
-					
-				}
-				case 45:
-				{
-					goto _ctr483;
-					
-				}
-				case 47:
-				{
-					goto _ctr484;
-					
-				}
-				case 58:
-				{
-					goto _ctr486;
-					
-				}
-				case 65:
-				{
-					goto _ctr487;
-					
-				}
-				case 80:
-				{
-					goto _ctr487;
-					
-				}
-				case 90:
-				{
-					goto _ctr488;
-					
-				}
-				case 95:
-				{
-					goto _ctr484;
-					
-				}
-				case 97:
-				{
-					goto _ctr489;
-					
-				}
-				case 112:
-				{
-					goto _ctr489;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 52 {
-				if 48 <= ( data[ p ] ) {
-					goto _st216;
-					
-				}
-				
-			} else if ( data[ p ] ) > 57 {
-				if ( data[ p ] ) > 89 {
-					if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-						goto _ctr484;
-						
-					}
-					
-				} else if ( data[ p ] ) >= 66 {
-					goto _ctr484;
-					
-				}
-				
-			} else {
+			if ( data[ p ] ) == 114 {
 				goto _st251;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr666:
+		_ctr639:
 		{return st, err }
 		goto _st251;
 		_st251:
@@ -17763,21 +16882,63 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr666;
+			goto _ctr639;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st217;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr640;
+					
+				}
+				case 105:
+				{
+					goto _st256;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr667:
+		_ctr642:
 		{return st, err }
 		goto _st252;
-		_ctr479:
-		{pb = p }
+		_ctr640:
+		{st.Month = 4 ;}
+		goto _st252;
+		_ctr656:
+		{st.Month = 8 ;}
+		goto _st252;
+		_ctr662:
+		{st.Month = 12 ;}
+		goto _st252;
+		_ctr668:
+		{st.Month = 2 ;}
+		goto _st252;
+		_ctr685:
+		{st.Month = 1 ;}
+		goto _st252;
+		_ctr698:
+		{st.Month = 7 ;}
+		goto _st252;
+		_ctr700:
+		{st.Month = 6 ;}
+		goto _st252;
+		_ctr707:
+		{st.Month = 3 ;}
+		goto _st252;
+		_ctr713:
+		{st.Month = 5 ;}
+		goto _st252;
+		_ctr719:
+		{st.Month = 11 ;}
+		goto _st252;
+		_ctr725:
+		{st.Month = 10 ;}
+		goto _st252;
+		_ctr731:
+		{st.Month = 9 ;}
 		goto _st252;
 		_st252:
 		if p == eof {
@@ -17791,90 +16952,20 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr667;
+			goto _ctr642;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr481;
-					
-				}
-				case 43:
-				{
-					goto _ctr482;
-					
-				}
-				case 45:
-				{
-					goto _ctr483;
-					
-				}
-				case 47:
-				{
-					goto _ctr484;
-					
-				}
-				case 58:
-				{
-					goto _ctr486;
-					
-				}
-				case 65:
-				{
-					goto _ctr487;
-					
-				}
-				case 80:
-				{
-					goto _ctr487;
-					
-				}
-				case 90:
-				{
-					goto _ctr488;
-					
-				}
-				case 95:
-				{
-					goto _ctr484;
-					
-				}
-				case 97:
-				{
-					goto _ctr489;
-					
-				}
-				case 112:
-				{
-					goto _ctr489;
-					
-				}
-				
-			}
-			if ( data[ p ] ) < 66 {
-				if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _st251;
-					
-				}
-				
-			} else if ( data[ p ] ) > 89 {
-				if 98 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr484;
-					
-				}
-				
-			} else {
-				goto _ctr484;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _ctr643;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr668:
+		_ctr644:
 		{return st, err }
 		goto _st253;
-		_ctr470:
+		_ctr643:
 		{pb = p }
 		goto _st253;
 		_st253:
@@ -17889,21 +16980,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr668;
+			goto _ctr644;
 			
 		} else {
 			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st191;
+				goto _st254;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr669:
+		_ctr646:
 		{return st, err }
-		goto _st254;
-		_ctr471:
-		{pb = p }
 		goto _st254;
 		_st254:
 		if p == eof {
@@ -17917,17 +17005,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr669;
+			goto _ctr646;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-				goto _st191;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st255;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr670:
+		_ctr648:
 		{return st, err }
 		goto _st255;
 		_st255:
@@ -17942,17 +17030,87 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr670;
+			goto _ctr648;
 			
 		} else {
-			if ( data[ p ] ) == 108 {
-				goto _st256;
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st420;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr672:
+		_ctr1042:
+		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
+		}
+		goto _st420;
+		_st420:
+		if p == eof {
+			goto _out420;
+			
+		}
+		p+=1;
+		st_case_420:
+		if p == pe && p != eof {
+			goto _out420;
+			
+		}
+		if p == eof {
+			goto _ctr1042;
+			
+		} else {
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr1043;
+					
+				}
+				case 43:
+				{
+					goto _ctr1044;
+					
+				}
+				case 45:
+				{
+					goto _ctr1045;
+					
+				}
+				case 47:
+				{
+					goto _ctr1046;
+					
+				}
+				case 84:
+				{
+					goto _ctr1047;
+					
+				}
+				case 90:
+				{
+					goto _ctr1048;
+					
+				}
+				case 95:
+				{
+					goto _ctr1046;
+					
+				}
+				
+			}
+			if ( data[ p ] ) > 89 {
+				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
+					goto _ctr1046;
+					
+				}
+				
+			} else if ( data[ p ] ) >= 65 {
+				goto _ctr1046;
+				
+			}
+			goto _st0;
+			
+		}
+		_ctr650:
 		{return st, err }
 		goto _st256;
 		_st256:
@@ -17967,17 +17125,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr672;
+			goto _ctr650;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr466;
+			if ( data[ p ] ) == 108 {
+				goto _st257;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr673:
+		_ctr652:
 		{return st, err }
 		goto _st257;
 		_st257:
@@ -17992,17 +17150,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr673;
+			goto _ctr652;
 			
 		} else {
-			if ( data[ p ] ) == 103 {
-				goto _st258;
+			if ( data[ p ] ) == 32 {
+				goto _ctr640;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr675:
+		_ctr653:
 		{return st, err }
 		goto _st258;
 		_st258:
@@ -18017,17 +17175,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr675;
+			goto _ctr653;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr676;
+			if ( data[ p ] ) == 103 {
+				goto _st259;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr677:
+		_ctr655:
 		{return st, err }
 		goto _st259;
 		_st259:
@@ -18042,17 +17200,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr677;
+			goto _ctr655;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st260;
+			if ( data[ p ] ) == 32 {
+				goto _ctr656;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr679:
+		_ctr657:
 		{return st, err }
 		goto _st260;
 		_st260:
@@ -18067,17 +17225,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr679;
+			goto _ctr657;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
+			if ( data[ p ] ) == 101 {
 				goto _st261;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr681:
+		_ctr659:
 		{return st, err }
 		goto _st261;
 		_st261:
@@ -18092,17 +17250,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr681;
+			goto _ctr659;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr682;
+			if ( data[ p ] ) == 99 {
+				goto _st262;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr683:
+		_ctr661:
 		{return st, err }
 		goto _st262;
 		_st262:
@@ -18117,17 +17275,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr683;
+			goto _ctr661;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st263;
+			if ( data[ p ] ) == 32 {
+				goto _ctr662;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr685:
+		_ctr663:
 		{return st, err }
 		goto _st263;
 		_st263:
@@ -18142,17 +17300,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr685;
+			goto _ctr663;
 			
 		} else {
-			if ( data[ p ] ) == 98 {
+			if ( data[ p ] ) == 101 {
 				goto _st264;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr687:
+		_ctr665:
 		{return st, err }
 		goto _st264;
 		_st264:
@@ -18167,26 +17325,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr687;
+			goto _ctr665;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr688;
-					
-				}
-				case 114:
-				{
-					goto _st265;
-					
-				}
+			if ( data[ p ] ) == 98 {
+				goto _st265;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr690:
+		_ctr667:
 		{return st, err }
 		goto _st265;
 		_st265:
@@ -18201,17 +17350,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr690;
+			goto _ctr667;
 			
 		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st266;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr668;
+					
+				}
+				case 114:
+				{
+					goto _st266;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr692:
+		_ctr670:
 		{return st, err }
 		goto _st266;
 		_st266:
@@ -18226,17 +17384,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr692;
+			goto _ctr670;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
+			if ( data[ p ] ) == 117 {
 				goto _st267;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr694:
+		_ctr672:
 		{return st, err }
 		goto _st267;
 		_st267:
@@ -18251,17 +17409,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr694;
+			goto _ctr672;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
+			if ( data[ p ] ) == 97 {
 				goto _st268;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr696:
+		_ctr674:
 		{return st, err }
 		goto _st268;
 		_st268:
@@ -18276,17 +17434,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr696;
+			goto _ctr674;
 			
 		} else {
-			if ( data[ p ] ) == 121 {
+			if ( data[ p ] ) == 114 {
 				goto _st269;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr698:
+		_ctr676:
 		{return st, err }
 		goto _st269;
 		_st269:
@@ -18301,17 +17459,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr698;
+			goto _ctr676;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr688;
+			if ( data[ p ] ) == 121 {
+				goto _st270;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr699:
+		_ctr678:
 		{return st, err }
 		goto _st270;
 		_st270:
@@ -18326,26 +17484,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr699;
+			goto _ctr678;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 97:
-				{
-					goto _st271;
-					
-				}
-				case 117:
-				{
-					goto _st277;
-					
-				}
+			if ( data[ p ] ) == 32 {
+				goto _ctr668;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr702:
+		_ctr679:
 		{return st, err }
 		goto _st271;
 		_st271:
@@ -18360,17 +17509,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr702;
+			goto _ctr679;
 			
 		} else {
-			if ( data[ p ] ) == 110 {
-				goto _st272;
+			switch ( data[ p ] ) {
+				case 97:
+				{
+					goto _st272;
+					
+				}
+				case 117:
+				{
+					goto _st278;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr704:
+		_ctr682:
 		{return st, err }
 		goto _st272;
 		_st272:
@@ -18385,26 +17543,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr704;
+			goto _ctr682;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr705;
-					
-				}
-				case 117:
-				{
-					goto _st273;
-					
-				}
+			if ( data[ p ] ) == 110 {
+				goto _st273;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr707:
+		_ctr684:
 		{return st, err }
 		goto _st273;
 		_st273:
@@ -18419,17 +17568,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr707;
+			goto _ctr684;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st274;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr685;
+					
+				}
+				case 117:
+				{
+					goto _st274;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr709:
+		_ctr687:
 		{return st, err }
 		goto _st274;
 		_st274:
@@ -18444,17 +17602,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr709;
+			goto _ctr687;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
+			if ( data[ p ] ) == 97 {
 				goto _st275;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr711:
+		_ctr689:
 		{return st, err }
 		goto _st275;
 		_st275:
@@ -18469,17 +17627,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr711;
+			goto _ctr689;
 			
 		} else {
-			if ( data[ p ] ) == 121 {
+			if ( data[ p ] ) == 114 {
 				goto _st276;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr713:
+		_ctr691:
 		{return st, err }
 		goto _st276;
 		_st276:
@@ -18494,17 +17652,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr713;
+			goto _ctr691;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr705;
+			if ( data[ p ] ) == 121 {
+				goto _st277;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr714:
+		_ctr693:
 		{return st, err }
 		goto _st277;
 		_st277:
@@ -18519,26 +17677,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr714;
+			goto _ctr693;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 108:
-				{
-					goto _st278;
-					
-				}
-				case 110:
-				{
-					goto _st279;
-					
-				}
+			if ( data[ p ] ) == 32 {
+				goto _ctr685;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr717:
+		_ctr694:
 		{return st, err }
 		goto _st278;
 		_st278:
@@ -18553,17 +17702,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr717;
+			goto _ctr694;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr718;
+			switch ( data[ p ] ) {
+				case 108:
+				{
+					goto _st279;
+					
+				}
+				case 110:
+				{
+					goto _st280;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr719:
+		_ctr697:
 		{return st, err }
 		goto _st279;
 		_st279:
@@ -18578,17 +17736,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr719;
+			goto _ctr697;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr720;
+				goto _ctr698;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr721:
+		_ctr699:
 		{return st, err }
 		goto _st280;
 		_st280:
@@ -18603,17 +17761,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr721;
+			goto _ctr699;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st281;
+			if ( data[ p ] ) == 32 {
+				goto _ctr700;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr723:
+		_ctr701:
 		{return st, err }
 		goto _st281;
 		_st281:
@@ -18628,26 +17786,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr723;
+			goto _ctr701;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 114:
-				{
-					goto _st282;
-					
-				}
-				case 121:
-				{
-					goto _st285;
-					
-				}
+			if ( data[ p ] ) == 97 {
+				goto _st282;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr726:
+		_ctr703:
 		{return st, err }
 		goto _st282;
 		_st282:
@@ -18662,18 +17811,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr726;
+			goto _ctr703;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr727;
-					
-				}
-				case 99:
+				case 114:
 				{
 					goto _st283;
+					
+				}
+				case 121:
+				{
+					goto _st286;
 					
 				}
 				
@@ -18681,7 +17830,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr729:
+		_ctr706:
 		{return st, err }
 		goto _st283;
 		_st283:
@@ -18696,17 +17845,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr729;
+			goto _ctr706;
 			
 		} else {
-			if ( data[ p ] ) == 104 {
-				goto _st284;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr707;
+					
+				}
+				case 99:
+				{
+					goto _st284;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr731:
+		_ctr709:
 		{return st, err }
 		goto _st284;
 		_st284:
@@ -18721,17 +17879,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr731;
+			goto _ctr709;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr727;
+			if ( data[ p ] ) == 104 {
+				goto _st285;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr732:
+		_ctr711:
 		{return st, err }
 		goto _st285;
 		_st285:
@@ -18746,17 +17904,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr732;
+			goto _ctr711;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _ctr733;
+				goto _ctr707;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr734:
+		_ctr712:
 		{return st, err }
 		goto _st286;
 		_st286:
@@ -18771,17 +17929,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr734;
+			goto _ctr712;
 			
 		} else {
-			if ( data[ p ] ) == 111 {
-				goto _st287;
+			if ( data[ p ] ) == 32 {
+				goto _ctr713;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr736:
+		_ctr714:
 		{return st, err }
 		goto _st287;
 		_st287:
@@ -18796,17 +17954,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr736;
+			goto _ctr714;
 			
 		} else {
-			if ( data[ p ] ) == 118 {
+			if ( data[ p ] ) == 111 {
 				goto _st288;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr738:
+		_ctr716:
 		{return st, err }
 		goto _st288;
 		_st288:
@@ -18821,17 +17979,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr738;
+			goto _ctr716;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr739;
+			if ( data[ p ] ) == 118 {
+				goto _st289;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr740:
+		_ctr718:
 		{return st, err }
 		goto _st289;
 		_st289:
@@ -18846,17 +18004,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr740;
+			goto _ctr718;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st290;
+			if ( data[ p ] ) == 32 {
+				goto _ctr719;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr742:
+		_ctr720:
 		{return st, err }
 		goto _st290;
 		_st290:
@@ -18871,17 +18029,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr742;
+			goto _ctr720;
 			
 		} else {
-			if ( data[ p ] ) == 116 {
+			if ( data[ p ] ) == 99 {
 				goto _st291;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr744:
+		_ctr722:
 		{return st, err }
 		goto _st291;
 		_st291:
@@ -18896,17 +18054,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr744;
+			goto _ctr722;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr745;
+			if ( data[ p ] ) == 116 {
+				goto _st292;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr746:
+		_ctr724:
 		{return st, err }
 		goto _st292;
 		_st292:
@@ -18921,17 +18079,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr746;
+			goto _ctr724;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st293;
+			if ( data[ p ] ) == 32 {
+				goto _ctr725;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr748:
+		_ctr726:
 		{return st, err }
 		goto _st293;
 		_st293:
@@ -18946,17 +18104,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr748;
+			goto _ctr726;
 			
 		} else {
-			if ( data[ p ] ) == 112 {
+			if ( data[ p ] ) == 101 {
 				goto _st294;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr750:
+		_ctr728:
 		{return st, err }
 		goto _st294;
 		_st294:
@@ -18971,17 +18129,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr750;
+			goto _ctr728;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr751;
+			if ( data[ p ] ) == 112 {
+				goto _st295;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr752:
+		_ctr730:
 		{return st, err }
 		goto _st295;
 		_st295:
@@ -18996,18 +18154,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr752;
+			goto _ctr730;
 			
 		} else {
 			if ( data[ p ] ) == 32 {
-				goto _st296;
+				goto _ctr731;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr754:
+		_ctr732:
 		{return st, err }
+		goto _st296;
+		_ctr624:
+		{switch p - pb {
+				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+				default:
+				err = fmt.Errorf("invalid day digits %s", data[pb:p])
+				return
+			}
+		}
 		goto _st296;
 		_st296:
 		if p == eof {
@@ -19021,40 +18188,57 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr754;
+			goto _ctr732;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 48:
+				case 65:
 				{
-					goto _ctr755;
+					goto _st297;
 					
 				}
-				case 51:
+				case 68:
 				{
-					goto _ctr757;
+					goto _st304;
 					
 				}
-				
-			}
-			if ( data[ p ] ) > 50 {
-				if 52 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-					goto _ctr758;
+				case 70:
+				{
+					goto _st307;
 					
 				}
-				
-			} else if ( data[ p ] ) >= 49 {
-				goto _ctr756;
+				case 74:
+				{
+					goto _st315;
+					
+				}
+				case 77:
+				{
+					goto _st325;
+					
+				}
+				case 78:
+				{
+					goto _st331;
+					
+				}
+				case 79:
+				{
+					goto _st334;
+					
+				}
+				case 83:
+				{
+					goto _st337;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr759:
+		_ctr741:
 		{return st, err }
-		goto _st297;
-		_ctr755:
-		{pb = p }
 		goto _st297;
 		_st297:
 		if p == eof {
@@ -19068,21 +18252,27 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr759;
+			goto _ctr741;
 			
 		} else {
-			if 49 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st298;
+			switch ( data[ p ] ) {
+				case 112:
+				{
+					goto _st298;
+					
+				}
+				case 117:
+				{
+					goto _st302;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr761:
+		_ctr744:
 		{return st, err }
-		goto _st298;
-		_ctr758:
-		{pb = p }
 		goto _st298;
 		_st298:
 		if p == eof {
@@ -19096,36 +18286,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr761;
+			goto _ctr744;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr762;
-					
-				}
-				case 45:
-				{
-					goto _ctr763;
-					
-				}
+			if ( data[ p ] ) == 114 {
+				goto _st299;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr764:
+		_ctr746:
 		{return st, err }
-		goto _st299;
-		_ctr762:
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
 		goto _st299;
 		_st299:
 		if p == eof {
@@ -19139,48 +18311,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr764;
+			goto _ctr746;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 65:
+				case 45:
+				{
+					goto _ctr213;
+					
+				}
+				case 105:
 				{
 					goto _st300;
-					
-				}
-				case 68:
-				{
-					goto _st311;
-					
-				}
-				case 70:
-				{
-					goto _st314;
-					
-				}
-				case 74:
-				{
-					goto _st322;
-					
-				}
-				case 77:
-				{
-					goto _st332;
-					
-				}
-				case 78:
-				{
-					goto _st338;
-					
-				}
-				case 79:
-				{
-					goto _st341;
-					
-				}
-				case 83:
-				{
-					goto _st344;
 					
 				}
 				
@@ -19188,7 +18330,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr773:
+		_ctr748:
 		{return st, err }
 		goto _st300;
 		_st300:
@@ -19203,26 +18345,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr773;
+			goto _ctr748;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 112:
-				{
-					goto _st301;
-					
-				}
-				case 117:
-				{
-					goto _st309;
-					
-				}
+			if ( data[ p ] ) == 108 {
+				goto _st301;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr776:
+		_ctr750:
 		{return st, err }
 		goto _st301;
 		_st301:
@@ -19237,17 +18370,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr776;
+			goto _ctr750;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st302;
+			if ( data[ p ] ) == 45 {
+				goto _ctr213;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr778:
+		_ctr751:
 		{return st, err }
 		goto _st302;
 		_st302:
@@ -19262,63 +18395,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr778;
+			goto _ctr751;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr779;
-					
-				}
-				case 105:
-				{
-					goto _st307;
-					
-				}
+			if ( data[ p ] ) == 103 {
+				goto _st303;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr781:
+		_ctr753:
 		{return st, err }
-		goto _st303;
-		_ctr779:
-		{st.Month = 4 ;}
-		goto _st303;
-		_ctr795:
-		{st.Month = 8 ;}
-		goto _st303;
-		_ctr801:
-		{st.Month = 12 ;}
-		goto _st303;
-		_ctr807:
-		{st.Month = 2 ;}
-		goto _st303;
-		_ctr824:
-		{st.Month = 1 ;}
-		goto _st303;
-		_ctr837:
-		{st.Month = 7 ;}
-		goto _st303;
-		_ctr839:
-		{st.Month = 6 ;}
-		goto _st303;
-		_ctr846:
-		{st.Month = 3 ;}
-		goto _st303;
-		_ctr852:
-		{st.Month = 5 ;}
-		goto _st303;
-		_ctr858:
-		{st.Month = 11 ;}
-		goto _st303;
-		_ctr864:
-		{st.Month = 10 ;}
-		goto _st303;
-		_ctr870:
-		{st.Month = 9 ;}
 		goto _st303;
 		_st303:
 		if p == eof {
@@ -19332,21 +18420,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr781;
+			goto _ctr753;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _ctr782;
+			if ( data[ p ] ) == 45 {
+				goto _ctr225;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr783:
+		_ctr754:
 		{return st, err }
-		goto _st304;
-		_ctr782:
-		{pb = p }
 		goto _st304;
 		_st304:
 		if p == eof {
@@ -19360,17 +18445,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr783;
+			goto _ctr754;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+			if ( data[ p ] ) == 101 {
 				goto _st305;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr785:
+		_ctr756:
 		{return st, err }
 		goto _st305;
 		_st305:
@@ -19385,17 +18470,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr785;
+			goto _ctr756;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+			if ( data[ p ] ) == 99 {
 				goto _st306;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr787:
+		_ctr758:
 		{return st, err }
 		goto _st306;
 		_st306:
@@ -19410,87 +18495,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr787;
+			goto _ctr758;
 			
 		} else {
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st475;
+			if ( data[ p ] ) == 45 {
+				goto _ctr231;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr1191:
-		{st.Year, _ = strconv.Atoi(data[pb:pb+4])
-		}
-		goto _st475;
-		_st475:
-		if p == eof {
-			goto _out475;
-			
-		}
-		p+=1;
-		st_case_475:
-		if p == pe && p != eof {
-			goto _out475;
-			
-		}
-		if p == eof {
-			goto _ctr1191;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr1192;
-					
-				}
-				case 43:
-				{
-					goto _ctr1193;
-					
-				}
-				case 45:
-				{
-					goto _ctr1194;
-					
-				}
-				case 47:
-				{
-					goto _ctr1195;
-					
-				}
-				case 84:
-				{
-					goto _ctr1196;
-					
-				}
-				case 90:
-				{
-					goto _ctr1197;
-					
-				}
-				case 95:
-				{
-					goto _ctr1195;
-					
-				}
-				
-			}
-			if ( data[ p ] ) > 89 {
-				if 97 <= ( data[ p ] ) && ( data[ p ] ) <= 122 {
-					goto _ctr1195;
-					
-				}
-				
-			} else if ( data[ p ] ) >= 65 {
-				goto _ctr1195;
-				
-			}
-			goto _st0;
-			
-		}
-		_ctr789:
+		_ctr759:
 		{return st, err }
 		goto _st307;
 		_st307:
@@ -19505,17 +18520,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr789;
+			goto _ctr759;
 			
 		} else {
-			if ( data[ p ] ) == 108 {
+			if ( data[ p ] ) == 101 {
 				goto _st308;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr791:
+		_ctr761:
 		{return st, err }
 		goto _st308;
 		_st308:
@@ -19530,17 +18545,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr791;
+			goto _ctr761;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr779;
+			if ( data[ p ] ) == 98 {
+				goto _st309;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr792:
+		_ctr763:
 		{return st, err }
 		goto _st309;
 		_st309:
@@ -19555,17 +18570,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr792;
+			goto _ctr763;
 			
 		} else {
-			if ( data[ p ] ) == 103 {
-				goto _st310;
+			switch ( data[ p ] ) {
+				case 45:
+				{
+					goto _ctr237;
+					
+				}
+				case 114:
+				{
+					goto _st310;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr794:
+		_ctr765:
 		{return st, err }
 		goto _st310;
 		_st310:
@@ -19580,17 +18604,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr794;
+			goto _ctr765;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr795;
+			if ( data[ p ] ) == 117 {
+				goto _st311;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr796:
+		_ctr767:
 		{return st, err }
 		goto _st311;
 		_st311:
@@ -19605,17 +18629,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr796;
+			goto _ctr767;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
+			if ( data[ p ] ) == 97 {
 				goto _st312;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr798:
+		_ctr769:
 		{return st, err }
 		goto _st312;
 		_st312:
@@ -19630,17 +18654,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr798;
+			goto _ctr769;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
+			if ( data[ p ] ) == 114 {
 				goto _st313;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr800:
+		_ctr771:
 		{return st, err }
 		goto _st313;
 		_st313:
@@ -19655,17 +18679,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr800;
+			goto _ctr771;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr801;
+			if ( data[ p ] ) == 121 {
+				goto _st314;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr802:
+		_ctr773:
 		{return st, err }
 		goto _st314;
 		_st314:
@@ -19680,17 +18704,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr802;
+			goto _ctr773;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st315;
+			if ( data[ p ] ) == 45 {
+				goto _ctr237;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr804:
+		_ctr774:
 		{return st, err }
 		goto _st315;
 		_st315:
@@ -19705,17 +18729,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr804;
+			goto _ctr774;
 			
 		} else {
-			if ( data[ p ] ) == 98 {
-				goto _st316;
+			switch ( data[ p ] ) {
+				case 97:
+				{
+					goto _st316;
+					
+				}
+				case 117:
+				{
+					goto _st322;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr806:
+		_ctr777:
 		{return st, err }
 		goto _st316;
 		_st316:
@@ -19730,26 +18763,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr806;
+			goto _ctr777;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr807;
-					
-				}
-				case 114:
-				{
-					goto _st317;
-					
-				}
+			if ( data[ p ] ) == 110 {
+				goto _st317;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr809:
+		_ctr779:
 		{return st, err }
 		goto _st317;
 		_st317:
@@ -19764,17 +18788,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr809;
+			goto _ctr779;
 			
 		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st318;
+			switch ( data[ p ] ) {
+				case 45:
+				{
+					goto _ctr254;
+					
+				}
+				case 117:
+				{
+					goto _st318;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr811:
+		_ctr781:
 		{return st, err }
 		goto _st318;
 		_st318:
@@ -19789,7 +18822,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr811;
+			goto _ctr781;
 			
 		} else {
 			if ( data[ p ] ) == 97 {
@@ -19799,7 +18832,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr813:
+		_ctr783:
 		{return st, err }
 		goto _st319;
 		_st319:
@@ -19814,7 +18847,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr813;
+			goto _ctr783;
 			
 		} else {
 			if ( data[ p ] ) == 114 {
@@ -19824,7 +18857,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr815:
+		_ctr785:
 		{return st, err }
 		goto _st320;
 		_st320:
@@ -19839,7 +18872,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr815;
+			goto _ctr785;
 			
 		} else {
 			if ( data[ p ] ) == 121 {
@@ -19849,7 +18882,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr817:
+		_ctr787:
 		{return st, err }
 		goto _st321;
 		_st321:
@@ -19864,17 +18897,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr817;
+			goto _ctr787;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr807;
+			if ( data[ p ] ) == 45 {
+				goto _ctr254;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr818:
+		_ctr788:
 		{return st, err }
 		goto _st322;
 		_st322:
@@ -19889,18 +18922,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr818;
+			goto _ctr788;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 97:
+				case 108:
 				{
 					goto _st323;
 					
 				}
-				case 117:
+				case 110:
 				{
-					goto _st329;
+					goto _st324;
 					
 				}
 				
@@ -19908,7 +18941,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr821:
+		_ctr791:
 		{return st, err }
 		goto _st323;
 		_st323:
@@ -19923,17 +18956,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr821;
+			goto _ctr791;
 			
 		} else {
-			if ( data[ p ] ) == 110 {
-				goto _st324;
+			if ( data[ p ] ) == 45 {
+				goto _ctr267;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr823:
+		_ctr792:
 		{return st, err }
 		goto _st324;
 		_st324:
@@ -19948,26 +18981,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr823;
+			goto _ctr792;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr824;
-					
-				}
-				case 117:
-				{
-					goto _st325;
-					
-				}
+			if ( data[ p ] ) == 45 {
+				goto _ctr269;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr826:
+		_ctr793:
 		{return st, err }
 		goto _st325;
 		_st325:
@@ -19982,7 +19006,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr826;
+			goto _ctr793;
 			
 		} else {
 			if ( data[ p ] ) == 97 {
@@ -19992,7 +19016,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr828:
+		_ctr795:
 		{return st, err }
 		goto _st326;
 		_st326:
@@ -20007,17 +19031,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr828;
+			goto _ctr795;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st327;
+			switch ( data[ p ] ) {
+				case 114:
+				{
+					goto _st327;
+					
+				}
+				case 121:
+				{
+					goto _st330;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr830:
+		_ctr798:
 		{return st, err }
 		goto _st327;
 		_st327:
@@ -20032,17 +19065,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr830;
+			goto _ctr798;
 			
 		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st328;
+			switch ( data[ p ] ) {
+				case 45:
+				{
+					goto _ctr276;
+					
+				}
+				case 99:
+				{
+					goto _st328;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr832:
+		_ctr800:
 		{return st, err }
 		goto _st328;
 		_st328:
@@ -20057,17 +19099,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr832;
+			goto _ctr800;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr824;
+			if ( data[ p ] ) == 104 {
+				goto _st329;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr833:
+		_ctr802:
 		{return st, err }
 		goto _st329;
 		_st329:
@@ -20082,26 +19124,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr833;
+			goto _ctr802;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 108:
-				{
-					goto _st330;
-					
-				}
-				case 110:
-				{
-					goto _st331;
-					
-				}
+			if ( data[ p ] ) == 45 {
+				goto _ctr276;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr836:
+		_ctr803:
 		{return st, err }
 		goto _st330;
 		_st330:
@@ -20116,17 +19149,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr836;
+			goto _ctr803;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr837;
+			if ( data[ p ] ) == 45 {
+				goto _ctr282;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr838:
+		_ctr804:
 		{return st, err }
 		goto _st331;
 		_st331:
@@ -20141,17 +19174,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr838;
+			goto _ctr804;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr839;
+			if ( data[ p ] ) == 111 {
+				goto _st332;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr840:
+		_ctr806:
 		{return st, err }
 		goto _st332;
 		_st332:
@@ -20166,17 +19199,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr840;
+			goto _ctr806;
 			
 		} else {
-			if ( data[ p ] ) == 97 {
+			if ( data[ p ] ) == 118 {
 				goto _st333;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr842:
+		_ctr808:
 		{return st, err }
 		goto _st333;
 		_st333:
@@ -20191,26 +19224,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr842;
+			goto _ctr808;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 114:
-				{
-					goto _st334;
-					
-				}
-				case 121:
-				{
-					goto _st337;
-					
-				}
+			if ( data[ p ] ) == 45 {
+				goto _ctr288;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr845:
+		_ctr809:
 		{return st, err }
 		goto _st334;
 		_st334:
@@ -20225,26 +19249,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr845;
+			goto _ctr809;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr846;
-					
-				}
-				case 99:
-				{
-					goto _st335;
-					
-				}
+			if ( data[ p ] ) == 99 {
+				goto _st335;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr848:
+		_ctr811:
 		{return st, err }
 		goto _st335;
 		_st335:
@@ -20259,17 +19274,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr848;
+			goto _ctr811;
 			
 		} else {
-			if ( data[ p ] ) == 104 {
+			if ( data[ p ] ) == 116 {
 				goto _st336;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr850:
+		_ctr813:
 		{return st, err }
 		goto _st336;
 		_st336:
@@ -20284,17 +19299,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr850;
+			goto _ctr813;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr846;
+			if ( data[ p ] ) == 45 {
+				goto _ctr294;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr851:
+		_ctr814:
 		{return st, err }
 		goto _st337;
 		_st337:
@@ -20309,17 +19324,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr851;
+			goto _ctr814;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr852;
+			if ( data[ p ] ) == 101 {
+				goto _st338;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr853:
+		_ctr816:
 		{return st, err }
 		goto _st338;
 		_st338:
@@ -20334,17 +19349,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr853;
+			goto _ctr816;
 			
 		} else {
-			if ( data[ p ] ) == 111 {
+			if ( data[ p ] ) == 112 {
 				goto _st339;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr855:
+		_ctr818:
 		{return st, err }
 		goto _st339;
 		_st339:
@@ -20359,18 +19374,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr855;
+			goto _ctr818;
 			
 		} else {
-			if ( data[ p ] ) == 118 {
-				goto _st340;
+			if ( data[ p ] ) == 45 {
+				goto _ctr300;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr857:
+		_ctr819:
 		{return st, err }
+		goto _st340;
+		_ctr617:
+		{pb = p }
 		goto _st340;
 		_st340:
 		if p == eof {
@@ -20384,18 +19402,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr857;
+			goto _ctr819;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr858;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr623;
+					
+				}
+				case 45:
+				{
+					goto _ctr624;
+					
+				}
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
+				goto _st247;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr859:
+		_ctr820:
 		{return st, err }
+		goto _st341;
+		_ctr618:
+		{pb = p }
 		goto _st341;
 		_st341:
 		if p == eof {
@@ -20409,17 +19443,30 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr859;
+			goto _ctr820;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st342;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _ctr623;
+					
+				}
+				case 45:
+				{
+					goto _ctr624;
+					
+				}
+				
+			}
+			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
+				goto _st247;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr861:
+		_ctr821:
 		{return st, err }
 		goto _st342;
 		_st342:
@@ -20434,17 +19481,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr861;
+			goto _ctr821;
 			
 		} else {
-			if ( data[ p ] ) == 116 {
+			if ( data[ p ] ) == 97 {
 				goto _st343;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr863:
+		_ctr823:
 		{return st, err }
 		goto _st343;
 		_st343:
@@ -20459,17 +19506,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr863;
+			goto _ctr823;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr864;
+			if ( data[ p ] ) == 121 {
+				goto _st344;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr865:
+		_ctr825:
 		{return st, err }
 		goto _st344;
 		_st344:
@@ -20484,17 +19531,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr865;
+			goto _ctr825;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st345;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st134;
+					
+				}
+				case 44:
+				{
+					goto _st244;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr867:
+		_ctr826:
 		{return st, err }
 		goto _st345;
 		_st345:
@@ -20509,17 +19565,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr867;
+			goto _ctr826;
 			
 		} else {
-			if ( data[ p ] ) == 112 {
+			if ( data[ p ] ) == 111 {
 				goto _st346;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr869:
+		_ctr828:
 		{return st, err }
 		goto _st346;
 		_st346:
@@ -20534,27 +19590,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr869;
+			goto _ctr828;
 			
 		} else {
-			if ( data[ p ] ) == 32 {
-				goto _ctr870;
+			if ( data[ p ] ) == 110 {
+				goto _st133;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr871:
+		_ctr829:
 		{return st, err }
-		goto _st347;
-		_ctr763:
-		{switch p - pb {
-				case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-				default:
-				err = fmt.Errorf("invalid day digits %s", data[pb:p])
-				return
-			}
-		}
 		goto _st347;
 		_st347:
 		if p == eof {
@@ -20568,48 +19615,18 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr871;
+			goto _ctr829;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 65:
+				case 97:
 				{
 					goto _st348;
 					
 				}
-				case 68:
+				case 117:
 				{
-					goto _st355;
-					
-				}
-				case 70:
-				{
-					goto _st358;
-					
-				}
-				case 74:
-				{
-					goto _st366;
-					
-				}
-				case 77:
-				{
-					goto _st376;
-					
-				}
-				case 78:
-				{
-					goto _st382;
-					
-				}
-				case 79:
-				{
-					goto _st385;
-					
-				}
-				case 83:
-				{
-					goto _st388;
+					goto _st346;
 					
 				}
 				
@@ -20617,7 +19634,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr880:
+		_ctr831:
 		{return st, err }
 		goto _st348;
 		_st348:
@@ -20632,26 +19649,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr880;
+			goto _ctr831;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 112:
-				{
-					goto _st349;
-					
-				}
-				case 117:
-				{
-					goto _st353;
-					
-				}
+			if ( data[ p ] ) == 116 {
+				goto _st349;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr883:
+		_ctr833:
 		{return st, err }
 		goto _st349;
 		_st349:
@@ -20666,17 +19674,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr883;
+			goto _ctr833;
 			
 		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st350;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st134;
+					
+				}
+				case 44:
+				{
+					goto _st244;
+					
+				}
+				case 117:
+				{
+					goto _st350;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr885:
+		_ctr835:
 		{return st, err }
 		goto _st350;
 		_st350:
@@ -20691,26 +19713,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr885;
+			goto _ctr835;
 			
 		} else {
-			switch ( data[ p ] ) {
-				case 45:
-				{
-					goto _ctr352;
-					
-				}
-				case 105:
-				{
-					goto _st351;
-					
-				}
+			if ( data[ p ] ) == 114 {
+				goto _st351;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr887:
+		_ctr837:
 		{return st, err }
 		goto _st351;
 		_st351:
@@ -20725,17 +19738,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr887;
+			goto _ctr837;
 			
 		} else {
-			if ( data[ p ] ) == 108 {
-				goto _st352;
+			if ( data[ p ] ) == 100 {
+				goto _st342;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr889:
+		_ctr838:
 		{return st, err }
 		goto _st352;
 		_st352:
@@ -20750,17 +19763,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr889;
+			goto _ctr838;
 			
 		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr352;
+			switch ( data[ p ] ) {
+				case 104:
+				{
+					goto _st353;
+					
+				}
+				case 117:
+				{
+					goto _st356;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr890:
+		_ctr841:
 		{return st, err }
 		goto _st353;
 		_st353:
@@ -20775,17 +19797,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr890;
+			goto _ctr841;
 			
 		} else {
-			if ( data[ p ] ) == 103 {
+			if ( data[ p ] ) == 117 {
 				goto _st354;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr892:
+		_ctr843:
 		{return st, err }
 		goto _st354;
 		_st354:
@@ -20800,17 +19822,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr892;
+			goto _ctr843;
 			
 		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr364;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st134;
+					
+				}
+				case 44:
+				{
+					goto _st244;
+					
+				}
+				case 114:
+				{
+					goto _st355;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr893:
+		_ctr845:
 		{return st, err }
 		goto _st355;
 		_st355:
@@ -20825,17 +19861,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr893;
+			goto _ctr845;
 			
 		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st356;
+			if ( data[ p ] ) == 115 {
+				goto _st351;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr895:
+		_ctr846:
 		{return st, err }
 		goto _st356;
 		_st356:
@@ -20850,17 +19886,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr895;
+			goto _ctr846;
 			
 		} else {
-			if ( data[ p ] ) == 99 {
+			if ( data[ p ] ) == 101 {
 				goto _st357;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr897:
+		_ctr848:
 		{return st, err }
 		goto _st357;
 		_st357:
@@ -20875,17 +19911,31 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr897;
+			goto _ctr848;
 			
 		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr370;
+			switch ( data[ p ] ) {
+				case 32:
+				{
+					goto _st134;
+					
+				}
+				case 44:
+				{
+					goto _st244;
+					
+				}
+				case 115:
+				{
+					goto _st351;
+					
+				}
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr898:
+		_ctr849:
 		{return st, err }
 		goto _st358;
 		_st358:
@@ -20900,7 +19950,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr898;
+			goto _ctr849;
 			
 		} else {
 			if ( data[ p ] ) == 101 {
@@ -20910,7 +19960,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr900:
+		_ctr851:
 		{return st, err }
 		goto _st359;
 		_st359:
@@ -20925,17 +19975,17 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr900;
+			goto _ctr851;
 			
 		} else {
-			if ( data[ p ] ) == 98 {
+			if ( data[ p ] ) == 100 {
 				goto _st360;
 				
 			}
 			goto _ctr2;
 			
 		}
-		_ctr902:
+		_ctr853:
 		{return st, err }
 		goto _st360;
 		_st360:
@@ -20950,16 +20000,21 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr902;
+			goto _ctr853;
 			
 		} else {
 			switch ( data[ p ] ) {
-				case 45:
+				case 32:
 				{
-					goto _ctr376;
+					goto _st134;
 					
 				}
-				case 114:
+				case 44:
+				{
+					goto _st244;
+					
+				}
+				case 110:
 				{
 					goto _st361;
 					
@@ -20969,7 +20024,7 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			goto _ctr2;
 			
 		}
-		_ctr904:
+		_ctr855:
 		{return st, err }
 		goto _st361;
 		_st361:
@@ -20984,1446 +20039,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 			
 		}
 		if p == eof {
-			goto _ctr904;
-			
-		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st362;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr906:
-		{return st, err }
-		goto _st362;
-		_st362:
-		if p == eof {
-			goto _out362;
-			
-		}
-		p+=1;
-		st_case_362:
-		if p == pe && p != eof {
-			goto _out362;
-			
-		}
-		if p == eof {
-			goto _ctr906;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st363;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr908:
-		{return st, err }
-		goto _st363;
-		_st363:
-		if p == eof {
-			goto _out363;
-			
-		}
-		p+=1;
-		st_case_363:
-		if p == pe && p != eof {
-			goto _out363;
-			
-		}
-		if p == eof {
-			goto _ctr908;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st364;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr910:
-		{return st, err }
-		goto _st364;
-		_st364:
-		if p == eof {
-			goto _out364;
-			
-		}
-		p+=1;
-		st_case_364:
-		if p == pe && p != eof {
-			goto _out364;
-			
-		}
-		if p == eof {
-			goto _ctr910;
-			
-		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st365;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr912:
-		{return st, err }
-		goto _st365;
-		_st365:
-		if p == eof {
-			goto _out365;
-			
-		}
-		p+=1;
-		st_case_365:
-		if p == pe && p != eof {
-			goto _out365;
-			
-		}
-		if p == eof {
-			goto _ctr912;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr376;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr913:
-		{return st, err }
-		goto _st366;
-		_st366:
-		if p == eof {
-			goto _out366;
-			
-		}
-		p+=1;
-		st_case_366:
-		if p == pe && p != eof {
-			goto _out366;
-			
-		}
-		if p == eof {
-			goto _ctr913;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 97:
-				{
-					goto _st367;
-					
-				}
-				case 117:
-				{
-					goto _st373;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr916:
-		{return st, err }
-		goto _st367;
-		_st367:
-		if p == eof {
-			goto _out367;
-			
-		}
-		p+=1;
-		st_case_367:
-		if p == pe && p != eof {
-			goto _out367;
-			
-		}
-		if p == eof {
-			goto _ctr916;
-			
-		} else {
-			if ( data[ p ] ) == 110 {
-				goto _st368;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr918:
-		{return st, err }
-		goto _st368;
-		_st368:
-		if p == eof {
-			goto _out368;
-			
-		}
-		p+=1;
-		st_case_368:
-		if p == pe && p != eof {
-			goto _out368;
-			
-		}
-		if p == eof {
-			goto _ctr918;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 45:
-				{
-					goto _ctr393;
-					
-				}
-				case 117:
-				{
-					goto _st369;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr920:
-		{return st, err }
-		goto _st369;
-		_st369:
-		if p == eof {
-			goto _out369;
-			
-		}
-		p+=1;
-		st_case_369:
-		if p == pe && p != eof {
-			goto _out369;
-			
-		}
-		if p == eof {
-			goto _ctr920;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st370;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr922:
-		{return st, err }
-		goto _st370;
-		_st370:
-		if p == eof {
-			goto _out370;
-			
-		}
-		p+=1;
-		st_case_370:
-		if p == pe && p != eof {
-			goto _out370;
-			
-		}
-		if p == eof {
-			goto _ctr922;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st371;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr924:
-		{return st, err }
-		goto _st371;
-		_st371:
-		if p == eof {
-			goto _out371;
-			
-		}
-		p+=1;
-		st_case_371:
-		if p == pe && p != eof {
-			goto _out371;
-			
-		}
-		if p == eof {
-			goto _ctr924;
-			
-		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st372;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr926:
-		{return st, err }
-		goto _st372;
-		_st372:
-		if p == eof {
-			goto _out372;
-			
-		}
-		p+=1;
-		st_case_372:
-		if p == pe && p != eof {
-			goto _out372;
-			
-		}
-		if p == eof {
-			goto _ctr926;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr393;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr927:
-		{return st, err }
-		goto _st373;
-		_st373:
-		if p == eof {
-			goto _out373;
-			
-		}
-		p+=1;
-		st_case_373:
-		if p == pe && p != eof {
-			goto _out373;
-			
-		}
-		if p == eof {
-			goto _ctr927;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 108:
-				{
-					goto _st374;
-					
-				}
-				case 110:
-				{
-					goto _st375;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr930:
-		{return st, err }
-		goto _st374;
-		_st374:
-		if p == eof {
-			goto _out374;
-			
-		}
-		p+=1;
-		st_case_374:
-		if p == pe && p != eof {
-			goto _out374;
-			
-		}
-		if p == eof {
-			goto _ctr930;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr406;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr931:
-		{return st, err }
-		goto _st375;
-		_st375:
-		if p == eof {
-			goto _out375;
-			
-		}
-		p+=1;
-		st_case_375:
-		if p == pe && p != eof {
-			goto _out375;
-			
-		}
-		if p == eof {
-			goto _ctr931;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr408;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr932:
-		{return st, err }
-		goto _st376;
-		_st376:
-		if p == eof {
-			goto _out376;
-			
-		}
-		p+=1;
-		st_case_376:
-		if p == pe && p != eof {
-			goto _out376;
-			
-		}
-		if p == eof {
-			goto _ctr932;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st377;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr934:
-		{return st, err }
-		goto _st377;
-		_st377:
-		if p == eof {
-			goto _out377;
-			
-		}
-		p+=1;
-		st_case_377:
-		if p == pe && p != eof {
-			goto _out377;
-			
-		}
-		if p == eof {
-			goto _ctr934;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 114:
-				{
-					goto _st378;
-					
-				}
-				case 121:
-				{
-					goto _st381;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr937:
-		{return st, err }
-		goto _st378;
-		_st378:
-		if p == eof {
-			goto _out378;
-			
-		}
-		p+=1;
-		st_case_378:
-		if p == pe && p != eof {
-			goto _out378;
-			
-		}
-		if p == eof {
-			goto _ctr937;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 45:
-				{
-					goto _ctr415;
-					
-				}
-				case 99:
-				{
-					goto _st379;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr939:
-		{return st, err }
-		goto _st379;
-		_st379:
-		if p == eof {
-			goto _out379;
-			
-		}
-		p+=1;
-		st_case_379:
-		if p == pe && p != eof {
-			goto _out379;
-			
-		}
-		if p == eof {
-			goto _ctr939;
-			
-		} else {
-			if ( data[ p ] ) == 104 {
-				goto _st380;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr941:
-		{return st, err }
-		goto _st380;
-		_st380:
-		if p == eof {
-			goto _out380;
-			
-		}
-		p+=1;
-		st_case_380:
-		if p == pe && p != eof {
-			goto _out380;
-			
-		}
-		if p == eof {
-			goto _ctr941;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr415;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr942:
-		{return st, err }
-		goto _st381;
-		_st381:
-		if p == eof {
-			goto _out381;
-			
-		}
-		p+=1;
-		st_case_381:
-		if p == pe && p != eof {
-			goto _out381;
-			
-		}
-		if p == eof {
-			goto _ctr942;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr421;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr943:
-		{return st, err }
-		goto _st382;
-		_st382:
-		if p == eof {
-			goto _out382;
-			
-		}
-		p+=1;
-		st_case_382:
-		if p == pe && p != eof {
-			goto _out382;
-			
-		}
-		if p == eof {
-			goto _ctr943;
-			
-		} else {
-			if ( data[ p ] ) == 111 {
-				goto _st383;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr945:
-		{return st, err }
-		goto _st383;
-		_st383:
-		if p == eof {
-			goto _out383;
-			
-		}
-		p+=1;
-		st_case_383:
-		if p == pe && p != eof {
-			goto _out383;
-			
-		}
-		if p == eof {
-			goto _ctr945;
-			
-		} else {
-			if ( data[ p ] ) == 118 {
-				goto _st384;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr947:
-		{return st, err }
-		goto _st384;
-		_st384:
-		if p == eof {
-			goto _out384;
-			
-		}
-		p+=1;
-		st_case_384:
-		if p == pe && p != eof {
-			goto _out384;
-			
-		}
-		if p == eof {
-			goto _ctr947;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr427;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr948:
-		{return st, err }
-		goto _st385;
-		_st385:
-		if p == eof {
-			goto _out385;
-			
-		}
-		p+=1;
-		st_case_385:
-		if p == pe && p != eof {
-			goto _out385;
-			
-		}
-		if p == eof {
-			goto _ctr948;
-			
-		} else {
-			if ( data[ p ] ) == 99 {
-				goto _st386;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr950:
-		{return st, err }
-		goto _st386;
-		_st386:
-		if p == eof {
-			goto _out386;
-			
-		}
-		p+=1;
-		st_case_386:
-		if p == pe && p != eof {
-			goto _out386;
-			
-		}
-		if p == eof {
-			goto _ctr950;
-			
-		} else {
-			if ( data[ p ] ) == 116 {
-				goto _st387;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr952:
-		{return st, err }
-		goto _st387;
-		_st387:
-		if p == eof {
-			goto _out387;
-			
-		}
-		p+=1;
-		st_case_387:
-		if p == pe && p != eof {
-			goto _out387;
-			
-		}
-		if p == eof {
-			goto _ctr952;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr433;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr953:
-		{return st, err }
-		goto _st388;
-		_st388:
-		if p == eof {
-			goto _out388;
-			
-		}
-		p+=1;
-		st_case_388:
-		if p == pe && p != eof {
-			goto _out388;
-			
-		}
-		if p == eof {
-			goto _ctr953;
+			goto _ctr855;
 			
 		} else {
 			if ( data[ p ] ) == 101 {
-				goto _st389;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr955:
-		{return st, err }
-		goto _st389;
-		_st389:
-		if p == eof {
-			goto _out389;
-			
-		}
-		p+=1;
-		st_case_389:
-		if p == pe && p != eof {
-			goto _out389;
-			
-		}
-		if p == eof {
-			goto _ctr955;
-			
-		} else {
-			if ( data[ p ] ) == 112 {
-				goto _st390;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr957:
-		{return st, err }
-		goto _st390;
-		_st390:
-		if p == eof {
-			goto _out390;
-			
-		}
-		p+=1;
-		st_case_390:
-		if p == pe && p != eof {
-			goto _out390;
-			
-		}
-		if p == eof {
-			goto _ctr957;
-			
-		} else {
-			if ( data[ p ] ) == 45 {
-				goto _ctr439;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr958:
-		{return st, err }
-		goto _st391;
-		_ctr756:
-		{pb = p }
-		goto _st391;
-		_st391:
-		if p == eof {
-			goto _out391;
-			
-		}
-		p+=1;
-		st_case_391:
-		if p == pe && p != eof {
-			goto _out391;
-			
-		}
-		if p == eof {
-			goto _ctr958;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr762;
-					
-				}
-				case 45:
-				{
-					goto _ctr763;
-					
-				}
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 57 {
-				goto _st298;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr959:
-		{return st, err }
-		goto _st392;
-		_ctr757:
-		{pb = p }
-		goto _st392;
-		_st392:
-		if p == eof {
-			goto _out392;
-			
-		}
-		p+=1;
-		st_case_392:
-		if p == pe && p != eof {
-			goto _out392;
-			
-		}
-		if p == eof {
-			goto _ctr959;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _ctr762;
-					
-				}
-				case 45:
-				{
-					goto _ctr763;
-					
-				}
-				
-			}
-			if 48 <= ( data[ p ] ) && ( data[ p ] ) <= 49 {
-				goto _st298;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr960:
-		{return st, err }
-		goto _st393;
-		_st393:
-		if p == eof {
-			goto _out393;
-			
-		}
-		p+=1;
-		st_case_393:
-		if p == pe && p != eof {
-			goto _out393;
-			
-		}
-		if p == eof {
-			goto _ctr960;
-			
-		} else {
-			if ( data[ p ] ) == 97 {
-				goto _st394;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr962:
-		{return st, err }
-		goto _st394;
-		_st394:
-		if p == eof {
-			goto _out394;
-			
-		}
-		p+=1;
-		st_case_394:
-		if p == pe && p != eof {
-			goto _out394;
-			
-		}
-		if p == eof {
-			goto _ctr962;
-			
-		} else {
-			if ( data[ p ] ) == 121 {
-				goto _st395;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr964:
-		{return st, err }
-		goto _st395;
-		_st395:
-		if p == eof {
-			goto _out395;
-			
-		}
-		p+=1;
-		st_case_395:
-		if p == pe && p != eof {
-			goto _out395;
-			
-		}
-		if p == eof {
-			goto _ctr964;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr965:
-		{return st, err }
-		goto _st396;
-		_st396:
-		if p == eof {
-			goto _out396;
-			
-		}
-		p+=1;
-		st_case_396:
-		if p == pe && p != eof {
-			goto _out396;
-			
-		}
-		if p == eof {
-			goto _ctr965;
-			
-		} else {
-			if ( data[ p ] ) == 111 {
-				goto _st397;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr967:
-		{return st, err }
-		goto _st397;
-		_st397:
-		if p == eof {
-			goto _out397;
-			
-		}
-		p+=1;
-		st_case_397:
-		if p == pe && p != eof {
-			goto _out397;
-			
-		}
-		if p == eof {
-			goto _ctr967;
-			
-		} else {
-			if ( data[ p ] ) == 110 {
-				goto _st184;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr968:
-		{return st, err }
-		goto _st398;
-		_st398:
-		if p == eof {
-			goto _out398;
-			
-		}
-		p+=1;
-		st_case_398:
-		if p == pe && p != eof {
-			goto _out398;
-			
-		}
-		if p == eof {
-			goto _ctr968;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 97:
-				{
-					goto _st399;
-					
-				}
-				case 117:
-				{
-					goto _st397;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr970:
-		{return st, err }
-		goto _st399;
-		_st399:
-		if p == eof {
-			goto _out399;
-			
-		}
-		p+=1;
-		st_case_399:
-		if p == pe && p != eof {
-			goto _out399;
-			
-		}
-		if p == eof {
-			goto _ctr970;
-			
-		} else {
-			if ( data[ p ] ) == 116 {
-				goto _st400;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr972:
-		{return st, err }
-		goto _st400;
-		_st400:
-		if p == eof {
-			goto _out400;
-			
-		}
-		p+=1;
-		st_case_400:
-		if p == pe && p != eof {
-			goto _out400;
-			
-		}
-		if p == eof {
-			goto _ctr972;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				case 117:
-				{
-					goto _st401;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr974:
-		{return st, err }
-		goto _st401;
-		_st401:
-		if p == eof {
-			goto _out401;
-			
-		}
-		p+=1;
-		st_case_401:
-		if p == pe && p != eof {
-			goto _out401;
-			
-		}
-		if p == eof {
-			goto _ctr974;
-			
-		} else {
-			if ( data[ p ] ) == 114 {
-				goto _st402;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr976:
-		{return st, err }
-		goto _st402;
-		_st402:
-		if p == eof {
-			goto _out402;
-			
-		}
-		p+=1;
-		st_case_402:
-		if p == pe && p != eof {
-			goto _out402;
-			
-		}
-		if p == eof {
-			goto _ctr976;
-			
-		} else {
-			if ( data[ p ] ) == 100 {
-				goto _st393;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr977:
-		{return st, err }
-		goto _st403;
-		_st403:
-		if p == eof {
-			goto _out403;
-			
-		}
-		p+=1;
-		st_case_403:
-		if p == pe && p != eof {
-			goto _out403;
-			
-		}
-		if p == eof {
-			goto _ctr977;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 104:
-				{
-					goto _st404;
-					
-				}
-				case 117:
-				{
-					goto _st407;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr980:
-		{return st, err }
-		goto _st404;
-		_st404:
-		if p == eof {
-			goto _out404;
-			
-		}
-		p+=1;
-		st_case_404:
-		if p == pe && p != eof {
-			goto _out404;
-			
-		}
-		if p == eof {
-			goto _ctr980;
-			
-		} else {
-			if ( data[ p ] ) == 117 {
-				goto _st405;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr982:
-		{return st, err }
-		goto _st405;
-		_st405:
-		if p == eof {
-			goto _out405;
-			
-		}
-		p+=1;
-		st_case_405:
-		if p == pe && p != eof {
-			goto _out405;
-			
-		}
-		if p == eof {
-			goto _ctr982;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				case 114:
-				{
-					goto _st406;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr984:
-		{return st, err }
-		goto _st406;
-		_st406:
-		if p == eof {
-			goto _out406;
-			
-		}
-		p+=1;
-		st_case_406:
-		if p == pe && p != eof {
-			goto _out406;
-			
-		}
-		if p == eof {
-			goto _ctr984;
-			
-		} else {
-			if ( data[ p ] ) == 115 {
-				goto _st402;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr985:
-		{return st, err }
-		goto _st407;
-		_st407:
-		if p == eof {
-			goto _out407;
-			
-		}
-		p+=1;
-		st_case_407:
-		if p == pe && p != eof {
-			goto _out407;
-			
-		}
-		if p == eof {
-			goto _ctr985;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st408;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr987:
-		{return st, err }
-		goto _st408;
-		_st408:
-		if p == eof {
-			goto _out408;
-			
-		}
-		p+=1;
-		st_case_408:
-		if p == pe && p != eof {
-			goto _out408;
-			
-		}
-		if p == eof {
-			goto _ctr987;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				case 115:
-				{
-					goto _st402;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr988:
-		{return st, err }
-		goto _st409;
-		_st409:
-		if p == eof {
-			goto _out409;
-			
-		}
-		p+=1;
-		st_case_409:
-		if p == pe && p != eof {
-			goto _out409;
-			
-		}
-		if p == eof {
-			goto _ctr988;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st410;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr990:
-		{return st, err }
-		goto _st410;
-		_st410:
-		if p == eof {
-			goto _out410;
-			
-		}
-		p+=1;
-		st_case_410:
-		if p == pe && p != eof {
-			goto _out410;
-			
-		}
-		if p == eof {
-			goto _ctr990;
-			
-		} else {
-			if ( data[ p ] ) == 100 {
-				goto _st411;
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr992:
-		{return st, err }
-		goto _st411;
-		_st411:
-		if p == eof {
-			goto _out411;
-			
-		}
-		p+=1;
-		st_case_411:
-		if p == pe && p != eof {
-			goto _out411;
-			
-		}
-		if p == eof {
-			goto _ctr992;
-			
-		} else {
-			switch ( data[ p ] ) {
-				case 32:
-				{
-					goto _st185;
-					
-				}
-				case 44:
-				{
-					goto _st295;
-					
-				}
-				case 110:
-				{
-					goto _st412;
-					
-				}
-				
-			}
-			goto _ctr2;
-			
-		}
-		_ctr994:
-		{return st, err }
-		goto _st412;
-		_st412:
-		if p == eof {
-			goto _out412;
-			
-		}
-		p+=1;
-		st_case_412:
-		if p == pe && p != eof {
-			goto _out412;
-			
-		}
-		if p == eof {
-			goto _ctr994;
-			
-		} else {
-			if ( data[ p ] ) == 101 {
-				goto _st406;
+				goto _st355;
 				
 			}
 			goto _ctr2;
@@ -22456,11 +20076,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out8:
 		cs=8;
 		goto _out;
-		_out413:
-		cs=413;
+		_out362:
+		cs=362;
 		goto _out;
-		_out414:
-		cs=414;
+		_out363:
+		cs=363;
 		goto _out;
 		_out9:
 		cs=9;
@@ -22468,38 +20088,38 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out10:
 		cs=10;
 		goto _out;
-		_out415:
-		cs=415;
+		_out364:
+		cs=364;
 		goto _out;
 		_out11:
 		cs=11;
 		goto _out;
-		_out416:
-		cs=416;
+		_out365:
+		cs=365;
 		goto _out;
 		_out12:
 		cs=12;
 		goto _out;
-		_out417:
-		cs=417;
+		_out366:
+		cs=366;
 		goto _out;
-		_out418:
-		cs=418;
+		_out367:
+		cs=367;
 		goto _out;
-		_out419:
-		cs=419;
+		_out368:
+		cs=368;
 		goto _out;
-		_out420:
-		cs=420;
+		_out369:
+		cs=369;
 		goto _out;
-		_out421:
-		cs=421;
+		_out370:
+		cs=370;
 		goto _out;
-		_out422:
-		cs=422;
+		_out371:
+		cs=371;
 		goto _out;
-		_out423:
-		cs=423;
+		_out372:
+		cs=372;
 		goto _out;
 		_out13:
 		cs=13;
@@ -22510,26 +20130,26 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out15:
 		cs=15;
 		goto _out;
-		_out424:
-		cs=424;
+		_out373:
+		cs=373;
 		goto _out;
-		_out425:
-		cs=425;
+		_out374:
+		cs=374;
 		goto _out;
-		_out426:
-		cs=426;
+		_out375:
+		cs=375;
 		goto _out;
 		_out16:
 		cs=16;
 		goto _out;
-		_out427:
-		cs=427;
+		_out376:
+		cs=376;
 		goto _out;
-		_out428:
-		cs=428;
+		_out377:
+		cs=377;
 		goto _out;
-		_out429:
-		cs=429;
+		_out378:
+		cs=378;
 		goto _out;
 		_out17:
 		cs=17;
@@ -22537,11 +20157,11 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out18:
 		cs=18;
 		goto _out;
-		_out430:
-		cs=430;
+		_out379:
+		cs=379;
 		goto _out;
-		_out431:
-		cs=431;
+		_out380:
+		cs=380;
 		goto _out;
 		_out19:
 		cs=19;
@@ -22549,119 +20169,119 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out20:
 		cs=20;
 		goto _out;
-		_out432:
-		cs=432;
+		_out381:
+		cs=381;
 		goto _out;
 		_out21:
 		cs=21;
 		goto _out;
-		_out433:
-		cs=433;
+		_out382:
+		cs=382;
 		goto _out;
 		_out22:
 		cs=22;
 		goto _out;
-		_out434:
-		cs=434;
+		_out383:
+		cs=383;
 		goto _out;
-		_out435:
-		cs=435;
+		_out384:
+		cs=384;
 		goto _out;
-		_out436:
-		cs=436;
+		_out385:
+		cs=385;
 		goto _out;
-		_out437:
-		cs=437;
+		_out386:
+		cs=386;
 		goto _out;
-		_out438:
-		cs=438;
+		_out387:
+		cs=387;
 		goto _out;
-		_out439:
-		cs=439;
+		_out388:
+		cs=388;
 		goto _out;
-		_out440:
-		cs=440;
+		_out389:
+		cs=389;
 		goto _out;
-		_out441:
-		cs=441;
+		_out390:
+		cs=390;
 		goto _out;
-		_out442:
-		cs=442;
+		_out391:
+		cs=391;
 		goto _out;
-		_out443:
-		cs=443;
+		_out392:
+		cs=392;
 		goto _out;
 		_out23:
 		cs=23;
 		goto _out;
-		_out444:
-		cs=444;
+		_out393:
+		cs=393;
 		goto _out;
 		_out24:
 		cs=24;
 		goto _out;
-		_out445:
-		cs=445;
+		_out394:
+		cs=394;
 		goto _out;
-		_out446:
-		cs=446;
+		_out395:
+		cs=395;
 		goto _out;
 		_out25:
 		cs=25;
 		goto _out;
-		_out447:
-		cs=447;
+		_out396:
+		cs=396;
 		goto _out;
 		_out26:
 		cs=26;
 		goto _out;
-		_out448:
-		cs=448;
+		_out397:
+		cs=397;
 		goto _out;
-		_out449:
-		cs=449;
+		_out398:
+		cs=398;
 		goto _out;
-		_out450:
-		cs=450;
+		_out399:
+		cs=399;
 		goto _out;
-		_out451:
-		cs=451;
+		_out400:
+		cs=400;
 		goto _out;
-		_out452:
-		cs=452;
+		_out401:
+		cs=401;
 		goto _out;
-		_out453:
-		cs=453;
+		_out402:
+		cs=402;
 		goto _out;
-		_out454:
-		cs=454;
+		_out403:
+		cs=403;
 		goto _out;
-		_out455:
-		cs=455;
+		_out404:
+		cs=404;
 		goto _out;
-		_out456:
-		cs=456;
+		_out405:
+		cs=405;
 		goto _out;
-		_out457:
-		cs=457;
+		_out406:
+		cs=406;
 		goto _out;
-		_out458:
-		cs=458;
+		_out407:
+		cs=407;
 		goto _out;
-		_out459:
-		cs=459;
+		_out408:
+		cs=408;
 		goto _out;
-		_out460:
-		cs=460;
+		_out409:
+		cs=409;
 		goto _out;
 		_out27:
 		cs=27;
 		goto _out;
-		_out461:
-		cs=461;
+		_out410:
+		cs=410;
 		goto _out;
-		_out462:
-		cs=462;
+		_out411:
+		cs=411;
 		goto _out;
 		_out28:
 		cs=28;
@@ -22672,14 +20292,14 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out30:
 		cs=30;
 		goto _out;
-		_out463:
-		cs=463;
+		_out412:
+		cs=412;
 		goto _out;
-		_out464:
-		cs=464;
+		_out413:
+		cs=413;
 		goto _out;
-		_out465:
-		cs=465;
+		_out414:
+		cs=414;
 		goto _out;
 		_out31:
 		cs=31;
@@ -22828,14 +20448,14 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out79:
 		cs=79;
 		goto _out;
-		_out466:
-		cs=466;
+		_out415:
+		cs=415;
 		goto _out;
-		_out467:
-		cs=467;
+		_out416:
+		cs=416;
 		goto _out;
-		_out468:
-		cs=468;
+		_out417:
+		cs=417;
 		goto _out;
 		_out80:
 		cs=80;
@@ -22843,20 +20463,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out81:
 		cs=81;
 		goto _out;
-		_out469:
-		cs=469;
-		goto _out;
-		_out470:
-		cs=470;
-		goto _out;
-		_out471:
-		cs=471;
-		goto _out;
 		_out82:
 		cs=82;
-		goto _out;
-		_out472:
-		cs=472;
 		goto _out;
 		_out83:
 		cs=83;
@@ -22872,6 +20480,9 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto _out;
 		_out87:
 		cs=87;
+		goto _out;
+		_out418:
+		cs=418;
 		goto _out;
 		_out88:
 		cs=88;
@@ -23026,9 +20637,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out138:
 		cs=138;
 		goto _out;
-		_out473:
-		cs=473;
-		goto _out;
 		_out139:
 		cs=139;
 		goto _out;
@@ -23055,6 +20663,9 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto _out;
 		_out147:
 		cs=147;
+		goto _out;
+		_out419:
+		cs=419;
 		goto _out;
 		_out148:
 		cs=148;
@@ -23208,9 +20819,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto _out;
 		_out198:
 		cs=198;
-		goto _out;
-		_out474:
-		cs=474;
 		goto _out;
 		_out199:
 		cs=199;
@@ -23383,6 +20991,9 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		_out255:
 		cs=255;
 		goto _out;
+		_out420:
+		cs=420;
+		goto _out;
 		_out256:
 		cs=256;
 		goto _out;
@@ -23535,9 +21146,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto _out;
 		_out306:
 		cs=306;
-		goto _out;
-		_out475:
-		cs=475;
 		goto _out;
 		_out307:
 		cs=307;
@@ -23703,159 +21311,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto _out;
 		_out361:
 		cs=361;
-		goto _out;
-		_out362:
-		cs=362;
-		goto _out;
-		_out363:
-		cs=363;
-		goto _out;
-		_out364:
-		cs=364;
-		goto _out;
-		_out365:
-		cs=365;
-		goto _out;
-		_out366:
-		cs=366;
-		goto _out;
-		_out367:
-		cs=367;
-		goto _out;
-		_out368:
-		cs=368;
-		goto _out;
-		_out369:
-		cs=369;
-		goto _out;
-		_out370:
-		cs=370;
-		goto _out;
-		_out371:
-		cs=371;
-		goto _out;
-		_out372:
-		cs=372;
-		goto _out;
-		_out373:
-		cs=373;
-		goto _out;
-		_out374:
-		cs=374;
-		goto _out;
-		_out375:
-		cs=375;
-		goto _out;
-		_out376:
-		cs=376;
-		goto _out;
-		_out377:
-		cs=377;
-		goto _out;
-		_out378:
-		cs=378;
-		goto _out;
-		_out379:
-		cs=379;
-		goto _out;
-		_out380:
-		cs=380;
-		goto _out;
-		_out381:
-		cs=381;
-		goto _out;
-		_out382:
-		cs=382;
-		goto _out;
-		_out383:
-		cs=383;
-		goto _out;
-		_out384:
-		cs=384;
-		goto _out;
-		_out385:
-		cs=385;
-		goto _out;
-		_out386:
-		cs=386;
-		goto _out;
-		_out387:
-		cs=387;
-		goto _out;
-		_out388:
-		cs=388;
-		goto _out;
-		_out389:
-		cs=389;
-		goto _out;
-		_out390:
-		cs=390;
-		goto _out;
-		_out391:
-		cs=391;
-		goto _out;
-		_out392:
-		cs=392;
-		goto _out;
-		_out393:
-		cs=393;
-		goto _out;
-		_out394:
-		cs=394;
-		goto _out;
-		_out395:
-		cs=395;
-		goto _out;
-		_out396:
-		cs=396;
-		goto _out;
-		_out397:
-		cs=397;
-		goto _out;
-		_out398:
-		cs=398;
-		goto _out;
-		_out399:
-		cs=399;
-		goto _out;
-		_out400:
-		cs=400;
-		goto _out;
-		_out401:
-		cs=401;
-		goto _out;
-		_out402:
-		cs=402;
-		goto _out;
-		_out403:
-		cs=403;
-		goto _out;
-		_out404:
-		cs=404;
-		goto _out;
-		_out405:
-		cs=405;
-		goto _out;
-		_out406:
-		cs=406;
-		goto _out;
-		_out407:
-		cs=407;
-		goto _out;
-		_out408:
-		cs=408;
-		goto _out;
-		_out409:
-		cs=409;
-		goto _out;
-		_out410:
-		cs=410;
-		goto _out;
-		_out411:
-		cs=411;
-		goto _out;
-		_out412:
-		cs=412;
 		goto _out;
 		_out:
 		{

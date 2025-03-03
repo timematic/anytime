@@ -1,4 +1,4 @@
-all: deps fmt vet cmd aliyun_fc
+all: deps fmt vet cli test
 
 ragel-go: FORCE
 	@echo "ragel generate go code"
@@ -16,6 +16,9 @@ fmt: FORCE
 vet:
 	@echo "Vetting code"
 	@go vet ./.
+
+test:
+	@go test -v . -rapid.checks=1000
 
 cli: fmt
 	cd cli && go build -o ../bin/anytime

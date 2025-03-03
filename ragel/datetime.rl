@@ -212,6 +212,7 @@ day_2digit =  ('0' . nonzerodigit | '1'..'2' . '0'..'9' | '3' . '0'..'1') >mark_
 month_name = (('Jan' | 'January') %set_month_1 | ('Feb' | 'February') %set_month_2 | ('Mar' | 'March') %set_month_3 | ('Apr' | 'April') %set_month_4 | 'May' %set_month_5 | 'Jun' %set_month_6 | 'Jul' %set_month_7 | 'Aug' %set_month_8 | 'Sep' %set_month_9 | 'Oct' %set_month_10 | 'Nov' %set_month_11 | 'Dec' %set_month_12);
 month_digits = (nonzerodigit | '0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
 month = (month_name | month_digits);
+month_2_digit = ('0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
 
 week_day_name = ('Monday'|'Mon' | 'Tuesday'|'Tue' | 'Wednesday'|'Wed' | 'Thursday'|'Thu' | 'Friday'|'Fri' | 'Saturday'|'Sat' | 'Sunday'|'Sun');
 
@@ -227,7 +228,7 @@ ymd = year_4digit datesp month datesp day;
 dmy = day datesp month datesp year_4digit;
 mdy = month datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
-yyyymmdd = year_4digit month day_2digit;
+yyyymmdd = year_4digit month_2_digit day_2digit;
 date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
