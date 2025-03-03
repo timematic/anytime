@@ -9,7 +9,7 @@ import (
 )
 
 func genLocation() *rapid.Generator[string] {
-	return rapid.SampledFrom(timezone_names)
+	return rapid.SampledFrom(append(iana_timezones, iana_timezone_abbrvs...))
 }
 
 func genFormat() *rapid.Generator[string] {
