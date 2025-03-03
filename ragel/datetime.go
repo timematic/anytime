@@ -118,10 +118,6 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 						state.Hour, state.Minute, state.Second, ns,
 						state.ZoneName))
 				}
-
-				if err == nil {
-					date = date.In(targetLoc)
-				}
 				return date, err
 			} else {
 				if day_of_year_fmt {
