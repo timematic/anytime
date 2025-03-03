@@ -27,41 +27,6 @@ var golang_time_formats = []string{
 	time.DateOnly,
 }
 
-var timezone_names = []string{
-	"America/New_York",    //	北美东部时间（纽约） UTC-05:00 / UTC-04:00 (夏令时)
-	"America/Chicago",     //	北美中部时间（芝加哥） UTC-06:00 / UTC-05:00 (夏令时)
-	"America/Denver",      //	北美山区时间（丹佛） UTC-07:00 / UTC-06:00 (夏令时)
-	"America/Los_Angeles", //	北美太平洋时间（洛杉矶） UTC-08:00 / UTC-07:00 (夏令时)
-	"Europe/London",       //	格林尼治时间（伦敦） UTC+00:00 / UTC+01:00 (夏令时)
-	"Europe/Paris",        //	中欧时间（巴黎） UTC+01:00 / UTC+02:00 (夏令时)
-	"Asia/Shanghai",       //	中国标准时间（上海） UTC+08:00
-	"Asia/Tokyo",          //	日本标准时间（东京） UTC+09:00
-	"Asia/Kolkata",        //	印度标准时间（加尔各答） UTC+05:30
-	"Australia/Sydney",    //	澳大利亚东部时间（悉尼） UTC+10:00 / UTC+11:00 (夏令时)
-}
-
-var timezone_abbrnames = []string{
-	"UTC",  // 协调世界时（基准时区）	UTC+00:00
-	"GMT",  //	格林尼治标准时间（等同于 UTC）	UTC+00:00
-	"EST",  //	北美东部标准时间	UTC-05:00
-	"EDT",  //	北美东部夏令时间	UTC-04:00
-	"CST",  //	北美中部标准时间	UTC-06:00
-	"CDT",  //	北美中部夏令时间	UTC-05:00
-	"PST",  //	北美太平洋标准时间	UTC-08:00
-	"PDT",  //	北美太平洋夏令时间	UTC-07:00
-	"CET",  //	中欧时间	UTC+01:00
-	"CEST", //	中欧夏令时间	UTC+02:00
-	"EET",  //	东欧时间	UTC+02:00
-	"EEST", //	东欧夏令时间	UTC+03:00
-	"AEST", //	澳大利亚东部标准时间	UTC+10:00
-	"AEDT", //	澳大利亚东部夏令时间	UTC+11:00
-	"IST",  //	印度标准时间	UTC+05:30
-	"JST",  //	日本标准时间	UTC+09:00
-	"CST",  //	中国标准时间	UTC+08:00
-	"HKT",  //	香港时间	UTC+08:00
-	"SGT",  //	新加坡时间	UTC+08:00
-}
-
 func TestParseInLocation(t *testing.T) {
 	for _, fmtstr := range golang_time_formats {
 		now := time.Now()
@@ -82,7 +47,7 @@ func TestParseInLocation(t *testing.T) {
 		assert.Nil(t, err)
 		assert.True(t, expect.Equal(date), fmt.Sprintf("loc=%s format=%v, str=%v, expect=%v, output=%v", time.UTC, fmtstr, str, expect, date))
 
-		for _, name := range timezone_names {
+		for _, name := range iana_timezones {
 			zone, err := time.LoadLocation(name)
 			assert.Nil(t, err)
 			expect, err := time.ParseInLocation(fmtstr, str, zone)

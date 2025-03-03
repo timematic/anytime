@@ -1,3 +1,4 @@
 bin/
 ragel/*.ri
 .vscode/
+testdata/
