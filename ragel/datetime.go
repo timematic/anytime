@@ -111,7 +111,7 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		} else { // fallback to time.Parse() or time.ParseInLocation()
 			if defaultLoc != targetLoc {
 				if day_of_year_fmt {
-					date, err = time.Parse("2006002 15:04:05.000000000 MST", fmt.Sprintf("%04d%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear,
+					date, err = time.Parse("2006.002 15:04:05.000000000 MST", fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear+1,
 						state.Hour, state.Minute, state.Second, ns,
 						state.ZoneName))
 				} else {
@@ -126,10 +126,10 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 				return date, err
 			} else {
 				if day_of_year_fmt {
-					str := fmt.Sprintf("%04d%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear,
+					str := fmt.Sprintf("%04d.%03d %02d:%02d:%02d.%09d %s", state.Year, state.DayOfYear+1,
 						state.Hour, state.Minute, state.Second, ns,
 						state.ZoneName)
-					layout := "2006002 15:04:05.000000000 MST"
+					layout := "2006.002 15:04:05.000000000 MST"
 					date, err = time.ParseInLocation(layout, str, targetLoc)
 				} else {
 					str := fmt.Sprintf("%04d-%02d-%02d %02d:%02d:%02d.%09d %s", state.Year, state.Month, state.Day,
@@ -137,10 +137,6 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 						state.ZoneName)
 					layout := "2006-01-02 15:04:05.000000000 MST"
 					date, err = time.ParseInLocation(layout, str, targetLoc)
-				}
-
-				if err == nil {
-					date = date.AddDate(0, 0, state.DayOfYear)
 				}
 				return date, err
 			}
