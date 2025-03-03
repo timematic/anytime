@@ -255,16 +255,16 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = (timenumoffset | timezone_abbreviation) %mark_zone;
+timezone = ('Z' | timenumoffset | timezone_abbreviation) %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
 hhmmss = hour ( ':' minute ( ':' second)? )? (sp? am_pm)?;
 hhmmss_digits = ( (digit{4} | digit{6}) >mark_pb %parse_hhmmss_digits) . second_fraction? ;
-time =  (hhmmss_digits | hhmmss) . (sp | 'Z')? . timezone?;
+time =  (hhmmss_digits | hhmmss) . (sp)? . timezone?;
 time_without_zone = hhmmss_digits | hhmmss;
 
-fulldate = ( date . ('T' | sp | 'Z')? . timezone? . (sp ad_bc)?);
+fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 
 # "Mon Jan 02 15:04:05 -0700 2006"
 ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
