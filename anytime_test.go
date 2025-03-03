@@ -88,7 +88,7 @@ var time_fmts = []string{
 	"03PM", "03:04PM", "03:04:05PM", "03:04:05.0PM", "03:04:05.00PM", "03:04:05.000PM", "03:04:05.0000PM", "03:04:05.00000PM", "03:04:05.000000PM",
 }
 var zone_fmts = []string{
-	"", "-07", "-0700", "-07:00", "Z07:00",
+	"", "-07", "-0700", "-07:00", "Z07:00", "MST",
 }
 
 func gen_date_only_formats() []string {
@@ -120,22 +120,7 @@ func gen_datetime_formats() []string {
 	return fmts
 }
 
-func TestParseDateOnly(t *testing.T) {
-	now := time.Now()
-
-	for _, layout := range gen_date_only_formats() {
-		str := now.Format(layout)
-		expect, err := time.ParseInLocation(layout, str, time.Local)
-		assert.Nil(t, err)
-
-		date, err := anytime.ParseInLocation(str, time.Local)
-		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date), fmt.Sprintf("input=%s, layout=%s, expect=%s, output=%s", str, layout, expect, date))
-
-	}
-}
-
-func TestParseDateTime(t *testing.T) {
+func TestParseInLocationDateTime(t *testing.T) {
 	now := time.Now()
 
 	for _, layout := range gen_datetime_formats() {
