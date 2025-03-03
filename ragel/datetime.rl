@@ -64,7 +64,7 @@ action set_ampm {
                 }
             case AMPM_PM: {
                 if (st.Hour < 12) {
-                    st.Hour += 12;
+                    st.Hour += 12
                 }
                 // else {} // 12:00:00 pm = 12:00:00, do nothing
             }
@@ -72,18 +72,18 @@ action set_ampm {
     }
 }
 
-action set_month_1 { st.Month = 1 ;}
-action set_month_2 { st.Month = 2 ;}
-action set_month_3 { st.Month = 3 ;}
-action set_month_4 { st.Month = 4 ;}
-action set_month_5 { st.Month = 5 ;}
-action set_month_6 { st.Month = 6 ;}
-action set_month_7 { st.Month = 7 ;}
-action set_month_8 { st.Month = 8 ;}
-action set_month_9 { st.Month = 9 ;}
-action set_month_10 { st.Month = 10 ;}
-action set_month_11 { st.Month = 11 ;}
-action set_month_12 { st.Month = 12 ;}
+action set_month_1 { st.Month = 1 }
+action set_month_2 { st.Month = 2 }
+action set_month_3 { st.Month = 3 }
+action set_month_4 { st.Month = 4 }
+action set_month_5 { st.Month = 5 }
+action set_month_6 { st.Month = 6 }
+action set_month_7 { st.Month = 7 }
+action set_month_8 { st.Month = 8 }
+action set_month_9 { st.Month = 9 }
+action set_month_10 { st.Month = 10 }
+action set_month_11 { st.Month = 11 }
+action set_month_12 { st.Month = 12 }
 
 action parse_day_digit {
     switch p - pb {
@@ -226,13 +226,13 @@ ad_bc = 'AD' | ('BC' %set_bc);
 datesp = ('-' | '/');
 ymd = year_4digit datesp month datesp day;
 dmy = day datesp month datesp year_4digit;
-mdy = month datesp day datesp year_4digit;
+mdy = month_name datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
 yyyymmdd = year_4digit month_2_digit day_2digit;
 date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
-date = ( ymd | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
+date = ( ymd | mdy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;

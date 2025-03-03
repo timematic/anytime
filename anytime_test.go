@@ -111,9 +111,10 @@ func TestParse(t *testing.T) {
 var date_fmts = []string{
 	"2006-01-02", "2006-1-02", "2006-01-2", "2006-1-2", "2006-Jan-02", "2006-Jan-2", // yyyy-mm-dd
 	"2006/01/02", "2006/1/02", "2006/01/2", "2006/1/2", "2006/Jan/02", "2006/Jan/2", // yyyy/mm/dd
-	"20060102", // yyyymmdd
-	"2006.002", // yyyy.day_of_year
-
+	"20060102",    // yyyymmdd
+	"2006.002",    // yyyy.day_of_year
+	"Jan/02/2006", // mm/dd/yyy
+	"Jan-02-2006", // mm-dd-yyy
 }
 
 var time_fmts = []string{
