@@ -20,6 +20,9 @@ vet:
 test:
 	@go test -v . -rapid.checks=1000
 
+bench:
+	@go test -bench .
+
 cli: fmt
 	cd cli && go build -o ../bin/anytime
 
