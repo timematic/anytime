@@ -119,6 +119,12 @@ func gen_datetime_formats() []string {
 			}
 		}
 	}
+
+	for _, layout := range anytime_layouts {
+		if layout != "" {
+			fmts = append(fmts, layout)
+		}
+	}
 	return fmts
 }
 
@@ -140,6 +146,7 @@ func TestIssues(t *testing.T) {
 	// issues
 	checkParseInLocation(t, "2006.002", "2088.001", "Africa/Casablanca")
 	checkParseInLocation(t, "2006002", "2025063", "UTC")
+	checkParseInLocation(t, "2006/January/02", "1970/June/29", "UTC")
 }
 
 func TestParseInLocationDateTime(t *testing.T) {
