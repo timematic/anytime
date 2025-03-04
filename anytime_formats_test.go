@@ -1,12 +1,14 @@
-![CI Status](https://github.com/longqimin/anytime/actions/workflows/test.yml/badge.svg)
+package anytime_test
 
-# anytime
+import (
+	"fmt"
+	"testing"
+	"time"
 
-a user friendly `time.Time` parser which no need specify the time `Layout`.
+	"github.com/longqimin/anytime"
+	"github.com/stretchr/testify/assert"
+)
 
-## Support lots of time layout
-
-```
 var anytime_layouts = map[string]string{ // map[vallue]layout
 	// Multiple Date Layout
 	"1970-01-01":      "2006-01-02",
@@ -68,64 +70,21 @@ var anytime_layouts = map[string]string{ // map[vallue]layout
 	"Mon Jan 02 00:01:02 -0500 1970": "Mon Jan 02 15:04:05 -0700 2006",
 	"19700102T030405.123456":         "20060102T150405.000000",
 }
-```
 
-## Example
+func TestAnytimeFormats(t *testing.T) {
+	for str, layout := range anytime_layouts {
+		if layout == "" { // supported by antime.Parse, not by time.Parse
+			_, err := anytime.Parse(str)
+			assert.Nil(t, err)
+			continue
+		}
 
-```
-package main
+		expect, err := time.Parse(layout, str)
+		assert.Nil(t, err)
 
-import (
-	"fmt"
+		date, err := anytime.Parse(str)
+		assert.Nil(t, err)
 
-	"github.com/longqimin/anytime"
-)
-
-func main() {
-	datetime, err := anytime.Parse("2006-01-02T15:04:05+08")
-	if err != nil {
-		panic(err)
+		assert.True(t, expect.Equal(date), fmt.Sprintf("layout=%s, str=%s, expect=%s, date=%s", layout, str, expect, date))
 	}
-	fmt.Println(datetime) // 2006-01-02 15:04:05 +0800 CST
 }
-```
-
-## APIs
-
-### `anytime.Parse(value string) (time.Time, error)`
-
-automatically figure out the time `Layout` and parse to `time.Time`.
-**possible implementation**:
-
-```go
-Parse(value string) (time.Time, error){
-    layout, err := ExtractLayout(str)
-    if err != nil {
-        return time.Time{}, err
-    }
-    return time.Parse(layout, value)
-}
-```
-
-### `anytime.ParseInLocation(value string, loc *time.Location) (time.Time, error)`
-
-**possible implementation**:
-
-```go
-ParseInLocation(value string, loc *time.Location) (time.Time, error){
-    layout, err := ExtractLayout(str)
-    if err != nil {
-        return time.Time{}, err
-    }
-    return time.ParseInLocation(layout, value, loc)
-}
-```
-
-## Benchmark
-
-|                         | ns/op       |
-| ----------------------- | ----------- |
-| time.Parse date_only    | 38.98 ns/op |
-| anytime.Parse date_only | 28.14 ns/op |
-| time.Parse rfc3339      | 26.79 ns/op |
-| anytime.Parse rfc3339   | 52.53 ns/op |

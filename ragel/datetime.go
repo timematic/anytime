@@ -44,6 +44,19 @@ func parse_digits(str string) int {
 	return num
 }
 
+func parse_year_2_digits(str string) int {
+	year, err := strconv.Atoi(str)
+	if err != nil {
+		panic(err)
+	}
+	if year >= 69 { // Unix time starts Dec 31 1969 in some time zones
+		year += 1900
+	} else {
+		year += 2000
+	}
+	return year
+}
+
 // ParsedDatetime is the struct representing a parsed time value.
 type ParsedDatetime struct {
 	Ad_bc                                ADBC
@@ -153,19 +166,6 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		return utcdate.AddDate(0, 0, state.DayOfYear-1), nil
 	}
 	return utcdate, nil
-}
-
-func parse_year_2_digits(str string) int {
-	year, err := strconv.Atoi(str)
-	if err != nil {
-		panic(err)
-	}
-	if year >= 69 { // Unix time starts Dec 31 1969 in some time zones
-		year += 1900
-	} else {
-		year += 2000
-	}
-	return year
 }
 
 var ambiguousTimeZoneAbbrs = map[string]bool{
