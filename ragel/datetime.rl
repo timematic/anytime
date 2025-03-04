@@ -274,8 +274,9 @@ fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 
 # "Mon Jan 02 15:04:05 -0700 2006"
 ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
+pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
 
-fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime;
+fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime;
 
 fulltime = ('T'? . time) | ( date ('T' | sp) time );
 

@@ -112,6 +112,9 @@ func TestIssues(t *testing.T) {
 	checkParseInLocation(t, "2006.002", "2088.001", "Africa/Casablanca")
 	checkParseInLocation(t, "2006002", "2025063", "UTC")
 	checkParseInLocation(t, "2006/January/02", "1970/June/29", "UTC")
+	checkParseInLocation(t, "Mon Jan 02 15:04:05 2006 MST", "Wed Dec 17 07:37:16 1997 PST", "UTC")
+	checkParseInLocation(t, "Jan 02 15:04:05 2006 MST", "Dec 17 07:37:16 1997 PST", "UTC")
+
 }
 
 func TestParse(t *testing.T) {

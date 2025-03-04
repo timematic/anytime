@@ -35,6 +35,9 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-01-01 -0500":            "2006-01-02 -0700",
 	"1970-01-01 UTC":              "2006-01-02 MST",
 	"1970-01-01 America/New_York": "", // not supported by time.Parse
+	"1970-01-01 +5":               "", // not supported by time.Parse
+	"1970-01-01 +5:0":             "", // not supported by time.Parse
+	"1970-01-01 -8:00":            "", // not supported by time.Parse
 
 	// Multiple Time Layout
 	"1970-01-01 00":                   "2006-01-02 15",
@@ -68,6 +71,8 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"02 Jan 70 00:01 UTC":            "02 Jan 06 15:04 MST",
 	"Mon, 02-Jan-70 00:01:02 UTC":    "Mon, 02-Jan-06 15:04:05 MST",
 	"Mon Jan 02 00:01:02 -0500 1970": "Mon Jan 02 15:04:05 -0700 2006",
+	"Wed Dec 17 07:37:16 1997 PST":   "Mon Jan 02 15:04:05 2006 MST", // pg style
+	"Dec 17 07:37:16 1997 PST":       "Jan 02 15:04:05 2006 MST",     // pg style
 	"19700102T030405.123456":         "20060102T150405.000000",
 }
 
