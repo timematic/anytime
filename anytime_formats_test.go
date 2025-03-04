@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-var anytime_layouts = map[string]string{ // map[vallue]layout
+var anytime_layouts = map[string]string{ // map[value]layout
 	// Multiple Date Layout
 	"1970-01-01":      "2006-01-02",
 	"1970-Jan-01":     "2006-Jan-02",

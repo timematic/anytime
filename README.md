@@ -7,7 +7,7 @@ a user friendly `time.Time` parser which no need specify the time `Layout`.
 ## Support lots of time layout
 
 ```
-var anytime_layouts = map[string]string{ // map[vallue]layout
+var anytime_layouts = map[string]string{ // map[value]layout
 	// Multiple Date Layout
 	"1970-01-01":      "2006-01-02",
 	"1970-Jan-01":     "2006-Jan-02",
