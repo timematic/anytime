@@ -78,6 +78,8 @@ var date_fmts = []string{
 	"2006/01/02", "2006/1/02", "2006/01/2", "2006/1/2", "2006/Jan/02", "2006/Jan/2", // yyyy/mm/dd
 	"20060102",    // yyyymmdd
 	"2006.002",    // yyyy.day_of_year
+	"2006-002",    // yyyy.day_of_year
+	"2006002",     // yyyy.day_of_year
 	"Jan/02/2006", // mm/dd/yyy
 	"Jan-02-2006", // mm-dd-yyy
 }
@@ -137,6 +139,7 @@ func checkParseInLocation(t *testing.T, layout, value, location string) {
 func TestIssues(t *testing.T) {
 	// issues
 	checkParseInLocation(t, "2006.002", "2088.001", "Africa/Casablanca")
+	checkParseInLocation(t, "2006002", "2025063", "UTC")
 }
 
 func TestParseInLocationDateTime(t *testing.T) {
