@@ -120,7 +120,27 @@ func gen_datetime_formats() []string {
 	return fmts
 }
 
+func checkParseInLocation(t *testing.T, layout, value, location string) {
+	loc, err := time.LoadLocation(location)
+	if err != nil {
+		panic(err)
+	}
+
+	expect, err := time.ParseInLocation(layout, value, loc)
+	assert.Nil(t, err)
+
+	date, err := anytime.ParseInLocation(value, loc)
+	assert.Nil(t, err)
+	assert.True(t, expect.Equal(date), fmt.Sprintf("layout=%s, value=%s, loc=%s, expect=%v, output=%v", layout, value, location, expect, date))
+}
+
+func TestIssues(t *testing.T) {
+	// issues
+	checkParseInLocation(t, "2006.002", "2088.001", "Africa/Casablanca")
+}
+
 func TestParseInLocationDateTime(t *testing.T) {
+
 	now := time.Now()
 
 	for _, layout := range gen_datetime_formats() {
@@ -131,8 +151,8 @@ func TestParseInLocationDateTime(t *testing.T) {
 		date, err := anytime.ParseInLocation(str, time.Local)
 		assert.Nil(t, err)
 		assert.True(t, expect.Equal(date), fmt.Sprintf("input=%s, layout=%s, expect=%s, output=%s", str, layout, expect, date))
-
 	}
+
 }
 
 var dateonly = time.Now().Format(time.DateOnly)
