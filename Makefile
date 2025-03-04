@@ -1,13 +1,24 @@
+OS_NAME := $(shell uname -s)
+
 all: deps fmt vet cli test
 
-ragel-go: FORCE
-	@echo "ragel generate go code"
-	# @ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
-	@ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
-
 deps: FORCE
-	@echo "update dependency"
+# install ragel if not exist
+ifeq (, $(shell which ragel))
+ifeq ($(OS_NAME),Darwin)
+		@echo "brew install ragel"
+		@brew install ragel
+else
+	@echo "dnf install -y ragel"
+	@dnf install -y ragel
+endif
+endif
+	@echo "go mod tidy"
 	@go mod tidy
+
+ragel-go: FORCE
+	@echo "ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl"
+	@ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
 
 fmt: FORCE
 	@echo "Formatting code"
@@ -18,7 +29,7 @@ vet:
 	@go vet ./.
 
 test:
-	@go test -v . -rapid.checks=1000
+	@go test -v . -rapid.checks=10000
 
 bench:
 	@go test -bench .
