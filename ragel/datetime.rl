@@ -12,6 +12,10 @@ action parse_month_digit {
     st.Month, _ = strconv.Atoi(data[pb:p])
 }
 
+action parse_mmdd_4_digit {
+    st.Month, _ = strconv.Atoi(data[pb:pb+2])
+    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
+}
 action parse_year_4_digit {
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 }
@@ -221,6 +225,8 @@ year_2digit = digit{2} >mark_pb %parse_year_2_digit;
 
 day_of_year = digit{3} >mark_pb %parse_day_of_year;
  
+mmdd = digit{4} >mark_pb %parse_mmdd_4_digit;
+
 ad_bc = 'AD' | ('BC' %set_bc);
 
 datesp = ('-' | '/');
@@ -228,7 +234,7 @@ ymd = year_4digit datesp month datesp day;
 dmy = day datesp month datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
-yyyymmdd = year_4digit month_2_digit day_2digit;
+yyyymmdd = year_4digit mmdd;
 date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
