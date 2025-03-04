@@ -2,7 +2,6 @@ package anytime_test
 
 import (
 	"fmt"
-	"strings"
 	"testing"
 	"time"
 
@@ -25,52 +24,6 @@ var golang_time_formats = []string{
 	time.RFC3339Nano,
 	time.DateTime,
 	time.DateOnly,
-}
-
-func TestParseInLocation(t *testing.T) {
-	for _, fmtstr := range golang_time_formats {
-		now := time.Now()
-		str := now.Format(fmtstr)
-		if strings.HasSuffix(str, "Z") {
-			str = strings.TrimSuffix(str, "Z") + "+00:00"
-		}
-
-		expect, err := time.ParseInLocation(fmtstr, str, time.Local)
-		assert.Nil(t, err)
-		date, err := anytime.ParseInLocation(str, time.Local)
-		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date), fmt.Sprintf("loc=%s format=%v, str=%v, expect=%v, output=%v", time.Local, fmtstr, str, expect, date))
-
-		expect, err = time.ParseInLocation(fmtstr, str, time.UTC)
-		assert.Nil(t, err)
-		date, err = anytime.ParseInLocation(str, time.UTC)
-		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date), fmt.Sprintf("loc=%s format=%v, str=%v, expect=%v, output=%v", time.UTC, fmtstr, str, expect, date))
-
-		for _, name := range iana_timezones {
-			zone, err := time.LoadLocation(name)
-			assert.Nil(t, err)
-			expect, err := time.ParseInLocation(fmtstr, str, zone)
-			assert.Nil(t, err)
-
-			date, err := anytime.ParseInLocation(str, zone)
-			assert.Nil(t, err)
-			assert.True(t, expect.Equal(date), fmt.Sprintf("loc=%s format=%v, str=%v, expect=%v, output=%v", zone, fmtstr, str, expect, date))
-		}
-	}
-}
-
-func TestParse(t *testing.T) {
-	for _, fmtstr := range golang_time_formats {
-		now := time.Now()
-		str := now.Format(fmtstr)
-
-		expect, err := time.Parse(fmtstr, str)
-		assert.Nil(t, err)
-		date, err := anytime.Parse(str)
-		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date), fmt.Sprintf("format=%v, str=%v, expect=%v, output=%v", fmtstr, str, expect, date))
-	}
 }
 
 var date_fmts = []string{
@@ -125,13 +78,25 @@ func gen_datetime_formats() []string {
 			fmts = append(fmts, layout)
 		}
 	}
-	return fmts
+	return append(fmts, golang_time_formats...)
+}
+
+func checkParse(t *testing.T, layout, value string) {
+	expect, err := time.Parse(layout, value)
+	assert.Nil(t, err)
+
+	date, err := anytime.Parse(value)
+	assert.Nil(t, err)
+	assert.True(t, expect.Equal(date), fmt.Sprintf("layout=%s, value=%s,  expect=%v, output=%v", layout, value, expect, date))
 }
 
 func checkParseInLocation(t *testing.T, layout, value, location string) {
-	loc, err := time.LoadLocation(location)
-	if err != nil {
-		panic(err)
+	loc := time.Local
+	var err error
+	if location != "Local" {
+		if loc, err = time.LoadLocation(location); err != nil {
+			return
+		}
 	}
 
 	expect, err := time.ParseInLocation(layout, value, loc)
@@ -149,46 +114,42 @@ func TestIssues(t *testing.T) {
 	checkParseInLocation(t, "2006/January/02", "1970/June/29", "UTC")
 }
 
-func TestParseInLocationDateTime(t *testing.T) {
+func TestParse(t *testing.T) {
+	now := time.Now()
+	for _, layout := range gen_datetime_formats() {
+		str := now.Format(layout)
+		checkParse(t, layout, str)
+	}
+}
 
+func TestParseInLocation(t *testing.T) {
 	now := time.Now()
 
 	for _, layout := range gen_datetime_formats() {
 		str := now.Format(layout)
-		expect, err := time.ParseInLocation(layout, str, time.Local)
-		assert.Nil(t, err)
 
-		date, err := anytime.ParseInLocation(str, time.Local)
-		assert.Nil(t, err)
-		assert.True(t, expect.Equal(date), fmt.Sprintf("input=%s, layout=%s, expect=%s, output=%s", str, layout, expect, date))
+		checkParseInLocation(t, layout, str, "Local")
+		checkParseInLocation(t, layout, str, "UTC")
+		checkParseInLocation(t, layout, str, "Asia/Shanghai")
+		checkParseInLocation(t, layout, str, "America/New_York")
+
 	}
 
-}
-
-var dateonly = time.Now().Format(time.DateOnly)
-
-func BenchmarkStdParse_DateOnly(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		time.Parse(time.DateOnly, dateonly)
+	layout := "2006-01-02 15:04:05"
+	str := now.Format(layout)
+	for _, location := range append(iana_timezones, iana_timezone_abbrvs...) {
+		checkParseInLocation(t, layout, str, location)
 	}
-}
 
-func BenchmarkAnytimeParse_DateOnly(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		anytime.Parse(dateonly)
+	layout = "2006-01-02 15:04:05 Z0700"
+	str = now.Format(layout)
+	for _, location := range append(iana_timezones, iana_timezone_abbrvs...) {
+		checkParseInLocation(t, layout, str, location)
 	}
-}
 
-var rfc3339 = time.Now().Format(time.RFC3339)
-
-func BenchmarkStdParse_RFC3339(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		time.Parse(time.RFC3339, rfc3339)
-	}
-}
-
-func BenchmarkAnytimeParse_RFC3339(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		anytime.Parse(rfc3339)
+	layout = "2006-01-02 15:04:05 MST"
+	str = now.Format(layout)
+	for _, location := range append(iana_timezones, iana_timezone_abbrvs...) {
+		checkParseInLocation(t, layout, str, location)
 	}
 }
