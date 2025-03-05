@@ -12,8 +12,8 @@ import (
 
 var golang_time_formats = []string{
 	// time.Layout,
-	// time.ANSIC,
-	// time.UnixDate,
+	time.ANSIC,
+	time.UnixDate,
 	time.RubyDate,
 	time.RFC822,
 	time.RFC822Z,
