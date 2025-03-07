@@ -33,8 +33,9 @@ var date_fmts = []string{
 	"2006.002",    // yyyy.day_of_year
 	"2006-002",    // yyyy.day_of_year
 	"2006002",     // yyyy.day_of_year
-	"Jan/02/2006", // mm/dd/yyy
-	"Jan-02-2006", // mm-dd-yyy
+	"Jan/02/2006", // mm/dd/yyyy
+	"Jan-02-2006", // mm-dd-yyyy
+	"02/Jan/2006", // dd/mm/yyyy
 }
 
 var time_fmts = []string{

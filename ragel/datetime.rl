@@ -231,14 +231,14 @@ ad_bc = 'AD' | ('BC' %set_bc);
 
 datesp = ('-' | '/');
 ymd = year_4digit datesp month datesp day;
-dmy = day datesp month datesp year_4digit;
+dmy = day datesp month_name datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
 yyyymmdd = year_4digit mmdd;
 date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
-date = ( ymd | mdy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
+date = ( ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;
