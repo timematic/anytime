@@ -3,7 +3,7 @@ package anytime
 import (
 	"time"
 
-	"github.com/longqimin/anytime/ragel"
+	"github.com/timematic/anytime/ragel"
 )
 
 func Parse(str string) (time.Time, error) {

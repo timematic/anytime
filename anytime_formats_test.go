@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/longqimin/anytime"
 	"github.com/stretchr/testify/assert"
+	"github.com/timematic/anytime"
 )
 
 var anytime_layouts = map[string]string{ // map[value]layout
