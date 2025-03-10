@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/longqimin/anytime"
+	"github.com/timematic/anytime"
 	"pgregory.net/rapid"
 )
 

@@ -1,4 +1,4 @@
-![CI Status](https://github.com/longqimin/anytime/actions/workflows/test.yml/badge.svg)
+![CI Status](https://github.com/timematic/anytime/actions/workflows/test.yml/badge.svg)
 
 # anytime
 
@@ -86,7 +86,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/longqimin/anytime"
+	"github.com/timematic/anytime"
 )
 
 func main() {

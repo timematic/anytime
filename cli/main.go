@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/longqimin/anytime"
+	"github.com/timematic/anytime"
 )
 
 func usage() string {

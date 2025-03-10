@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/longqimin/anytime"
+	"github.com/timematic/anytime"
 )
 
 var dateonly = time.Now().Format(time.DateOnly)

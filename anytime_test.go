@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/longqimin/anytime"
+	"github.com/timematic/anytime"
 
 	"github.com/stretchr/testify/assert"
 )
