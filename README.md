@@ -4,6 +4,8 @@
 
 a user friendly `time.Time` parser which no need specify the time `Layout`.
 
+alternative to [araddon/dateparse](https://github.com/araddon/dateparse)
+
 ## Support lots of time layout
 
 ```
@@ -131,9 +133,15 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
 
 ## Benchmark
 
-|                         | ns/op       |
-| ----------------------- | ----------- |
-| time.Parse date_only    | 38.98 ns/op |
-| anytime.Parse date_only | 28.14 ns/op |
-| time.Parse rfc3339      | 26.79 ns/op |
-| anytime.Parse rfc3339   | 52.53 ns/op |
+goos: darwin
+goarch: arm64
+pkg: github.com/timematic/anytime
+cpu: Apple M1 Pro
+| | ns/op |
+| ------------------------------------ | ----------- |
+| time.Parse date_only | 56.82 ns/op |
+| anytime.Parse date_only | 34.11 ns/op |
+| araddon/dateparse.ParseAny date_only | 210.3 ns/op |
+| time.Parse rfc3339 | 38.26 ns/op |
+| anytime.Parse rfc3339 | 67.56 ns/op |
+| araddon/dateparse.ParseAny rfc3339 | 304.7 ns/op |
