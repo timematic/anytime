@@ -4,6 +4,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/araddon/dateparse"
 	"github.com/timematic/anytime"
 )
 
@@ -21,6 +22,12 @@ func BenchmarkAnytimeParse_DateOnly(b *testing.B) {
 	}
 }
 
+func BenchmarkAraddonParseAny_DateOnly(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		dateparse.ParseAny(dateonly)
+	}
+}
+
 var rfc3339 = time.Now().Format(time.RFC3339)
 
 func BenchmarkStdParse_RFC3339(b *testing.B) {
@@ -32,5 +39,10 @@ func BenchmarkStdParse_RFC3339(b *testing.B) {
 func BenchmarkAnytimeParse_RFC3339(b *testing.B) {
 	for n := 0; n < b.N; n++ {
 		anytime.Parse(rfc3339)
+	}
+}
+func BenchmarkAraddonParseAny_RFC3339(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		dateparse.ParseAny(rfc3339)
 	}
 }
