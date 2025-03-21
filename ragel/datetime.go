@@ -71,6 +71,7 @@ type ParsedDatetime struct {
 	ZoneOffsetHour    int
 	ZoneOffsetMinute  int
 	NegtiveZoneOffset bool
+	ZoneOffsetIsValid bool
 	ZoneName          string // e.g., "MST"
 
 }
@@ -85,7 +86,6 @@ func (state *ParsedDatetime) String() string {
 }
 
 func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.Location) (time.Time, error) {
-
 	// fmt.Printf("%s\n", state.String())
 
 	day_of_year_fmt := state.DayOfYear != 0
@@ -105,13 +105,11 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		return date, nil
 	}
 
-	if upperzone := strings.ToUpper(state.ZoneName); upperzone == "UTC" { // special case in time.Parse()
-		// time.Parse("2006-01-02 MST-0700", "1970-01-01 UTC-0700") is "1970-01-01 00:00:00 +0000 UTC"
-		state.ZoneOffsetHour = 0
-		state.ZoneOffsetMinute = 0
+	if state.ZoneOffsetIsValid {
+		state.ZoneName = ""
 	}
 
-	if len(state.ZoneName) != 0 && state.ZoneOffsetHour == 0 && state.ZoneOffsetMinute == 0 {
+	if len(state.ZoneName) != 0 {
 		_, ambiguous := ambiguousTimeZoneAbbrs[state.ZoneName]
 		if zone, err := time.LoadLocation(state.ZoneName); err == nil && !ambiguous {
 			date = time.Date(state.Year, time.Month(state.Month), state.Day,

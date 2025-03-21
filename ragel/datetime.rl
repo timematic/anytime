@@ -146,6 +146,7 @@ action parse_second_fraction {
 action mark_negative_offset { st.NegtiveZoneOffset = true }
 
 action parse_offset_hour {
+    st.ZoneOffsetIsValid = true
     switch p - pb {
         case 1,2: st.ZoneOffsetHour, _ = strconv.Atoi(data[pb:p])
         default:
@@ -155,6 +156,7 @@ action parse_offset_hour {
 }
 
 action parse_offset_minute {
+    st.ZoneOffsetIsValid = true
     switch p - pb {
         case 1,2: st.ZoneOffsetMinute, _ = strconv.Atoi(data[pb:p])
         default:
@@ -164,6 +166,8 @@ action parse_offset_minute {
 }
 
 action parse_offset_digits {
+    st.ZoneOffsetIsValid = true
+
     // 1 as 1 hour
     // 12 as 12 hours
     // 123 as 1 hour 23 minutes
