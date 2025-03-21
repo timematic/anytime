@@ -20,6 +20,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"01/Jan/1970":     "02/Jan/2006",
 	"Jan/01/1970":     "Jan/02/2006",
 	"19700101":        "20060102",
+	"1970.01.01":      "2006.01.02",
 	"1970-01-01T":     "2006-01-02T",
 	"1970.001":        "2006.002",
 	"1970-001":        "2006-002",
@@ -79,6 +80,9 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"Wed Dec 17 07:37:16 1997 PST":   "Mon Jan 02 15:04:05 2006 MST", // pg style
 	"Dec 17 07:37:16 1997 PST":       "Jan 02 15:04:05 2006 MST",     // pg style
 	"19700102T030405.123456":         "20060102T150405.000000",
+	"January 02, 2006, 15:04:05":     "January 02, 2006, 15:04:05",
+	"January 02, 2006 15:04:05":      "January 02, 2006 15:04:05",
+	"January 02, 2006 03:04:05PM":    "January 02, 2006 03:04:05PM",
 }
 
 func TestAnytimeFormats(t *testing.T) {
