@@ -248,7 +248,8 @@ yyyymmdd = year_4digit mmdd;
 date_rfc1123 = week_day_name ','? sp (dmy | mdy);
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
-date = ( ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
+date_chinese = year_4digit '年' month_digits '月' day '日';
+date = ( ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822 | date_chinese);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;
