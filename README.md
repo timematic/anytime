@@ -2,9 +2,33 @@
 
 # anytime
 
-a user friendly `time.Time` parser which no need specify the time `Layout`.
+Fast, Zero-Allocs and User-Friendly `time.Time` parser which no need specify the time `Layout`.
 
-alternative to [araddon/dateparse](https://github.com/araddon/dateparse)
+## Example
+
+```
+package main
+
+import (
+	"fmt"
+	"github.com/timematic/anytime"
+)
+
+func main() {
+	datetime, err := anytime.Parse("2006-01-02T15:04:05")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(datetime) // 2006-01-02 15:04:05 +0000 UTC
+
+	loc, _ := time.LoadLocation("America/New_York")
+	datetime, err = anytime.ParseInLocation("2006-01-02T15:04:05", loc)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(datetime) // 2006-01-02 15:04:05 -0500 EST
+}
+```
 
 ## Benchmark
 
@@ -13,16 +37,18 @@ goarch: arm64
 pkg: github.com/timematic/anytime
 cpu: Apple M1 Pro
 
-|                                      | ns/op       |
-| ------------------------------------ | ----------- |
-| time.Parse date_only                 | 56.82 ns/op |
-| anytime.Parse date_only              | 34.11 ns/op |
-| araddon/dateparse.ParseAny date_only | 210.3 ns/op |
-| time.Parse rfc3339                   | 38.26 ns/op |
-| anytime.Parse rfc3339                | 67.56 ns/op |
-| araddon/dateparse.ParseAny rfc3339   | 304.7 ns/op |
+|                                      | ns/op       | allocation bytes | allocation times |
+| ------------------------------------ | ----------- | ---------------- | ---------------- |
+| time.Parse date_only                 | 56.82 ns/op | 0 B/op           | 0 allocs/op      |
+| anytime.Parse date_only              | 34.11 ns/op | 0 B/op           | 0 allocs/op      |
+| araddon/dateparse.ParseAny date_only | 210.3 ns/op | 288 B/op         | 3 allocs/op      |
+| time.Parse rfc3339                   | 38.26 ns/op | 0 B/op           | 0 allocs/op      |
+| anytime.Parse rfc3339                | 67.56 ns/op | 0 B/op           | 0 allocs/op      |
+| araddon/dateparse.ParseAny rfc3339   | 304.7 ns/op | 320 B/op         | 3 allocs/op      |
 
 ## Support lots of time layout
+
+If you need support other layouts, feel free to share Issues or PRs, both are welcomed.
 
 ```
 var anytime_layouts = map[string]string{ // map[value]layout
@@ -110,26 +136,6 @@ var anytime_layouts = map[string]string{ // map[value]layout
 }
 ```
 
-## Example
-
-```
-package main
-
-import (
-	"fmt"
-
-	"github.com/timematic/anytime"
-)
-
-func main() {
-	datetime, err := anytime.Parse("2006-01-02T15:04:05+08")
-	if err != nil {
-		panic(err)
-	}
-	fmt.Println(datetime) // 2006-01-02 15:04:05 +0800 CST
-}
-```
-
 ## APIs
 
 ### `anytime.Parse(value string) (time.Time, error)`
@@ -160,3 +166,7 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
     return time.ParseInLocation(layout, value, loc)
 }
 ```
+
+## Alternatives:
+
+- [github.com/araddon/dateparse](https://github.com/araddon/dateparse) `dateparse` support more date formats, but `anytime` get ~4x faster.
