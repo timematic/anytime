@@ -15,6 +15,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-Jan-01":     "2006-Jan-02",
 	"1970/01/01":      "2006/01/02",
 	"1970/Jan/01":     "2006/Jan/02",
+	"1970/jan/01":     "2006/Jan/02",
 	"1970/January/01": "2006/January/02",
 	"01/Jan/1970":     "02/Jan/2006",
 	"Jan/01/1970":     "Jan/02/2006",

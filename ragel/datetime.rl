@@ -213,7 +213,19 @@ day_2digit =  ('0' . nonzerodigit | '1'..'2' . '0'..'9' | '3' . '0'..'1') >mark_
 
 
 # Jan .. Dec
-month_name = (('Jan' | 'January') %set_month_1 | ('Feb' | 'February') %set_month_2 | ('Mar' | 'March') %set_month_3 | ('Apr' | 'April') %set_month_4 | 'May' %set_month_5 | ('Jun' | 'June') %set_month_6 | ('Jul' | 'July') %set_month_7 | ('Aug' | 'August') %set_month_8 | ('Sep' | 'September') %set_month_9 | ('Oct' | 'October') %set_month_10 | ('Nov' | 'November') %set_month_11 | ('Dec' | 'December') %set_month_12);
+month_name = (
+('Jan' | 'January' | 'jan' | 'january') %set_month_1 |
+('Feb' | 'February' | 'feb' | 'february') %set_month_2 |
+('Mar' | 'March' | 'mar' | 'march') %set_month_3 |
+('Apr' | 'April' | 'apr' | 'april') %set_month_4 |
+('May' | 'may') %set_month_5 |
+('Jun' | 'June' | 'jun' | 'june') %set_month_6 |
+('Jul' | 'July' | 'jul' | 'july') %set_month_7 |
+('Aug' | 'August' | 'aug' | 'august') %set_month_8 |
+('Sep' | 'September' | 'sep' | 'september') %set_month_9 |
+('Oct' | 'October' | 'oct' | 'october') %set_month_10 |
+('Nov' | 'November' | 'nov' | 'november') %set_month_11 |
+('Dec' | 'December' | 'dec' | 'december') %set_month_12);
 month_digits = (nonzerodigit | '0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
 month = (month_name | month_digits);
 month_2_digit = ('0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
