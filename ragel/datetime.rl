@@ -271,7 +271,8 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | timezone_abbreviation) %mark_zone;
+timezone_extra_text = '(' . (alpha | digit | sp | '+' | '-' | ':'){1,} . ')';
+timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | (timezone_abbreviation timenumoffset?)) (sp timezone_extra_text)? %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
@@ -282,13 +283,15 @@ time_without_zone = hhmmss_digits | hhmmss;
 
 fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 
+date_time_seps = 'T' | ','? sp | '_' | 't' | sp ('at' | 'AT') sp;
+
 # "Mon Jan 02 15:04:05 -0700 2006"
 ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
 pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
-america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (sp time)?; # "January 02, 2006, 15:04:05"
+america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (date_time_seps time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
-fulldatetime = fulldate | ( date ('T' | ','? sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
+fulldatetime = fulldate | ( date date_time_seps time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
 
 fulltime = ('T'? . time) | ( date ('T' | sp) time );
 
