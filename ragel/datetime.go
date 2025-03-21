@@ -105,7 +105,7 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		return date, nil
 	}
 
-	if len(state.ZoneName) != 0 {
+	if len(state.ZoneName) != 0 && state.ZoneOffsetHour == 0 && state.ZoneOffsetMinute == 0 {
 		_, ambiguous := ambiguousTimeZoneAbbrs[state.ZoneName]
 		if zone, err := time.LoadLocation(state.ZoneName); err == nil && !ambiguous {
 			date = time.Date(state.Year, time.Month(state.Month), state.Day,

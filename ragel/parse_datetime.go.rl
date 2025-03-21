@@ -17,7 +17,7 @@ machine datetime_parser;
 
 include common "datetime.rl";
 
-main := fulldatetime @err(parse_error);
+main := fulldatetime;
 
 write data;
 }%%

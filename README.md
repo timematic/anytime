@@ -88,6 +88,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	// Some Special Layout
 	"Wed Dec  3 07:37:16 1997":       "Mon Jan _2 15:04:05 2006",     // time.ANSIC
 	"Wed Dec  3 07:37:16 PST 1997":   "Mon Jan _2 15:04:05 MST 2006", // time.UnixDate
+	"2006-01-02 15:04:05 +0800 CST":  "2006-01-02 15:04:05.999999999 -0700 MST", // time.String
 	"02 Jan 70 00:01 UTC":            "02 Jan 06 15:04 MST",
 	"Mon, 02-Jan-70 00:01:02 UTC":    "Mon, 02-Jan-06 15:04:05 MST",
 	"Mon Jan 02 00:01:02 -0500 1970": "Mon Jan 02 15:04:05 -0700 2006",

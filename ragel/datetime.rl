@@ -2,8 +2,6 @@
 %%{
 machine common;
 
-action parse_error { return st, err }
-
 action mark_pb { pb = p }
 
 action mark_zone { st.Zoned = true }
@@ -165,7 +163,7 @@ action parse_offset_minute {
     }
 }
 
-action parse_offset_digits { 
+action parse_offset_digits {
     // 1 as 1 hour
     // 12 as 12 hours
     // 123 as 1 hour 23 minutes
@@ -273,7 +271,7 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = ('Z' | timenumoffset | timezone_abbreviation) %mark_zone;
+timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | timezone_abbreviation) %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
