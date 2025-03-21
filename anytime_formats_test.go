@@ -31,6 +31,8 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"23 Jan 1970":     "02 Jan 2006",
 	"Mon 30 Sep 2018": "Mon 02 Jan 2006",
 	"Fri Jul 03 2015": "Mon Jan 02 2006",
+	"2014年04月08日":     "2006年01月02日",
+	"2014年4月8日":       "2006年1月2日",
 
 	// Multiple Zone Layout
 	"1970-01-01Z":                             "2006-01-02Z07:00",
