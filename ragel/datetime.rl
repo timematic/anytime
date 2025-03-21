@@ -245,7 +245,7 @@ dmy = day datesp month_name datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
 yyyymmdd = year_4digit mmdd;
-date_rfc1123 = week_day_name ',' sp day sp month_name sp year_4digit;
+date_rfc1123 = week_day_name ','? sp (dmy | mdy);
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
 date = ( ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822);
@@ -288,7 +288,7 @@ pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone 
 america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (sp time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
-fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
+fulldatetime = fulldate | ( date ('T' | ','? sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
 
 fulltime = ('T'? . time) | ( date ('T' | sp) time );
 

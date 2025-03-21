@@ -45,6 +45,8 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970 Jan 23":     "2006 Jan 02",
 	"Jan 23 1970":     "Jan 02 2006",
 	"23 Jan 1970":     "02 Jan 2006",
+	"Mon 30 Sep 2018": "Mon 02 Jan 2006",
+	"Fri Jul 03 2015": "Mon Jan 02 2006",
 
 	// Multiple Zone Layout
 	"1970-01-01Z":                 "2006-01-02Z07:00",
@@ -87,9 +89,10 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-01-01 10:00:00.123456789PM": "2006-01-02 03:04:05.000000000PM",
 
 	// Multiple Date/Time Separator
-	"1970-01-01T00": "2006-01-02T15",
-	"1970-01-01t00": "2006-01-02t15",
-	"1970-01-01_00": "2006-01-02_15",
+	"1970-01-01T00":         "2006-01-02T15",
+	"1970-01-01t00":         "2006-01-02t15",
+	"1970-01-01_00":         "2006-01-02_15",
+	"07 Feb 2004, 09:07:07": "02 Jan 2006, 15:04:05",
 
 	// Some Special Layout
 	"Wed Dec  3 07:37:16 1997":       "Mon Jan _2 15:04:05 2006",                // time.ANSIC
