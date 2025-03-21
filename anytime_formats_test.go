@@ -47,6 +47,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-01-01 +5":               "", // not supported by time.Parse
 	"1970-01-01 +5:0":             "", // not supported by time.Parse
 	"1970-01-01 -8:00":            "", // not supported by time.Parse
+	"1970-01-01 PST-0700":         "2006-01-02 MST-0700",
 
 	// Multiple Time Layout
 	"1970-01-01 00":                   "2006-01-02 15",

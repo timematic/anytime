@@ -271,7 +271,7 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | timezone_abbreviation) %mark_zone;
+timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | (timezone_abbreviation timenumoffset?)) %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
