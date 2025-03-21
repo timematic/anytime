@@ -17,7 +17,7 @@ import (
 
 //line ragel/parse_datetime.go:19
 const datetime_parser_start int = 1
-const datetime_parser_first_final int = 753
+const datetime_parser_first_final int = 767
 const datetime_parser_error int = 0
 
 const datetime_parser_en_main int = 1
@@ -72,78 +72,42 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_7
 	case 8:
 		goto st_case_8
-	case 753:
-		goto st_case_753
-	case 754:
-		goto st_case_754
 	case 9:
 		goto st_case_9
 	case 10:
 		goto st_case_10
-	case 755:
-		goto st_case_755
-	case 11:
-		goto st_case_11
-	case 756:
-		goto st_case_756
-	case 12:
-		goto st_case_12
-	case 757:
-		goto st_case_757
-	case 13:
-		goto st_case_13
-	case 14:
-		goto st_case_14
-	case 15:
-		goto st_case_15
-	case 758:
-		goto st_case_758
-	case 16:
-		goto st_case_16
-	case 759:
-		goto st_case_759
-	case 17:
-		goto st_case_17
-	case 760:
-		goto st_case_760
-	case 761:
-		goto st_case_761
-	case 762:
-		goto st_case_762
-	case 763:
-		goto st_case_763
-	case 764:
-		goto st_case_764
-	case 765:
-		goto st_case_765
-	case 766:
-		goto st_case_766
-	case 18:
-		goto st_case_18
 	case 767:
 		goto st_case_767
 	case 768:
 		goto st_case_768
-	case 19:
-		goto st_case_19
+	case 11:
+		goto st_case_11
+	case 12:
+		goto st_case_12
 	case 769:
 		goto st_case_769
+	case 13:
+		goto st_case_13
 	case 770:
 		goto st_case_770
+	case 14:
+		goto st_case_14
 	case 771:
 		goto st_case_771
-	case 20:
-		goto st_case_20
-	case 21:
-		goto st_case_21
+	case 15:
+		goto st_case_15
+	case 16:
+		goto st_case_16
+	case 17:
+		goto st_case_17
 	case 772:
 		goto st_case_772
-	case 22:
-		goto st_case_22
+	case 18:
+		goto st_case_18
 	case 773:
 		goto st_case_773
-	case 23:
-		goto st_case_23
+	case 19:
+		goto st_case_19
 	case 774:
 		goto st_case_774
 	case 775:
@@ -158,28 +122,32 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_779
 	case 780:
 		goto st_case_780
+	case 20:
+		goto st_case_20
 	case 781:
 		goto st_case_781
 	case 782:
 		goto st_case_782
-	case 24:
-		goto st_case_24
+	case 21:
+		goto st_case_21
 	case 783:
 		goto st_case_783
-	case 25:
-		goto st_case_25
 	case 784:
 		goto st_case_784
 	case 785:
 		goto st_case_785
-	case 26:
-		goto st_case_26
+	case 22:
+		goto st_case_22
+	case 23:
+		goto st_case_23
 	case 786:
 		goto st_case_786
-	case 27:
-		goto st_case_27
+	case 24:
+		goto st_case_24
 	case 787:
 		goto st_case_787
+	case 25:
+		goto st_case_25
 	case 788:
 		goto st_case_788
 	case 789:
@@ -198,8 +166,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_795
 	case 796:
 		goto st_case_796
+	case 26:
+		goto st_case_26
 	case 797:
 		goto st_case_797
+	case 27:
+		goto st_case_27
 	case 798:
 		goto st_case_798
 	case 799:
@@ -208,24 +180,50 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_28
 	case 800:
 		goto st_case_800
+	case 29:
+		goto st_case_29
 	case 801:
 		goto st_case_801
 	case 802:
 		goto st_case_802
-	case 29:
-		goto st_case_29
-	case 30:
-		goto st_case_30
-	case 31:
-		goto st_case_31
-	case 32:
-		goto st_case_32
 	case 803:
 		goto st_case_803
 	case 804:
 		goto st_case_804
 	case 805:
 		goto st_case_805
+	case 806:
+		goto st_case_806
+	case 807:
+		goto st_case_807
+	case 808:
+		goto st_case_808
+	case 809:
+		goto st_case_809
+	case 810:
+		goto st_case_810
+	case 811:
+		goto st_case_811
+	case 812:
+		goto st_case_812
+	case 813:
+		goto st_case_813
+	case 30:
+		goto st_case_30
+	case 814:
+		goto st_case_814
+	case 815:
+		goto st_case_815
+	case 816:
+		goto st_case_816
+	case 31:
+		goto st_case_31
+	case 817:
+		goto st_case_817
+	case 818:
+		goto st_case_818
+	case 32:
+		goto st_case_32
 	case 33:
 		goto st_case_33
 	case 34:
@@ -370,10 +368,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_103
 	case 104:
 		goto st_case_104
-	case 806:
-		goto st_case_806
-	case 807:
-		goto st_case_807
+	case 819:
+		goto st_case_819
 	case 105:
 		goto st_case_105
 	case 106:
@@ -384,12 +380,14 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_108
 	case 109:
 		goto st_case_109
+	case 820:
+		goto st_case_820
+	case 821:
+		goto st_case_821
 	case 110:
 		goto st_case_110
 	case 111:
 		goto st_case_111
-	case 808:
-		goto st_case_808
 	case 112:
 		goto st_case_112
 	case 113:
@@ -400,8 +398,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_115
 	case 116:
 		goto st_case_116
+	case 822:
+		goto st_case_822
 	case 117:
 		goto st_case_117
+	case 823:
+		goto st_case_823
 	case 118:
 		goto st_case_118
 	case 119:
@@ -536,8 +538,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_183
 	case 184:
 		goto st_case_184
-	case 809:
-		goto st_case_809
 	case 185:
 		goto st_case_185
 	case 186:
@@ -698,74 +698,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_263
 	case 264:
 		goto st_case_264
-	case 810:
-		goto st_case_810
 	case 265:
 		goto st_case_265
 	case 266:
 		goto st_case_266
-	case 811:
-		goto st_case_811
 	case 267:
 		goto st_case_267
 	case 268:
 		goto st_case_268
 	case 269:
 		goto st_case_269
-	case 812:
-		goto st_case_812
-	case 813:
-		goto st_case_813
-	case 814:
-		goto st_case_814
-	case 815:
-		goto st_case_815
-	case 816:
-		goto st_case_816
-	case 817:
-		goto st_case_817
-	case 818:
-		goto st_case_818
 	case 270:
 		goto st_case_270
-	case 819:
-		goto st_case_819
 	case 271:
 		goto st_case_271
+	case 824:
+		goto st_case_824
 	case 272:
 		goto st_case_272
 	case 273:
 		goto st_case_273
+	case 825:
+		goto st_case_825
 	case 274:
 		goto st_case_274
 	case 275:
 		goto st_case_275
 	case 276:
 		goto st_case_276
-	case 277:
-		goto st_case_277
-	case 278:
-		goto st_case_278
-	case 820:
-		goto st_case_820
-	case 821:
-		goto st_case_821
-	case 279:
-		goto st_case_279
-	case 822:
-		goto st_case_822
-	case 823:
-		goto st_case_823
-	case 280:
-		goto st_case_280
-	case 824:
-		goto st_case_824
-	case 281:
-		goto st_case_281
-	case 825:
-		goto st_case_825
-	case 282:
-		goto st_case_282
 	case 826:
 		goto st_case_826
 	case 827:
@@ -780,44 +740,64 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_831
 	case 832:
 		goto st_case_832
+	case 277:
+		goto st_case_277
 	case 833:
 		goto st_case_833
-	case 834:
-		goto st_case_834
+	case 278:
+		goto st_case_278
+	case 279:
+		goto st_case_279
+	case 280:
+		goto st_case_280
+	case 281:
+		goto st_case_281
+	case 282:
+		goto st_case_282
 	case 283:
 		goto st_case_283
+	case 834:
+		goto st_case_834
 	case 835:
 		goto st_case_835
-	case 284:
-		goto st_case_284
 	case 836:
 		goto st_case_836
 	case 837:
 		goto st_case_837
-	case 285:
-		goto st_case_285
+	case 284:
+		goto st_case_284
 	case 838:
 		goto st_case_838
-	case 286:
-		goto st_case_286
 	case 839:
 		goto st_case_839
+	case 285:
+		goto st_case_285
 	case 840:
 		goto st_case_840
 	case 841:
 		goto st_case_841
+	case 286:
+		goto st_case_286
 	case 842:
 		goto st_case_842
 	case 843:
 		goto st_case_843
+	case 287:
+		goto st_case_287
 	case 844:
 		goto st_case_844
 	case 845:
 		goto st_case_845
+	case 288:
+		goto st_case_288
 	case 846:
 		goto st_case_846
+	case 289:
+		goto st_case_289
 	case 847:
 		goto st_case_847
+	case 290:
+		goto st_case_290
 	case 848:
 		goto st_case_848
 	case 849:
@@ -826,20 +806,12 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_850
 	case 851:
 		goto st_case_851
-	case 287:
-		goto st_case_287
 	case 852:
 		goto st_case_852
-	case 288:
-		goto st_case_288
-	case 289:
-		goto st_case_289
 	case 853:
 		goto st_case_853
 	case 854:
 		goto st_case_854
-	case 290:
-		goto st_case_290
 	case 855:
 		goto st_case_855
 	case 856:
@@ -850,12 +822,46 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_857
 	case 292:
 		goto st_case_292
+	case 858:
+		goto st_case_858
+	case 859:
+		goto st_case_859
 	case 293:
 		goto st_case_293
+	case 860:
+		goto st_case_860
 	case 294:
 		goto st_case_294
+	case 861:
+		goto st_case_861
+	case 862:
+		goto st_case_862
+	case 863:
+		goto st_case_863
+	case 864:
+		goto st_case_864
+	case 865:
+		goto st_case_865
+	case 866:
+		goto st_case_866
+	case 867:
+		goto st_case_867
+	case 868:
+		goto st_case_868
+	case 869:
+		goto st_case_869
+	case 870:
+		goto st_case_870
+	case 871:
+		goto st_case_871
+	case 872:
+		goto st_case_872
+	case 873:
+		goto st_case_873
 	case 295:
 		goto st_case_295
+	case 874:
+		goto st_case_874
 	case 296:
 		goto st_case_296
 	case 297:
@@ -932,6 +938,10 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_332
 	case 333:
 		goto st_case_333
+	case 875:
+		goto st_case_875
+	case 876:
+		goto st_case_876
 	case 334:
 		goto st_case_334
 	case 335:
@@ -942,6 +952,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_337
 	case 338:
 		goto st_case_338
+	case 877:
+		goto st_case_877
 	case 339:
 		goto st_case_339
 	case 340:
@@ -1020,8 +1032,6 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_376
 	case 377:
 		goto st_case_377
-	case 858:
-		goto st_case_858
 	case 378:
 		goto st_case_378
 	case 379:
@@ -1040,6 +1050,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_385
 	case 386:
 		goto st_case_386
+	case 878:
+		goto st_case_878
 	case 387:
 		goto st_case_387
 	case 388:
@@ -1538,6 +1550,8 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_634
 	case 635:
 		goto st_case_635
+	case 879:
+		goto st_case_879
 	case 636:
 		goto st_case_636
 	case 637:
@@ -1772,6 +1786,34 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		goto st_case_751
 	case 752:
 		goto st_case_752
+	case 753:
+		goto st_case_753
+	case 754:
+		goto st_case_754
+	case 755:
+		goto st_case_755
+	case 756:
+		goto st_case_756
+	case 757:
+		goto st_case_757
+	case 758:
+		goto st_case_758
+	case 759:
+		goto st_case_759
+	case 760:
+		goto st_case_760
+	case 761:
+		goto st_case_761
+	case 762:
+		goto st_case_762
+	case 763:
+		goto st_case_763
+	case 764:
+		goto st_case_764
+	case 765:
+		goto st_case_765
+	case 766:
+		goto st_case_766
 	}
 	goto st_out
 	st_case_1:
@@ -1781,41 +1823,41 @@ func Parse(data string) (st ParsedDatetime, err error) {
 		case 51:
 			goto tr3
 		case 65:
-			goto st253
+			goto st260
 		case 68:
-			goto st345
+			goto st354
 		case 70:
-			goto st353
+			goto st362
 		case 74:
-			goto st693
+			goto st707
 		case 77:
-			goto st705
+			goto st719
 		case 78:
-			goto st712
+			goto st726
 		case 79:
-			goto st720
+			goto st734
 		case 83:
-			goto st727
+			goto st741
 		case 84:
-			goto st740
+			goto st754
 		case 87:
-			goto st746
+			goto st760
 		case 97:
-			goto st253
+			goto st260
 		case 100:
-			goto st345
+			goto st354
 		case 102:
-			goto st750
+			goto st764
 		case 106:
-			goto st693
+			goto st707
 		case 109:
-			goto st751
+			goto st765
 		case 110:
-			goto st712
+			goto st726
 		case 111:
-			goto st720
+			goto st734
 		case 115:
-			goto st752
+			goto st766
 		}
 		switch {
 		case data[p] > 50:
@@ -1839,12 +1881,12 @@ tr0:
 			goto _test_eof2
 		}
 	st_case_2:
-//line ragel/parse_datetime.go:1843
+//line ragel/parse_datetime.go:1885
 		if data[p] == 48 {
 			goto st3
 		}
 		if 49 <= data[p] && data[p] <= 57 {
-			goto st105
+			goto st110
 		}
 		goto st0
 	st3:
@@ -1870,13 +1912,16 @@ tr0:
 			goto _test_eof5
 		}
 	st_case_5:
+		if data[p] == 32 {
+			goto tr22
+		}
 		switch {
 		case data[p] > 47:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto tr23
+				goto tr24
 			}
 		case data[p] >= 45:
-			goto tr22
+			goto tr23
 		}
 		goto st0
 tr22:
@@ -1890,50 +1935,50 @@ tr22:
 			goto _test_eof6
 		}
 	st_case_6:
-//line ragel/parse_datetime.go:1894
+//line ragel/parse_datetime.go:1939
 		switch data[p] {
 		case 48:
-			goto tr24
-		case 49:
 			goto tr25
+		case 49:
+			goto tr26
 		case 65:
-			goto st35
+			goto st33
 		case 68:
-			goto st45
+			goto st44
 		case 70:
-			goto st53
+			goto st52
 		case 74:
-			goto st61
+			goto st60
 		case 77:
-			goto st73
+			goto st72
 		case 78:
-			goto st79
+			goto st78
 		case 79:
-			goto st87
+			goto st86
 		case 83:
-			goto st94
+			goto st93
 		case 97:
-			goto st35
+			goto st33
 		case 100:
-			goto st45
+			goto st44
 		case 102:
-			goto st53
+			goto st52
 		case 106:
-			goto st61
+			goto st60
 		case 109:
-			goto st73
+			goto st72
 		case 110:
-			goto st79
+			goto st78
 		case 111:
-			goto st87
+			goto st86
 		case 115:
-			goto st94
+			goto st93
 		}
 		if 50 <= data[p] && data[p] <= 57 {
-			goto tr26
+			goto tr27
 		}
 		goto st0
-tr24:
+tr25:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st7
@@ -1942,62 +1987,161 @@ tr24:
 			goto _test_eof7
 		}
 	st_case_7:
-//line ragel/parse_datetime.go:1946
-		if data[p] == 48 {
+//line ragel/parse_datetime.go:1991
+		if 49 <= data[p] && data[p] <= 57 {
 			goto st8
 		}
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st30
-		}
 		goto st0
+tr27:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st8
 	st8:
 		if p++; p == pe {
 			goto _test_eof8
 		}
 	st_case_8:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st753
+//line ragel/parse_datetime.go:2005
+		if data[p] == 32 {
+			goto tr37
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr37
 		}
 		goto st0
-	st753:
+tr37:
+//line ragel/datetime.rl:9
+
+    st.Month, _ = strconv.Atoi(data[pb:p])
+
+	goto st9
+tr76:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st9
+tr82:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st9
+tr89:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st9
+tr98:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st9
+tr108:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st9
+tr116:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st9
+tr119:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st9
+tr125:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st9
+tr129:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st9
+tr133:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st9
+tr142:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st9
+tr150:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st9
+	st9:
 		if p++; p == pe {
-			goto _test_eof753
+			goto _test_eof9
 		}
-	st_case_753:
+	st_case_9:
+//line ragel/parse_datetime.go:2072
+		switch data[p] {
+		case 48:
+			goto tr38
+		case 51:
+			goto tr40
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr41
+			}
+		case data[p] >= 49:
+			goto tr39
+		}
+		goto st0
+tr38:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st10
+	st10:
+		if p++; p == pe {
+			goto _test_eof10
+		}
+	st_case_10:
+//line ragel/parse_datetime.go:2097
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st767
+		}
+		goto st0
+tr41:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st767
+	st767:
+		if p++; p == pe {
+			goto _test_eof767
+		}
+	st_case_767:
+//line ragel/parse_datetime.go:2111
 		switch data[p] {
 		case 32:
-			goto tr975
+			goto tr1083
 		case 43:
-			goto tr976
+			goto tr1084
 		case 45:
-			goto tr977
+			goto tr1085
 		case 47:
-			goto tr978
+			goto tr1086
 		case 84:
-			goto tr979
+			goto tr1087
 		case 90:
-			goto tr980
+			goto tr1088
 		case 95:
-			goto tr981
+			goto tr1089
 		case 116:
-			goto tr981
+			goto tr1089
 		}
 		switch {
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr978
+				goto tr1086
 			}
 		case data[p] >= 65:
-			goto tr978
+			goto tr1086
 		}
 		goto st0
-tr1111:
+tr1219:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
-	goto st754
-tr1089:
+	goto st768
+tr1083:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -2007,71 +2151,71 @@ tr1089:
             return
     }
 
-	goto st754
-tr975:
+	goto st768
+tr1197:
 //line ragel/datetime.rl:25
 
     st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 
-	goto st754
-tr1097:
+	goto st768
+tr1205:
 //line ragel/datetime.rl:13
 
     st.Month, _ = strconv.Atoi(data[pb:pb+2])
     st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
 
-	goto st754
-tr1104:
+	goto st768
+tr1212:
 //line ragel/datetime.rl:21
 
     st.Year = parse_year_2_digits(data[pb:pb+2])
 
-	goto st754
-	st754:
+	goto st768
+	st768:
 		if p++; p == pe {
-			goto _test_eof754
+			goto _test_eof768
 		}
-	st_case_754:
-//line ragel/parse_datetime.go:2036
+	st_case_768:
+//line ragel/parse_datetime.go:2180
 		switch data[p] {
 		case 32:
-			goto st9
+			goto st11
 		case 43:
-			goto st12
+			goto st14
 		case 45:
-			goto st18
+			goto st20
 		case 47:
-			goto tr45
+			goto tr50
 		case 50:
-			goto tr66
+			goto tr71
 		case 65:
-			goto tr46
+			goto tr51
 		case 66:
-			goto tr47
+			goto tr52
 		case 90:
-			goto tr985
+			goto tr1093
 		case 95:
-			goto tr45
+			goto tr50
 		}
 		switch {
 		case data[p] < 51:
 			if 48 <= data[p] && data[p] <= 49 {
-				goto tr65
+				goto tr70
 			}
 		case data[p] > 57:
 			switch {
 			case data[p] > 89:
 				if 97 <= data[p] && data[p] <= 122 {
-					goto tr45
+					goto tr50
 				}
 			case data[p] >= 67:
-				goto tr45
+				goto tr50
 			}
 		default:
-			goto tr67
+			goto tr72
 		}
 		goto st0
-tr989:
+tr1097:
 //line ragel/datetime.rl:194
 
     st.ZoneName = data[pb:p]
@@ -2079,61 +2223,61 @@ tr989:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st9
-tr1012:
+	goto st11
+tr1120:
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st9
-	st9:
-		if p++; p == pe {
-			goto _test_eof9
-		}
-	st_case_9:
-//line ragel/parse_datetime.go:2093
-		switch data[p] {
-		case 65:
-			goto st10
-		case 66:
-			goto st11
-		}
-		goto st0
-	st10:
-		if p++; p == pe {
-			goto _test_eof10
-		}
-	st_case_10:
-		if data[p] == 68 {
-			goto st755
-		}
-		goto st0
-	st755:
-		if p++; p == pe {
-			goto _test_eof755
-		}
-	st_case_755:
-		goto st0
+	goto st11
 	st11:
 		if p++; p == pe {
 			goto _test_eof11
 		}
 	st_case_11:
-		if data[p] == 67 {
-			goto st756
+//line ragel/parse_datetime.go:2237
+		switch data[p] {
+		case 65:
+			goto st12
+		case 66:
+			goto st13
 		}
 		goto st0
-	st756:
+	st12:
 		if p++; p == pe {
-			goto _test_eof756
+			goto _test_eof12
 		}
-	st_case_756:
+	st_case_12:
+		if data[p] == 68 {
+			goto st769
+		}
 		goto st0
-tr1112:
+	st769:
+		if p++; p == pe {
+			goto _test_eof769
+		}
+	st_case_769:
+		goto st0
+	st13:
+		if p++; p == pe {
+			goto _test_eof13
+		}
+	st_case_13:
+		if data[p] == 67 {
+			goto st770
+		}
+		goto st0
+	st770:
+		if p++; p == pe {
+			goto _test_eof770
+		}
+	st_case_770:
+		goto st0
+tr1220:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
-	goto st12
-tr1090:
+	goto st14
+tr1084:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -2143,14 +2287,14 @@ tr1090:
             return
     }
 
-	goto st12
-tr997:
+	goto st14
+tr1105:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st12
-tr1009:
+	goto st14
+tr1117:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -2174,31 +2318,14 @@ tr1009:
         }
     }
 
-	goto st12
-tr1014:
+	goto st14
+tr1122:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st12
-tr1022:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st12
-tr1029:
+	goto st14
+tr1137:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -2228,95 +2355,112 @@ tr1029:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st12
-tr1042:
+	goto st14
+tr1130:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st14
+tr1150:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st12
-tr1051:
+	goto st14
+tr1159:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st12
-tr1059:
+	goto st14
+tr1167:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st12
-tr1079:
+	goto st14
+tr1187:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st12
-tr976:
+	goto st14
+tr1198:
 //line ragel/datetime.rl:25
 
     st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 
-	goto st12
-tr1098:
+	goto st14
+tr1206:
 //line ragel/datetime.rl:13
 
     st.Month, _ = strconv.Atoi(data[pb:pb+2])
     st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
 
-	goto st12
-tr1105:
+	goto st14
+tr1213:
 //line ragel/datetime.rl:21
 
     st.Year = parse_year_2_digits(data[pb:pb+2])
 
-	goto st12
-	st12:
+	goto st14
+	st14:
 		if p++; p == pe {
-			goto _test_eof12
+			goto _test_eof14
 		}
-	st_case_12:
-//line ragel/parse_datetime.go:2281
+	st_case_14:
+//line ragel/parse_datetime.go:2425
 		if data[p] == 50 {
-			goto tr43
+			goto tr48
 		}
 		switch {
 		case data[p] > 49:
 			if 51 <= data[p] && data[p] <= 57 {
-				goto tr44
+				goto tr49
 			}
 		case data[p] >= 48:
-			goto tr42
+			goto tr47
 		}
 		goto st0
-tr42:
+tr47:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st757
-tr52:
+	goto st771
+tr57:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st757
-	st757:
+	goto st771
+	st771:
 		if p++; p == pe {
-			goto _test_eof757
+			goto _test_eof771
 		}
-	st_case_757:
-//line ragel/parse_datetime.go:2309
+	st_case_771:
+//line ragel/parse_datetime.go:2453
 		switch data[p] {
 		case 32:
-			goto tr986
+			goto tr1094
 		case 58:
-			goto tr988
+			goto tr1096
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st761
+			goto st775
 		}
 		goto st0
-tr986:
+tr1094:
 //line ragel/datetime.rl:166
 
     // 1 as 1 hour
@@ -2347,12 +2491,12 @@ tr986:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st13
-tr991:
+	goto st15
+tr1099:
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st13
-tr994:
+	goto st15
+tr1102:
 //line ragel/datetime.rl:157
 
     switch p - pb {
@@ -2364,85 +2508,85 @@ tr994:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st13
-	st13:
+	goto st15
+	st15:
 		if p++; p == pe {
-			goto _test_eof13
+			goto _test_eof15
 		}
-	st_case_13:
-//line ragel/parse_datetime.go:2374
+	st_case_15:
+//line ragel/parse_datetime.go:2518
 		switch data[p] {
 		case 47:
-			goto tr45
+			goto tr50
 		case 65:
-			goto tr46
+			goto tr51
 		case 66:
-			goto tr47
+			goto tr52
 		case 95:
-			goto tr45
+			goto tr50
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr45
+				goto tr50
 			}
 		case data[p] >= 67:
-			goto tr45
+			goto tr50
 		}
 		goto st0
-tr45:
+tr50:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1114:
+	goto st16
+tr1222:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr999:
+	goto st16
+tr1107:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1016:
+	goto st16
+tr1124:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1044:
+	goto st16
+tr1152:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1053:
+	goto st16
+tr1161:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1062:
+	goto st16
+tr1170:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1031:
+	goto st16
+tr1139:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -2474,16 +2618,16 @@ tr1031:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1082:
+	goto st16
+tr1190:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1025:
+	goto st16
+tr1133:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -2501,16 +2645,8 @@ tr1025:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr978:
-//line ragel/datetime.rl:25
-
-    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st14
-tr1092:
+	goto st16
+tr1086:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -2522,8 +2658,16 @@ tr1092:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1100:
+	goto st16
+tr1200:
+//line ragel/datetime.rl:25
+
+    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st16
+tr1208:
 //line ragel/datetime.rl:13
 
     st.Month, _ = strconv.Atoi(data[pb:pb+2])
@@ -2531,62 +2675,62 @@ tr1100:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-tr1107:
+	goto st16
+tr1215:
 //line ragel/datetime.rl:21
 
     st.Year = parse_year_2_digits(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st14
-	st14:
+	goto st16
+	st16:
 		if p++; p == pe {
-			goto _test_eof14
+			goto _test_eof16
 		}
-	st_case_14:
-//line ragel/parse_datetime.go:2549
+	st_case_16:
+//line ragel/parse_datetime.go:2693
 		switch data[p] {
 		case 47:
-			goto st15
+			goto st17
 		case 95:
-			goto st15
+			goto st17
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
+				goto st17
 			}
 		case data[p] >= 65:
-			goto st15
+			goto st17
 		}
 		goto st0
-tr1087:
+tr1195:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st15
-	st15:
+	goto st17
+	st17:
 		if p++; p == pe {
-			goto _test_eof15
+			goto _test_eof17
 		}
-	st_case_15:
-//line ragel/parse_datetime.go:2574
+	st_case_17:
+//line ragel/parse_datetime.go:2718
 		switch data[p] {
 		case 47:
-			goto st758
+			goto st772
 		case 95:
-			goto st758
+			goto st772
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st758
+				goto st772
 			}
 		case data[p] >= 65:
-			goto st758
+			goto st772
 		}
 		goto st0
-tr1011:
+tr1119:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -2612,163 +2756,163 @@ tr1011:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st758
-	st758:
+	goto st772
+	st772:
 		if p++; p == pe {
-			goto _test_eof758
+			goto _test_eof772
 		}
-	st_case_758:
-//line ragel/parse_datetime.go:2622
+	st_case_772:
+//line ragel/parse_datetime.go:2766
 		switch data[p] {
 		case 32:
-			goto tr989
+			goto tr1097
 		case 47:
-			goto st758
+			goto st772
 		case 95:
-			goto st758
+			goto st772
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st758
+				goto st772
 			}
 		case data[p] >= 65:
-			goto st758
+			goto st772
 		}
 		goto st0
-tr46:
+tr51:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st16
-	st16:
+	goto st18
+	st18:
 		if p++; p == pe {
-			goto _test_eof16
+			goto _test_eof18
 		}
-	st_case_16:
-//line ragel/parse_datetime.go:2649
+	st_case_18:
+//line ragel/parse_datetime.go:2793
 		switch data[p] {
 		case 47:
-			goto st15
+			goto st17
 		case 68:
-			goto st759
+			goto st773
 		case 95:
-			goto st15
+			goto st17
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
+				goto st17
 			}
 		case data[p] >= 65:
-			goto st15
+			goto st17
 		}
 		goto st0
-	st759:
+	st773:
 		if p++; p == pe {
-			goto _test_eof759
+			goto _test_eof773
 		}
-	st_case_759:
+	st_case_773:
 		switch data[p] {
 		case 47:
-			goto st758
+			goto st772
 		case 95:
-			goto st758
+			goto st772
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st758
+				goto st772
 			}
 		case data[p] >= 65:
-			goto st758
+			goto st772
 		}
 		goto st0
-tr47:
+tr52:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st17
-	st17:
+	goto st19
+	st19:
 		if p++; p == pe {
-			goto _test_eof17
+			goto _test_eof19
 		}
-	st_case_17:
-//line ragel/parse_datetime.go:2696
+	st_case_19:
+//line ragel/parse_datetime.go:2840
 		switch data[p] {
 		case 47:
-			goto st15
+			goto st17
 		case 67:
-			goto st760
+			goto st774
 		case 95:
-			goto st15
+			goto st17
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
+				goto st17
 			}
 		case data[p] >= 65:
-			goto st15
+			goto st17
 		}
 		goto st0
-	st760:
+	st774:
 		if p++; p == pe {
-			goto _test_eof760
+			goto _test_eof774
 		}
-	st_case_760:
+	st_case_774:
 		switch data[p] {
 		case 47:
-			goto st758
+			goto st772
 		case 95:
-			goto st758
+			goto st772
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st758
+				goto st772
 			}
 		case data[p] >= 65:
-			goto st758
+			goto st772
 		}
 		goto st0
-tr44:
+tr49:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st761
-tr54:
+	goto st775
+tr59:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st761
-	st761:
+	goto st775
+	st775:
 		if p++; p == pe {
-			goto _test_eof761
+			goto _test_eof775
 		}
-	st_case_761:
-//line ragel/parse_datetime.go:2749
+	st_case_775:
+//line ragel/parse_datetime.go:2893
 		switch data[p] {
 		case 32:
-			goto tr986
+			goto tr1094
 		case 58:
-			goto tr988
+			goto tr1096
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st762
+			goto st776
 		}
 		goto st0
-	st762:
+	st776:
 		if p++; p == pe {
-			goto _test_eof762
+			goto _test_eof776
 		}
-	st_case_762:
+	st_case_776:
 		if data[p] == 32 {
-			goto tr986
+			goto tr1094
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st762
+			goto st776
 		}
 		goto st0
-tr988:
+tr1096:
 //line ragel/datetime.rl:148
 
     switch p - pb {
@@ -2778,94 +2922,94 @@ tr988:
             return
     }
 
-	goto st763
-	st763:
+	goto st777
+	st777:
 		if p++; p == pe {
-			goto _test_eof763
+			goto _test_eof777
 		}
-	st_case_763:
-//line ragel/parse_datetime.go:2788
+	st_case_777:
+//line ragel/parse_datetime.go:2932
 		if data[p] == 32 {
-			goto tr991
+			goto tr1099
 		}
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
-				goto tr993
+				goto tr1101
 			}
 		case data[p] >= 48:
-			goto tr992
+			goto tr1100
 		}
 		goto st0
-tr992:
+tr1100:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st764
-	st764:
+	goto st778
+	st778:
 		if p++; p == pe {
-			goto _test_eof764
+			goto _test_eof778
 		}
-	st_case_764:
-//line ragel/parse_datetime.go:2810
+	st_case_778:
+//line ragel/parse_datetime.go:2954
 		if data[p] == 32 {
-			goto tr994
+			goto tr1102
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st765
+			goto st779
 		}
 		goto st0
-tr993:
+tr1101:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st765
-	st765:
+	goto st779
+	st779:
 		if p++; p == pe {
-			goto _test_eof765
+			goto _test_eof779
 		}
-	st_case_765:
-//line ragel/parse_datetime.go:2827
+	st_case_779:
+//line ragel/parse_datetime.go:2971
 		if data[p] == 32 {
-			goto tr994
+			goto tr1102
 		}
 		goto st0
-tr43:
+tr48:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st766
-tr53:
+	goto st780
+tr58:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st766
-	st766:
+	goto st780
+	st780:
 		if p++; p == pe {
-			goto _test_eof766
+			goto _test_eof780
 		}
-	st_case_766:
-//line ragel/parse_datetime.go:2847
+	st_case_780:
+//line ragel/parse_datetime.go:2991
 		switch data[p] {
 		case 32:
-			goto tr986
+			goto tr1094
 		case 58:
-			goto tr988
+			goto tr1096
 		}
 		switch {
 		case data[p] > 51:
 			if 52 <= data[p] && data[p] <= 57 {
-				goto st762
+				goto st776
 			}
 		case data[p] >= 48:
-			goto st761
+			goto st775
 		}
 		goto st0
-tr1113:
+tr1221:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
-	goto st18
-tr1091:
+	goto st20
+tr1085:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -2875,362 +3019,14 @@ tr1091:
             return
     }
 
-	goto st18
-tr998:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st18
-tr1010:
-//line ragel/datetime.rl:54
-
-    if st.Hour > 12 {
-        err = errors.New("hour out of range")
-        return st, err
-    }
-    if apm, err := parse_ampm(data[pb:]); err != nil {
-        return st, err
-    } else {
-        switch apm {
-            case AMPM_AM:
-                if (st.Hour == 12) {
-                    st.Hour -= 12; // 12:00:00 am == 00:00:00
-                }
-            case AMPM_PM: {
-                if (st.Hour < 12) {
-                    st.Hour += 12
-                }
-                // else {} // 12:00:00 pm = 12:00:00, do nothing
-            }
-        }
-    }
-
-	goto st18
-tr1015:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st18
-tr1023:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st18
-tr1030:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st18
-tr1043:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st18
-tr1052:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st18
-tr1060:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st18
-tr1080:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st18
-tr977:
-//line ragel/datetime.rl:25
-
-    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-
-	goto st18
-tr1099:
-//line ragel/datetime.rl:13
-
-    st.Month, _ = strconv.Atoi(data[pb:pb+2])
-    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
-
-	goto st18
+	goto st20
 tr1106:
-//line ragel/datetime.rl:21
-
-    st.Year = parse_year_2_digits(data[pb:pb+2])
-
-	goto st18
-	st18:
-		if p++; p == pe {
-			goto _test_eof18
-		}
-	st_case_18:
-//line ragel/parse_datetime.go:3013
-		if data[p] == 50 {
-			goto tr53
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr54
-			}
-		case data[p] >= 48:
-			goto tr52
-		}
-		goto st0
-tr65:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st767
-	st767:
-		if p++; p == pe {
-			goto _test_eof767
-		}
-	st_case_767:
-//line ragel/parse_datetime.go:3035
-		switch data[p] {
-		case 32:
-			goto tr996
-		case 43:
-			goto tr997
-		case 45:
-			goto tr998
-		case 47:
-			goto tr999
-		case 58:
-			goto tr1001
-		case 65:
-			goto tr1002
-		case 80:
-			goto tr1002
-		case 90:
-			goto tr1003
-		case 95:
-			goto tr999
-		case 97:
-			goto tr1004
-		case 112:
-			goto tr1004
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st772
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr999
-			}
-		default:
-			goto tr999
-		}
-		goto st0
-tr996:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st768
-tr1013:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st768
-tr1067:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st768
-tr1041:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st768
-tr1050:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st768
-tr1058:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st768
-tr1078:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st768
-	st768:
-		if p++; p == pe {
-			goto _test_eof768
-		}
-	st_case_768:
-//line ragel/parse_datetime.go:3145
-		switch data[p] {
-		case 32:
-			goto st9
-		case 43:
-			goto st12
-		case 45:
-			goto st18
-		case 47:
-			goto tr45
-		case 65:
-			goto tr1005
-		case 66:
-			goto tr47
-		case 80:
-			goto tr1006
-		case 90:
-			goto tr985
-		case 95:
-			goto tr45
-		case 97:
-			goto tr1007
-		case 112:
-			goto tr1007
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr45
-			}
-		case data[p] >= 67:
-			goto tr45
-		}
-		goto st0
-tr1005:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st19
-	st19:
-		if p++; p == pe {
-			goto _test_eof19
-		}
-	st_case_19:
-//line ragel/parse_datetime.go:3188
-		switch data[p] {
-		case 47:
-			goto st15
-		case 68:
-			goto st759
-		case 77:
-			goto st769
-		case 95:
-			goto st15
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
-			}
-		case data[p] >= 65:
-			goto st15
-		}
-		goto st0
-	st769:
-		if p++; p == pe {
-			goto _test_eof769
-		}
-	st_case_769:
-		switch data[p] {
-		case 32:
-			goto tr1008
-		case 43:
-			goto tr1009
-		case 45:
-			goto tr1010
-		case 47:
-			goto tr1011
-		case 95:
-			goto tr1011
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1011
-			}
-		case data[p] >= 65:
-			goto tr1011
-		}
-		goto st0
-tr1008:
+	goto st20
+tr1118:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -3254,141 +3050,14 @@ tr1008:
         }
     }
 
-	goto st770
-tr1021:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st770
-tr1028:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st770
-	st770:
-		if p++; p == pe {
-			goto _test_eof770
-		}
-	st_case_770:
-//line ragel/parse_datetime.go:3312
-		switch data[p] {
-		case 32:
-			goto st9
-		case 43:
-			goto st12
-		case 45:
-			goto st18
-		case 47:
-			goto tr45
-		case 65:
-			goto tr46
-		case 66:
-			goto tr47
-		case 90:
-			goto tr985
-		case 95:
-			goto tr45
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr45
-			}
-		case data[p] >= 67:
-			goto tr45
-		}
-		goto st0
-tr985:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1116:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1003:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1019:
+	goto st20
+tr1123:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1048:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1056:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1065:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1033:
+	goto st20
+tr1138:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -3418,18 +3087,8 @@ tr1033:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1084:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1027:
+	goto st20
+tr1132:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -3445,2913 +3104,78 @@ tr1027:
             return
     }
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr980:
+	goto st20
+tr1151:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st20
+tr1160:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st20
+tr1169:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st20
+tr1189:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st20
+tr1199:
 //line ragel/datetime.rl:25
 
     st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1094:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1102:
+	goto st20
+tr1207:
 //line ragel/datetime.rl:13
 
     st.Month, _ = strconv.Atoi(data[pb:pb+2])
     st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-tr1109:
+	goto st20
+tr1214:
 //line ragel/datetime.rl:21
 
     st.Year = parse_year_2_digits(data[pb:pb+2])
 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st771
-	st771:
-		if p++; p == pe {
-			goto _test_eof771
-		}
-	st_case_771:
-//line ragel/parse_datetime.go:3495
-		switch data[p] {
-		case 32:
-			goto tr1012
-		case 47:
-			goto st15
-		case 95:
-			goto st15
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
-			}
-		case data[p] >= 65:
-			goto st15
-		}
-		goto st0
-tr1006:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1002:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1018:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1047:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1055:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1064:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1069:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st20
-tr1083:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
 	goto st20
 	st20:
 		if p++; p == pe {
 			goto _test_eof20
 		}
 	st_case_20:
-//line ragel/parse_datetime.go:3603
-		switch data[p] {
-		case 47:
-			goto st15
-		case 77:
-			goto st769
-		case 95:
-			goto st15
+//line ragel/parse_datetime.go:3157
+		if data[p] == 50 {
+			goto tr58
 		}
 		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr59
 			}
-		case data[p] >= 65:
-			goto st15
-		}
-		goto st0
-tr1007:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1004:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1020:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1049:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1057:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1066:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1070:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-tr1085:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st21
-	st21:
-		if p++; p == pe {
-			goto _test_eof21
-		}
-	st_case_21:
-//line ragel/parse_datetime.go:3711
-		switch data[p] {
-		case 47:
-			goto st15
-		case 95:
-			goto st15
-		case 109:
-			goto st769
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st15
-			}
-		case data[p] >= 65:
-			goto st15
-		}
-		goto st0
-	st772:
-		if p++; p == pe {
-			goto _test_eof772
-		}
-	st_case_772:
-		switch data[p] {
-		case 32:
-			goto tr1013
-		case 43:
-			goto tr1014
-		case 45:
-			goto tr1015
-		case 47:
-			goto tr1016
-		case 58:
-			goto tr1017
-		case 65:
-			goto tr1018
-		case 80:
-			goto tr1018
-		case 90:
-			goto tr1019
-		case 95:
-			goto tr1016
-		case 97:
-			goto tr1020
-		case 112:
-			goto tr1020
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st22
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1016
-			}
-		default:
-			goto tr1016
-		}
-		goto st0
-	st22:
-		if p++; p == pe {
-			goto _test_eof22
-		}
-	st_case_22:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st773
-		}
-		goto st0
-	st773:
-		if p++; p == pe {
-			goto _test_eof773
-		}
-	st_case_773:
-		switch data[p] {
-		case 32:
-			goto tr1021
-		case 43:
-			goto tr1022
-		case 45:
-			goto tr1023
-		case 46:
-			goto tr1024
-		case 47:
-			goto tr1025
-		case 90:
-			goto tr1027
-		case 95:
-			goto tr1025
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st24
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1025
-			}
-		default:
-			goto tr1025
-		}
-		goto st0
-tr1024:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st23
-	st23:
-		if p++; p == pe {
-			goto _test_eof23
-		}
-	st_case_23:
-//line ragel/parse_datetime.go:3836
-		if 48 <= data[p] && data[p] <= 57 {
+		case data[p] >= 48:
 			goto tr57
-		}
-		goto st0
-tr57:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st774
-	st774:
-		if p++; p == pe {
-			goto _test_eof774
-		}
-	st_case_774:
-//line ragel/parse_datetime.go:3850
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st775
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st775:
-		if p++; p == pe {
-			goto _test_eof775
-		}
-	st_case_775:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st776
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st776:
-		if p++; p == pe {
-			goto _test_eof776
-		}
-	st_case_776:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st777
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st777:
-		if p++; p == pe {
-			goto _test_eof777
-		}
-	st_case_777:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st778
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st778:
-		if p++; p == pe {
-			goto _test_eof778
-		}
-	st_case_778:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st779
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st779:
-		if p++; p == pe {
-			goto _test_eof779
-		}
-	st_case_779:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st780
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st780:
-		if p++; p == pe {
-			goto _test_eof780
-		}
-	st_case_780:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st781
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st781:
-		if p++; p == pe {
-			goto _test_eof781
-		}
-	st_case_781:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st782
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st782:
-		if p++; p == pe {
-			goto _test_eof782
-		}
-	st_case_782:
-		switch data[p] {
-		case 32:
-			goto tr1028
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		case data[p] >= 65:
-			goto tr1031
-		}
-		goto st0
-	st24:
-		if p++; p == pe {
-			goto _test_eof24
-		}
-	st_case_24:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st783
-		}
-		goto st0
-	st783:
-		if p++; p == pe {
-			goto _test_eof783
-		}
-	st_case_783:
-		switch data[p] {
-		case 32:
-			goto tr1021
-		case 43:
-			goto tr1022
-		case 45:
-			goto tr1023
-		case 46:
-			goto tr1024
-		case 47:
-			goto tr1025
-		case 90:
-			goto tr1027
-		case 95:
-			goto tr1025
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1025
-			}
-		case data[p] >= 65:
-			goto tr1025
-		}
-		goto st0
-tr1001:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st25
-tr1017:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st25
-	st25:
-		if p++; p == pe {
-			goto _test_eof25
-		}
-	st_case_25:
-//line ragel/parse_datetime.go:4186
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr60
-			}
-		case data[p] >= 48:
-			goto tr59
-		}
-		goto st0
-tr59:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st784
-	st784:
-		if p++; p == pe {
-			goto _test_eof784
-		}
-	st_case_784:
-//line ragel/parse_datetime.go:4205
-		switch data[p] {
-		case 32:
-			goto tr1041
-		case 43:
-			goto tr1042
-		case 45:
-			goto tr1043
-		case 47:
-			goto tr1044
-		case 58:
-			goto tr1046
-		case 65:
-			goto tr1047
-		case 80:
-			goto tr1047
-		case 90:
-			goto tr1048
-		case 95:
-			goto tr1044
-		case 97:
-			goto tr1049
-		case 112:
-			goto tr1049
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st785
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1044
-			}
-		default:
-			goto tr1044
-		}
-		goto st0
-	st785:
-		if p++; p == pe {
-			goto _test_eof785
-		}
-	st_case_785:
-		switch data[p] {
-		case 32:
-			goto tr1050
-		case 43:
-			goto tr1051
-		case 45:
-			goto tr1052
-		case 47:
-			goto tr1053
-		case 58:
-			goto tr1054
-		case 65:
-			goto tr1055
-		case 80:
-			goto tr1055
-		case 90:
-			goto tr1056
-		case 95:
-			goto tr1053
-		case 97:
-			goto tr1057
-		case 112:
-			goto tr1057
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1053
-			}
-		case data[p] >= 66:
-			goto tr1053
-		}
-		goto st0
-tr1046:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st26
-tr1054:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st26
-	st26:
-		if p++; p == pe {
-			goto _test_eof26
-		}
-	st_case_26:
-//line ragel/parse_datetime.go:4298
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr62
-			}
-		case data[p] >= 48:
-			goto tr61
-		}
-		goto st0
-tr61:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st786
-	st786:
-		if p++; p == pe {
-			goto _test_eof786
-		}
-	st_case_786:
-//line ragel/parse_datetime.go:4317
-		switch data[p] {
-		case 32:
-			goto tr1058
-		case 43:
-			goto tr1059
-		case 45:
-			goto tr1060
-		case 46:
-			goto tr1061
-		case 47:
-			goto tr1062
-		case 65:
-			goto tr1064
-		case 80:
-			goto tr1064
-		case 90:
-			goto tr1065
-		case 95:
-			goto tr1062
-		case 97:
-			goto tr1066
-		case 112:
-			goto tr1066
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st796
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1062
-			}
-		default:
-			goto tr1062
-		}
-		goto st0
-tr1061:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st27
-tr1081:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st27
-	st27:
-		if p++; p == pe {
-			goto _test_eof27
-		}
-	st_case_27:
-//line ragel/parse_datetime.go:4372
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr63
-		}
-		goto st0
-tr63:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st787
-	st787:
-		if p++; p == pe {
-			goto _test_eof787
-		}
-	st_case_787:
-//line ragel/parse_datetime.go:4386
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st788
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st788:
-		if p++; p == pe {
-			goto _test_eof788
-		}
-	st_case_788:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st789
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st789:
-		if p++; p == pe {
-			goto _test_eof789
-		}
-	st_case_789:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st790
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st790:
-		if p++; p == pe {
-			goto _test_eof790
-		}
-	st_case_790:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st791
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st791:
-		if p++; p == pe {
-			goto _test_eof791
-		}
-	st_case_791:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st792
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st792:
-		if p++; p == pe {
-			goto _test_eof792
-		}
-	st_case_792:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st793
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st793:
-		if p++; p == pe {
-			goto _test_eof793
-		}
-	st_case_793:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st794
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st794:
-		if p++; p == pe {
-			goto _test_eof794
-		}
-	st_case_794:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st795
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		default:
-			goto tr1031
-		}
-		goto st0
-	st795:
-		if p++; p == pe {
-			goto _test_eof795
-		}
-	st_case_795:
-		switch data[p] {
-		case 32:
-			goto tr1067
-		case 43:
-			goto tr1029
-		case 45:
-			goto tr1030
-		case 47:
-			goto tr1031
-		case 65:
-			goto tr1069
-		case 80:
-			goto tr1069
-		case 90:
-			goto tr1033
-		case 95:
-			goto tr1031
-		case 97:
-			goto tr1070
-		case 112:
-			goto tr1070
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1031
-			}
-		case data[p] >= 66:
-			goto tr1031
-		}
-		goto st0
-	st796:
-		if p++; p == pe {
-			goto _test_eof796
-		}
-	st_case_796:
-		switch data[p] {
-		case 32:
-			goto tr1078
-		case 43:
-			goto tr1079
-		case 45:
-			goto tr1080
-		case 46:
-			goto tr1081
-		case 47:
-			goto tr1082
-		case 65:
-			goto tr1083
-		case 80:
-			goto tr1083
-		case 90:
-			goto tr1084
-		case 95:
-			goto tr1082
-		case 97:
-			goto tr1085
-		case 112:
-			goto tr1085
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1082
-			}
-		case data[p] >= 66:
-			goto tr1082
-		}
-		goto st0
-tr62:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st797
-	st797:
-		if p++; p == pe {
-			goto _test_eof797
-		}
-	st_case_797:
-//line ragel/parse_datetime.go:4785
-		switch data[p] {
-		case 32:
-			goto tr1058
-		case 43:
-			goto tr1059
-		case 45:
-			goto tr1060
-		case 46:
-			goto tr1061
-		case 47:
-			goto tr1062
-		case 65:
-			goto tr1064
-		case 80:
-			goto tr1064
-		case 90:
-			goto tr1065
-		case 95:
-			goto tr1062
-		case 97:
-			goto tr1066
-		case 112:
-			goto tr1066
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1062
-			}
-		case data[p] >= 66:
-			goto tr1062
-		}
-		goto st0
-tr60:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st798
-	st798:
-		if p++; p == pe {
-			goto _test_eof798
-		}
-	st_case_798:
-//line ragel/parse_datetime.go:4828
-		switch data[p] {
-		case 32:
-			goto tr1041
-		case 43:
-			goto tr1042
-		case 45:
-			goto tr1043
-		case 47:
-			goto tr1044
-		case 58:
-			goto tr1046
-		case 65:
-			goto tr1047
-		case 80:
-			goto tr1047
-		case 90:
-			goto tr1048
-		case 95:
-			goto tr1044
-		case 97:
-			goto tr1049
-		case 112:
-			goto tr1049
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1044
-			}
-		case data[p] >= 66:
-			goto tr1044
-		}
-		goto st0
-tr66:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st799
-	st799:
-		if p++; p == pe {
-			goto _test_eof799
-		}
-	st_case_799:
-//line ragel/parse_datetime.go:4871
-		switch data[p] {
-		case 32:
-			goto tr996
-		case 43:
-			goto tr997
-		case 45:
-			goto tr998
-		case 47:
-			goto tr999
-		case 58:
-			goto tr1001
-		case 65:
-			goto tr1002
-		case 80:
-			goto tr1002
-		case 90:
-			goto tr1003
-		case 95:
-			goto tr999
-		case 97:
-			goto tr1004
-		case 112:
-			goto tr1004
-		}
-		switch {
-		case data[p] < 52:
-			if 48 <= data[p] && data[p] <= 51 {
-				goto st772
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 89:
-				if 98 <= data[p] && data[p] <= 122 {
-					goto tr999
-				}
-			case data[p] >= 66:
-				goto tr999
-			}
-		default:
-			goto st28
-		}
-		goto st0
-	st28:
-		if p++; p == pe {
-			goto _test_eof28
-		}
-	st_case_28:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st22
-		}
-		goto st0
-tr67:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st800
-	st800:
-		if p++; p == pe {
-			goto _test_eof800
-		}
-	st_case_800:
-//line ragel/parse_datetime.go:4932
-		switch data[p] {
-		case 32:
-			goto tr996
-		case 43:
-			goto tr997
-		case 45:
-			goto tr998
-		case 47:
-			goto tr999
-		case 58:
-			goto tr1001
-		case 65:
-			goto tr1002
-		case 80:
-			goto tr1002
-		case 90:
-			goto tr1003
-		case 95:
-			goto tr999
-		case 97:
-			goto tr1004
-		case 112:
-			goto tr1004
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st28
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr999
-			}
-		default:
-			goto tr999
-		}
-		goto st0
-tr1115:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st801
-tr979:
-//line ragel/datetime.rl:25
-
-    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st801
-tr1093:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st801
-tr1101:
-//line ragel/datetime.rl:13
-
-    st.Month, _ = strconv.Atoi(data[pb:pb+2])
-    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st801
-tr1108:
-//line ragel/datetime.rl:21
-
-    st.Year = parse_year_2_digits(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st801
-	st801:
-		if p++; p == pe {
-			goto _test_eof801
-		}
-	st_case_801:
-//line ragel/parse_datetime.go:5021
-		switch data[p] {
-		case 32:
-			goto st9
-		case 43:
-			goto st12
-		case 45:
-			goto st18
-		case 47:
-			goto tr1087
-		case 50:
-			goto tr66
-		case 90:
-			goto tr1088
-		case 95:
-			goto tr1087
-		}
-		switch {
-		case data[p] < 51:
-			if 48 <= data[p] && data[p] <= 49 {
-				goto tr65
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 89:
-				if 97 <= data[p] && data[p] <= 122 {
-					goto tr1087
-				}
-			case data[p] >= 65:
-				goto tr1087
-			}
-		default:
-			goto tr67
-		}
-		goto st0
-tr1088:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st802
-	st802:
-		if p++; p == pe {
-			goto _test_eof802
-		}
-	st_case_802:
-//line ragel/parse_datetime.go:5065
-		switch data[p] {
-		case 32:
-			goto tr1012
-		case 47:
-			goto st758
-		case 95:
-			goto st758
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st758
-			}
-		case data[p] >= 65:
-			goto st758
-		}
-		goto st0
-tr1117:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st29
-tr981:
-//line ragel/datetime.rl:25
-
-    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st29
-tr1095:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st29
-tr1103:
-//line ragel/datetime.rl:13
-
-    st.Month, _ = strconv.Atoi(data[pb:pb+2])
-    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st29
-tr1110:
-//line ragel/datetime.rl:21
-
-    st.Year = parse_year_2_digits(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st29
-	st29:
-		if p++; p == pe {
-			goto _test_eof29
-		}
-	st_case_29:
-//line ragel/parse_datetime.go:5134
-		switch data[p] {
-		case 47:
-			goto st15
-		case 50:
-			goto tr66
-		case 95:
-			goto st15
-		}
-		switch {
-		case data[p] < 51:
-			if 48 <= data[p] && data[p] <= 49 {
-				goto tr65
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 90:
-				if 97 <= data[p] && data[p] <= 122 {
-					goto st15
-				}
-			case data[p] >= 65:
-				goto st15
-			}
-		default:
-			goto tr67
-		}
-		goto st0
-	st30:
-		if p++; p == pe {
-			goto _test_eof30
-		}
-	st_case_30:
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st753
-			}
-		case data[p] >= 45:
-			goto tr68
-		}
-		goto st0
-tr68:
-//line ragel/datetime.rl:9
-
-    st.Month, _ = strconv.Atoi(data[pb:p])
-
-	goto st31
-tr77:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st31
-tr81:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st31
-tr87:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st31
-tr95:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st31
-tr104:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st31
-tr111:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st31
-tr113:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st31
-tr118:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st31
-tr121:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st31
-tr124:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st31
-tr132:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st31
-tr139:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st31
-	st31:
-		if p++; p == pe {
-			goto _test_eof31
-		}
-	st_case_31:
-//line ragel/parse_datetime.go:5234
-		switch data[p] {
-		case 48:
-			goto tr69
-		case 51:
-			goto tr71
-		}
-		switch {
-		case data[p] > 50:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto tr72
-			}
-		case data[p] >= 49:
-			goto tr70
-		}
-		goto st0
-tr69:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st32
-	st32:
-		if p++; p == pe {
-			goto _test_eof32
-		}
-	st_case_32:
-//line ragel/parse_datetime.go:5259
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st803
-		}
-		goto st0
-tr72:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st803
-	st803:
-		if p++; p == pe {
-			goto _test_eof803
-		}
-	st_case_803:
-//line ragel/parse_datetime.go:5273
-		switch data[p] {
-		case 32:
-			goto tr1089
-		case 43:
-			goto tr1090
-		case 45:
-			goto tr1091
-		case 47:
-			goto tr1092
-		case 84:
-			goto tr1093
-		case 90:
-			goto tr1094
-		case 95:
-			goto tr1095
-		case 116:
-			goto tr1095
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1092
-			}
-		case data[p] >= 65:
-			goto tr1092
 		}
 		goto st0
 tr70:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st804
-	st804:
+	goto st781
+	st781:
 		if p++; p == pe {
-			goto _test_eof804
+			goto _test_eof781
 		}
-	st_case_804:
-//line ragel/parse_datetime.go:5310
-		switch data[p] {
-		case 32:
-			goto tr1089
-		case 43:
-			goto tr1090
-		case 45:
-			goto tr1091
-		case 47:
-			goto tr1092
-		case 84:
-			goto tr1093
-		case 90:
-			goto tr1094
-		case 95:
-			goto tr1095
-		case 116:
-			goto tr1095
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st803
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1092
-			}
-		default:
-			goto tr1092
-		}
-		goto st0
-tr71:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st805
-	st805:
-		if p++; p == pe {
-			goto _test_eof805
-		}
-	st_case_805:
-//line ragel/parse_datetime.go:5351
-		switch data[p] {
-		case 32:
-			goto tr1089
-		case 43:
-			goto tr1090
-		case 45:
-			goto tr1091
-		case 47:
-			goto tr1092
-		case 84:
-			goto tr1093
-		case 90:
-			goto tr1094
-		case 95:
-			goto tr1095
-		case 116:
-			goto tr1095
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 49 {
-				goto st803
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1092
-			}
-		default:
-			goto tr1092
-		}
-		goto st0
-tr25:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st33
-	st33:
-		if p++; p == pe {
-			goto _test_eof33
-		}
-	st_case_33:
-//line ragel/parse_datetime.go:5392
-		switch {
-		case data[p] < 48:
-			if 45 <= data[p] && data[p] <= 47 {
-				goto tr68
-			}
-		case data[p] > 50:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto st8
-			}
-		default:
-			goto st30
-		}
-		goto st0
-tr26:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st34
-	st34:
-		if p++; p == pe {
-			goto _test_eof34
-		}
-	st_case_34:
-//line ragel/parse_datetime.go:5415
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st8
-			}
-		case data[p] >= 45:
-			goto tr68
-		}
-		goto st0
-	st35:
-		if p++; p == pe {
-			goto _test_eof35
-		}
-	st_case_35:
-		switch data[p] {
-		case 112:
-			goto st36
-		case 117:
-			goto st40
-		}
-		goto st0
-	st36:
-		if p++; p == pe {
-			goto _test_eof36
-		}
-	st_case_36:
-		if data[p] == 114 {
-			goto st37
-		}
-		goto st0
-	st37:
-		if p++; p == pe {
-			goto _test_eof37
-		}
-	st_case_37:
-		if data[p] == 105 {
-			goto st38
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr77
-		}
-		goto st0
-	st38:
-		if p++; p == pe {
-			goto _test_eof38
-		}
-	st_case_38:
-		if data[p] == 108 {
-			goto st39
-		}
-		goto st0
-	st39:
-		if p++; p == pe {
-			goto _test_eof39
-		}
-	st_case_39:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr77
-		}
-		goto st0
-	st40:
-		if p++; p == pe {
-			goto _test_eof40
-		}
-	st_case_40:
-		if data[p] == 103 {
-			goto st41
-		}
-		goto st0
-	st41:
-		if p++; p == pe {
-			goto _test_eof41
-		}
-	st_case_41:
-		if data[p] == 117 {
-			goto st42
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr81
-		}
-		goto st0
-	st42:
-		if p++; p == pe {
-			goto _test_eof42
-		}
-	st_case_42:
-		if data[p] == 115 {
-			goto st43
-		}
-		goto st0
-	st43:
-		if p++; p == pe {
-			goto _test_eof43
-		}
-	st_case_43:
-		if data[p] == 116 {
-			goto st44
-		}
-		goto st0
-	st44:
-		if p++; p == pe {
-			goto _test_eof44
-		}
-	st_case_44:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr81
-		}
-		goto st0
-	st45:
-		if p++; p == pe {
-			goto _test_eof45
-		}
-	st_case_45:
-		if data[p] == 101 {
-			goto st46
-		}
-		goto st0
-	st46:
-		if p++; p == pe {
-			goto _test_eof46
-		}
-	st_case_46:
-		if data[p] == 99 {
-			goto st47
-		}
-		goto st0
-	st47:
-		if p++; p == pe {
-			goto _test_eof47
-		}
-	st_case_47:
-		if data[p] == 101 {
-			goto st48
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr87
-		}
-		goto st0
-	st48:
-		if p++; p == pe {
-			goto _test_eof48
-		}
-	st_case_48:
-		if data[p] == 109 {
-			goto st49
-		}
-		goto st0
-	st49:
-		if p++; p == pe {
-			goto _test_eof49
-		}
-	st_case_49:
-		if data[p] == 98 {
-			goto st50
-		}
-		goto st0
-	st50:
-		if p++; p == pe {
-			goto _test_eof50
-		}
-	st_case_50:
-		if data[p] == 101 {
-			goto st51
-		}
-		goto st0
-	st51:
-		if p++; p == pe {
-			goto _test_eof51
-		}
-	st_case_51:
-		if data[p] == 114 {
-			goto st52
-		}
-		goto st0
-	st52:
-		if p++; p == pe {
-			goto _test_eof52
-		}
-	st_case_52:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr87
-		}
-		goto st0
-	st53:
-		if p++; p == pe {
-			goto _test_eof53
-		}
-	st_case_53:
-		if data[p] == 101 {
-			goto st54
-		}
-		goto st0
-	st54:
-		if p++; p == pe {
-			goto _test_eof54
-		}
-	st_case_54:
-		if data[p] == 98 {
-			goto st55
-		}
-		goto st0
-	st55:
-		if p++; p == pe {
-			goto _test_eof55
-		}
-	st_case_55:
-		if data[p] == 114 {
-			goto st56
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr95
-		}
-		goto st0
-	st56:
-		if p++; p == pe {
-			goto _test_eof56
-		}
-	st_case_56:
-		if data[p] == 117 {
-			goto st57
-		}
-		goto st0
-	st57:
-		if p++; p == pe {
-			goto _test_eof57
-		}
-	st_case_57:
-		if data[p] == 97 {
-			goto st58
-		}
-		goto st0
-	st58:
-		if p++; p == pe {
-			goto _test_eof58
-		}
-	st_case_58:
-		if data[p] == 114 {
-			goto st59
-		}
-		goto st0
-	st59:
-		if p++; p == pe {
-			goto _test_eof59
-		}
-	st_case_59:
-		if data[p] == 121 {
-			goto st60
-		}
-		goto st0
-	st60:
-		if p++; p == pe {
-			goto _test_eof60
-		}
-	st_case_60:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr95
-		}
-		goto st0
-	st61:
-		if p++; p == pe {
-			goto _test_eof61
-		}
-	st_case_61:
-		switch data[p] {
-		case 97:
-			goto st62
-		case 117:
-			goto st68
-		}
-		goto st0
-	st62:
-		if p++; p == pe {
-			goto _test_eof62
-		}
-	st_case_62:
-		if data[p] == 110 {
-			goto st63
-		}
-		goto st0
-	st63:
-		if p++; p == pe {
-			goto _test_eof63
-		}
-	st_case_63:
-		if data[p] == 117 {
-			goto st64
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr104
-		}
-		goto st0
-	st64:
-		if p++; p == pe {
-			goto _test_eof64
-		}
-	st_case_64:
-		if data[p] == 97 {
-			goto st65
-		}
-		goto st0
-	st65:
-		if p++; p == pe {
-			goto _test_eof65
-		}
-	st_case_65:
-		if data[p] == 114 {
-			goto st66
-		}
-		goto st0
-	st66:
-		if p++; p == pe {
-			goto _test_eof66
-		}
-	st_case_66:
-		if data[p] == 121 {
-			goto st67
-		}
-		goto st0
-	st67:
-		if p++; p == pe {
-			goto _test_eof67
-		}
-	st_case_67:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr104
-		}
-		goto st0
-	st68:
-		if p++; p == pe {
-			goto _test_eof68
-		}
-	st_case_68:
-		switch data[p] {
-		case 108:
-			goto st69
-		case 110:
-			goto st71
-		}
-		goto st0
-	st69:
-		if p++; p == pe {
-			goto _test_eof69
-		}
-	st_case_69:
-		if data[p] == 121 {
-			goto st70
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr111
-		}
-		goto st0
-	st70:
-		if p++; p == pe {
-			goto _test_eof70
-		}
-	st_case_70:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr111
-		}
-		goto st0
-	st71:
-		if p++; p == pe {
-			goto _test_eof71
-		}
-	st_case_71:
-		if data[p] == 101 {
-			goto st72
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr113
-		}
-		goto st0
-	st72:
-		if p++; p == pe {
-			goto _test_eof72
-		}
-	st_case_72:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr113
-		}
-		goto st0
-	st73:
-		if p++; p == pe {
-			goto _test_eof73
-		}
-	st_case_73:
-		if data[p] == 97 {
-			goto st74
-		}
-		goto st0
-	st74:
-		if p++; p == pe {
-			goto _test_eof74
-		}
-	st_case_74:
-		switch data[p] {
-		case 114:
-			goto st75
-		case 121:
-			goto st78
-		}
-		goto st0
-	st75:
-		if p++; p == pe {
-			goto _test_eof75
-		}
-	st_case_75:
-		if data[p] == 99 {
-			goto st76
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr118
-		}
-		goto st0
-	st76:
-		if p++; p == pe {
-			goto _test_eof76
-		}
-	st_case_76:
-		if data[p] == 104 {
-			goto st77
-		}
-		goto st0
-	st77:
-		if p++; p == pe {
-			goto _test_eof77
-		}
-	st_case_77:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr118
-		}
-		goto st0
-	st78:
-		if p++; p == pe {
-			goto _test_eof78
-		}
-	st_case_78:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr121
-		}
-		goto st0
-	st79:
-		if p++; p == pe {
-			goto _test_eof79
-		}
-	st_case_79:
-		if data[p] == 111 {
-			goto st80
-		}
-		goto st0
-	st80:
-		if p++; p == pe {
-			goto _test_eof80
-		}
-	st_case_80:
-		if data[p] == 118 {
-			goto st81
-		}
-		goto st0
-	st81:
-		if p++; p == pe {
-			goto _test_eof81
-		}
-	st_case_81:
-		if data[p] == 101 {
-			goto st82
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr124
-		}
-		goto st0
-	st82:
-		if p++; p == pe {
-			goto _test_eof82
-		}
-	st_case_82:
-		if data[p] == 109 {
-			goto st83
-		}
-		goto st0
-	st83:
-		if p++; p == pe {
-			goto _test_eof83
-		}
-	st_case_83:
-		if data[p] == 98 {
-			goto st84
-		}
-		goto st0
-	st84:
-		if p++; p == pe {
-			goto _test_eof84
-		}
-	st_case_84:
-		if data[p] == 101 {
-			goto st85
-		}
-		goto st0
-	st85:
-		if p++; p == pe {
-			goto _test_eof85
-		}
-	st_case_85:
-		if data[p] == 114 {
-			goto st86
-		}
-		goto st0
-	st86:
-		if p++; p == pe {
-			goto _test_eof86
-		}
-	st_case_86:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr124
-		}
-		goto st0
-	st87:
-		if p++; p == pe {
-			goto _test_eof87
-		}
-	st_case_87:
-		if data[p] == 99 {
-			goto st88
-		}
-		goto st0
-	st88:
-		if p++; p == pe {
-			goto _test_eof88
-		}
-	st_case_88:
-		if data[p] == 116 {
-			goto st89
-		}
-		goto st0
-	st89:
-		if p++; p == pe {
-			goto _test_eof89
-		}
-	st_case_89:
-		if data[p] == 111 {
-			goto st90
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr132
-		}
-		goto st0
-	st90:
-		if p++; p == pe {
-			goto _test_eof90
-		}
-	st_case_90:
-		if data[p] == 98 {
-			goto st91
-		}
-		goto st0
-	st91:
-		if p++; p == pe {
-			goto _test_eof91
-		}
-	st_case_91:
-		if data[p] == 101 {
-			goto st92
-		}
-		goto st0
-	st92:
-		if p++; p == pe {
-			goto _test_eof92
-		}
-	st_case_92:
-		if data[p] == 114 {
-			goto st93
-		}
-		goto st0
-	st93:
-		if p++; p == pe {
-			goto _test_eof93
-		}
-	st_case_93:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr132
-		}
-		goto st0
-	st94:
-		if p++; p == pe {
-			goto _test_eof94
-		}
-	st_case_94:
-		if data[p] == 101 {
-			goto st95
-		}
-		goto st0
-	st95:
-		if p++; p == pe {
-			goto _test_eof95
-		}
-	st_case_95:
-		if data[p] == 112 {
-			goto st96
-		}
-		goto st0
-	st96:
-		if p++; p == pe {
-			goto _test_eof96
-		}
-	st_case_96:
-		if data[p] == 116 {
-			goto st97
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr139
-		}
-		goto st0
-	st97:
-		if p++; p == pe {
-			goto _test_eof97
-		}
-	st_case_97:
-		if data[p] == 101 {
-			goto st98
-		}
-		goto st0
-	st98:
-		if p++; p == pe {
-			goto _test_eof98
-		}
-	st_case_98:
-		if data[p] == 109 {
-			goto st99
-		}
-		goto st0
-	st99:
-		if p++; p == pe {
-			goto _test_eof99
-		}
-	st_case_99:
-		if data[p] == 98 {
-			goto st100
-		}
-		goto st0
-	st100:
-		if p++; p == pe {
-			goto _test_eof100
-		}
-	st_case_100:
-		if data[p] == 101 {
-			goto st101
-		}
-		goto st0
-	st101:
-		if p++; p == pe {
-			goto _test_eof101
-		}
-	st_case_101:
-		if data[p] == 114 {
-			goto st102
-		}
-		goto st0
-	st102:
-		if p++; p == pe {
-			goto _test_eof102
-		}
-	st_case_102:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr139
-		}
-		goto st0
-tr23:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st103
-	st103:
-		if p++; p == pe {
-			goto _test_eof103
-		}
-	st_case_103:
-//line ragel/parse_datetime.go:6095
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st104
-		}
-		goto st0
-	st104:
-		if p++; p == pe {
-			goto _test_eof104
-		}
-	st_case_104:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st806
-		}
-		goto st0
-	st806:
-		if p++; p == pe {
-			goto _test_eof806
-		}
-	st_case_806:
-		switch data[p] {
-		case 32:
-			goto tr975
-		case 43:
-			goto tr976
-		case 45:
-			goto tr977
-		case 47:
-			goto tr978
-		case 84:
-			goto tr979
-		case 90:
-			goto tr980
-		case 95:
-			goto tr981
-		case 116:
-			goto tr981
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st807
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr978
-			}
-		default:
-			goto tr978
-		}
-		goto st0
-	st807:
-		if p++; p == pe {
-			goto _test_eof807
-		}
-	st_case_807:
-		switch data[p] {
-		case 32:
-			goto tr1097
-		case 43:
-			goto tr1098
-		case 45:
-			goto tr1099
-		case 47:
-			goto tr1100
-		case 84:
-			goto tr1101
-		case 90:
-			goto tr1102
-		case 95:
-			goto tr1103
-		case 116:
-			goto tr1103
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1100
-			}
-		case data[p] >= 65:
-			goto tr1100
-		}
-		goto st0
-	st105:
-		if p++; p == pe {
-			goto _test_eof105
-		}
-	st_case_105:
-		if data[p] == 32 {
-			goto tr148
-		}
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st4
-			}
-		case data[p] >= 45:
-			goto tr149
-		}
-		goto st0
-tr148:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-	goto st106
-	st106:
-		if p++; p == pe {
-			goto _test_eof106
-		}
-	st_case_106:
-//line ragel/parse_datetime.go:6210
-		switch data[p] {
-		case 65:
-			goto st107
-		case 68:
-			goto st119
-		case 70:
-			goto st127
-		case 74:
-			goto st135
-		case 77:
-			goto st147
-		case 78:
-			goto st153
-		case 79:
-			goto st161
-		case 83:
-			goto st168
-		case 97:
-			goto st107
-		case 100:
-			goto st119
-		case 102:
-			goto st127
-		case 106:
-			goto st135
-		case 109:
-			goto st147
-		case 110:
-			goto st153
-		case 111:
-			goto st161
-		case 115:
-			goto st168
-		}
-		goto st0
-	st107:
-		if p++; p == pe {
-			goto _test_eof107
-		}
-	st_case_107:
-		switch data[p] {
-		case 112:
-			goto st108
-		case 117:
-			goto st114
-		}
-		goto st0
-	st108:
-		if p++; p == pe {
-			goto _test_eof108
-		}
-	st_case_108:
-		if data[p] == 114 {
-			goto st109
-		}
-		goto st0
-	st109:
-		if p++; p == pe {
-			goto _test_eof109
-		}
-	st_case_109:
-		switch data[p] {
-		case 32:
-			goto tr161
-		case 105:
-			goto st112
-		}
-		goto st0
-tr161:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st110
-tr167:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st110
-tr173:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st110
-tr181:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st110
-tr190:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st110
-tr197:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st110
-tr199:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st110
-tr204:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st110
-tr207:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st110
-tr210:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st110
-tr218:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st110
-tr225:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st110
-	st110:
-		if p++; p == pe {
-			goto _test_eof110
-		}
-	st_case_110:
-//line ragel/parse_datetime.go:6332
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr163
-		}
-		goto st0
-tr163:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st111
-	st111:
-		if p++; p == pe {
-			goto _test_eof111
-		}
-	st_case_111:
-//line ragel/parse_datetime.go:6346
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st808
-		}
-		goto st0
-	st808:
-		if p++; p == pe {
-			goto _test_eof808
-		}
-	st_case_808:
+	st_case_781:
+//line ragel/parse_datetime.go:3179
 		switch data[p] {
 		case 32:
 			goto tr1104
@@ -6361,22 +3185,3465 @@ tr163:
 			goto tr1106
 		case 47:
 			goto tr1107
-		case 84:
-			goto tr1108
-		case 90:
+		case 58:
 			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
 		case 95:
-			goto tr1110
-		case 116:
-			goto tr1110
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st786
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1107
+			}
+		default:
+			goto tr1107
+		}
+		goto st0
+tr1104:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st782
+tr1121:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st782
+tr1175:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st782
+tr1149:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st782
+tr1158:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st782
+tr1166:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st782
+tr1186:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st782
+	st782:
+		if p++; p == pe {
+			goto _test_eof782
+		}
+	st_case_782:
+//line ragel/parse_datetime.go:3289
+		switch data[p] {
+		case 32:
+			goto st11
+		case 43:
+			goto st14
+		case 45:
+			goto st20
+		case 47:
+			goto tr50
+		case 65:
+			goto tr1113
+		case 66:
+			goto tr52
+		case 80:
+			goto tr1114
+		case 90:
+			goto tr1093
+		case 95:
+			goto tr50
+		case 97:
+			goto tr1115
+		case 112:
+			goto tr1115
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr50
+			}
+		case data[p] >= 67:
+			goto tr50
+		}
+		goto st0
+tr1113:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st21
+	st21:
+		if p++; p == pe {
+			goto _test_eof21
+		}
+	st_case_21:
+//line ragel/parse_datetime.go:3332
+		switch data[p] {
+		case 47:
+			goto st17
+		case 68:
+			goto st773
+		case 77:
+			goto st783
+		case 95:
+			goto st17
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st17
+			}
+		case data[p] >= 65:
+			goto st17
+		}
+		goto st0
+	st783:
+		if p++; p == pe {
+			goto _test_eof783
+		}
+	st_case_783:
+		switch data[p] {
+		case 32:
+			goto tr1116
+		case 43:
+			goto tr1117
+		case 45:
+			goto tr1118
+		case 47:
+			goto tr1119
+		case 95:
+			goto tr1119
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1119
+			}
+		case data[p] >= 65:
+			goto tr1119
+		}
+		goto st0
+tr1116:
+//line ragel/datetime.rl:54
+
+    if st.Hour > 12 {
+        err = errors.New("hour out of range")
+        return st, err
+    }
+    if apm, err := parse_ampm(data[pb:]); err != nil {
+        return st, err
+    } else {
+        switch apm {
+            case AMPM_AM:
+                if (st.Hour == 12) {
+                    st.Hour -= 12; // 12:00:00 am == 00:00:00
+                }
+            case AMPM_PM: {
+                if (st.Hour < 12) {
+                    st.Hour += 12
+                }
+                // else {} // 12:00:00 pm = 12:00:00, do nothing
+            }
+        }
+    }
+
+	goto st784
+tr1136:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st784
+tr1129:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st784
+tr1243:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+	goto st784
+	st784:
+		if p++; p == pe {
+			goto _test_eof784
+		}
+	st_case_784:
+//line ragel/parse_datetime.go:3477
+		switch data[p] {
+		case 32:
+			goto st11
+		case 43:
+			goto st14
+		case 45:
+			goto st20
+		case 47:
+			goto tr50
+		case 65:
+			goto tr51
+		case 66:
+			goto tr52
+		case 90:
+			goto tr1093
+		case 95:
+			goto tr50
 		}
 		switch {
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1107
+				goto tr50
+			}
+		case data[p] >= 67:
+			goto tr50
+		}
+		goto st0
+tr1093:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1224:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1111:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1127:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1156:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1164:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1173:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1141:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1192:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1135:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1088:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1202:
+//line ragel/datetime.rl:25
+
+    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1210:
+//line ragel/datetime.rl:13
+
+    st.Month, _ = strconv.Atoi(data[pb:pb+2])
+    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+tr1217:
+//line ragel/datetime.rl:21
+
+    st.Year = parse_year_2_digits(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st785
+	st785:
+		if p++; p == pe {
+			goto _test_eof785
+		}
+	st_case_785:
+//line ragel/parse_datetime.go:3660
+		switch data[p] {
+		case 32:
+			goto tr1120
+		case 47:
+			goto st17
+		case 95:
+			goto st17
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st17
 			}
 		case data[p] >= 65:
+			goto st17
+		}
+		goto st0
+tr1114:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1110:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1126:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1155:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1163:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1172:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1177:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+tr1191:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st22
+	st22:
+		if p++; p == pe {
+			goto _test_eof22
+		}
+	st_case_22:
+//line ragel/parse_datetime.go:3768
+		switch data[p] {
+		case 47:
+			goto st17
+		case 77:
+			goto st783
+		case 95:
+			goto st17
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st17
+			}
+		case data[p] >= 65:
+			goto st17
+		}
+		goto st0
+tr1115:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1112:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1128:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1157:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1165:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1174:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1178:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+tr1193:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st23
+	st23:
+		if p++; p == pe {
+			goto _test_eof23
+		}
+	st_case_23:
+//line ragel/parse_datetime.go:3876
+		switch data[p] {
+		case 47:
+			goto st17
+		case 95:
+			goto st17
+		case 109:
+			goto st783
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st17
+			}
+		case data[p] >= 65:
+			goto st17
+		}
+		goto st0
+	st786:
+		if p++; p == pe {
+			goto _test_eof786
+		}
+	st_case_786:
+		switch data[p] {
+		case 32:
+			goto tr1121
+		case 43:
+			goto tr1122
+		case 45:
+			goto tr1123
+		case 47:
+			goto tr1124
+		case 58:
+			goto tr1125
+		case 65:
+			goto tr1126
+		case 80:
+			goto tr1126
+		case 90:
+			goto tr1127
+		case 95:
+			goto tr1124
+		case 97:
+			goto tr1128
+		case 112:
+			goto tr1128
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st24
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1124
+			}
+		default:
+			goto tr1124
+		}
+		goto st0
+	st24:
+		if p++; p == pe {
+			goto _test_eof24
+		}
+	st_case_24:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st787
+		}
+		goto st0
+	st787:
+		if p++; p == pe {
+			goto _test_eof787
+		}
+	st_case_787:
+		switch data[p] {
+		case 32:
+			goto tr1129
+		case 43:
+			goto tr1130
+		case 45:
+			goto tr1132
+		case 47:
+			goto tr1133
+		case 90:
+			goto tr1135
+		case 95:
+			goto tr1133
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1131
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr1133
+				}
+			case data[p] >= 65:
+				goto tr1133
+			}
+		default:
+			goto st26
+		}
+		goto st0
+tr1131:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st25
+	st25:
+		if p++; p == pe {
+			goto _test_eof25
+		}
+	st_case_25:
+//line ragel/parse_datetime.go:4004
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr62
+		}
+		goto st0
+tr62:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st788
+	st788:
+		if p++; p == pe {
+			goto _test_eof788
+		}
+	st_case_788:
+//line ragel/parse_datetime.go:4018
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st789
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st789:
+		if p++; p == pe {
+			goto _test_eof789
+		}
+	st_case_789:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st790
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st790:
+		if p++; p == pe {
+			goto _test_eof790
+		}
+	st_case_790:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st791
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st791:
+		if p++; p == pe {
+			goto _test_eof791
+		}
+	st_case_791:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st792
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st792:
+		if p++; p == pe {
+			goto _test_eof792
+		}
+	st_case_792:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st793
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st793:
+		if p++; p == pe {
+			goto _test_eof793
+		}
+	st_case_793:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st794
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st794:
+		if p++; p == pe {
+			goto _test_eof794
+		}
+	st_case_794:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st795
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st795:
+		if p++; p == pe {
+			goto _test_eof795
+		}
+	st_case_795:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st796
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st796:
+		if p++; p == pe {
+			goto _test_eof796
+		}
+	st_case_796:
+		switch data[p] {
+		case 32:
+			goto tr1136
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		case data[p] >= 65:
+			goto tr1139
+		}
+		goto st0
+	st26:
+		if p++; p == pe {
+			goto _test_eof26
+		}
+	st_case_26:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st797
+		}
+		goto st0
+	st797:
+		if p++; p == pe {
+			goto _test_eof797
+		}
+	st_case_797:
+		switch data[p] {
+		case 32:
+			goto tr1129
+		case 43:
+			goto tr1130
+		case 45:
+			goto tr1132
+		case 47:
+			goto tr1133
+		case 90:
+			goto tr1135
+		case 95:
+			goto tr1133
+		}
+		switch {
+		case data[p] < 65:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1131
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1133
+			}
+		default:
+			goto tr1133
+		}
+		goto st0
+tr1109:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st27
+tr1125:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st27
+	st27:
+		if p++; p == pe {
+			goto _test_eof27
+		}
+	st_case_27:
+//line ragel/parse_datetime.go:4356
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr65
+			}
+		case data[p] >= 48:
+			goto tr64
+		}
+		goto st0
+tr64:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st798
+	st798:
+		if p++; p == pe {
+			goto _test_eof798
+		}
+	st_case_798:
+//line ragel/parse_datetime.go:4375
+		switch data[p] {
+		case 32:
+			goto tr1149
+		case 43:
+			goto tr1150
+		case 45:
+			goto tr1151
+		case 47:
+			goto tr1152
+		case 58:
+			goto tr1154
+		case 65:
+			goto tr1155
+		case 80:
+			goto tr1155
+		case 90:
+			goto tr1156
+		case 95:
+			goto tr1152
+		case 97:
+			goto tr1157
+		case 112:
+			goto tr1157
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st799
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1152
+			}
+		default:
+			goto tr1152
+		}
+		goto st0
+	st799:
+		if p++; p == pe {
+			goto _test_eof799
+		}
+	st_case_799:
+		switch data[p] {
+		case 32:
+			goto tr1158
+		case 43:
+			goto tr1159
+		case 45:
+			goto tr1160
+		case 47:
+			goto tr1161
+		case 58:
+			goto tr1162
+		case 65:
+			goto tr1163
+		case 80:
+			goto tr1163
+		case 90:
+			goto tr1164
+		case 95:
+			goto tr1161
+		case 97:
+			goto tr1165
+		case 112:
+			goto tr1165
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1161
+			}
+		case data[p] >= 66:
+			goto tr1161
+		}
+		goto st0
+tr1154:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st28
+tr1162:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st28
+	st28:
+		if p++; p == pe {
+			goto _test_eof28
+		}
+	st_case_28:
+//line ragel/parse_datetime.go:4468
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr67
+			}
+		case data[p] >= 48:
+			goto tr66
+		}
+		goto st0
+tr66:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st800
+	st800:
+		if p++; p == pe {
+			goto _test_eof800
+		}
+	st_case_800:
+//line ragel/parse_datetime.go:4487
+		switch data[p] {
+		case 32:
+			goto tr1166
+		case 43:
+			goto tr1167
+		case 45:
+			goto tr1169
+		case 47:
+			goto tr1170
+		case 65:
+			goto tr1172
+		case 80:
+			goto tr1172
+		case 90:
+			goto tr1173
+		case 95:
+			goto tr1170
+		case 97:
+			goto tr1174
+		case 112:
+			goto tr1174
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1168
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr1170
+				}
+			case data[p] >= 66:
+				goto tr1170
+			}
+		default:
+			goto st810
+		}
+		goto st0
+tr1168:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st29
+tr1188:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st29
+	st29:
+		if p++; p == pe {
+			goto _test_eof29
+		}
+	st_case_29:
+//line ragel/parse_datetime.go:4545
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr68
+		}
+		goto st0
+tr68:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st801
+	st801:
+		if p++; p == pe {
+			goto _test_eof801
+		}
+	st_case_801:
+//line ragel/parse_datetime.go:4559
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st802
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st802:
+		if p++; p == pe {
+			goto _test_eof802
+		}
+	st_case_802:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st803
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st803:
+		if p++; p == pe {
+			goto _test_eof803
+		}
+	st_case_803:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st804
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st804:
+		if p++; p == pe {
+			goto _test_eof804
+		}
+	st_case_804:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st805
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st805:
+		if p++; p == pe {
+			goto _test_eof805
+		}
+	st_case_805:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st806
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st806:
+		if p++; p == pe {
+			goto _test_eof806
+		}
+	st_case_806:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st807
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st807:
+		if p++; p == pe {
+			goto _test_eof807
+		}
+	st_case_807:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st808
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st808:
+		if p++; p == pe {
+			goto _test_eof808
+		}
+	st_case_808:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st809
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		default:
+			goto tr1139
+		}
+		goto st0
+	st809:
+		if p++; p == pe {
+			goto _test_eof809
+		}
+	st_case_809:
+		switch data[p] {
+		case 32:
+			goto tr1175
+		case 43:
+			goto tr1137
+		case 45:
+			goto tr1138
+		case 47:
+			goto tr1139
+		case 65:
+			goto tr1177
+		case 80:
+			goto tr1177
+		case 90:
+			goto tr1141
+		case 95:
+			goto tr1139
+		case 97:
+			goto tr1178
+		case 112:
+			goto tr1178
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1139
+			}
+		case data[p] >= 66:
+			goto tr1139
+		}
+		goto st0
+	st810:
+		if p++; p == pe {
+			goto _test_eof810
+		}
+	st_case_810:
+		switch data[p] {
+		case 32:
+			goto tr1186
+		case 43:
+			goto tr1187
+		case 45:
+			goto tr1189
+		case 47:
+			goto tr1190
+		case 65:
+			goto tr1191
+		case 80:
+			goto tr1191
+		case 90:
+			goto tr1192
+		case 95:
+			goto tr1190
+		case 97:
+			goto tr1193
+		case 112:
+			goto tr1193
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1188
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1190
+			}
+		default:
+			goto tr1190
+		}
+		goto st0
+tr67:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st811
+	st811:
+		if p++; p == pe {
+			goto _test_eof811
+		}
+	st_case_811:
+//line ragel/parse_datetime.go:4960
+		switch data[p] {
+		case 32:
+			goto tr1166
+		case 43:
+			goto tr1167
+		case 45:
+			goto tr1169
+		case 47:
+			goto tr1170
+		case 65:
+			goto tr1172
+		case 80:
+			goto tr1172
+		case 90:
+			goto tr1173
+		case 95:
+			goto tr1170
+		case 97:
+			goto tr1174
+		case 112:
+			goto tr1174
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1168
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1170
+			}
+		default:
+			goto tr1170
+		}
+		goto st0
+tr65:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st812
+	st812:
+		if p++; p == pe {
+			goto _test_eof812
+		}
+	st_case_812:
+//line ragel/parse_datetime.go:5005
+		switch data[p] {
+		case 32:
+			goto tr1149
+		case 43:
+			goto tr1150
+		case 45:
+			goto tr1151
+		case 47:
+			goto tr1152
+		case 58:
+			goto tr1154
+		case 65:
+			goto tr1155
+		case 80:
+			goto tr1155
+		case 90:
+			goto tr1156
+		case 95:
+			goto tr1152
+		case 97:
+			goto tr1157
+		case 112:
+			goto tr1157
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1152
+			}
+		case data[p] >= 66:
+			goto tr1152
+		}
+		goto st0
+tr71:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st813
+	st813:
+		if p++; p == pe {
+			goto _test_eof813
+		}
+	st_case_813:
+//line ragel/parse_datetime.go:5048
+		switch data[p] {
+		case 32:
+			goto tr1104
+		case 43:
+			goto tr1105
+		case 45:
+			goto tr1106
+		case 47:
 			goto tr1107
+		case 58:
+			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
+		case 95:
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 52:
+			if 48 <= data[p] && data[p] <= 51 {
+				goto st786
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr1107
+				}
+			case data[p] >= 66:
+				goto tr1107
+			}
+		default:
+			goto st30
+		}
+		goto st0
+	st30:
+		if p++; p == pe {
+			goto _test_eof30
+		}
+	st_case_30:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st24
+		}
+		goto st0
+tr72:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st814
+	st814:
+		if p++; p == pe {
+			goto _test_eof814
+		}
+	st_case_814:
+//line ragel/parse_datetime.go:5109
+		switch data[p] {
+		case 32:
+			goto tr1104
+		case 43:
+			goto tr1105
+		case 45:
+			goto tr1106
+		case 47:
+			goto tr1107
+		case 58:
+			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
+		case 95:
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st30
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1107
+			}
+		default:
+			goto tr1107
+		}
+		goto st0
+tr1223:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st815
+tr1087:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st815
+tr1201:
+//line ragel/datetime.rl:25
+
+    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st815
+tr1209:
+//line ragel/datetime.rl:13
+
+    st.Month, _ = strconv.Atoi(data[pb:pb+2])
+    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st815
+tr1216:
+//line ragel/datetime.rl:21
+
+    st.Year = parse_year_2_digits(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st815
+	st815:
+		if p++; p == pe {
+			goto _test_eof815
+		}
+	st_case_815:
+//line ragel/parse_datetime.go:5198
+		switch data[p] {
+		case 32:
+			goto st11
+		case 43:
+			goto st14
+		case 45:
+			goto st20
+		case 47:
+			goto tr1195
+		case 50:
+			goto tr71
+		case 90:
+			goto tr1196
+		case 95:
+			goto tr1195
+		}
+		switch {
+		case data[p] < 51:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto tr70
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr1195
+				}
+			case data[p] >= 65:
+				goto tr1195
+			}
+		default:
+			goto tr72
+		}
+		goto st0
+tr1196:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st816
+	st816:
+		if p++; p == pe {
+			goto _test_eof816
+		}
+	st_case_816:
+//line ragel/parse_datetime.go:5242
+		switch data[p] {
+		case 32:
+			goto tr1120
+		case 47:
+			goto st772
+		case 95:
+			goto st772
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st772
+			}
+		case data[p] >= 65:
+			goto st772
+		}
+		goto st0
+tr1225:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st31
+tr1089:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st31
+tr1203:
+//line ragel/datetime.rl:25
+
+    st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st31
+tr1211:
+//line ragel/datetime.rl:13
+
+    st.Month, _ = strconv.Atoi(data[pb:pb+2])
+    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st31
+tr1218:
+//line ragel/datetime.rl:21
+
+    st.Year = parse_year_2_digits(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st31
+	st31:
+		if p++; p == pe {
+			goto _test_eof31
+		}
+	st_case_31:
+//line ragel/parse_datetime.go:5311
+		switch data[p] {
+		case 47:
+			goto st17
+		case 50:
+			goto tr71
+		case 95:
+			goto st17
+		}
+		switch {
+		case data[p] < 51:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto tr70
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 90:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto st17
+				}
+			case data[p] >= 65:
+				goto st17
+			}
+		default:
+			goto tr72
+		}
+		goto st0
+tr39:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st817
+	st817:
+		if p++; p == pe {
+			goto _test_eof817
+		}
+	st_case_817:
+//line ragel/parse_datetime.go:5347
+		switch data[p] {
+		case 32:
+			goto tr1083
+		case 43:
+			goto tr1084
+		case 45:
+			goto tr1085
+		case 47:
+			goto tr1086
+		case 84:
+			goto tr1087
+		case 90:
+			goto tr1088
+		case 95:
+			goto tr1089
+		case 116:
+			goto tr1089
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st767
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1086
+			}
+		default:
+			goto tr1086
+		}
+		goto st0
+tr40:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st818
+	st818:
+		if p++; p == pe {
+			goto _test_eof818
+		}
+	st_case_818:
+//line ragel/parse_datetime.go:5388
+		switch data[p] {
+		case 32:
+			goto tr1083
+		case 43:
+			goto tr1084
+		case 45:
+			goto tr1085
+		case 47:
+			goto tr1086
+		case 84:
+			goto tr1087
+		case 90:
+			goto tr1088
+		case 95:
+			goto tr1089
+		case 116:
+			goto tr1089
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto st767
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1086
+			}
+		default:
+			goto tr1086
+		}
+		goto st0
+tr26:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st32
+	st32:
+		if p++; p == pe {
+			goto _test_eof32
+		}
+	st_case_32:
+//line ragel/parse_datetime.go:5429
+		if data[p] == 32 {
+			goto tr37
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 50 {
+				goto st8
+			}
+		case data[p] >= 45:
+			goto tr37
+		}
+		goto st0
+	st33:
+		if p++; p == pe {
+			goto _test_eof33
+		}
+	st_case_33:
+		switch data[p] {
+		case 112:
+			goto st34
+		case 117:
+			goto st39
+		}
+		goto st0
+	st34:
+		if p++; p == pe {
+			goto _test_eof34
+		}
+	st_case_34:
+		if data[p] == 114 {
+			goto st35
+		}
+		goto st0
+	st35:
+		if p++; p == pe {
+			goto _test_eof35
+		}
+	st_case_35:
+		switch data[p] {
+		case 32:
+			goto tr76
+		case 46:
+			goto tr77
+		case 105:
+			goto st37
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr76
+		}
+		goto st0
+tr77:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st36
+tr83:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st36
+tr90:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st36
+tr99:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st36
+tr109:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st36
+tr117:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st36
+tr120:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st36
+tr126:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st36
+tr130:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st36
+tr134:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st36
+tr143:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st36
+tr151:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st36
+	st36:
+		if p++; p == pe {
+			goto _test_eof36
+		}
+	st_case_36:
+//line ragel/parse_datetime.go:5533
+		switch data[p] {
+		case 32:
+			goto st9
+		case 48:
+			goto tr38
+		case 51:
+			goto tr40
+		}
+		switch {
+		case data[p] < 49:
+			if 45 <= data[p] && data[p] <= 47 {
+				goto st9
+			}
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr41
+			}
+		default:
+			goto tr39
+		}
+		goto st0
+	st37:
+		if p++; p == pe {
+			goto _test_eof37
+		}
+	st_case_37:
+		if data[p] == 108 {
+			goto st38
+		}
+		goto st0
+	st38:
+		if p++; p == pe {
+			goto _test_eof38
+		}
+	st_case_38:
+		switch data[p] {
+		case 32:
+			goto tr76
+		case 46:
+			goto tr77
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr76
+		}
+		goto st0
+	st39:
+		if p++; p == pe {
+			goto _test_eof39
+		}
+	st_case_39:
+		if data[p] == 103 {
+			goto st40
+		}
+		goto st0
+	st40:
+		if p++; p == pe {
+			goto _test_eof40
+		}
+	st_case_40:
+		switch data[p] {
+		case 32:
+			goto tr82
+		case 46:
+			goto tr83
+		case 117:
+			goto st41
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr82
+		}
+		goto st0
+	st41:
+		if p++; p == pe {
+			goto _test_eof41
+		}
+	st_case_41:
+		if data[p] == 115 {
+			goto st42
+		}
+		goto st0
+	st42:
+		if p++; p == pe {
+			goto _test_eof42
+		}
+	st_case_42:
+		if data[p] == 116 {
+			goto st43
+		}
+		goto st0
+	st43:
+		if p++; p == pe {
+			goto _test_eof43
+		}
+	st_case_43:
+		switch data[p] {
+		case 32:
+			goto tr82
+		case 46:
+			goto tr83
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr82
+		}
+		goto st0
+	st44:
+		if p++; p == pe {
+			goto _test_eof44
+		}
+	st_case_44:
+		if data[p] == 101 {
+			goto st45
+		}
+		goto st0
+	st45:
+		if p++; p == pe {
+			goto _test_eof45
+		}
+	st_case_45:
+		if data[p] == 99 {
+			goto st46
+		}
+		goto st0
+	st46:
+		if p++; p == pe {
+			goto _test_eof46
+		}
+	st_case_46:
+		switch data[p] {
+		case 32:
+			goto tr89
+		case 46:
+			goto tr90
+		case 101:
+			goto st47
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr89
+		}
+		goto st0
+	st47:
+		if p++; p == pe {
+			goto _test_eof47
+		}
+	st_case_47:
+		if data[p] == 109 {
+			goto st48
+		}
+		goto st0
+	st48:
+		if p++; p == pe {
+			goto _test_eof48
+		}
+	st_case_48:
+		if data[p] == 98 {
+			goto st49
+		}
+		goto st0
+	st49:
+		if p++; p == pe {
+			goto _test_eof49
+		}
+	st_case_49:
+		if data[p] == 101 {
+			goto st50
+		}
+		goto st0
+	st50:
+		if p++; p == pe {
+			goto _test_eof50
+		}
+	st_case_50:
+		if data[p] == 114 {
+			goto st51
+		}
+		goto st0
+	st51:
+		if p++; p == pe {
+			goto _test_eof51
+		}
+	st_case_51:
+		switch data[p] {
+		case 32:
+			goto tr89
+		case 46:
+			goto tr90
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr89
+		}
+		goto st0
+	st52:
+		if p++; p == pe {
+			goto _test_eof52
+		}
+	st_case_52:
+		if data[p] == 101 {
+			goto st53
+		}
+		goto st0
+	st53:
+		if p++; p == pe {
+			goto _test_eof53
+		}
+	st_case_53:
+		if data[p] == 98 {
+			goto st54
+		}
+		goto st0
+	st54:
+		if p++; p == pe {
+			goto _test_eof54
+		}
+	st_case_54:
+		switch data[p] {
+		case 32:
+			goto tr98
+		case 46:
+			goto tr99
+		case 114:
+			goto st55
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr98
+		}
+		goto st0
+	st55:
+		if p++; p == pe {
+			goto _test_eof55
+		}
+	st_case_55:
+		if data[p] == 117 {
+			goto st56
+		}
+		goto st0
+	st56:
+		if p++; p == pe {
+			goto _test_eof56
+		}
+	st_case_56:
+		if data[p] == 97 {
+			goto st57
+		}
+		goto st0
+	st57:
+		if p++; p == pe {
+			goto _test_eof57
+		}
+	st_case_57:
+		if data[p] == 114 {
+			goto st58
+		}
+		goto st0
+	st58:
+		if p++; p == pe {
+			goto _test_eof58
+		}
+	st_case_58:
+		if data[p] == 121 {
+			goto st59
+		}
+		goto st0
+	st59:
+		if p++; p == pe {
+			goto _test_eof59
+		}
+	st_case_59:
+		switch data[p] {
+		case 32:
+			goto tr98
+		case 46:
+			goto tr99
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr98
+		}
+		goto st0
+	st60:
+		if p++; p == pe {
+			goto _test_eof60
+		}
+	st_case_60:
+		switch data[p] {
+		case 97:
+			goto st61
+		case 117:
+			goto st67
+		}
+		goto st0
+	st61:
+		if p++; p == pe {
+			goto _test_eof61
+		}
+	st_case_61:
+		if data[p] == 110 {
+			goto st62
+		}
+		goto st0
+	st62:
+		if p++; p == pe {
+			goto _test_eof62
+		}
+	st_case_62:
+		switch data[p] {
+		case 32:
+			goto tr108
+		case 46:
+			goto tr109
+		case 117:
+			goto st63
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr108
+		}
+		goto st0
+	st63:
+		if p++; p == pe {
+			goto _test_eof63
+		}
+	st_case_63:
+		if data[p] == 97 {
+			goto st64
+		}
+		goto st0
+	st64:
+		if p++; p == pe {
+			goto _test_eof64
+		}
+	st_case_64:
+		if data[p] == 114 {
+			goto st65
+		}
+		goto st0
+	st65:
+		if p++; p == pe {
+			goto _test_eof65
+		}
+	st_case_65:
+		if data[p] == 121 {
+			goto st66
+		}
+		goto st0
+	st66:
+		if p++; p == pe {
+			goto _test_eof66
+		}
+	st_case_66:
+		switch data[p] {
+		case 32:
+			goto tr108
+		case 46:
+			goto tr109
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr108
+		}
+		goto st0
+	st67:
+		if p++; p == pe {
+			goto _test_eof67
+		}
+	st_case_67:
+		switch data[p] {
+		case 108:
+			goto st68
+		case 110:
+			goto st70
+		}
+		goto st0
+	st68:
+		if p++; p == pe {
+			goto _test_eof68
+		}
+	st_case_68:
+		switch data[p] {
+		case 32:
+			goto tr116
+		case 46:
+			goto tr117
+		case 121:
+			goto st69
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr116
+		}
+		goto st0
+	st69:
+		if p++; p == pe {
+			goto _test_eof69
+		}
+	st_case_69:
+		switch data[p] {
+		case 32:
+			goto tr116
+		case 46:
+			goto tr117
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr116
+		}
+		goto st0
+	st70:
+		if p++; p == pe {
+			goto _test_eof70
+		}
+	st_case_70:
+		switch data[p] {
+		case 32:
+			goto tr119
+		case 46:
+			goto tr120
+		case 101:
+			goto st71
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr119
+		}
+		goto st0
+	st71:
+		if p++; p == pe {
+			goto _test_eof71
+		}
+	st_case_71:
+		switch data[p] {
+		case 32:
+			goto tr119
+		case 46:
+			goto tr120
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr119
+		}
+		goto st0
+	st72:
+		if p++; p == pe {
+			goto _test_eof72
+		}
+	st_case_72:
+		if data[p] == 97 {
+			goto st73
+		}
+		goto st0
+	st73:
+		if p++; p == pe {
+			goto _test_eof73
+		}
+	st_case_73:
+		switch data[p] {
+		case 114:
+			goto st74
+		case 121:
+			goto st77
+		}
+		goto st0
+	st74:
+		if p++; p == pe {
+			goto _test_eof74
+		}
+	st_case_74:
+		switch data[p] {
+		case 32:
+			goto tr125
+		case 46:
+			goto tr126
+		case 99:
+			goto st75
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr125
+		}
+		goto st0
+	st75:
+		if p++; p == pe {
+			goto _test_eof75
+		}
+	st_case_75:
+		if data[p] == 104 {
+			goto st76
+		}
+		goto st0
+	st76:
+		if p++; p == pe {
+			goto _test_eof76
+		}
+	st_case_76:
+		switch data[p] {
+		case 32:
+			goto tr125
+		case 46:
+			goto tr126
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr125
+		}
+		goto st0
+	st77:
+		if p++; p == pe {
+			goto _test_eof77
+		}
+	st_case_77:
+		switch data[p] {
+		case 32:
+			goto tr129
+		case 46:
+			goto tr130
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr129
+		}
+		goto st0
+	st78:
+		if p++; p == pe {
+			goto _test_eof78
+		}
+	st_case_78:
+		if data[p] == 111 {
+			goto st79
+		}
+		goto st0
+	st79:
+		if p++; p == pe {
+			goto _test_eof79
+		}
+	st_case_79:
+		if data[p] == 118 {
+			goto st80
+		}
+		goto st0
+	st80:
+		if p++; p == pe {
+			goto _test_eof80
+		}
+	st_case_80:
+		switch data[p] {
+		case 32:
+			goto tr133
+		case 46:
+			goto tr134
+		case 101:
+			goto st81
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr133
+		}
+		goto st0
+	st81:
+		if p++; p == pe {
+			goto _test_eof81
+		}
+	st_case_81:
+		if data[p] == 109 {
+			goto st82
+		}
+		goto st0
+	st82:
+		if p++; p == pe {
+			goto _test_eof82
+		}
+	st_case_82:
+		if data[p] == 98 {
+			goto st83
+		}
+		goto st0
+	st83:
+		if p++; p == pe {
+			goto _test_eof83
+		}
+	st_case_83:
+		if data[p] == 101 {
+			goto st84
+		}
+		goto st0
+	st84:
+		if p++; p == pe {
+			goto _test_eof84
+		}
+	st_case_84:
+		if data[p] == 114 {
+			goto st85
+		}
+		goto st0
+	st85:
+		if p++; p == pe {
+			goto _test_eof85
+		}
+	st_case_85:
+		switch data[p] {
+		case 32:
+			goto tr133
+		case 46:
+			goto tr134
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr133
+		}
+		goto st0
+	st86:
+		if p++; p == pe {
+			goto _test_eof86
+		}
+	st_case_86:
+		if data[p] == 99 {
+			goto st87
+		}
+		goto st0
+	st87:
+		if p++; p == pe {
+			goto _test_eof87
+		}
+	st_case_87:
+		if data[p] == 116 {
+			goto st88
+		}
+		goto st0
+	st88:
+		if p++; p == pe {
+			goto _test_eof88
+		}
+	st_case_88:
+		switch data[p] {
+		case 32:
+			goto tr142
+		case 46:
+			goto tr143
+		case 111:
+			goto st89
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr142
+		}
+		goto st0
+	st89:
+		if p++; p == pe {
+			goto _test_eof89
+		}
+	st_case_89:
+		if data[p] == 98 {
+			goto st90
+		}
+		goto st0
+	st90:
+		if p++; p == pe {
+			goto _test_eof90
+		}
+	st_case_90:
+		if data[p] == 101 {
+			goto st91
+		}
+		goto st0
+	st91:
+		if p++; p == pe {
+			goto _test_eof91
+		}
+	st_case_91:
+		if data[p] == 114 {
+			goto st92
+		}
+		goto st0
+	st92:
+		if p++; p == pe {
+			goto _test_eof92
+		}
+	st_case_92:
+		switch data[p] {
+		case 32:
+			goto tr142
+		case 46:
+			goto tr143
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr142
+		}
+		goto st0
+	st93:
+		if p++; p == pe {
+			goto _test_eof93
+		}
+	st_case_93:
+		if data[p] == 101 {
+			goto st94
+		}
+		goto st0
+	st94:
+		if p++; p == pe {
+			goto _test_eof94
+		}
+	st_case_94:
+		if data[p] == 112 {
+			goto st95
+		}
+		goto st0
+	st95:
+		if p++; p == pe {
+			goto _test_eof95
+		}
+	st_case_95:
+		switch data[p] {
+		case 32:
+			goto tr150
+		case 46:
+			goto tr151
+		case 116:
+			goto st96
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr150
+		}
+		goto st0
+	st96:
+		if p++; p == pe {
+			goto _test_eof96
+		}
+	st_case_96:
+		switch data[p] {
+		case 32:
+			goto tr150
+		case 46:
+			goto tr151
+		case 101:
+			goto st97
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr150
+		}
+		goto st0
+	st97:
+		if p++; p == pe {
+			goto _test_eof97
+		}
+	st_case_97:
+		if data[p] == 109 {
+			goto st98
+		}
+		goto st0
+	st98:
+		if p++; p == pe {
+			goto _test_eof98
+		}
+	st_case_98:
+		if data[p] == 98 {
+			goto st99
+		}
+		goto st0
+	st99:
+		if p++; p == pe {
+			goto _test_eof99
+		}
+	st_case_99:
+		if data[p] == 101 {
+			goto st100
+		}
+		goto st0
+	st100:
+		if p++; p == pe {
+			goto _test_eof100
+		}
+	st_case_100:
+		if data[p] == 114 {
+			goto st101
+		}
+		goto st0
+	st101:
+		if p++; p == pe {
+			goto _test_eof101
+		}
+	st_case_101:
+		switch data[p] {
+		case 32:
+			goto tr150
+		case 46:
+			goto tr151
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr150
+		}
+		goto st0
+tr23:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+	goto st102
+	st102:
+		if p++; p == pe {
+			goto _test_eof102
+		}
+	st_case_102:
+//line ragel/parse_datetime.go:6320
+		switch data[p] {
+		case 48:
+			goto tr158
+		case 49:
+			goto tr159
+		case 65:
+			goto st33
+		case 68:
+			goto st44
+		case 70:
+			goto st52
+		case 74:
+			goto st60
+		case 77:
+			goto st72
+		case 78:
+			goto st78
+		case 79:
+			goto st86
+		case 83:
+			goto st93
+		case 97:
+			goto st33
+		case 100:
+			goto st44
+		case 102:
+			goto st52
+		case 106:
+			goto st60
+		case 109:
+			goto st72
+		case 110:
+			goto st78
+		case 111:
+			goto st86
+		case 115:
+			goto st93
+		}
+		if 50 <= data[p] && data[p] <= 57 {
+			goto tr160
+		}
+		goto st0
+tr158:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st103
+	st103:
+		if p++; p == pe {
+			goto _test_eof103
+		}
+	st_case_103:
+//line ragel/parse_datetime.go:6372
+		if data[p] == 48 {
+			goto st104
+		}
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st105
+		}
+		goto st0
+	st104:
+		if p++; p == pe {
+			goto _test_eof104
+		}
+	st_case_104:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st819
+		}
+		goto st0
+	st819:
+		if p++; p == pe {
+			goto _test_eof819
+		}
+	st_case_819:
+		switch data[p] {
+		case 32:
+			goto tr1197
+		case 43:
+			goto tr1198
+		case 45:
+			goto tr1199
+		case 47:
+			goto tr1200
+		case 84:
+			goto tr1201
+		case 90:
+			goto tr1202
+		case 95:
+			goto tr1203
+		case 116:
+			goto tr1203
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1200
+			}
+		case data[p] >= 65:
+			goto tr1200
+		}
+		goto st0
+	st105:
+		if p++; p == pe {
+			goto _test_eof105
+		}
+	st_case_105:
+		if data[p] == 32 {
+			goto tr37
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st819
+			}
+		case data[p] >= 45:
+			goto tr37
+		}
+		goto st0
+tr159:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st106
+	st106:
+		if p++; p == pe {
+			goto _test_eof106
+		}
+	st_case_106:
+//line ragel/parse_datetime.go:6447
+		if data[p] == 32 {
+			goto tr37
+		}
+		switch {
+		case data[p] < 48:
+			if 45 <= data[p] && data[p] <= 47 {
+				goto tr37
+			}
+		case data[p] > 50:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto st104
+			}
+		default:
+			goto st105
+		}
+		goto st0
+tr160:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st107
+	st107:
+		if p++; p == pe {
+			goto _test_eof107
+		}
+	st_case_107:
+//line ragel/parse_datetime.go:6473
+		if data[p] == 32 {
+			goto tr37
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st104
+			}
+		case data[p] >= 45:
+			goto tr37
+		}
+		goto st0
+tr24:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st108
+	st108:
+		if p++; p == pe {
+			goto _test_eof108
+		}
+	st_case_108:
+//line ragel/parse_datetime.go:6499
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st109
+		}
+		goto st0
+	st109:
+		if p++; p == pe {
+			goto _test_eof109
+		}
+	st_case_109:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st820
+		}
+		goto st0
+	st820:
+		if p++; p == pe {
+			goto _test_eof820
+		}
+	st_case_820:
+		switch data[p] {
+		case 32:
+			goto tr1197
+		case 43:
+			goto tr1198
+		case 45:
+			goto tr1199
+		case 47:
+			goto tr1200
+		case 84:
+			goto tr1201
+		case 90:
+			goto tr1202
+		case 95:
+			goto tr1203
+		case 116:
+			goto tr1203
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st821
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1200
+			}
+		default:
+			goto tr1200
+		}
+		goto st0
+	st821:
+		if p++; p == pe {
+			goto _test_eof821
+		}
+	st_case_821:
+		switch data[p] {
+		case 32:
+			goto tr1205
+		case 43:
+			goto tr1206
+		case 45:
+			goto tr1207
+		case 47:
+			goto tr1208
+		case 84:
+			goto tr1209
+		case 90:
+			goto tr1210
+		case 95:
+			goto tr1211
+		case 116:
+			goto tr1211
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1208
+			}
+		case data[p] >= 65:
+			goto tr1208
+		}
+		goto st0
+	st110:
+		if p++; p == pe {
+			goto _test_eof110
+		}
+	st_case_110:
+		if data[p] == 32 {
+			goto tr166
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st4
+			}
+		case data[p] >= 45:
+			goto tr167
+		}
+		goto st0
+tr166:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+	goto st111
+	st111:
+		if p++; p == pe {
+			goto _test_eof111
+		}
+	st_case_111:
+//line ragel/parse_datetime.go:6614
+		switch data[p] {
+		case 65:
+			goto st112
+		case 68:
+			goto st129
+		case 70:
+			goto st137
+		case 74:
+			goto st145
+		case 77:
+			goto st157
+		case 78:
+			goto st163
+		case 79:
+			goto st171
+		case 83:
+			goto st178
+		case 97:
+			goto st112
+		case 100:
+			goto st129
+		case 102:
+			goto st137
+		case 106:
+			goto st145
+		case 109:
+			goto st157
+		case 110:
+			goto st163
+		case 111:
+			goto st171
+		case 115:
+			goto st178
 		}
 		goto st0
 	st112:
@@ -6384,8 +6651,11 @@ tr163:
 			goto _test_eof112
 		}
 	st_case_112:
-		if data[p] == 108 {
+		switch data[p] {
+		case 112:
 			goto st113
+		case 117:
+			goto st124
 		}
 		goto st0
 	st113:
@@ -6393,8 +6663,8 @@ tr163:
 			goto _test_eof113
 		}
 	st_case_113:
-		if data[p] == 32 {
-			goto tr161
+		if data[p] == 114 {
+			goto st114
 		}
 		goto st0
 	st114:
@@ -6402,29 +6672,124 @@ tr163:
 			goto _test_eof114
 		}
 	st_case_114:
-		if data[p] == 103 {
-			goto st115
+		switch data[p] {
+		case 32:
+			goto tr179
+		case 46:
+			goto tr181
+		case 105:
+			goto st122
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr180
 		}
 		goto st0
+tr179:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st115
+tr193:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st115
+tr201:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st115
+tr211:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st115
+tr222:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st115
+tr231:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st115
+tr235:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st115
+tr242:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st115
+tr247:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st115
+tr252:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st115
+tr262:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st115
+tr271:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st115
 	st115:
 		if p++; p == pe {
 			goto _test_eof115
 		}
 	st_case_115:
-		switch data[p] {
-		case 32:
-			goto tr167
-		case 117:
-			goto st116
+//line ragel/parse_datetime.go:6741
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr183
 		}
 		goto st0
+tr183:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st116
 	st116:
 		if p++; p == pe {
 			goto _test_eof116
 		}
 	st_case_116:
-		if data[p] == 115 {
-			goto st117
+//line ragel/parse_datetime.go:6755
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st822
+		}
+		goto st0
+	st822:
+		if p++; p == pe {
+			goto _test_eof822
+		}
+	st_case_822:
+		switch data[p] {
+		case 32:
+			goto tr1212
+		case 43:
+			goto tr1213
+		case 45:
+			goto tr1214
+		case 47:
+			goto tr1215
+		case 84:
+			goto tr1216
+		case 90:
+			goto tr1217
+		case 95:
+			goto tr1218
+		case 116:
+			goto tr1218
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st117
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1215
+			}
+		default:
+			goto tr1215
 		}
 		goto st0
 	st117:
@@ -6432,25 +6797,122 @@ tr163:
 			goto _test_eof117
 		}
 	st_case_117:
-		if data[p] == 116 {
-			goto st118
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st823
 		}
 		goto st0
+	st823:
+		if p++; p == pe {
+			goto _test_eof823
+		}
+	st_case_823:
+		switch data[p] {
+		case 32:
+			goto tr1219
+		case 43:
+			goto tr1220
+		case 45:
+			goto tr1221
+		case 47:
+			goto tr1222
+		case 84:
+			goto tr1223
+		case 90:
+			goto tr1224
+		case 95:
+			goto tr1225
+		case 116:
+			goto tr1225
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1222
+			}
+		case data[p] >= 65:
+			goto tr1222
+		}
+		goto st0
+tr180:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st118
+tr194:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st118
+tr202:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st118
+tr212:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st118
+tr223:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st118
+tr232:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st118
+tr236:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st118
+tr243:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st118
+tr248:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st118
+tr253:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st118
+tr263:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st118
+tr272:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st118
+tr374:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+	goto st118
 	st118:
 		if p++; p == pe {
 			goto _test_eof118
 		}
 	st_case_118:
-		if data[p] == 32 {
-			goto tr167
+//line ragel/parse_datetime.go:6901
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr186
 		}
 		goto st0
+tr186:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st119
 	st119:
 		if p++; p == pe {
 			goto _test_eof119
 		}
 	st_case_119:
-		if data[p] == 101 {
+//line ragel/parse_datetime.go:6915
+		if 48 <= data[p] && data[p] <= 57 {
 			goto st120
 		}
 		goto st0
@@ -6459,20 +6921,74 @@ tr163:
 			goto _test_eof120
 		}
 	st_case_120:
-		if data[p] == 99 {
-			goto st121
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st117
 		}
 		goto st0
+tr181:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st121
+tr195:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st121
+tr203:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st121
+tr213:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st121
+tr224:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st121
+tr233:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st121
+tr237:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st121
+tr244:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st121
+tr249:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st121
+tr254:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st121
+tr264:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st121
+tr273:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st121
 	st121:
 		if p++; p == pe {
 			goto _test_eof121
 		}
 	st_case_121:
-		switch data[p] {
-		case 32:
-			goto tr173
-		case 101:
-			goto st122
+//line ragel/parse_datetime.go:6982
+		if data[p] == 32 {
+			goto st115
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto tr186
+			}
+		case data[p] >= 45:
+			goto st118
 		}
 		goto st0
 	st122:
@@ -6480,7 +6996,7 @@ tr163:
 			goto _test_eof122
 		}
 	st_case_122:
-		if data[p] == 109 {
+		if data[p] == 108 {
 			goto st123
 		}
 		goto st0
@@ -6489,8 +7005,14 @@ tr163:
 			goto _test_eof123
 		}
 	st_case_123:
-		if data[p] == 98 {
-			goto st124
+		switch data[p] {
+		case 32:
+			goto tr179
+		case 46:
+			goto tr181
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr180
 		}
 		goto st0
 	st124:
@@ -6498,7 +7020,7 @@ tr163:
 			goto _test_eof124
 		}
 	st_case_124:
-		if data[p] == 101 {
+		if data[p] == 103 {
 			goto st125
 		}
 		goto st0
@@ -6507,8 +7029,16 @@ tr163:
 			goto _test_eof125
 		}
 	st_case_125:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr193
+		case 46:
+			goto tr195
+		case 117:
 			goto st126
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr194
 		}
 		goto st0
 	st126:
@@ -6516,8 +7046,8 @@ tr163:
 			goto _test_eof126
 		}
 	st_case_126:
-		if data[p] == 32 {
-			goto tr173
+		if data[p] == 115 {
+			goto st127
 		}
 		goto st0
 	st127:
@@ -6525,7 +7055,7 @@ tr163:
 			goto _test_eof127
 		}
 	st_case_127:
-		if data[p] == 101 {
+		if data[p] == 116 {
 			goto st128
 		}
 		goto st0
@@ -6534,8 +7064,14 @@ tr163:
 			goto _test_eof128
 		}
 	st_case_128:
-		if data[p] == 98 {
-			goto st129
+		switch data[p] {
+		case 32:
+			goto tr193
+		case 46:
+			goto tr195
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr194
 		}
 		goto st0
 	st129:
@@ -6543,10 +7079,7 @@ tr163:
 			goto _test_eof129
 		}
 	st_case_129:
-		switch data[p] {
-		case 32:
-			goto tr181
-		case 114:
+		if data[p] == 101 {
 			goto st130
 		}
 		goto st0
@@ -6555,7 +7088,7 @@ tr163:
 			goto _test_eof130
 		}
 	st_case_130:
-		if data[p] == 117 {
+		if data[p] == 99 {
 			goto st131
 		}
 		goto st0
@@ -6564,8 +7097,16 @@ tr163:
 			goto _test_eof131
 		}
 	st_case_131:
-		if data[p] == 97 {
+		switch data[p] {
+		case 32:
+			goto tr201
+		case 46:
+			goto tr203
+		case 101:
 			goto st132
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr202
 		}
 		goto st0
 	st132:
@@ -6573,7 +7114,7 @@ tr163:
 			goto _test_eof132
 		}
 	st_case_132:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st133
 		}
 		goto st0
@@ -6582,7 +7123,7 @@ tr163:
 			goto _test_eof133
 		}
 	st_case_133:
-		if data[p] == 121 {
+		if data[p] == 98 {
 			goto st134
 		}
 		goto st0
@@ -6591,8 +7132,8 @@ tr163:
 			goto _test_eof134
 		}
 	st_case_134:
-		if data[p] == 32 {
-			goto tr181
+		if data[p] == 101 {
+			goto st135
 		}
 		goto st0
 	st135:
@@ -6600,11 +7141,8 @@ tr163:
 			goto _test_eof135
 		}
 	st_case_135:
-		switch data[p] {
-		case 97:
+		if data[p] == 114 {
 			goto st136
-		case 117:
-			goto st142
 		}
 		goto st0
 	st136:
@@ -6612,8 +7150,14 @@ tr163:
 			goto _test_eof136
 		}
 	st_case_136:
-		if data[p] == 110 {
-			goto st137
+		switch data[p] {
+		case 32:
+			goto tr201
+		case 46:
+			goto tr203
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr202
 		}
 		goto st0
 	st137:
@@ -6621,10 +7165,7 @@ tr163:
 			goto _test_eof137
 		}
 	st_case_137:
-		switch data[p] {
-		case 32:
-			goto tr190
-		case 117:
+		if data[p] == 101 {
 			goto st138
 		}
 		goto st0
@@ -6633,7 +7174,7 @@ tr163:
 			goto _test_eof138
 		}
 	st_case_138:
-		if data[p] == 97 {
+		if data[p] == 98 {
 			goto st139
 		}
 		goto st0
@@ -6642,8 +7183,16 @@ tr163:
 			goto _test_eof139
 		}
 	st_case_139:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr211
+		case 46:
+			goto tr213
+		case 114:
 			goto st140
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr212
 		}
 		goto st0
 	st140:
@@ -6651,7 +7200,7 @@ tr163:
 			goto _test_eof140
 		}
 	st_case_140:
-		if data[p] == 121 {
+		if data[p] == 117 {
 			goto st141
 		}
 		goto st0
@@ -6660,8 +7209,8 @@ tr163:
 			goto _test_eof141
 		}
 	st_case_141:
-		if data[p] == 32 {
-			goto tr190
+		if data[p] == 97 {
+			goto st142
 		}
 		goto st0
 	st142:
@@ -6669,11 +7218,8 @@ tr163:
 			goto _test_eof142
 		}
 	st_case_142:
-		switch data[p] {
-		case 108:
+		if data[p] == 114 {
 			goto st143
-		case 110:
-			goto st145
 		}
 		goto st0
 	st143:
@@ -6681,10 +7227,7 @@ tr163:
 			goto _test_eof143
 		}
 	st_case_143:
-		switch data[p] {
-		case 32:
-			goto tr197
-		case 121:
+		if data[p] == 121 {
 			goto st144
 		}
 		goto st0
@@ -6693,8 +7236,14 @@ tr163:
 			goto _test_eof144
 		}
 	st_case_144:
-		if data[p] == 32 {
-			goto tr197
+		switch data[p] {
+		case 32:
+			goto tr211
+		case 46:
+			goto tr213
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr212
 		}
 		goto st0
 	st145:
@@ -6703,10 +7252,10 @@ tr163:
 		}
 	st_case_145:
 		switch data[p] {
-		case 32:
-			goto tr199
-		case 101:
+		case 97:
 			goto st146
+		case 117:
+			goto st152
 		}
 		goto st0
 	st146:
@@ -6714,8 +7263,8 @@ tr163:
 			goto _test_eof146
 		}
 	st_case_146:
-		if data[p] == 32 {
-			goto tr199
+		if data[p] == 110 {
+			goto st147
 		}
 		goto st0
 	st147:
@@ -6723,8 +7272,16 @@ tr163:
 			goto _test_eof147
 		}
 	st_case_147:
-		if data[p] == 97 {
+		switch data[p] {
+		case 32:
+			goto tr222
+		case 46:
+			goto tr224
+		case 117:
 			goto st148
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr223
 		}
 		goto st0
 	st148:
@@ -6732,11 +7289,8 @@ tr163:
 			goto _test_eof148
 		}
 	st_case_148:
-		switch data[p] {
-		case 114:
+		if data[p] == 97 {
 			goto st149
-		case 121:
-			goto st152
 		}
 		goto st0
 	st149:
@@ -6744,10 +7298,7 @@ tr163:
 			goto _test_eof149
 		}
 	st_case_149:
-		switch data[p] {
-		case 32:
-			goto tr204
-		case 99:
+		if data[p] == 114 {
 			goto st150
 		}
 		goto st0
@@ -6756,7 +7307,7 @@ tr163:
 			goto _test_eof150
 		}
 	st_case_150:
-		if data[p] == 104 {
+		if data[p] == 121 {
 			goto st151
 		}
 		goto st0
@@ -6765,8 +7316,14 @@ tr163:
 			goto _test_eof151
 		}
 	st_case_151:
-		if data[p] == 32 {
-			goto tr204
+		switch data[p] {
+		case 32:
+			goto tr222
+		case 46:
+			goto tr224
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr223
 		}
 		goto st0
 	st152:
@@ -6774,8 +7331,11 @@ tr163:
 			goto _test_eof152
 		}
 	st_case_152:
-		if data[p] == 32 {
-			goto tr207
+		switch data[p] {
+		case 108:
+			goto st153
+		case 110:
+			goto st155
 		}
 		goto st0
 	st153:
@@ -6783,8 +7343,16 @@ tr163:
 			goto _test_eof153
 		}
 	st_case_153:
-		if data[p] == 111 {
+		switch data[p] {
+		case 32:
+			goto tr231
+		case 46:
+			goto tr233
+		case 121:
 			goto st154
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr232
 		}
 		goto st0
 	st154:
@@ -6792,8 +7360,14 @@ tr163:
 			goto _test_eof154
 		}
 	st_case_154:
-		if data[p] == 118 {
-			goto st155
+		switch data[p] {
+		case 32:
+			goto tr231
+		case 46:
+			goto tr233
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr232
 		}
 		goto st0
 	st155:
@@ -6803,9 +7377,14 @@ tr163:
 	st_case_155:
 		switch data[p] {
 		case 32:
-			goto tr210
+			goto tr235
+		case 46:
+			goto tr237
 		case 101:
 			goto st156
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr236
 		}
 		goto st0
 	st156:
@@ -6813,8 +7392,14 @@ tr163:
 			goto _test_eof156
 		}
 	st_case_156:
-		if data[p] == 109 {
-			goto st157
+		switch data[p] {
+		case 32:
+			goto tr235
+		case 46:
+			goto tr237
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr236
 		}
 		goto st0
 	st157:
@@ -6822,7 +7407,7 @@ tr163:
 			goto _test_eof157
 		}
 	st_case_157:
-		if data[p] == 98 {
+		if data[p] == 97 {
 			goto st158
 		}
 		goto st0
@@ -6831,8 +7416,11 @@ tr163:
 			goto _test_eof158
 		}
 	st_case_158:
-		if data[p] == 101 {
+		switch data[p] {
+		case 114:
 			goto st159
+		case 121:
+			goto st162
 		}
 		goto st0
 	st159:
@@ -6840,8 +7428,16 @@ tr163:
 			goto _test_eof159
 		}
 	st_case_159:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr242
+		case 46:
+			goto tr244
+		case 99:
 			goto st160
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr243
 		}
 		goto st0
 	st160:
@@ -6849,8 +7445,8 @@ tr163:
 			goto _test_eof160
 		}
 	st_case_160:
-		if data[p] == 32 {
-			goto tr210
+		if data[p] == 104 {
+			goto st161
 		}
 		goto st0
 	st161:
@@ -6858,8 +7454,14 @@ tr163:
 			goto _test_eof161
 		}
 	st_case_161:
-		if data[p] == 99 {
-			goto st162
+		switch data[p] {
+		case 32:
+			goto tr242
+		case 46:
+			goto tr244
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr243
 		}
 		goto st0
 	st162:
@@ -6867,8 +7469,14 @@ tr163:
 			goto _test_eof162
 		}
 	st_case_162:
-		if data[p] == 116 {
-			goto st163
+		switch data[p] {
+		case 32:
+			goto tr247
+		case 46:
+			goto tr249
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr248
 		}
 		goto st0
 	st163:
@@ -6876,10 +7484,7 @@ tr163:
 			goto _test_eof163
 		}
 	st_case_163:
-		switch data[p] {
-		case 32:
-			goto tr218
-		case 111:
+		if data[p] == 111 {
 			goto st164
 		}
 		goto st0
@@ -6888,7 +7493,7 @@ tr163:
 			goto _test_eof164
 		}
 	st_case_164:
-		if data[p] == 98 {
+		if data[p] == 118 {
 			goto st165
 		}
 		goto st0
@@ -6897,8 +7502,16 @@ tr163:
 			goto _test_eof165
 		}
 	st_case_165:
-		if data[p] == 101 {
+		switch data[p] {
+		case 32:
+			goto tr252
+		case 46:
+			goto tr254
+		case 101:
 			goto st166
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr253
 		}
 		goto st0
 	st166:
@@ -6906,7 +7519,7 @@ tr163:
 			goto _test_eof166
 		}
 	st_case_166:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st167
 		}
 		goto st0
@@ -6915,8 +7528,8 @@ tr163:
 			goto _test_eof167
 		}
 	st_case_167:
-		if data[p] == 32 {
-			goto tr218
+		if data[p] == 98 {
+			goto st168
 		}
 		goto st0
 	st168:
@@ -6933,7 +7546,7 @@ tr163:
 			goto _test_eof169
 		}
 	st_case_169:
-		if data[p] == 112 {
+		if data[p] == 114 {
 			goto st170
 		}
 		goto st0
@@ -6944,9 +7557,12 @@ tr163:
 	st_case_170:
 		switch data[p] {
 		case 32:
-			goto tr225
-		case 116:
-			goto st171
+			goto tr252
+		case 46:
+			goto tr254
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr253
 		}
 		goto st0
 	st171:
@@ -6954,7 +7570,7 @@ tr163:
 			goto _test_eof171
 		}
 	st_case_171:
-		if data[p] == 101 {
+		if data[p] == 99 {
 			goto st172
 		}
 		goto st0
@@ -6963,7 +7579,7 @@ tr163:
 			goto _test_eof172
 		}
 	st_case_172:
-		if data[p] == 109 {
+		if data[p] == 116 {
 			goto st173
 		}
 		goto st0
@@ -6972,8 +7588,16 @@ tr163:
 			goto _test_eof173
 		}
 	st_case_173:
-		if data[p] == 98 {
+		switch data[p] {
+		case 32:
+			goto tr262
+		case 46:
+			goto tr264
+		case 111:
 			goto st174
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr263
 		}
 		goto st0
 	st174:
@@ -6981,7 +7605,7 @@ tr163:
 			goto _test_eof174
 		}
 	st_case_174:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st175
 		}
 		goto st0
@@ -6990,7 +7614,7 @@ tr163:
 			goto _test_eof175
 		}
 	st_case_175:
-		if data[p] == 114 {
+		if data[p] == 101 {
 			goto st176
 		}
 		goto st0
@@ -6999,60 +7623,23 @@ tr163:
 			goto _test_eof176
 		}
 	st_case_176:
-		if data[p] == 32 {
-			goto tr225
+		if data[p] == 114 {
+			goto st177
 		}
 		goto st0
-tr149:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-	goto st177
 	st177:
 		if p++; p == pe {
 			goto _test_eof177
 		}
 	st_case_177:
-//line ragel/parse_datetime.go:7023
 		switch data[p] {
-		case 65:
-			goto st178
-		case 68:
-			goto st192
-		case 70:
-			goto st200
-		case 74:
-			goto st208
-		case 77:
-			goto st220
-		case 78:
-			goto st226
-		case 79:
-			goto st234
-		case 83:
-			goto st241
-		case 97:
-			goto st178
-		case 100:
-			goto st192
-		case 102:
-			goto st200
-		case 106:
-			goto st208
-		case 109:
-			goto st220
-		case 110:
-			goto st226
-		case 111:
-			goto st234
-		case 115:
-			goto st241
+		case 32:
+			goto tr262
+		case 46:
+			goto tr264
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr263
 		}
 		goto st0
 	st178:
@@ -7060,11 +7647,8 @@ tr149:
 			goto _test_eof178
 		}
 	st_case_178:
-		switch data[p] {
-		case 112:
+		if data[p] == 101 {
 			goto st179
-		case 117:
-			goto st187
 		}
 		goto st0
 	st179:
@@ -7072,7 +7656,7 @@ tr149:
 			goto _test_eof179
 		}
 	st_case_179:
-		if data[p] == 114 {
+		if data[p] == 112 {
 			goto st180
 		}
 		goto st0
@@ -7081,62 +7665,87 @@ tr149:
 			goto _test_eof180
 		}
 	st_case_180:
-		if data[p] == 105 {
-			goto st185
+		switch data[p] {
+		case 32:
+			goto tr271
+		case 46:
+			goto tr273
+		case 116:
+			goto st181
 		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr243
+			goto tr272
 		}
 		goto st0
-tr243:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st181
-tr251:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st181
-tr257:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st181
-tr265:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st181
-tr274:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st181
-tr281:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st181
-tr283:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st181
-tr288:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st181
-tr291:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st181
-tr294:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st181
-tr302:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st181
-tr309:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st181
-tr443:
+	st181:
+		if p++; p == pe {
+			goto _test_eof181
+		}
+	st_case_181:
+		switch data[p] {
+		case 32:
+			goto tr271
+		case 46:
+			goto tr273
+		case 101:
+			goto st182
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr272
+		}
+		goto st0
+	st182:
+		if p++; p == pe {
+			goto _test_eof182
+		}
+	st_case_182:
+		if data[p] == 109 {
+			goto st183
+		}
+		goto st0
+	st183:
+		if p++; p == pe {
+			goto _test_eof183
+		}
+	st_case_183:
+		if data[p] == 98 {
+			goto st184
+		}
+		goto st0
+	st184:
+		if p++; p == pe {
+			goto _test_eof184
+		}
+	st_case_184:
+		if data[p] == 101 {
+			goto st185
+		}
+		goto st0
+	st185:
+		if p++; p == pe {
+			goto _test_eof185
+		}
+	st_case_185:
+		if data[p] == 114 {
+			goto st186
+		}
+		goto st0
+	st186:
+		if p++; p == pe {
+			goto _test_eof186
+		}
+	st_case_186:
+		switch data[p] {
+		case 32:
+			goto tr271
+		case 46:
+			goto tr273
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr272
+		}
+		goto st0
+tr167:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -7146,106 +7755,46 @@ tr443:
             return
     }
 
-	goto st181
-	st181:
-		if p++; p == pe {
-			goto _test_eof181
-		}
-	st_case_181:
-//line ragel/parse_datetime.go:7156
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr245
-		}
-		goto st0
-tr245:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st182
-	st182:
-		if p++; p == pe {
-			goto _test_eof182
-		}
-	st_case_182:
-//line ragel/parse_datetime.go:7170
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st183
-		}
-		goto st0
-	st183:
-		if p++; p == pe {
-			goto _test_eof183
-		}
-	st_case_183:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st184
-		}
-		goto st0
-	st184:
-		if p++; p == pe {
-			goto _test_eof184
-		}
-	st_case_184:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st809
-		}
-		goto st0
-	st809:
-		if p++; p == pe {
-			goto _test_eof809
-		}
-	st_case_809:
-		switch data[p] {
-		case 32:
-			goto tr1111
-		case 43:
-			goto tr1112
-		case 45:
-			goto tr1113
-		case 47:
-			goto tr1114
-		case 84:
-			goto tr1115
-		case 90:
-			goto tr1116
-		case 95:
-			goto tr1117
-		case 116:
-			goto tr1117
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1114
-			}
-		case data[p] >= 65:
-			goto tr1114
-		}
-		goto st0
-	st185:
-		if p++; p == pe {
-			goto _test_eof185
-		}
-	st_case_185:
-		if data[p] == 108 {
-			goto st186
-		}
-		goto st0
-	st186:
-		if p++; p == pe {
-			goto _test_eof186
-		}
-	st_case_186:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr243
-		}
-		goto st0
+	goto st187
 	st187:
 		if p++; p == pe {
 			goto _test_eof187
 		}
 	st_case_187:
-		if data[p] == 103 {
+//line ragel/parse_datetime.go:7765
+		switch data[p] {
+		case 65:
 			goto st188
+		case 68:
+			goto st199
+		case 70:
+			goto st207
+		case 74:
+			goto st215
+		case 77:
+			goto st227
+		case 78:
+			goto st233
+		case 79:
+			goto st241
+		case 83:
+			goto st248
+		case 97:
+			goto st188
+		case 100:
+			goto st199
+		case 102:
+			goto st207
+		case 106:
+			goto st215
+		case 109:
+			goto st227
+		case 110:
+			goto st233
+		case 111:
+			goto st241
+		case 115:
+			goto st248
 		}
 		goto st0
 	st188:
@@ -7253,11 +7802,11 @@ tr245:
 			goto _test_eof188
 		}
 	st_case_188:
-		if data[p] == 117 {
+		switch data[p] {
+		case 112:
 			goto st189
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr251
+		case 117:
+			goto st194
 		}
 		goto st0
 	st189:
@@ -7265,7 +7814,7 @@ tr245:
 			goto _test_eof189
 		}
 	st_case_189:
-		if data[p] == 115 {
+		if data[p] == 114 {
 			goto st190
 		}
 		goto st0
@@ -7274,17 +7823,82 @@ tr245:
 			goto _test_eof190
 		}
 	st_case_190:
-		if data[p] == 116 {
-			goto st191
+		switch data[p] {
+		case 32:
+			goto tr180
+		case 46:
+			goto tr291
+		case 105:
+			goto st192
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr180
 		}
 		goto st0
+tr291:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st191
+tr295:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st191
+tr301:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st191
+tr309:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st191
+tr318:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st191
+tr325:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st191
+tr327:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st191
+tr332:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st191
+tr335:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st191
+tr338:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st191
+tr346:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st191
+tr353:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st191
 	st191:
 		if p++; p == pe {
 			goto _test_eof191
 		}
 	st_case_191:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr251
+//line ragel/parse_datetime.go:7892
+		if data[p] == 32 {
+			goto st118
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto tr186
+			}
+		case data[p] >= 45:
+			goto st118
 		}
 		goto st0
 	st192:
@@ -7292,7 +7906,7 @@ tr245:
 			goto _test_eof192
 		}
 	st_case_192:
-		if data[p] == 101 {
+		if data[p] == 108 {
 			goto st193
 		}
 		goto st0
@@ -7301,8 +7915,14 @@ tr245:
 			goto _test_eof193
 		}
 	st_case_193:
-		if data[p] == 99 {
-			goto st194
+		switch data[p] {
+		case 32:
+			goto tr180
+		case 46:
+			goto tr291
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr180
 		}
 		goto st0
 	st194:
@@ -7310,11 +7930,8 @@ tr245:
 			goto _test_eof194
 		}
 	st_case_194:
-		if data[p] == 101 {
+		if data[p] == 103 {
 			goto st195
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr257
 		}
 		goto st0
 	st195:
@@ -7322,8 +7939,16 @@ tr245:
 			goto _test_eof195
 		}
 	st_case_195:
-		if data[p] == 109 {
+		switch data[p] {
+		case 32:
+			goto tr194
+		case 46:
+			goto tr295
+		case 117:
 			goto st196
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr194
 		}
 		goto st0
 	st196:
@@ -7331,7 +7956,7 @@ tr245:
 			goto _test_eof196
 		}
 	st_case_196:
-		if data[p] == 98 {
+		if data[p] == 115 {
 			goto st197
 		}
 		goto st0
@@ -7340,7 +7965,7 @@ tr245:
 			goto _test_eof197
 		}
 	st_case_197:
-		if data[p] == 101 {
+		if data[p] == 116 {
 			goto st198
 		}
 		goto st0
@@ -7349,8 +7974,14 @@ tr245:
 			goto _test_eof198
 		}
 	st_case_198:
-		if data[p] == 114 {
-			goto st199
+		switch data[p] {
+		case 32:
+			goto tr194
+		case 46:
+			goto tr295
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr194
 		}
 		goto st0
 	st199:
@@ -7358,8 +7989,8 @@ tr245:
 			goto _test_eof199
 		}
 	st_case_199:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr257
+		if data[p] == 101 {
+			goto st200
 		}
 		goto st0
 	st200:
@@ -7367,7 +7998,7 @@ tr245:
 			goto _test_eof200
 		}
 	st_case_200:
-		if data[p] == 101 {
+		if data[p] == 99 {
 			goto st201
 		}
 		goto st0
@@ -7376,8 +8007,16 @@ tr245:
 			goto _test_eof201
 		}
 	st_case_201:
-		if data[p] == 98 {
+		switch data[p] {
+		case 32:
+			goto tr202
+		case 46:
+			goto tr301
+		case 101:
 			goto st202
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr202
 		}
 		goto st0
 	st202:
@@ -7385,11 +8024,8 @@ tr245:
 			goto _test_eof202
 		}
 	st_case_202:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st203
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr265
 		}
 		goto st0
 	st203:
@@ -7397,7 +8033,7 @@ tr245:
 			goto _test_eof203
 		}
 	st_case_203:
-		if data[p] == 117 {
+		if data[p] == 98 {
 			goto st204
 		}
 		goto st0
@@ -7406,7 +8042,7 @@ tr245:
 			goto _test_eof204
 		}
 	st_case_204:
-		if data[p] == 97 {
+		if data[p] == 101 {
 			goto st205
 		}
 		goto st0
@@ -7424,8 +8060,14 @@ tr245:
 			goto _test_eof206
 		}
 	st_case_206:
-		if data[p] == 121 {
-			goto st207
+		switch data[p] {
+		case 32:
+			goto tr202
+		case 46:
+			goto tr301
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr202
 		}
 		goto st0
 	st207:
@@ -7433,8 +8075,8 @@ tr245:
 			goto _test_eof207
 		}
 	st_case_207:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr265
+		if data[p] == 101 {
+			goto st208
 		}
 		goto st0
 	st208:
@@ -7442,11 +8084,8 @@ tr245:
 			goto _test_eof208
 		}
 	st_case_208:
-		switch data[p] {
-		case 97:
+		if data[p] == 98 {
 			goto st209
-		case 117:
-			goto st215
 		}
 		goto st0
 	st209:
@@ -7454,8 +8093,16 @@ tr245:
 			goto _test_eof209
 		}
 	st_case_209:
-		if data[p] == 110 {
+		switch data[p] {
+		case 32:
+			goto tr212
+		case 46:
+			goto tr309
+		case 114:
 			goto st210
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr212
 		}
 		goto st0
 	st210:
@@ -7465,9 +8112,6 @@ tr245:
 	st_case_210:
 		if data[p] == 117 {
 			goto st211
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr274
 		}
 		goto st0
 	st211:
@@ -7502,8 +8146,14 @@ tr245:
 			goto _test_eof214
 		}
 	st_case_214:
+		switch data[p] {
+		case 32:
+			goto tr212
+		case 46:
+			goto tr309
+		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr274
+			goto tr212
 		}
 		goto st0
 	st215:
@@ -7512,10 +8162,10 @@ tr245:
 		}
 	st_case_215:
 		switch data[p] {
-		case 108:
+		case 97:
 			goto st216
-		case 110:
-			goto st218
+		case 117:
+			goto st222
 		}
 		goto st0
 	st216:
@@ -7523,11 +8173,8 @@ tr245:
 			goto _test_eof216
 		}
 	st_case_216:
-		if data[p] == 121 {
+		if data[p] == 110 {
 			goto st217
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr281
 		}
 		goto st0
 	st217:
@@ -7535,8 +8182,16 @@ tr245:
 			goto _test_eof217
 		}
 	st_case_217:
+		switch data[p] {
+		case 32:
+			goto tr223
+		case 46:
+			goto tr318
+		case 117:
+			goto st218
+		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr281
+			goto tr223
 		}
 		goto st0
 	st218:
@@ -7544,11 +8199,8 @@ tr245:
 			goto _test_eof218
 		}
 	st_case_218:
-		if data[p] == 101 {
+		if data[p] == 97 {
 			goto st219
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr283
 		}
 		goto st0
 	st219:
@@ -7556,8 +8208,8 @@ tr245:
 			goto _test_eof219
 		}
 	st_case_219:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr283
+		if data[p] == 114 {
+			goto st220
 		}
 		goto st0
 	st220:
@@ -7565,7 +8217,7 @@ tr245:
 			goto _test_eof220
 		}
 	st_case_220:
-		if data[p] == 97 {
+		if data[p] == 121 {
 			goto st221
 		}
 		goto st0
@@ -7575,10 +8227,13 @@ tr245:
 		}
 	st_case_221:
 		switch data[p] {
-		case 114:
-			goto st222
-		case 121:
-			goto st225
+		case 32:
+			goto tr223
+		case 46:
+			goto tr318
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr223
 		}
 		goto st0
 	st222:
@@ -7586,11 +8241,11 @@ tr245:
 			goto _test_eof222
 		}
 	st_case_222:
-		if data[p] == 99 {
+		switch data[p] {
+		case 108:
 			goto st223
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr288
+		case 110:
+			goto st225
 		}
 		goto st0
 	st223:
@@ -7598,8 +8253,16 @@ tr245:
 			goto _test_eof223
 		}
 	st_case_223:
-		if data[p] == 104 {
+		switch data[p] {
+		case 32:
+			goto tr232
+		case 46:
+			goto tr325
+		case 121:
 			goto st224
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr232
 		}
 		goto st0
 	st224:
@@ -7607,8 +8270,14 @@ tr245:
 			goto _test_eof224
 		}
 	st_case_224:
+		switch data[p] {
+		case 32:
+			goto tr232
+		case 46:
+			goto tr325
+		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr288
+			goto tr232
 		}
 		goto st0
 	st225:
@@ -7616,8 +8285,16 @@ tr245:
 			goto _test_eof225
 		}
 	st_case_225:
+		switch data[p] {
+		case 32:
+			goto tr236
+		case 46:
+			goto tr327
+		case 101:
+			goto st226
+		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr291
+			goto tr236
 		}
 		goto st0
 	st226:
@@ -7625,8 +8302,14 @@ tr245:
 			goto _test_eof226
 		}
 	st_case_226:
-		if data[p] == 111 {
-			goto st227
+		switch data[p] {
+		case 32:
+			goto tr236
+		case 46:
+			goto tr327
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr236
 		}
 		goto st0
 	st227:
@@ -7634,7 +8317,7 @@ tr245:
 			goto _test_eof227
 		}
 	st_case_227:
-		if data[p] == 118 {
+		if data[p] == 97 {
 			goto st228
 		}
 		goto st0
@@ -7643,11 +8326,11 @@ tr245:
 			goto _test_eof228
 		}
 	st_case_228:
-		if data[p] == 101 {
+		switch data[p] {
+		case 114:
 			goto st229
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr294
+		case 121:
+			goto st232
 		}
 		goto st0
 	st229:
@@ -7655,8 +8338,16 @@ tr245:
 			goto _test_eof229
 		}
 	st_case_229:
-		if data[p] == 109 {
+		switch data[p] {
+		case 32:
+			goto tr243
+		case 46:
+			goto tr332
+		case 99:
 			goto st230
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr243
 		}
 		goto st0
 	st230:
@@ -7664,7 +8355,7 @@ tr245:
 			goto _test_eof230
 		}
 	st_case_230:
-		if data[p] == 98 {
+		if data[p] == 104 {
 			goto st231
 		}
 		goto st0
@@ -7673,8 +8364,14 @@ tr245:
 			goto _test_eof231
 		}
 	st_case_231:
-		if data[p] == 101 {
-			goto st232
+		switch data[p] {
+		case 32:
+			goto tr243
+		case 46:
+			goto tr332
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr243
 		}
 		goto st0
 	st232:
@@ -7682,8 +8379,14 @@ tr245:
 			goto _test_eof232
 		}
 	st_case_232:
-		if data[p] == 114 {
-			goto st233
+		switch data[p] {
+		case 32:
+			goto tr248
+		case 46:
+			goto tr335
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr248
 		}
 		goto st0
 	st233:
@@ -7691,8 +8394,8 @@ tr245:
 			goto _test_eof233
 		}
 	st_case_233:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr294
+		if data[p] == 111 {
+			goto st234
 		}
 		goto st0
 	st234:
@@ -7700,7 +8403,7 @@ tr245:
 			goto _test_eof234
 		}
 	st_case_234:
-		if data[p] == 99 {
+		if data[p] == 118 {
 			goto st235
 		}
 		goto st0
@@ -7709,8 +8412,16 @@ tr245:
 			goto _test_eof235
 		}
 	st_case_235:
-		if data[p] == 116 {
+		switch data[p] {
+		case 32:
+			goto tr253
+		case 46:
+			goto tr338
+		case 101:
 			goto st236
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr253
 		}
 		goto st0
 	st236:
@@ -7718,11 +8429,8 @@ tr245:
 			goto _test_eof236
 		}
 	st_case_236:
-		if data[p] == 111 {
+		if data[p] == 109 {
 			goto st237
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr302
 		}
 		goto st0
 	st237:
@@ -7757,8 +8465,14 @@ tr245:
 			goto _test_eof240
 		}
 	st_case_240:
+		switch data[p] {
+		case 32:
+			goto tr253
+		case 46:
+			goto tr338
+		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr302
+			goto tr253
 		}
 		goto st0
 	st241:
@@ -7766,7 +8480,7 @@ tr245:
 			goto _test_eof241
 		}
 	st_case_241:
-		if data[p] == 101 {
+		if data[p] == 99 {
 			goto st242
 		}
 		goto st0
@@ -7775,7 +8489,7 @@ tr245:
 			goto _test_eof242
 		}
 	st_case_242:
-		if data[p] == 112 {
+		if data[p] == 116 {
 			goto st243
 		}
 		goto st0
@@ -7784,11 +8498,16 @@ tr245:
 			goto _test_eof243
 		}
 	st_case_243:
-		if data[p] == 116 {
+		switch data[p] {
+		case 32:
+			goto tr263
+		case 46:
+			goto tr346
+		case 111:
 			goto st244
 		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr309
+			goto tr263
 		}
 		goto st0
 	st244:
@@ -7796,7 +8515,7 @@ tr245:
 			goto _test_eof244
 		}
 	st_case_244:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st245
 		}
 		goto st0
@@ -7805,7 +8524,7 @@ tr245:
 			goto _test_eof245
 		}
 	st_case_245:
-		if data[p] == 109 {
+		if data[p] == 101 {
 			goto st246
 		}
 		goto st0
@@ -7814,7 +8533,7 @@ tr245:
 			goto _test_eof246
 		}
 	st_case_246:
-		if data[p] == 98 {
+		if data[p] == 114 {
 			goto st247
 		}
 		goto st0
@@ -7823,8 +8542,14 @@ tr245:
 			goto _test_eof247
 		}
 	st_case_247:
-		if data[p] == 101 {
-			goto st248
+		switch data[p] {
+		case 32:
+			goto tr263
+		case 46:
+			goto tr346
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr263
 		}
 		goto st0
 	st248:
@@ -7832,7 +8557,7 @@ tr245:
 			goto _test_eof248
 		}
 	st_case_248:
-		if data[p] == 114 {
+		if data[p] == 101 {
 			goto st249
 		}
 		goto st0
@@ -7841,78 +8566,51 @@ tr245:
 			goto _test_eof249
 		}
 	st_case_249:
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr309
+		if data[p] == 112 {
+			goto st250
 		}
 		goto st0
-tr2:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st250
 	st250:
 		if p++; p == pe {
 			goto _test_eof250
 		}
 	st_case_250:
-//line ragel/parse_datetime.go:7858
-		if data[p] == 32 {
-			goto tr148
+		switch data[p] {
+		case 32:
+			goto tr272
+		case 46:
+			goto tr353
+		case 116:
+			goto st251
 		}
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st105
-			}
-		case data[p] >= 45:
-			goto tr149
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr272
 		}
 		goto st0
-tr3:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st251
 	st251:
 		if p++; p == pe {
 			goto _test_eof251
 		}
 	st_case_251:
-//line ragel/parse_datetime.go:7880
-		if data[p] == 32 {
-			goto tr148
+		switch data[p] {
+		case 32:
+			goto tr272
+		case 46:
+			goto tr353
+		case 101:
+			goto st252
 		}
-		switch {
-		case data[p] < 48:
-			if 45 <= data[p] && data[p] <= 47 {
-				goto tr149
-			}
-		case data[p] > 49:
-			if 50 <= data[p] && data[p] <= 57 {
-				goto st3
-			}
-		default:
-			goto st105
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr272
 		}
 		goto st0
-tr4:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st252
 	st252:
 		if p++; p == pe {
 			goto _test_eof252
 		}
 	st_case_252:
-//line ragel/parse_datetime.go:7906
-		if data[p] == 32 {
-			goto tr148
-		}
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st3
-			}
-		case data[p] >= 45:
-			goto tr149
+		if data[p] == 109 {
+			goto st253
 		}
 		goto st0
 	st253:
@@ -7920,11 +8618,8 @@ tr4:
 			goto _test_eof253
 		}
 	st_case_253:
-		switch data[p] {
-		case 112:
+		if data[p] == 98 {
 			goto st254
-		case 117:
-			goto st340
 		}
 		goto st0
 	st254:
@@ -7932,7 +8627,7 @@ tr4:
 			goto _test_eof254
 		}
 	st_case_254:
-		if data[p] == 114 {
+		if data[p] == 101 {
 			goto st255
 		}
 		goto st0
@@ -7941,81 +8636,26 @@ tr4:
 			goto _test_eof255
 		}
 	st_case_255:
-		switch data[p] {
-		case 32:
-			goto tr319
-		case 105:
-			goto st338
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr320
+		if data[p] == 114 {
+			goto st256
 		}
 		goto st0
-tr319:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st256
-tr446:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st256
-tr453:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st256
-tr463:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st256
-tr912:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st256
-tr920:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st256
-tr923:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st256
-tr930:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st256
-tr934:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st256
-tr938:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st256
-tr947:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st256
-tr959:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st256
 	st256:
 		if p++; p == pe {
 			goto _test_eof256
 		}
 	st_case_256:
-//line ragel/parse_datetime.go:8008
 		switch data[p] {
-		case 48:
-			goto tr322
-		case 51:
-			goto tr324
+		case 32:
+			goto tr272
+		case 46:
+			goto tr353
 		}
-		if 49 <= data[p] && data[p] <= 50 {
-			goto tr323
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr272
 		}
 		goto st0
-tr322:
+tr2:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st257
@@ -8024,24 +8664,204 @@ tr322:
 			goto _test_eof257
 		}
 	st_case_257:
-//line ragel/parse_datetime.go:8028
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st258
+//line ragel/parse_datetime.go:8668
+		if data[p] == 32 {
+			goto tr166
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st110
+			}
+		case data[p] >= 45:
+			goto tr167
 		}
 		goto st0
+tr3:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st258
 	st258:
 		if p++; p == pe {
 			goto _test_eof258
 		}
 	st_case_258:
-		switch data[p] {
-		case 32:
-			goto tr326
-		case 44:
-			goto tr327
+//line ragel/parse_datetime.go:8690
+		if data[p] == 32 {
+			goto tr166
+		}
+		switch {
+		case data[p] < 48:
+			if 45 <= data[p] && data[p] <= 47 {
+				goto tr167
+			}
+		case data[p] > 49:
+			if 50 <= data[p] && data[p] <= 57 {
+				goto st3
+			}
+		default:
+			goto st110
 		}
 		goto st0
-tr326:
+tr4:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st259
+	st259:
+		if p++; p == pe {
+			goto _test_eof259
+		}
+	st_case_259:
+//line ragel/parse_datetime.go:8716
+		if data[p] == 32 {
+			goto tr166
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st3
+			}
+		case data[p] >= 45:
+			goto tr167
+		}
+		goto st0
+	st260:
+		if p++; p == pe {
+			goto _test_eof260
+		}
+	st_case_260:
+		switch data[p] {
+		case 112:
+			goto st261
+		case 117:
+			goto st349
+		}
+		goto st0
+	st261:
+		if p++; p == pe {
+			goto _test_eof261
+		}
+	st_case_261:
+		if data[p] == 114 {
+			goto st262
+		}
+		goto st0
+	st262:
+		if p++; p == pe {
+			goto _test_eof262
+		}
+	st_case_262:
+		switch data[p] {
+		case 32:
+			goto tr363
+		case 46:
+			goto tr365
+		case 105:
+			goto st347
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr364
+		}
+		goto st0
+tr363:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st263
+tr491:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st263
+tr499:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st263
+tr510:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st263
+tr1012:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st263
+tr1021:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st263
+tr1025:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st263
+tr1033:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st263
+tr1038:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st263
+tr1043:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st263
+tr1053:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st263
+tr1066:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st263
+	st263:
+		if p++; p == pe {
+			goto _test_eof263
+		}
+	st_case_263:
+//line ragel/parse_datetime.go:8820
+		switch data[p] {
+		case 48:
+			goto tr367
+		case 51:
+			goto tr369
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr370
+			}
+		case data[p] >= 49:
+			goto tr368
+		}
+		goto st0
+tr367:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st264
+	st264:
+		if p++; p == pe {
+			goto _test_eof264
+		}
+	st_case_264:
+//line ragel/parse_datetime.go:8845
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st265
+		}
+		goto st0
+	st265:
+		if p++; p == pe {
+			goto _test_eof265
+		}
+	st_case_265:
+		switch data[p] {
+		case 32:
+			goto tr372
+		case 44:
+			goto tr373
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr374
+		}
+		goto st0
+tr372:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -8051,66 +8871,66 @@ tr326:
             return
     }
 
-	goto st259
-	st259:
+	goto st266
+	st266:
 		if p++; p == pe {
-			goto _test_eof259
+			goto _test_eof266
 		}
-	st_case_259:
-//line ragel/parse_datetime.go:8061
+	st_case_266:
+//line ragel/parse_datetime.go:8881
 		if data[p] == 50 {
-			goto tr329
+			goto tr376
 		}
 		switch {
 		case data[p] > 49:
 			if 51 <= data[p] && data[p] <= 57 {
-				goto tr330
+				goto tr377
 			}
 		case data[p] >= 48:
-			goto tr328
+			goto tr375
 		}
 		goto st0
-tr328:
+tr375:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st260
-	st260:
+	goto st267
+	st267:
 		if p++; p == pe {
-			goto _test_eof260
+			goto _test_eof267
 		}
-	st_case_260:
-//line ragel/parse_datetime.go:8083
+	st_case_267:
+//line ragel/parse_datetime.go:8903
 		switch data[p] {
 		case 32:
-			goto tr331
+			goto tr378
 		case 58:
-			goto tr333
+			goto tr380
 		case 65:
-			goto tr334
+			goto tr381
 		case 80:
-			goto tr334
+			goto tr381
 		case 97:
-			goto tr335
+			goto tr382
 		case 112:
-			goto tr335
+			goto tr382
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st275
+			goto st282
 		}
 		goto st0
-tr331:
+tr378:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st261
-tr356:
+	goto st268
+tr403:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st261
-tr416:
+	goto st268
+tr456:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -8140,132 +8960,132 @@ tr416:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st261
-tr399:
+	goto st268
+tr439:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st261
-tr404:
+	goto st268
+tr444:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st261
-tr410:
+	goto st268
+tr450:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st261
-tr427:
+	goto st268
+tr467:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st261
-	st261:
+	goto st268
+	st268:
 		if p++; p == pe {
-			goto _test_eof261
+			goto _test_eof268
 		}
-	st_case_261:
-//line ragel/parse_datetime.go:8174
+	st_case_268:
+//line ragel/parse_datetime.go:8994
 		switch data[p] {
 		case 65:
-			goto tr337
+			goto tr384
 		case 80:
-			goto tr337
+			goto tr384
 		case 97:
-			goto tr338
+			goto tr385
 		case 112:
-			goto tr338
+			goto tr385
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto tr336
+			goto tr383
 		}
 		goto st0
-tr336:
+tr383:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st262
-	st262:
+	goto st269
+	st269:
 		if p++; p == pe {
-			goto _test_eof262
+			goto _test_eof269
 		}
-	st_case_262:
-//line ragel/parse_datetime.go:8198
+	st_case_269:
+//line ragel/parse_datetime.go:9018
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st263
+			goto st270
 		}
 		goto st0
-	st263:
+	st270:
 		if p++; p == pe {
-			goto _test_eof263
+			goto _test_eof270
 		}
-	st_case_263:
+	st_case_270:
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st264
+			goto st271
 		}
 		goto st0
-	st264:
+	st271:
 		if p++; p == pe {
-			goto _test_eof264
+			goto _test_eof271
 		}
-	st_case_264:
+	st_case_271:
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st810
+			goto st824
 		}
 		goto st0
-	st810:
+	st824:
 		if p++; p == pe {
-			goto _test_eof810
+			goto _test_eof824
 		}
-	st_case_810:
+	st_case_824:
 		if data[p] == 32 {
-			goto tr1118
+			goto tr1226
 		}
 		goto st0
-tr1118:
+tr1226:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
-	goto st265
-	st265:
+	goto st272
+	st272:
 		if p++; p == pe {
-			goto _test_eof265
+			goto _test_eof272
 		}
-	st_case_265:
-//line ragel/parse_datetime.go:8241
+	st_case_272:
+//line ragel/parse_datetime.go:9061
 		switch data[p] {
 		case 43:
-			goto st266
+			goto st273
 		case 45:
-			goto st270
+			goto st277
 		case 47:
-			goto tr344
+			goto tr391
 		case 90:
-			goto tr345
+			goto tr392
 		case 95:
-			goto tr344
+			goto tr391
 		}
 		switch {
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr344
+				goto tr391
 			}
 		case data[p] >= 65:
-			goto tr344
+			goto tr391
 		}
 		goto st0
-tr1129:
+tr1247:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st266
-tr1140:
+	goto st273
+tr1258:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -8289,31 +9109,14 @@ tr1140:
         }
     }
 
-	goto st266
-tr1144:
+	goto st273
+tr1262:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st266
-tr1152:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st266
-tr1159:
+	goto st273
+tr1277:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -8343,76 +9146,93 @@ tr1159:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st266
-tr1173:
+	goto st273
+tr1270:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st273
+tr1290:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st266
-tr1182:
+	goto st273
+tr1299:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st266
-tr1190:
+	goto st273
+tr1307:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st266
-tr1210:
+	goto st273
+tr1327:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st266
-	st266:
+	goto st273
+	st273:
 		if p++; p == pe {
-			goto _test_eof266
+			goto _test_eof273
 		}
-	st_case_266:
-//line ragel/parse_datetime.go:8377
+	st_case_273:
+//line ragel/parse_datetime.go:9197
 		if data[p] == 50 {
-			goto tr347
+			goto tr394
 		}
 		switch {
 		case data[p] > 49:
 			if 51 <= data[p] && data[p] <= 57 {
-				goto tr348
+				goto tr395
 			}
 		case data[p] >= 48:
-			goto tr346
+			goto tr393
 		}
 		goto st0
-tr346:
+tr393:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st811
-tr351:
+	goto st825
+tr398:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st811
-	st811:
+	goto st825
+	st825:
 		if p++; p == pe {
-			goto _test_eof811
+			goto _test_eof825
 		}
-	st_case_811:
-//line ragel/parse_datetime.go:8405
+	st_case_825:
+//line ragel/parse_datetime.go:9225
 		switch data[p] {
 		case 32:
-			goto tr1119
+			goto tr1227
 		case 58:
-			goto tr1121
+			goto tr1229
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st813
+			goto st827
 		}
 		goto st0
-tr1119:
+tr1227:
 //line ragel/datetime.rl:166
 
     // 1 as 1 hour
@@ -8441,8 +9261,8 @@ tr1119:
             return
     }
 
-	goto st267
-tr1126:
+	goto st274
+tr1234:
 //line ragel/datetime.rl:157
 
     switch p - pb {
@@ -8452,73 +9272,73 @@ tr1126:
             return
     }
 
-	goto st267
-	st267:
+	goto st274
+	st274:
 		if p++; p == pe {
-			goto _test_eof267
+			goto _test_eof274
 		}
-	st_case_267:
-//line ragel/parse_datetime.go:8462
+	st_case_274:
+//line ragel/parse_datetime.go:9282
 		switch data[p] {
 		case 47:
-			goto tr344
+			goto tr391
 		case 95:
-			goto tr344
+			goto tr391
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr344
+				goto tr391
 			}
 		case data[p] >= 65:
-			goto tr344
+			goto tr391
 		}
 		goto st0
-tr344:
+tr391:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1131:
+	goto st275
+tr1249:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1146:
+	goto st275
+tr1264:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1175:
+	goto st275
+tr1292:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1184:
+	goto st275
+tr1301:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1193:
+	goto st275
+tr1310:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1161:
+	goto st275
+tr1279:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -8550,16 +9370,16 @@ tr1161:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1213:
+	goto st275
+tr1330:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-tr1155:
+	goto st275
+tr1273:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -8577,49 +9397,49 @@ tr1155:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st268
-	st268:
+	goto st275
+	st275:
 		if p++; p == pe {
-			goto _test_eof268
+			goto _test_eof275
 		}
-	st_case_268:
-//line ragel/parse_datetime.go:8587
+	st_case_275:
+//line ragel/parse_datetime.go:9407
 		switch data[p] {
 		case 47:
-			goto st269
+			goto st276
 		case 95:
-			goto st269
+			goto st276
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st269
+				goto st276
 			}
 		case data[p] >= 65:
-			goto st269
+			goto st276
 		}
 		goto st0
-	st269:
+	st276:
 		if p++; p == pe {
-			goto _test_eof269
+			goto _test_eof276
 		}
-	st_case_269:
+	st_case_276:
 		switch data[p] {
 		case 47:
-			goto st812
+			goto st826
 		case 95:
-			goto st812
+			goto st826
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st812
+				goto st826
 			}
 		case data[p] >= 65:
-			goto st812
+			goto st826
 		}
 		goto st0
-tr1142:
+tr1260:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -8645,67 +9465,67 @@ tr1142:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st812
-	st812:
+	goto st826
+	st826:
 		if p++; p == pe {
-			goto _test_eof812
+			goto _test_eof826
 		}
-	st_case_812:
-//line ragel/parse_datetime.go:8655
+	st_case_826:
+//line ragel/parse_datetime.go:9475
 		switch data[p] {
 		case 47:
-			goto st812
+			goto st826
 		case 95:
-			goto st812
+			goto st826
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st812
+				goto st826
 			}
 		case data[p] >= 65:
-			goto st812
+			goto st826
 		}
 		goto st0
-tr348:
+tr395:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st813
-tr353:
+	goto st827
+tr400:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st813
-	st813:
+	goto st827
+	st827:
 		if p++; p == pe {
-			goto _test_eof813
+			goto _test_eof827
 		}
-	st_case_813:
-//line ragel/parse_datetime.go:8686
+	st_case_827:
+//line ragel/parse_datetime.go:9506
 		switch data[p] {
 		case 32:
-			goto tr1119
+			goto tr1227
 		case 58:
-			goto tr1121
+			goto tr1229
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st814
+			goto st828
 		}
 		goto st0
-	st814:
+	st828:
 		if p++; p == pe {
-			goto _test_eof814
+			goto _test_eof828
 		}
-	st_case_814:
+	st_case_828:
 		if data[p] == 32 {
-			goto tr1119
+			goto tr1227
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st814
+			goto st828
 		}
 		goto st0
-tr1121:
+tr1229:
 //line ragel/datetime.rl:148
 
     switch p - pb {
@@ -8715,94 +9535,94 @@ tr1121:
             return
     }
 
-	goto st815
-	st815:
+	goto st829
+	st829:
 		if p++; p == pe {
-			goto _test_eof815
+			goto _test_eof829
 		}
-	st_case_815:
-//line ragel/parse_datetime.go:8725
+	st_case_829:
+//line ragel/parse_datetime.go:9545
 		if data[p] == 32 {
-			goto st267
+			goto st274
 		}
 		switch {
 		case data[p] > 53:
 			if 54 <= data[p] && data[p] <= 57 {
-				goto tr1125
+				goto tr1233
 			}
 		case data[p] >= 48:
-			goto tr1124
+			goto tr1232
 		}
 		goto st0
-tr1124:
+tr1232:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st816
-	st816:
+	goto st830
+	st830:
 		if p++; p == pe {
-			goto _test_eof816
+			goto _test_eof830
 		}
-	st_case_816:
-//line ragel/parse_datetime.go:8747
+	st_case_830:
+//line ragel/parse_datetime.go:9567
 		if data[p] == 32 {
-			goto tr1126
+			goto tr1234
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st817
+			goto st831
 		}
 		goto st0
-tr1125:
+tr1233:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st817
-	st817:
+	goto st831
+	st831:
 		if p++; p == pe {
-			goto _test_eof817
+			goto _test_eof831
 		}
-	st_case_817:
-//line ragel/parse_datetime.go:8764
+	st_case_831:
+//line ragel/parse_datetime.go:9584
 		if data[p] == 32 {
-			goto tr1126
+			goto tr1234
 		}
 		goto st0
-tr347:
+tr394:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st818
-tr352:
+	goto st832
+tr399:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st818
-	st818:
+	goto st832
+	st832:
 		if p++; p == pe {
-			goto _test_eof818
+			goto _test_eof832
 		}
-	st_case_818:
-//line ragel/parse_datetime.go:8784
+	st_case_832:
+//line ragel/parse_datetime.go:9604
 		switch data[p] {
 		case 32:
-			goto tr1119
+			goto tr1227
 		case 58:
-			goto tr1121
+			goto tr1229
 		}
 		switch {
 		case data[p] > 51:
 			if 52 <= data[p] && data[p] <= 57 {
-				goto st814
+				goto st828
 			}
 		case data[p] >= 48:
-			goto st813
+			goto st827
 		}
 		goto st0
-tr1130:
+tr1248:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st270
-tr1141:
+	goto st277
+tr1259:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -8826,14 +9646,45 @@ tr1141:
         }
     }
 
-	goto st270
-tr1145:
+	goto st277
+tr1263:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st270
-tr1153:
+	goto st277
+tr1278:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st277
+tr1272:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -8849,537 +9700,135 @@ tr1153:
             return
     }
 
-	goto st270
-tr1160:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st270
-tr1174:
+	goto st277
+tr1291:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st270
-tr1183:
+	goto st277
+tr1300:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st270
-tr1191:
+	goto st277
+tr1309:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st270
-tr1211:
+	goto st277
+tr1329:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st270
-	st270:
-		if p++; p == pe {
-			goto _test_eof270
-		}
-	st_case_270:
-//line ragel/parse_datetime.go:8914
-		if data[p] == 50 {
-			goto tr352
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr353
-			}
-		case data[p] >= 48:
-			goto tr351
-		}
-		goto st0
-tr345:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1135:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1149:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1179:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1187:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1196:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1163:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1215:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-tr1157:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st819
-	st819:
-		if p++; p == pe {
-			goto _test_eof819
-		}
-	st_case_819:
-//line ragel/parse_datetime.go:9036
-		switch data[p] {
-		case 47:
-			goto st269
-		case 95:
-			goto st269
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st269
-			}
-		case data[p] >= 65:
-			goto st269
-		}
-		goto st0
-tr337:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr334:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr359:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr402:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr406:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr413:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr418:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-tr429:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st271
-	st271:
-		if p++; p == pe {
-			goto _test_eof271
-		}
-	st_case_271:
-//line ragel/parse_datetime.go:9142
-		if data[p] == 77 {
-			goto st272
-		}
-		goto st0
-	st272:
-		if p++; p == pe {
-			goto _test_eof272
-		}
-	st_case_272:
-		if data[p] == 32 {
-			goto tr355
-		}
-		goto st0
-tr355:
-//line ragel/datetime.rl:54
-
-    if st.Hour > 12 {
-        err = errors.New("hour out of range")
-        return st, err
-    }
-    if apm, err := parse_ampm(data[pb:]); err != nil {
-        return st, err
-    } else {
-        switch apm {
-            case AMPM_AM:
-                if (st.Hour == 12) {
-                    st.Hour -= 12; // 12:00:00 am == 00:00:00
-                }
-            case AMPM_PM: {
-                if (st.Hour < 12) {
-                    st.Hour += 12
-                }
-                // else {} // 12:00:00 pm = 12:00:00, do nothing
-            }
-        }
-    }
-
-	goto st273
-tr396:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st273
-tr386:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st273
-	st273:
-		if p++; p == pe {
-			goto _test_eof273
-		}
-	st_case_273:
-//line ragel/parse_datetime.go:9234
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr336
-		}
-		goto st0
-tr338:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr335:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr360:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr403:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr407:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr414:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr419:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-tr430:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st274
-	st274:
-		if p++; p == pe {
-			goto _test_eof274
-		}
-	st_case_274:
-//line ragel/parse_datetime.go:9329
-		if data[p] == 109 {
-			goto st272
-		}
-		goto st0
-	st275:
-		if p++; p == pe {
-			goto _test_eof275
-		}
-	st_case_275:
-		switch data[p] {
-		case 32:
-			goto tr356
-		case 58:
-			goto tr358
-		case 65:
-			goto tr359
-		case 80:
-			goto tr359
-		case 97:
-			goto tr360
-		case 112:
-			goto tr360
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st276
-		}
-		goto st0
-	st276:
-		if p++; p == pe {
-			goto _test_eof276
-		}
-	st_case_276:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st277
-		}
-		goto st0
+	goto st277
 	st277:
 		if p++; p == pe {
 			goto _test_eof277
 		}
 	st_case_277:
-		switch data[p] {
-		case 32:
-			goto tr362
-		case 44:
-			goto tr363
-		case 46:
-			goto tr364
+//line ragel/parse_datetime.go:9734
+		if data[p] == 50 {
+			goto tr399
 		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st302
+		switch {
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr400
+			}
+		case data[p] >= 48:
+			goto tr398
 		}
 		goto st0
-tr362:
+tr392:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1253:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1267:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1296:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1304:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1313:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1281:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1332:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+tr1275:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -9395,313 +9844,135 @@ tr362:
             return
     }
 
-//line ragel/datetime.rl:17
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st833
+	st833:
+		if p++; p == pe {
+			goto _test_eof833
+		}
+	st_case_833:
+//line ragel/parse_datetime.go:9856
+		switch data[p] {
+		case 47:
+			goto st276
+		case 95:
+			goto st276
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st276
+			}
+		case data[p] >= 65:
+			goto st276
+		}
+		goto st0
+tr384:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr381:
+//line ragel/datetime.rl:102
 
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr406:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr442:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr446:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr453:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr458:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st278
+tr469:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
 	goto st278
 	st278:
 		if p++; p == pe {
 			goto _test_eof278
 		}
 	st_case_278:
-//line ragel/parse_datetime.go:9409
-		if data[p] == 50 {
-			goto tr367
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr368
-			}
-		case data[p] >= 48:
-			goto tr366
+//line ragel/parse_datetime.go:9962
+		if data[p] == 77 {
+			goto st279
 		}
 		goto st0
-tr366:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st820
-	st820:
-		if p++; p == pe {
-			goto _test_eof820
-		}
-	st_case_820:
-//line ragel/parse_datetime.go:9431
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st824
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1131
-			}
-		default:
-			goto tr1131
-		}
-		goto st0
-tr1128:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st821
-tr1143:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st821
-tr1198:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st821
-tr1172:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st821
-tr1181:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st821
-tr1189:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st821
-tr1209:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st821
-	st821:
-		if p++; p == pe {
-			goto _test_eof821
-		}
-	st_case_821:
-//line ragel/parse_datetime.go:9541
-		switch data[p] {
-		case 43:
-			goto st266
-		case 45:
-			goto st270
-		case 47:
-			goto tr344
-		case 65:
-			goto tr1137
-		case 80:
-			goto tr1137
-		case 90:
-			goto tr345
-		case 95:
-			goto tr344
-		case 97:
-			goto tr1138
-		case 112:
-			goto tr1138
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr344
-			}
-		case data[p] >= 66:
-			goto tr344
-		}
-		goto st0
-tr1137:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1134:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1148:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1178:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1186:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1195:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1200:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
-tr1214:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st279
 	st279:
 		if p++; p == pe {
 			goto _test_eof279
 		}
 	st_case_279:
-//line ragel/parse_datetime.go:9661
-		switch data[p] {
-		case 47:
-			goto st269
-		case 77:
-			goto st822
-		case 95:
-			goto st269
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st269
-			}
-		case data[p] >= 65:
-			goto st269
+		if data[p] == 32 {
+			goto tr402
 		}
 		goto st0
-	st822:
-		if p++; p == pe {
-			goto _test_eof822
-		}
-	st_case_822:
-		switch data[p] {
-		case 32:
-			goto tr1139
-		case 43:
-			goto tr1140
-		case 45:
-			goto tr1141
-		case 47:
-			goto tr1142
-		case 95:
-			goto tr1142
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1142
-			}
-		case data[p] >= 65:
-			goto tr1142
-		}
-		goto st0
-tr1139:
+tr402:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -9725,25 +9996,8 @@ tr1139:
         }
     }
 
-	goto st823
-tr1171:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st823
-tr1158:
+	goto st280
+tr424:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -9773,12 +10027,8 @@ tr1158:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st823
-tr1151:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
+	goto st280
+tr435:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -9794,1884 +10044,120 @@ tr1151:
             return
     }
 
-	goto st823
-	st823:
-		if p++; p == pe {
-			goto _test_eof823
-		}
-	st_case_823:
-//line ragel/parse_datetime.go:9804
-		switch data[p] {
-		case 43:
-			goto st266
-		case 45:
-			goto st270
-		case 47:
-			goto tr344
-		case 90:
-			goto tr345
-		case 95:
-			goto tr344
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr344
-			}
-		case data[p] >= 65:
-			goto tr344
-		}
-		goto st0
-tr1138:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1136:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1150:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1180:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1188:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1197:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1201:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st280
-tr1216:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
 	goto st280
 	st280:
 		if p++; p == pe {
 			goto _test_eof280
 		}
 	st_case_280:
-//line ragel/parse_datetime.go:9916
-		switch data[p] {
-		case 47:
-			goto st269
-		case 95:
-			goto st269
-		case 109:
-			goto st822
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st269
-			}
-		case data[p] >= 65:
-			goto st269
-		}
-		goto st0
-	st824:
-		if p++; p == pe {
-			goto _test_eof824
-		}
-	st_case_824:
-		switch data[p] {
-		case 32:
-			goto tr1143
-		case 43:
-			goto tr1144
-		case 45:
-			goto tr1145
-		case 47:
-			goto tr1146
-		case 58:
-			goto tr1147
-		case 65:
-			goto tr1148
-		case 80:
-			goto tr1148
-		case 90:
-			goto tr1149
-		case 95:
-			goto tr1146
-		case 97:
-			goto tr1150
-		case 112:
-			goto tr1150
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st281
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1146
-			}
-		default:
-			goto tr1146
-		}
-		goto st0
-	st281:
-		if p++; p == pe {
-			goto _test_eof281
-		}
-	st_case_281:
+//line ragel/parse_datetime.go:10054
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st825
-		}
-		goto st0
-	st825:
-		if p++; p == pe {
-			goto _test_eof825
-		}
-	st_case_825:
-		switch data[p] {
-		case 32:
-			goto tr1151
-		case 43:
-			goto tr1152
-		case 45:
-			goto tr1153
-		case 46:
-			goto tr1154
-		case 47:
-			goto tr1155
-		case 90:
-			goto tr1157
-		case 95:
-			goto tr1155
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st283
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1155
-			}
-		default:
-			goto tr1155
-		}
-		goto st0
-tr1154:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st282
-	st282:
-		if p++; p == pe {
-			goto _test_eof282
-		}
-	st_case_282:
-//line ragel/parse_datetime.go:10041
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr371
-		}
-		goto st0
-tr371:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st826
-	st826:
-		if p++; p == pe {
-			goto _test_eof826
-		}
-	st_case_826:
-//line ragel/parse_datetime.go:10055
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st827
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st827:
-		if p++; p == pe {
-			goto _test_eof827
-		}
-	st_case_827:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st828
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st828:
-		if p++; p == pe {
-			goto _test_eof828
-		}
-	st_case_828:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st829
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st829:
-		if p++; p == pe {
-			goto _test_eof829
-		}
-	st_case_829:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st830
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st830:
-		if p++; p == pe {
-			goto _test_eof830
-		}
-	st_case_830:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st831
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st831:
-		if p++; p == pe {
-			goto _test_eof831
-		}
-	st_case_831:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st832
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st832:
-		if p++; p == pe {
-			goto _test_eof832
-		}
-	st_case_832:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st833
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st833:
-		if p++; p == pe {
-			goto _test_eof833
-		}
-	st_case_833:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st834
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st834:
-		if p++; p == pe {
-			goto _test_eof834
-		}
-	st_case_834:
-		switch data[p] {
-		case 32:
-			goto tr1158
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		case data[p] >= 65:
-			goto tr1161
-		}
-		goto st0
-	st283:
-		if p++; p == pe {
-			goto _test_eof283
-		}
-	st_case_283:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st835
-		}
-		goto st0
-	st835:
-		if p++; p == pe {
-			goto _test_eof835
-		}
-	st_case_835:
-		switch data[p] {
-		case 32:
-			goto tr1171
-		case 43:
-			goto tr1152
-		case 45:
-			goto tr1153
-		case 46:
-			goto tr1154
-		case 47:
-			goto tr1155
-		case 90:
-			goto tr1157
-		case 95:
-			goto tr1155
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1155
-			}
-		case data[p] >= 65:
-			goto tr1155
-		}
-		goto st0
-tr1133:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st284
-tr1147:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st284
-	st284:
-		if p++; p == pe {
-			goto _test_eof284
-		}
-	st_case_284:
-//line ragel/parse_datetime.go:10391
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr374
-			}
-		case data[p] >= 48:
-			goto tr373
-		}
-		goto st0
-tr373:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st836
-	st836:
-		if p++; p == pe {
-			goto _test_eof836
-		}
-	st_case_836:
-//line ragel/parse_datetime.go:10410
-		switch data[p] {
-		case 32:
-			goto tr1172
-		case 43:
-			goto tr1173
-		case 45:
-			goto tr1174
-		case 47:
-			goto tr1175
-		case 58:
-			goto tr1177
-		case 65:
-			goto tr1178
-		case 80:
-			goto tr1178
-		case 90:
-			goto tr1179
-		case 95:
-			goto tr1175
-		case 97:
-			goto tr1180
-		case 112:
-			goto tr1180
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st837
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1175
-			}
-		default:
-			goto tr1175
-		}
-		goto st0
-	st837:
-		if p++; p == pe {
-			goto _test_eof837
-		}
-	st_case_837:
-		switch data[p] {
-		case 32:
-			goto tr1181
-		case 43:
-			goto tr1182
-		case 45:
-			goto tr1183
-		case 47:
-			goto tr1184
-		case 58:
-			goto tr1185
-		case 65:
-			goto tr1186
-		case 80:
-			goto tr1186
-		case 90:
-			goto tr1187
-		case 95:
-			goto tr1184
-		case 97:
-			goto tr1188
-		case 112:
-			goto tr1188
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1184
-			}
-		case data[p] >= 66:
-			goto tr1184
-		}
-		goto st0
-tr1177:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st285
-tr1185:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st285
-	st285:
-		if p++; p == pe {
-			goto _test_eof285
-		}
-	st_case_285:
-//line ragel/parse_datetime.go:10503
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr376
-			}
-		case data[p] >= 48:
-			goto tr375
-		}
-		goto st0
-tr375:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st838
-	st838:
-		if p++; p == pe {
-			goto _test_eof838
-		}
-	st_case_838:
-//line ragel/parse_datetime.go:10522
-		switch data[p] {
-		case 32:
-			goto tr1189
-		case 43:
-			goto tr1190
-		case 45:
-			goto tr1191
-		case 46:
-			goto tr1192
-		case 47:
-			goto tr1193
-		case 65:
-			goto tr1195
-		case 80:
-			goto tr1195
-		case 90:
-			goto tr1196
-		case 95:
-			goto tr1193
-		case 97:
-			goto tr1197
-		case 112:
-			goto tr1197
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st848
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1193
-			}
-		default:
-			goto tr1193
-		}
-		goto st0
-tr1192:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st286
-tr1212:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st286
-	st286:
-		if p++; p == pe {
-			goto _test_eof286
-		}
-	st_case_286:
-//line ragel/parse_datetime.go:10577
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr377
-		}
-		goto st0
-tr377:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st839
-	st839:
-		if p++; p == pe {
-			goto _test_eof839
-		}
-	st_case_839:
-//line ragel/parse_datetime.go:10591
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st840
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st840:
-		if p++; p == pe {
-			goto _test_eof840
-		}
-	st_case_840:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st841
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st841:
-		if p++; p == pe {
-			goto _test_eof841
-		}
-	st_case_841:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st842
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st842:
-		if p++; p == pe {
-			goto _test_eof842
-		}
-	st_case_842:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st843
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st843:
-		if p++; p == pe {
-			goto _test_eof843
-		}
-	st_case_843:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st844
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st844:
-		if p++; p == pe {
-			goto _test_eof844
-		}
-	st_case_844:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st845
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st845:
-		if p++; p == pe {
-			goto _test_eof845
-		}
-	st_case_845:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st846
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st846:
-		if p++; p == pe {
-			goto _test_eof846
-		}
-	st_case_846:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st847
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		default:
-			goto tr1161
-		}
-		goto st0
-	st847:
-		if p++; p == pe {
-			goto _test_eof847
-		}
-	st_case_847:
-		switch data[p] {
-		case 32:
-			goto tr1198
-		case 43:
-			goto tr1159
-		case 45:
-			goto tr1160
-		case 47:
-			goto tr1161
-		case 65:
-			goto tr1200
-		case 80:
-			goto tr1200
-		case 90:
-			goto tr1163
-		case 95:
-			goto tr1161
-		case 97:
-			goto tr1201
-		case 112:
-			goto tr1201
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1161
-			}
-		case data[p] >= 66:
-			goto tr1161
-		}
-		goto st0
-	st848:
-		if p++; p == pe {
-			goto _test_eof848
-		}
-	st_case_848:
-		switch data[p] {
-		case 32:
-			goto tr1209
-		case 43:
-			goto tr1210
-		case 45:
-			goto tr1211
-		case 46:
-			goto tr1212
-		case 47:
-			goto tr1213
-		case 65:
-			goto tr1214
-		case 80:
-			goto tr1214
-		case 90:
-			goto tr1215
-		case 95:
-			goto tr1213
-		case 97:
-			goto tr1216
-		case 112:
-			goto tr1216
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1213
-			}
-		case data[p] >= 66:
-			goto tr1213
-		}
-		goto st0
-tr376:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st849
-	st849:
-		if p++; p == pe {
-			goto _test_eof849
-		}
-	st_case_849:
-//line ragel/parse_datetime.go:10990
-		switch data[p] {
-		case 32:
-			goto tr1189
-		case 43:
-			goto tr1190
-		case 45:
-			goto tr1191
-		case 46:
-			goto tr1192
-		case 47:
-			goto tr1193
-		case 65:
-			goto tr1195
-		case 80:
-			goto tr1195
-		case 90:
-			goto tr1196
-		case 95:
-			goto tr1193
-		case 97:
-			goto tr1197
-		case 112:
-			goto tr1197
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1193
-			}
-		case data[p] >= 66:
-			goto tr1193
-		}
-		goto st0
-tr374:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st850
-	st850:
-		if p++; p == pe {
-			goto _test_eof850
-		}
-	st_case_850:
-//line ragel/parse_datetime.go:11033
-		switch data[p] {
-		case 32:
-			goto tr1172
-		case 43:
-			goto tr1173
-		case 45:
-			goto tr1174
-		case 47:
-			goto tr1175
-		case 58:
-			goto tr1177
-		case 65:
-			goto tr1178
-		case 80:
-			goto tr1178
-		case 90:
-			goto tr1179
-		case 95:
-			goto tr1175
-		case 97:
-			goto tr1180
-		case 112:
-			goto tr1180
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1175
-			}
-		case data[p] >= 66:
-			goto tr1175
-		}
-		goto st0
-tr367:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st851
-	st851:
-		if p++; p == pe {
-			goto _test_eof851
-		}
-	st_case_851:
-//line ragel/parse_datetime.go:11076
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 52:
-			if 48 <= data[p] && data[p] <= 51 {
-				goto st824
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 89:
-				if 98 <= data[p] && data[p] <= 122 {
-					goto tr1131
-				}
-			case data[p] >= 66:
-				goto tr1131
-			}
-		default:
-			goto st287
-		}
-		goto st0
-	st287:
-		if p++; p == pe {
-			goto _test_eof287
-		}
-	st_case_287:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st281
-		}
-		goto st0
-tr368:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st852
-	st852:
-		if p++; p == pe {
-			goto _test_eof852
-		}
-	st_case_852:
-//line ragel/parse_datetime.go:11137
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st287
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1131
-			}
-		default:
-			goto tr1131
-		}
-		goto st0
-tr363:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-	goto st288
-	st288:
-		if p++; p == pe {
-			goto _test_eof288
-		}
-	st_case_288:
-//line ragel/parse_datetime.go:11186
-		if data[p] == 32 {
-			goto st289
-		}
-		goto st0
-tr437:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
-	goto st289
-	st289:
-		if p++; p == pe {
-			goto _test_eof289
-		}
-	st_case_289:
-//line ragel/parse_datetime.go:11202
-		if data[p] == 50 {
-			goto tr381
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr382
-			}
-		case data[p] >= 48:
-			goto tr380
-		}
-		goto st0
-tr380:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st853
-	st853:
-		if p++; p == pe {
-			goto _test_eof853
-		}
-	st_case_853:
-//line ragel/parse_datetime.go:11224
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st854
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1131
-			}
-		default:
-			goto tr1131
-		}
-		goto st0
-	st854:
-		if p++; p == pe {
-			goto _test_eof854
-		}
-	st_case_854:
-		switch data[p] {
-		case 32:
-			goto tr1143
-		case 43:
-			goto tr1144
-		case 45:
-			goto tr1145
-		case 47:
-			goto tr1146
-		case 58:
-			goto tr1147
-		case 65:
-			goto tr1148
-		case 80:
-			goto tr1148
-		case 90:
-			goto tr1149
-		case 95:
-			goto tr1146
-		case 97:
-			goto tr1150
-		case 112:
-			goto tr1150
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st290
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1146
-			}
-		default:
-			goto tr1146
-		}
-		goto st0
-	st290:
-		if p++; p == pe {
-			goto _test_eof290
-		}
-	st_case_290:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st855
-		}
-		goto st0
-	st855:
-		if p++; p == pe {
-			goto _test_eof855
-		}
-	st_case_855:
-		switch data[p] {
-		case 32:
-			goto tr1171
-		case 43:
-			goto tr1152
-		case 45:
-			goto tr1153
-		case 46:
-			goto tr1154
-		case 47:
-			goto tr1155
-		case 90:
-			goto tr1157
-		case 95:
-			goto tr1155
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st283
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr1155
-			}
-		default:
-			goto tr1155
-		}
-		goto st0
-tr381:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st856
-	st856:
-		if p++; p == pe {
-			goto _test_eof856
-		}
-	st_case_856:
-//line ragel/parse_datetime.go:11356
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 52:
-			if 48 <= data[p] && data[p] <= 51 {
-				goto st854
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 89:
-				if 98 <= data[p] && data[p] <= 122 {
-					goto tr1131
-				}
-			case data[p] >= 66:
-				goto tr1131
-			}
-		default:
-			goto st291
-		}
-		goto st0
-	st291:
-		if p++; p == pe {
-			goto _test_eof291
-		}
-	st_case_291:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st290
-		}
-		goto st0
-tr382:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st857
-	st857:
-		if p++; p == pe {
-			goto _test_eof857
-		}
-	st_case_857:
-//line ragel/parse_datetime.go:11417
-		switch data[p] {
-		case 32:
-			goto tr1128
-		case 43:
-			goto tr1129
-		case 45:
-			goto tr1130
-		case 47:
-			goto tr1131
-		case 58:
-			goto tr1133
-		case 65:
-			goto tr1134
-		case 80:
-			goto tr1134
-		case 90:
-			goto tr1135
-		case 95:
-			goto tr1131
-		case 97:
-			goto tr1136
-		case 112:
-			goto tr1136
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st291
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr1131
-			}
-		default:
-			goto tr1131
-		}
-		goto st0
-tr364:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st292
-	st292:
-		if p++; p == pe {
-			goto _test_eof292
-		}
-	st_case_292:
-//line ragel/parse_datetime.go:11477
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr385
+			goto tr383
 		}
 		goto st0
 tr385:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st293
-	st293:
-		if p++; p == pe {
-			goto _test_eof293
-		}
-	st_case_293:
-//line ragel/parse_datetime.go:11491
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st294
-		}
-		goto st0
-	st294:
-		if p++; p == pe {
-			goto _test_eof294
-		}
-	st_case_294:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st295
-		}
-		goto st0
-	st295:
-		if p++; p == pe {
-			goto _test_eof295
-		}
-	st_case_295:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st296
-		}
-		goto st0
-	st296:
-		if p++; p == pe {
-			goto _test_eof296
-		}
-	st_case_296:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st297
-		}
-		goto st0
-	st297:
-		if p++; p == pe {
-			goto _test_eof297
-		}
-	st_case_297:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st298
-		}
-		goto st0
-	st298:
-		if p++; p == pe {
-			goto _test_eof298
-		}
-	st_case_298:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st299
-		}
-		goto st0
-	st299:
-		if p++; p == pe {
-			goto _test_eof299
-		}
-	st_case_299:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st300
-		}
-		goto st0
-	st300:
-		if p++; p == pe {
-			goto _test_eof300
-		}
-	st_case_300:
-		if data[p] == 32 {
-			goto tr386
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st301
-		}
-		goto st0
-	st301:
-		if p++; p == pe {
-			goto _test_eof301
-		}
-	st_case_301:
-		if data[p] == 32 {
-			goto tr386
-		}
-		goto st0
-	st302:
-		if p++; p == pe {
-			goto _test_eof302
-		}
-	st_case_302:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st303
-		}
-		goto st0
-	st303:
-		if p++; p == pe {
-			goto _test_eof303
-		}
-	st_case_303:
-		switch data[p] {
-		case 32:
-			goto tr396
-		case 46:
-			goto tr364
-		}
-		goto st0
-tr333:
+	goto st281
+tr382:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st304
-tr358:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+tr407:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st304
-	st304:
-		if p++; p == pe {
-			goto _test_eof304
-		}
-	st_case_304:
-//line ragel/parse_datetime.go:11630
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr398
-			}
-		case data[p] >= 48:
-			goto tr397
-		}
-		goto st0
-tr397:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st305
-	st305:
+	goto st281
+tr443:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+tr447:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+tr454:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+tr459:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+tr470:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st281
+	st281:
 		if p++; p == pe {
-			goto _test_eof305
+			goto _test_eof281
 		}
-	st_case_305:
-//line ragel/parse_datetime.go:11649
-		switch data[p] {
-		case 32:
-			goto tr399
-		case 58:
-			goto tr401
-		case 65:
-			goto tr402
-		case 80:
-			goto tr402
-		case 97:
-			goto tr403
-		case 112:
-			goto tr403
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st306
+	st_case_281:
+//line ragel/parse_datetime.go:10149
+		if data[p] == 109 {
+			goto st279
 		}
 		goto st0
-	st306:
+	st282:
 		if p++; p == pe {
-			goto _test_eof306
+			goto _test_eof282
 		}
-	st_case_306:
+	st_case_282:
 		switch data[p] {
 		case 32:
-			goto tr404
+			goto tr403
 		case 58:
 			goto tr405
 		case 65:
@@ -11683,189 +10169,2504 @@ tr397:
 		case 112:
 			goto tr407
 		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st283
+		}
 		goto st0
-tr401:
+	st283:
+		if p++; p == pe {
+			goto _test_eof283
+		}
+	st_case_283:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st834
+		}
+		goto st0
+	st834:
+		if p++; p == pe {
+			goto _test_eof834
+		}
+	st_case_834:
+		switch data[p] {
+		case 32:
+			goto tr1236
+		case 43:
+			goto tr1220
+		case 44:
+			goto tr1237
+		case 45:
+			goto tr1221
+		case 46:
+			goto tr436
+		case 47:
+			goto tr1222
+		case 84:
+			goto tr1223
+		case 90:
+			goto tr1224
+		case 95:
+			goto tr1225
+		case 116:
+			goto tr1225
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st306
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1222
+			}
+		default:
+			goto tr1222
+		}
+		goto st0
+tr1236:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st835
+	st835:
+		if p++; p == pe {
+			goto _test_eof835
+		}
+	st_case_835:
+//line ragel/parse_datetime.go:10252
+		switch data[p] {
+		case 32:
+			goto st11
+		case 43:
+			goto st14
+		case 45:
+			goto st20
+		case 47:
+			goto tr50
+		case 50:
+			goto tr1240
+		case 65:
+			goto tr51
+		case 66:
+			goto tr52
+		case 90:
+			goto tr1093
+		case 95:
+			goto tr50
+		}
+		switch {
+		case data[p] < 51:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto tr1239
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr50
+				}
+			case data[p] >= 67:
+				goto tr50
+			}
+		default:
+			goto tr1241
+		}
+		goto st0
+tr1239:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st836
+	st836:
+		if p++; p == pe {
+			goto _test_eof836
+		}
+	st_case_836:
+//line ragel/parse_datetime.go:10300
+		switch data[p] {
+		case 32:
+			goto tr1104
+		case 43:
+			goto tr1105
+		case 45:
+			goto tr1106
+		case 47:
+			goto tr1107
+		case 58:
+			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
+		case 95:
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st837
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1107
+			}
+		default:
+			goto tr1107
+		}
+		goto st0
+	st837:
+		if p++; p == pe {
+			goto _test_eof837
+		}
+	st_case_837:
+		switch data[p] {
+		case 32:
+			goto tr1121
+		case 43:
+			goto tr1122
+		case 45:
+			goto tr1123
+		case 47:
+			goto tr1124
+		case 58:
+			goto tr1125
+		case 65:
+			goto tr1126
+		case 80:
+			goto tr1126
+		case 90:
+			goto tr1127
+		case 95:
+			goto tr1124
+		case 97:
+			goto tr1128
+		case 112:
+			goto tr1128
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st284
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1124
+			}
+		default:
+			goto tr1124
+		}
+		goto st0
+	st284:
+		if p++; p == pe {
+			goto _test_eof284
+		}
+	st_case_284:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st838
+		}
+		goto st0
+	st838:
+		if p++; p == pe {
+			goto _test_eof838
+		}
+	st_case_838:
+		switch data[p] {
+		case 32:
+			goto tr1243
+		case 43:
+			goto tr1130
+		case 45:
+			goto tr1132
+		case 47:
+			goto tr1133
+		case 90:
+			goto tr1135
+		case 95:
+			goto tr1133
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1131
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr1133
+				}
+			case data[p] >= 65:
+				goto tr1133
+			}
+		default:
+			goto st26
+		}
+		goto st0
+tr1240:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st839
+	st839:
+		if p++; p == pe {
+			goto _test_eof839
+		}
+	st_case_839:
+//line ragel/parse_datetime.go:10435
+		switch data[p] {
+		case 32:
+			goto tr1104
+		case 43:
+			goto tr1105
+		case 45:
+			goto tr1106
+		case 47:
+			goto tr1107
+		case 58:
+			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
+		case 95:
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 52:
+			if 48 <= data[p] && data[p] <= 51 {
+				goto st837
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr1107
+				}
+			case data[p] >= 66:
+				goto tr1107
+			}
+		default:
+			goto st285
+		}
+		goto st0
+	st285:
+		if p++; p == pe {
+			goto _test_eof285
+		}
+	st_case_285:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st284
+		}
+		goto st0
+tr1241:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st840
+	st840:
+		if p++; p == pe {
+			goto _test_eof840
+		}
+	st_case_840:
+//line ragel/parse_datetime.go:10496
+		switch data[p] {
+		case 32:
+			goto tr1104
+		case 43:
+			goto tr1105
+		case 45:
+			goto tr1106
+		case 47:
+			goto tr1107
+		case 58:
+			goto tr1109
+		case 65:
+			goto tr1110
+		case 80:
+			goto tr1110
+		case 90:
+			goto tr1111
+		case 95:
+			goto tr1107
+		case 97:
+			goto tr1112
+		case 112:
+			goto tr1112
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st285
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1107
+			}
+		default:
+			goto tr1107
+		}
+		goto st0
+tr1237:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+	goto st841
+	st841:
+		if p++; p == pe {
+			goto _test_eof841
+		}
+	st_case_841:
+//line ragel/parse_datetime.go:10560
+		if data[p] == 32 {
+			goto st286
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr433
+		}
+		goto st0
+tr1335:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+	goto st286
+	st286:
+		if p++; p == pe {
+			goto _test_eof286
+		}
+	st_case_286:
+//line ragel/parse_datetime.go:10579
+		if data[p] == 50 {
+			goto tr412
+		}
+		switch {
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr413
+			}
+		case data[p] >= 48:
+			goto tr411
+		}
+		goto st0
+tr411:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st842
+	st842:
+		if p++; p == pe {
+			goto _test_eof842
+		}
+	st_case_842:
+//line ragel/parse_datetime.go:10601
+		switch data[p] {
+		case 32:
+			goto tr1246
+		case 43:
+			goto tr1247
+		case 45:
+			goto tr1248
+		case 47:
+			goto tr1249
+		case 58:
+			goto tr1251
+		case 65:
+			goto tr1252
+		case 80:
+			goto tr1252
+		case 90:
+			goto tr1253
+		case 95:
+			goto tr1249
+		case 97:
+			goto tr1254
+		case 112:
+			goto tr1254
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st846
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1249
+			}
+		default:
+			goto tr1249
+		}
+		goto st0
+tr1246:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st843
+tr1261:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st843
+tr1315:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st843
+tr1289:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st307
-tr405:
+	goto st843
+tr1298:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st307
+	goto st843
+tr1306:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st843
+tr1326:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st843
+	st843:
+		if p++; p == pe {
+			goto _test_eof843
+		}
+	st_case_843:
+//line ragel/parse_datetime.go:10711
+		switch data[p] {
+		case 43:
+			goto st273
+		case 45:
+			goto st277
+		case 47:
+			goto tr391
+		case 65:
+			goto tr1255
+		case 80:
+			goto tr1255
+		case 90:
+			goto tr392
+		case 95:
+			goto tr391
+		case 97:
+			goto tr1256
+		case 112:
+			goto tr1256
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr391
+			}
+		case data[p] >= 66:
+			goto tr391
+		}
+		goto st0
+tr1255:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1252:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1266:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1295:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1303:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1312:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1317:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+tr1331:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st287
+	st287:
+		if p++; p == pe {
+			goto _test_eof287
+		}
+	st_case_287:
+//line ragel/parse_datetime.go:10831
+		switch data[p] {
+		case 47:
+			goto st276
+		case 77:
+			goto st844
+		case 95:
+			goto st276
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st276
+			}
+		case data[p] >= 65:
+			goto st276
+		}
+		goto st0
+	st844:
+		if p++; p == pe {
+			goto _test_eof844
+		}
+	st_case_844:
+		switch data[p] {
+		case 32:
+			goto tr1257
+		case 43:
+			goto tr1258
+		case 45:
+			goto tr1259
+		case 47:
+			goto tr1260
+		case 95:
+			goto tr1260
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1260
+			}
+		case data[p] >= 65:
+			goto tr1260
+		}
+		goto st0
+tr1257:
+//line ragel/datetime.rl:54
+
+    if st.Hour > 12 {
+        err = errors.New("hour out of range")
+        return st, err
+    }
+    if apm, err := parse_ampm(data[pb:]); err != nil {
+        return st, err
+    } else {
+        switch apm {
+            case AMPM_AM:
+                if (st.Hour == 12) {
+                    st.Hour -= 12; // 12:00:00 am == 00:00:00
+                }
+            case AMPM_PM: {
+                if (st.Hour < 12) {
+                    st.Hour += 12
+                }
+                // else {} // 12:00:00 pm = 12:00:00, do nothing
+            }
+        }
+    }
+
+	goto st845
+tr1276:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st845
+tr1269:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st845
+	st845:
+		if p++; p == pe {
+			goto _test_eof845
+		}
+	st_case_845:
+//line ragel/parse_datetime.go:10953
+		switch data[p] {
+		case 43:
+			goto st273
+		case 45:
+			goto st277
+		case 47:
+			goto tr391
+		case 90:
+			goto tr392
+		case 95:
+			goto tr391
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr391
+			}
+		case data[p] >= 65:
+			goto tr391
+		}
+		goto st0
+tr1256:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1254:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1268:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1297:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1305:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1314:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1318:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+tr1333:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st288
+	st288:
+		if p++; p == pe {
+			goto _test_eof288
+		}
+	st_case_288:
+//line ragel/parse_datetime.go:11065
+		switch data[p] {
+		case 47:
+			goto st276
+		case 95:
+			goto st276
+		case 109:
+			goto st844
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st276
+			}
+		case data[p] >= 65:
+			goto st276
+		}
+		goto st0
+	st846:
+		if p++; p == pe {
+			goto _test_eof846
+		}
+	st_case_846:
+		switch data[p] {
+		case 32:
+			goto tr1261
+		case 43:
+			goto tr1262
+		case 45:
+			goto tr1263
+		case 47:
+			goto tr1264
+		case 58:
+			goto tr1265
+		case 65:
+			goto tr1266
+		case 80:
+			goto tr1266
+		case 90:
+			goto tr1267
+		case 95:
+			goto tr1264
+		case 97:
+			goto tr1268
+		case 112:
+			goto tr1268
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st289
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1264
+			}
+		default:
+			goto tr1264
+		}
+		goto st0
+	st289:
+		if p++; p == pe {
+			goto _test_eof289
+		}
+	st_case_289:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st847
+		}
+		goto st0
+	st847:
+		if p++; p == pe {
+			goto _test_eof847
+		}
+	st_case_847:
+		switch data[p] {
+		case 32:
+			goto tr1269
+		case 43:
+			goto tr1270
+		case 45:
+			goto tr1272
+		case 47:
+			goto tr1273
+		case 90:
+			goto tr1275
+		case 95:
+			goto tr1273
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1271
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr1273
+				}
+			case data[p] >= 65:
+				goto tr1273
+			}
+		default:
+			goto st291
+		}
+		goto st0
+tr1271:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st290
+	st290:
+		if p++; p == pe {
+			goto _test_eof290
+		}
+	st_case_290:
+//line ragel/parse_datetime.go:11193
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr416
+		}
+		goto st0
+tr416:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st848
+	st848:
+		if p++; p == pe {
+			goto _test_eof848
+		}
+	st_case_848:
+//line ragel/parse_datetime.go:11207
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st849
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st849:
+		if p++; p == pe {
+			goto _test_eof849
+		}
+	st_case_849:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st850
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st850:
+		if p++; p == pe {
+			goto _test_eof850
+		}
+	st_case_850:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st851
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st851:
+		if p++; p == pe {
+			goto _test_eof851
+		}
+	st_case_851:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st852
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st852:
+		if p++; p == pe {
+			goto _test_eof852
+		}
+	st_case_852:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st853
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st853:
+		if p++; p == pe {
+			goto _test_eof853
+		}
+	st_case_853:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st854
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st854:
+		if p++; p == pe {
+			goto _test_eof854
+		}
+	st_case_854:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st855
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st855:
+		if p++; p == pe {
+			goto _test_eof855
+		}
+	st_case_855:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st856
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st856:
+		if p++; p == pe {
+			goto _test_eof856
+		}
+	st_case_856:
+		switch data[p] {
+		case 32:
+			goto tr1276
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		case data[p] >= 65:
+			goto tr1279
+		}
+		goto st0
+	st291:
+		if p++; p == pe {
+			goto _test_eof291
+		}
+	st_case_291:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st857
+		}
+		goto st0
+	st857:
+		if p++; p == pe {
+			goto _test_eof857
+		}
+	st_case_857:
+		switch data[p] {
+		case 32:
+			goto tr1269
+		case 43:
+			goto tr1270
+		case 45:
+			goto tr1272
+		case 47:
+			goto tr1273
+		case 90:
+			goto tr1275
+		case 95:
+			goto tr1273
+		}
+		switch {
+		case data[p] < 65:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1271
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1273
+			}
+		default:
+			goto tr1273
+		}
+		goto st0
+tr1251:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st292
+tr1265:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st292
+	st292:
+		if p++; p == pe {
+			goto _test_eof292
+		}
+	st_case_292:
+//line ragel/parse_datetime.go:11545
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr419
+			}
+		case data[p] >= 48:
+			goto tr418
+		}
+		goto st0
+tr418:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st858
+	st858:
+		if p++; p == pe {
+			goto _test_eof858
+		}
+	st_case_858:
+//line ragel/parse_datetime.go:11564
+		switch data[p] {
+		case 32:
+			goto tr1289
+		case 43:
+			goto tr1290
+		case 45:
+			goto tr1291
+		case 47:
+			goto tr1292
+		case 58:
+			goto tr1294
+		case 65:
+			goto tr1295
+		case 80:
+			goto tr1295
+		case 90:
+			goto tr1296
+		case 95:
+			goto tr1292
+		case 97:
+			goto tr1297
+		case 112:
+			goto tr1297
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st859
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1292
+			}
+		default:
+			goto tr1292
+		}
+		goto st0
+	st859:
+		if p++; p == pe {
+			goto _test_eof859
+		}
+	st_case_859:
+		switch data[p] {
+		case 32:
+			goto tr1298
+		case 43:
+			goto tr1299
+		case 45:
+			goto tr1300
+		case 47:
+			goto tr1301
+		case 58:
+			goto tr1302
+		case 65:
+			goto tr1303
+		case 80:
+			goto tr1303
+		case 90:
+			goto tr1304
+		case 95:
+			goto tr1301
+		case 97:
+			goto tr1305
+		case 112:
+			goto tr1305
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1301
+			}
+		case data[p] >= 66:
+			goto tr1301
+		}
+		goto st0
+tr1294:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st293
+tr1302:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st293
+	st293:
+		if p++; p == pe {
+			goto _test_eof293
+		}
+	st_case_293:
+//line ragel/parse_datetime.go:11657
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr421
+			}
+		case data[p] >= 48:
+			goto tr420
+		}
+		goto st0
+tr420:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st860
+	st860:
+		if p++; p == pe {
+			goto _test_eof860
+		}
+	st_case_860:
+//line ragel/parse_datetime.go:11676
+		switch data[p] {
+		case 32:
+			goto tr1306
+		case 43:
+			goto tr1307
+		case 45:
+			goto tr1309
+		case 47:
+			goto tr1310
+		case 65:
+			goto tr1312
+		case 80:
+			goto tr1312
+		case 90:
+			goto tr1313
+		case 95:
+			goto tr1310
+		case 97:
+			goto tr1314
+		case 112:
+			goto tr1314
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1308
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr1310
+				}
+			case data[p] >= 66:
+				goto tr1310
+			}
+		default:
+			goto st870
+		}
+		goto st0
+tr1308:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st294
+tr1328:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st294
+	st294:
+		if p++; p == pe {
+			goto _test_eof294
+		}
+	st_case_294:
+//line ragel/parse_datetime.go:11734
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr422
+		}
+		goto st0
+tr422:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st861
+	st861:
+		if p++; p == pe {
+			goto _test_eof861
+		}
+	st_case_861:
+//line ragel/parse_datetime.go:11748
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st862
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st862:
+		if p++; p == pe {
+			goto _test_eof862
+		}
+	st_case_862:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st863
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st863:
+		if p++; p == pe {
+			goto _test_eof863
+		}
+	st_case_863:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st864
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st864:
+		if p++; p == pe {
+			goto _test_eof864
+		}
+	st_case_864:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st865
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st865:
+		if p++; p == pe {
+			goto _test_eof865
+		}
+	st_case_865:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st866
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st866:
+		if p++; p == pe {
+			goto _test_eof866
+		}
+	st_case_866:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st867
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st867:
+		if p++; p == pe {
+			goto _test_eof867
+		}
+	st_case_867:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st868
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st868:
+		if p++; p == pe {
+			goto _test_eof868
+		}
+	st_case_868:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st869
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		default:
+			goto tr1279
+		}
+		goto st0
+	st869:
+		if p++; p == pe {
+			goto _test_eof869
+		}
+	st_case_869:
+		switch data[p] {
+		case 32:
+			goto tr1315
+		case 43:
+			goto tr1277
+		case 45:
+			goto tr1278
+		case 47:
+			goto tr1279
+		case 65:
+			goto tr1317
+		case 80:
+			goto tr1317
+		case 90:
+			goto tr1281
+		case 95:
+			goto tr1279
+		case 97:
+			goto tr1318
+		case 112:
+			goto tr1318
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1279
+			}
+		case data[p] >= 66:
+			goto tr1279
+		}
+		goto st0
+	st870:
+		if p++; p == pe {
+			goto _test_eof870
+		}
+	st_case_870:
+		switch data[p] {
+		case 32:
+			goto tr1326
+		case 43:
+			goto tr1327
+		case 45:
+			goto tr1329
+		case 47:
+			goto tr1330
+		case 65:
+			goto tr1331
+		case 80:
+			goto tr1331
+		case 90:
+			goto tr1332
+		case 95:
+			goto tr1330
+		case 97:
+			goto tr1333
+		case 112:
+			goto tr1333
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1328
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1330
+			}
+		default:
+			goto tr1330
+		}
+		goto st0
+tr421:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st871
+	st871:
+		if p++; p == pe {
+			goto _test_eof871
+		}
+	st_case_871:
+//line ragel/parse_datetime.go:12149
+		switch data[p] {
+		case 32:
+			goto tr1306
+		case 43:
+			goto tr1307
+		case 45:
+			goto tr1309
+		case 47:
+			goto tr1310
+		case 65:
+			goto tr1312
+		case 80:
+			goto tr1312
+		case 90:
+			goto tr1313
+		case 95:
+			goto tr1310
+		case 97:
+			goto tr1314
+		case 112:
+			goto tr1314
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr1308
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1310
+			}
+		default:
+			goto tr1310
+		}
+		goto st0
+tr419:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st872
+	st872:
+		if p++; p == pe {
+			goto _test_eof872
+		}
+	st_case_872:
+//line ragel/parse_datetime.go:12194
+		switch data[p] {
+		case 32:
+			goto tr1289
+		case 43:
+			goto tr1290
+		case 45:
+			goto tr1291
+		case 47:
+			goto tr1292
+		case 58:
+			goto tr1294
+		case 65:
+			goto tr1295
+		case 80:
+			goto tr1295
+		case 90:
+			goto tr1296
+		case 95:
+			goto tr1292
+		case 97:
+			goto tr1297
+		case 112:
+			goto tr1297
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1292
+			}
+		case data[p] >= 66:
+			goto tr1292
+		}
+		goto st0
+tr412:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st873
+	st873:
+		if p++; p == pe {
+			goto _test_eof873
+		}
+	st_case_873:
+//line ragel/parse_datetime.go:12237
+		switch data[p] {
+		case 32:
+			goto tr1246
+		case 43:
+			goto tr1247
+		case 45:
+			goto tr1248
+		case 47:
+			goto tr1249
+		case 58:
+			goto tr1251
+		case 65:
+			goto tr1252
+		case 80:
+			goto tr1252
+		case 90:
+			goto tr1253
+		case 95:
+			goto tr1249
+		case 97:
+			goto tr1254
+		case 112:
+			goto tr1254
+		}
+		switch {
+		case data[p] < 52:
+			if 48 <= data[p] && data[p] <= 51 {
+				goto st846
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr1249
+				}
+			case data[p] >= 66:
+				goto tr1249
+			}
+		default:
+			goto st295
+		}
+		goto st0
+	st295:
+		if p++; p == pe {
+			goto _test_eof295
+		}
+	st_case_295:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st289
+		}
+		goto st0
+tr413:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st874
+	st874:
+		if p++; p == pe {
+			goto _test_eof874
+		}
+	st_case_874:
+//line ragel/parse_datetime.go:12298
+		switch data[p] {
+		case 32:
+			goto tr1246
+		case 43:
+			goto tr1247
+		case 45:
+			goto tr1248
+		case 47:
+			goto tr1249
+		case 58:
+			goto tr1251
+		case 65:
+			goto tr1252
+		case 80:
+			goto tr1252
+		case 90:
+			goto tr1253
+		case 95:
+			goto tr1249
+		case 97:
+			goto tr1254
+		case 112:
+			goto tr1254
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st295
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr1249
+			}
+		default:
+			goto tr1249
+		}
+		goto st0
+tr433:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st296
+	st296:
+		if p++; p == pe {
+			goto _test_eof296
+		}
+	st_case_296:
+//line ragel/parse_datetime.go:12345
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st297
+		}
+		goto st0
+	st297:
+		if p++; p == pe {
+			goto _test_eof297
+		}
+	st_case_297:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st298
+		}
+		goto st0
+	st298:
+		if p++; p == pe {
+			goto _test_eof298
+		}
+	st_case_298:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st299
+		}
+		goto st0
+	st299:
+		if p++; p == pe {
+			goto _test_eof299
+		}
+	st_case_299:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st300
+		}
+		goto st0
+	st300:
+		if p++; p == pe {
+			goto _test_eof300
+		}
+	st_case_300:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st301
+		}
+		goto st0
+	st301:
+		if p++; p == pe {
+			goto _test_eof301
+		}
+	st_case_301:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st302
+		}
+		goto st0
+	st302:
+		if p++; p == pe {
+			goto _test_eof302
+		}
+	st_case_302:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st303
+		}
+		goto st0
+	st303:
+		if p++; p == pe {
+			goto _test_eof303
+		}
+	st_case_303:
+		if data[p] == 32 {
+			goto tr424
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st304
+		}
+		goto st0
+	st304:
+		if p++; p == pe {
+			goto _test_eof304
+		}
+	st_case_304:
+		if data[p] == 32 {
+			goto tr424
+		}
+		goto st0
+tr436:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st305
+	st305:
+		if p++; p == pe {
+			goto _test_eof305
+		}
+	st_case_305:
+//line ragel/parse_datetime.go:12468
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr433
+		}
+		goto st0
+	st306:
+		if p++; p == pe {
+			goto _test_eof306
+		}
+	st_case_306:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st307
+		}
+		goto st0
 	st307:
 		if p++; p == pe {
 			goto _test_eof307
 		}
 	st_case_307:
-//line ragel/parse_datetime.go:11705
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr409
-			}
-		case data[p] >= 48:
-			goto tr408
+		switch data[p] {
+		case 32:
+			goto tr435
+		case 44:
+			goto tr436
+		case 46:
+			goto tr436
 		}
 		goto st0
-tr408:
-//line ragel/datetime.rl:5
- pb = p 
+tr380:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st308
+tr405:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
 	goto st308
 	st308:
 		if p++; p == pe {
 			goto _test_eof308
 		}
 	st_case_308:
-//line ragel/parse_datetime.go:11724
-		switch data[p] {
-		case 32:
-			goto tr410
-		case 46:
-			goto tr411
-		case 65:
-			goto tr413
-		case 80:
-			goto tr413
-		case 97:
-			goto tr414
-		case 112:
-			goto tr414
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st319
+//line ragel/parse_datetime.go:12513
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr438
+			}
+		case data[p] >= 48:
+			goto tr437
 		}
 		goto st0
-tr411:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st309
-tr428:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
+tr437:
+//line ragel/datetime.rl:5
+ pb = p 
 	goto st309
 	st309:
 		if p++; p == pe {
 			goto _test_eof309
 		}
 	st_case_309:
-//line ragel/parse_datetime.go:11760
+//line ragel/parse_datetime.go:12532
+		switch data[p] {
+		case 32:
+			goto tr439
+		case 58:
+			goto tr441
+		case 65:
+			goto tr442
+		case 80:
+			goto tr442
+		case 97:
+			goto tr443
+		case 112:
+			goto tr443
+		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto tr415
+			goto st310
 		}
 		goto st0
-tr415:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st310
 	st310:
 		if p++; p == pe {
 			goto _test_eof310
 		}
 	st_case_310:
-//line ragel/parse_datetime.go:11774
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr444
+		case 58:
+			goto tr445
 		case 65:
-			goto tr418
+			goto tr446
 		case 80:
-			goto tr418
+			goto tr446
 		case 97:
-			goto tr419
+			goto tr447
 		case 112:
-			goto tr419
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st311
+			goto tr447
 		}
 		goto st0
+tr441:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st311
+tr445:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st311
 	st311:
 		if p++; p == pe {
 			goto _test_eof311
 		}
 	st_case_311:
-		switch data[p] {
-		case 32:
-			goto tr416
-		case 65:
-			goto tr418
-		case 80:
-			goto tr418
-		case 97:
-			goto tr419
-		case 112:
-			goto tr419
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st312
+//line ragel/parse_datetime.go:12588
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr449
+			}
+		case data[p] >= 48:
+			goto tr448
 		}
 		goto st0
+tr448:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st312
 	st312:
 		if p++; p == pe {
 			goto _test_eof312
 		}
 	st_case_312:
+//line ragel/parse_datetime.go:12607
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr450
+		case 44:
+			goto tr451
+		case 46:
+			goto tr451
 		case 65:
-			goto tr418
+			goto tr453
 		case 80:
-			goto tr418
+			goto tr453
 		case 97:
-			goto tr419
+			goto tr454
 		case 112:
-			goto tr419
+			goto tr454
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st313
+			goto st323
 		}
 		goto st0
+tr451:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st313
+tr468:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st313
 	st313:
 		if p++; p == pe {
 			goto _test_eof313
 		}
 	st_case_313:
-		switch data[p] {
-		case 32:
-			goto tr416
-		case 65:
-			goto tr418
-		case 80:
-			goto tr418
-		case 97:
-			goto tr419
-		case 112:
-			goto tr419
-		}
+//line ragel/parse_datetime.go:12645
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st314
+			goto tr455
 		}
 		goto st0
+tr455:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st314
 	st314:
 		if p++; p == pe {
 			goto _test_eof314
 		}
 	st_case_314:
+//line ragel/parse_datetime.go:12659
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr456
 		case 65:
-			goto tr418
+			goto tr458
 		case 80:
-			goto tr418
+			goto tr458
 		case 97:
-			goto tr419
+			goto tr459
 		case 112:
-			goto tr419
+			goto tr459
 		}
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st315
@@ -11878,15 +12679,15 @@ tr415:
 	st_case_315:
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr456
 		case 65:
-			goto tr418
+			goto tr458
 		case 80:
-			goto tr418
+			goto tr458
 		case 97:
-			goto tr419
+			goto tr459
 		case 112:
-			goto tr419
+			goto tr459
 		}
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st316
@@ -11899,15 +12700,15 @@ tr415:
 	st_case_316:
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr456
 		case 65:
-			goto tr418
+			goto tr458
 		case 80:
-			goto tr418
+			goto tr458
 		case 97:
-			goto tr419
+			goto tr459
 		case 112:
-			goto tr419
+			goto tr459
 		}
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st317
@@ -11920,15 +12721,15 @@ tr415:
 	st_case_317:
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr456
 		case 65:
-			goto tr418
+			goto tr458
 		case 80:
-			goto tr418
+			goto tr458
 		case 97:
-			goto tr419
+			goto tr459
 		case 112:
-			goto tr419
+			goto tr459
 		}
 		if 48 <= data[p] && data[p] <= 57 {
 			goto st318
@@ -11941,15 +12742,18 @@ tr415:
 	st_case_318:
 		switch data[p] {
 		case 32:
-			goto tr416
+			goto tr456
 		case 65:
-			goto tr418
+			goto tr458
 		case 80:
-			goto tr418
+			goto tr458
 		case 97:
-			goto tr419
+			goto tr459
 		case 112:
-			goto tr419
+			goto tr459
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st319
 		}
 		goto st0
 	st319:
@@ -11959,100 +12763,78 @@ tr415:
 	st_case_319:
 		switch data[p] {
 		case 32:
-			goto tr427
-		case 46:
-			goto tr428
+			goto tr456
 		case 65:
-			goto tr429
+			goto tr458
 		case 80:
-			goto tr429
+			goto tr458
 		case 97:
-			goto tr430
+			goto tr459
 		case 112:
-			goto tr430
+			goto tr459
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st320
 		}
 		goto st0
-tr409:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st320
 	st320:
 		if p++; p == pe {
 			goto _test_eof320
 		}
 	st_case_320:
-//line ragel/parse_datetime.go:11985
 		switch data[p] {
 		case 32:
-			goto tr410
-		case 46:
-			goto tr411
+			goto tr456
 		case 65:
-			goto tr413
+			goto tr458
 		case 80:
-			goto tr413
+			goto tr458
 		case 97:
-			goto tr414
+			goto tr459
 		case 112:
-			goto tr414
+			goto tr459
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st321
 		}
 		goto st0
-tr398:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st321
 	st321:
 		if p++; p == pe {
 			goto _test_eof321
 		}
 	st_case_321:
-//line ragel/parse_datetime.go:12010
 		switch data[p] {
 		case 32:
-			goto tr399
-		case 58:
-			goto tr401
+			goto tr456
 		case 65:
-			goto tr402
+			goto tr458
 		case 80:
-			goto tr402
+			goto tr458
 		case 97:
-			goto tr403
+			goto tr459
 		case 112:
-			goto tr403
+			goto tr459
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st322
 		}
 		goto st0
-tr329:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st322
 	st322:
 		if p++; p == pe {
 			goto _test_eof322
 		}
 	st_case_322:
-//line ragel/parse_datetime.go:12035
 		switch data[p] {
 		case 32:
-			goto tr331
-		case 58:
-			goto tr333
+			goto tr456
 		case 65:
-			goto tr334
+			goto tr458
 		case 80:
-			goto tr334
+			goto tr458
 		case 97:
-			goto tr335
+			goto tr459
 		case 112:
-			goto tr335
-		}
-		switch {
-		case data[p] > 51:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto st323
-			}
-		case data[p] >= 48:
-			goto st275
+			goto tr459
 		}
 		goto st0
 	st323:
@@ -12060,11 +12842,24 @@ tr329:
 			goto _test_eof323
 		}
 	st_case_323:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st276
+		switch data[p] {
+		case 32:
+			goto tr467
+		case 44:
+			goto tr468
+		case 46:
+			goto tr468
+		case 65:
+			goto tr469
+		case 80:
+			goto tr469
+		case 97:
+			goto tr470
+		case 112:
+			goto tr470
 		}
 		goto st0
-tr330:
+tr449:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st324
@@ -12073,26 +12868,120 @@ tr330:
 			goto _test_eof324
 		}
 	st_case_324:
-//line ragel/parse_datetime.go:12077
+//line ragel/parse_datetime.go:12872
 		switch data[p] {
 		case 32:
-			goto tr331
-		case 58:
-			goto tr333
+			goto tr450
+		case 44:
+			goto tr451
+		case 46:
+			goto tr451
 		case 65:
-			goto tr334
+			goto tr453
 		case 80:
-			goto tr334
+			goto tr453
 		case 97:
-			goto tr335
+			goto tr454
 		case 112:
-			goto tr335
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st323
+			goto tr454
 		}
 		goto st0
-tr327:
+tr438:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st325
+	st325:
+		if p++; p == pe {
+			goto _test_eof325
+		}
+	st_case_325:
+//line ragel/parse_datetime.go:12899
+		switch data[p] {
+		case 32:
+			goto tr439
+		case 58:
+			goto tr441
+		case 65:
+			goto tr442
+		case 80:
+			goto tr442
+		case 97:
+			goto tr443
+		case 112:
+			goto tr443
+		}
+		goto st0
+tr376:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st326
+	st326:
+		if p++; p == pe {
+			goto _test_eof326
+		}
+	st_case_326:
+//line ragel/parse_datetime.go:12924
+		switch data[p] {
+		case 32:
+			goto tr378
+		case 58:
+			goto tr380
+		case 65:
+			goto tr381
+		case 80:
+			goto tr381
+		case 97:
+			goto tr382
+		case 112:
+			goto tr382
+		}
+		switch {
+		case data[p] > 51:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto st327
+			}
+		case data[p] >= 48:
+			goto st282
+		}
+		goto st0
+	st327:
+		if p++; p == pe {
+			goto _test_eof327
+		}
+	st_case_327:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st283
+		}
+		goto st0
+tr377:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st328
+	st328:
+		if p++; p == pe {
+			goto _test_eof328
+		}
+	st_case_328:
+//line ragel/parse_datetime.go:12966
+		switch data[p] {
+		case 32:
+			goto tr378
+		case 58:
+			goto tr380
+		case 65:
+			goto tr381
+		case 80:
+			goto tr381
+		case 97:
+			goto tr382
+		case 112:
+			goto tr382
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st327
+		}
+		goto st0
+tr373:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -12102,55 +12991,14 @@ tr327:
             return
     }
 
-	goto st325
-	st325:
-		if p++; p == pe {
-			goto _test_eof325
-		}
-	st_case_325:
-//line ragel/parse_datetime.go:12112
-		if data[p] == 32 {
-			goto st326
-		}
-		goto st0
-	st326:
-		if p++; p == pe {
-			goto _test_eof326
-		}
-	st_case_326:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr433
-		}
-		goto st0
-tr433:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st327
-	st327:
-		if p++; p == pe {
-			goto _test_eof327
-		}
-	st_case_327:
-//line ragel/parse_datetime.go:12135
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st328
-		}
-		goto st0
-	st328:
-		if p++; p == pe {
-			goto _test_eof328
-		}
-	st_case_328:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st329
-		}
-		goto st0
+	goto st329
 	st329:
 		if p++; p == pe {
 			goto _test_eof329
 		}
 	st_case_329:
-		if 48 <= data[p] && data[p] <= 57 {
+//line ragel/parse_datetime.go:13001
+		if data[p] == 32 {
 			goto st330
 		}
 		goto st0
@@ -12159,14 +13007,11 @@ tr433:
 			goto _test_eof330
 		}
 	st_case_330:
-		switch data[p] {
-		case 32:
-			goto tr437
-		case 44:
-			goto tr363
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr473
 		}
 		goto st0
-tr323:
+tr473:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st331
@@ -12175,95 +13020,58 @@ tr323:
 			goto _test_eof331
 		}
 	st_case_331:
-//line ragel/parse_datetime.go:12179
+//line ragel/parse_datetime.go:13024
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st258
+			goto st332
 		}
 		goto st0
-tr324:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st332
 	st332:
 		if p++; p == pe {
 			goto _test_eof332
 		}
 	st_case_332:
-//line ragel/parse_datetime.go:12193
-		if 48 <= data[p] && data[p] <= 49 {
-			goto st258
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st333
 		}
 		goto st0
-tr320:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st333
-tr447:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st333
-tr454:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st333
-tr464:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st333
-tr913:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st333
-tr921:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st333
-tr924:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st333
-tr931:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st333
-tr935:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st333
-tr939:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st333
-tr948:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st333
-tr960:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st333
 	st333:
 		if p++; p == pe {
 			goto _test_eof333
 		}
 	st_case_333:
-//line ragel/parse_datetime.go:12251
-		switch data[p] {
-		case 48:
-			goto tr438
-		case 51:
-			goto tr440
-		}
-		switch {
-		case data[p] > 50:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto tr441
-			}
-		case data[p] >= 49:
-			goto tr439
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st875
 		}
 		goto st0
-tr438:
+	st875:
+		if p++; p == pe {
+			goto _test_eof875
+		}
+	st_case_875:
+		switch data[p] {
+		case 32:
+			goto tr1335
+		case 44:
+			goto tr1336
+		}
+		goto st0
+tr1336:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+	goto st876
+	st876:
+		if p++; p == pe {
+			goto _test_eof876
+		}
+	st_case_876:
+//line ragel/parse_datetime.go:13070
+		if data[p] == 32 {
+			goto st286
+		}
+		goto st0
+tr368:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st334
@@ -12272,519 +13080,23 @@ tr438:
 			goto _test_eof334
 		}
 	st_case_334:
-//line ragel/parse_datetime.go:12276
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st335
+//line ragel/parse_datetime.go:13084
+		switch data[p] {
+		case 32:
+			goto tr477
+		case 44:
+			goto tr373
 		}
-		goto st0
-tr441:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st335
-	st335:
-		if p++; p == pe {
-			goto _test_eof335
-		}
-	st_case_335:
-//line ragel/parse_datetime.go:12290
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr443
-		}
-		goto st0
-tr439:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st336
-	st336:
-		if p++; p == pe {
-			goto _test_eof336
-		}
-	st_case_336:
-//line ragel/parse_datetime.go:12304
 		switch {
 		case data[p] > 47:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto st335
+				goto st265
 			}
 		case data[p] >= 45:
-			goto tr443
+			goto tr374
 		}
 		goto st0
-tr440:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st337
-	st337:
-		if p++; p == pe {
-			goto _test_eof337
-		}
-	st_case_337:
-//line ragel/parse_datetime.go:12323
-		switch {
-		case data[p] > 47:
-			if 48 <= data[p] && data[p] <= 49 {
-				goto st335
-			}
-		case data[p] >= 45:
-			goto tr443
-		}
-		goto st0
-	st338:
-		if p++; p == pe {
-			goto _test_eof338
-		}
-	st_case_338:
-		if data[p] == 108 {
-			goto st339
-		}
-		goto st0
-	st339:
-		if p++; p == pe {
-			goto _test_eof339
-		}
-	st_case_339:
-		if data[p] == 32 {
-			goto tr319
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr320
-		}
-		goto st0
-	st340:
-		if p++; p == pe {
-			goto _test_eof340
-		}
-	st_case_340:
-		if data[p] == 103 {
-			goto st341
-		}
-		goto st0
-	st341:
-		if p++; p == pe {
-			goto _test_eof341
-		}
-	st_case_341:
-		switch data[p] {
-		case 32:
-			goto tr446
-		case 117:
-			goto st342
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr447
-		}
-		goto st0
-	st342:
-		if p++; p == pe {
-			goto _test_eof342
-		}
-	st_case_342:
-		if data[p] == 115 {
-			goto st343
-		}
-		goto st0
-	st343:
-		if p++; p == pe {
-			goto _test_eof343
-		}
-	st_case_343:
-		if data[p] == 116 {
-			goto st344
-		}
-		goto st0
-	st344:
-		if p++; p == pe {
-			goto _test_eof344
-		}
-	st_case_344:
-		if data[p] == 32 {
-			goto tr446
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr447
-		}
-		goto st0
-	st345:
-		if p++; p == pe {
-			goto _test_eof345
-		}
-	st_case_345:
-		if data[p] == 101 {
-			goto st346
-		}
-		goto st0
-	st346:
-		if p++; p == pe {
-			goto _test_eof346
-		}
-	st_case_346:
-		if data[p] == 99 {
-			goto st347
-		}
-		goto st0
-	st347:
-		if p++; p == pe {
-			goto _test_eof347
-		}
-	st_case_347:
-		switch data[p] {
-		case 32:
-			goto tr453
-		case 101:
-			goto st348
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr454
-		}
-		goto st0
-	st348:
-		if p++; p == pe {
-			goto _test_eof348
-		}
-	st_case_348:
-		if data[p] == 109 {
-			goto st349
-		}
-		goto st0
-	st349:
-		if p++; p == pe {
-			goto _test_eof349
-		}
-	st_case_349:
-		if data[p] == 98 {
-			goto st350
-		}
-		goto st0
-	st350:
-		if p++; p == pe {
-			goto _test_eof350
-		}
-	st_case_350:
-		if data[p] == 101 {
-			goto st351
-		}
-		goto st0
-	st351:
-		if p++; p == pe {
-			goto _test_eof351
-		}
-	st_case_351:
-		if data[p] == 114 {
-			goto st352
-		}
-		goto st0
-	st352:
-		if p++; p == pe {
-			goto _test_eof352
-		}
-	st_case_352:
-		if data[p] == 32 {
-			goto tr453
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr454
-		}
-		goto st0
-	st353:
-		if p++; p == pe {
-			goto _test_eof353
-		}
-	st_case_353:
-		switch data[p] {
-		case 101:
-			goto st354
-		case 114:
-			goto st361
-		}
-		goto st0
-	st354:
-		if p++; p == pe {
-			goto _test_eof354
-		}
-	st_case_354:
-		if data[p] == 98 {
-			goto st355
-		}
-		goto st0
-	st355:
-		if p++; p == pe {
-			goto _test_eof355
-		}
-	st_case_355:
-		switch data[p] {
-		case 32:
-			goto tr463
-		case 114:
-			goto st356
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr464
-		}
-		goto st0
-	st356:
-		if p++; p == pe {
-			goto _test_eof356
-		}
-	st_case_356:
-		if data[p] == 117 {
-			goto st357
-		}
-		goto st0
-	st357:
-		if p++; p == pe {
-			goto _test_eof357
-		}
-	st_case_357:
-		if data[p] == 97 {
-			goto st358
-		}
-		goto st0
-	st358:
-		if p++; p == pe {
-			goto _test_eof358
-		}
-	st_case_358:
-		if data[p] == 114 {
-			goto st359
-		}
-		goto st0
-	st359:
-		if p++; p == pe {
-			goto _test_eof359
-		}
-	st_case_359:
-		if data[p] == 121 {
-			goto st360
-		}
-		goto st0
-	st360:
-		if p++; p == pe {
-			goto _test_eof360
-		}
-	st_case_360:
-		if data[p] == 32 {
-			goto tr463
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr464
-		}
-		goto st0
-	st361:
-		if p++; p == pe {
-			goto _test_eof361
-		}
-	st_case_361:
-		if data[p] == 105 {
-			goto st362
-		}
-		goto st0
-	st362:
-		if p++; p == pe {
-			goto _test_eof362
-		}
-	st_case_362:
-		switch data[p] {
-		case 32:
-			goto st363
-		case 44:
-			goto st546
-		case 100:
-			goto st690
-		}
-		goto st0
-	st363:
-		if p++; p == pe {
-			goto _test_eof363
-		}
-	st_case_363:
-		switch data[p] {
-		case 65:
-			goto st364
-		case 68:
-			goto st488
-		case 70:
-			goto st496
-		case 74:
-			goto st504
-		case 77:
-			goto st516
-		case 78:
-			goto st522
-		case 79:
-			goto st530
-		case 83:
-			goto st537
-		case 97:
-			goto st364
-		case 100:
-			goto st488
-		case 102:
-			goto st496
-		case 106:
-			goto st504
-		case 109:
-			goto st516
-		case 110:
-			goto st522
-		case 111:
-			goto st530
-		case 115:
-			goto st537
-		}
-		goto st0
-	st364:
-		if p++; p == pe {
-			goto _test_eof364
-		}
-	st_case_364:
-		switch data[p] {
-		case 112:
-			goto st365
-		case 117:
-			goto st483
-		}
-		goto st0
-	st365:
-		if p++; p == pe {
-			goto _test_eof365
-		}
-	st_case_365:
-		if data[p] == 114 {
-			goto st366
-		}
-		goto st0
-	st366:
-		if p++; p == pe {
-			goto _test_eof366
-		}
-	st_case_366:
-		switch data[p] {
-		case 32:
-			goto tr485
-		case 105:
-			goto st481
-		}
-		goto st0
-tr485:
-//line ragel/datetime.rl:80
- st.Month = 4 
-	goto st367
-tr698:
-//line ragel/datetime.rl:84
- st.Month = 8 
-	goto st367
-tr704:
-//line ragel/datetime.rl:88
- st.Month = 12 
-	goto st367
-tr712:
-//line ragel/datetime.rl:78
- st.Month = 2 
-	goto st367
-tr721:
-//line ragel/datetime.rl:77
- st.Month = 1 
-	goto st367
-tr728:
-//line ragel/datetime.rl:83
- st.Month = 7 
-	goto st367
-tr730:
-//line ragel/datetime.rl:82
- st.Month = 6 
-	goto st367
-tr735:
-//line ragel/datetime.rl:79
- st.Month = 3 
-	goto st367
-tr738:
-//line ragel/datetime.rl:81
- st.Month = 5 
-	goto st367
-tr741:
-//line ragel/datetime.rl:87
- st.Month = 11 
-	goto st367
-tr749:
-//line ragel/datetime.rl:86
- st.Month = 10 
-	goto st367
-tr756:
-//line ragel/datetime.rl:85
- st.Month = 9 
-	goto st367
-	st367:
-		if p++; p == pe {
-			goto _test_eof367
-		}
-	st_case_367:
-//line ragel/parse_datetime.go:12722
-		switch data[p] {
-		case 32:
-			goto st368
-		case 48:
-			goto tr488
-		case 51:
-			goto tr490
-		}
-		switch {
-		case data[p] > 50:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto tr491
-			}
-		case data[p] >= 49:
-			goto tr489
-		}
-		goto st0
-	st368:
-		if p++; p == pe {
-			goto _test_eof368
-		}
-	st_case_368:
-		switch data[p] {
-		case 48:
-			goto tr492
-		case 51:
-			goto tr494
-		}
-		switch {
-		case data[p] > 50:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto tr491
-			}
-		case data[p] >= 49:
-			goto tr493
-		}
-		goto st0
-tr492:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st369
-	st369:
-		if p++; p == pe {
-			goto _test_eof369
-		}
-	st_case_369:
-//line ragel/parse_datetime.go:12769
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st370
-		}
-		goto st0
-tr491:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st370
-	st370:
-		if p++; p == pe {
-			goto _test_eof370
-		}
-	st_case_370:
-//line ragel/parse_datetime.go:12783
-		if data[p] == 32 {
-			goto tr496
-		}
-		goto st0
-tr496:
+tr477:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -12794,85 +13106,911 @@ tr496:
             return
     }
 
-	goto st371
+	goto st335
+	st335:
+		if p++; p == pe {
+			goto _test_eof335
+		}
+	st_case_335:
+//line ragel/parse_datetime.go:13116
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr478
+		}
+		goto st0
+tr478:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st336
+	st336:
+		if p++; p == pe {
+			goto _test_eof336
+		}
+	st_case_336:
+//line ragel/parse_datetime.go:13130
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st337
+		}
+		goto st0
+	st337:
+		if p++; p == pe {
+			goto _test_eof337
+		}
+	st_case_337:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st338
+		}
+		goto st0
+	st338:
+		if p++; p == pe {
+			goto _test_eof338
+		}
+	st_case_338:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st877
+		}
+		goto st0
+	st877:
+		if p++; p == pe {
+			goto _test_eof877
+		}
+	st_case_877:
+		switch data[p] {
+		case 32:
+			goto tr1219
+		case 43:
+			goto tr1220
+		case 44:
+			goto tr1336
+		case 45:
+			goto tr1221
+		case 47:
+			goto tr1222
+		case 84:
+			goto tr1223
+		case 90:
+			goto tr1224
+		case 95:
+			goto tr1225
+		case 116:
+			goto tr1225
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1222
+			}
+		case data[p] >= 65:
+			goto tr1222
+		}
+		goto st0
+tr369:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st339
+	st339:
+		if p++; p == pe {
+			goto _test_eof339
+		}
+	st_case_339:
+//line ragel/parse_datetime.go:13196
+		switch data[p] {
+		case 32:
+			goto tr477
+		case 44:
+			goto tr373
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto st265
+			}
+		case data[p] >= 45:
+			goto tr374
+		}
+		goto st0
+tr370:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st340
+	st340:
+		if p++; p == pe {
+			goto _test_eof340
+		}
+	st_case_340:
+//line ragel/parse_datetime.go:13221
+		switch data[p] {
+		case 32:
+			goto tr477
+		case 44:
+			goto tr373
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr374
+		}
+		goto st0
+tr364:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st341
+tr492:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st341
+tr500:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st341
+tr511:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st341
+tr1013:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st341
+tr1022:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st341
+tr1026:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st341
+tr1034:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st341
+tr1039:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st341
+tr1044:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st341
+tr1054:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st341
+tr1067:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st341
+	st341:
+		if p++; p == pe {
+			goto _test_eof341
+		}
+	st_case_341:
+//line ragel/parse_datetime.go:13285
+		switch data[p] {
+		case 48:
+			goto tr482
+		case 51:
+			goto tr484
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr485
+			}
+		case data[p] >= 49:
+			goto tr483
+		}
+		goto st0
+tr482:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st342
+	st342:
+		if p++; p == pe {
+			goto _test_eof342
+		}
+	st_case_342:
+//line ragel/parse_datetime.go:13310
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st343
+		}
+		goto st0
+tr485:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st343
+	st343:
+		if p++; p == pe {
+			goto _test_eof343
+		}
+	st_case_343:
+//line ragel/parse_datetime.go:13324
+		if data[p] == 32 {
+			goto tr374
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr374
+		}
+		goto st0
+tr483:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st344
+	st344:
+		if p++; p == pe {
+			goto _test_eof344
+		}
+	st_case_344:
+//line ragel/parse_datetime.go:13341
+		if data[p] == 32 {
+			goto tr374
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st343
+			}
+		case data[p] >= 45:
+			goto tr374
+		}
+		goto st0
+tr484:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st345
+	st345:
+		if p++; p == pe {
+			goto _test_eof345
+		}
+	st_case_345:
+//line ragel/parse_datetime.go:13363
+		if data[p] == 32 {
+			goto tr374
+		}
+		switch {
+		case data[p] > 47:
+			if 48 <= data[p] && data[p] <= 49 {
+				goto st343
+			}
+		case data[p] >= 45:
+			goto tr374
+		}
+		goto st0
+tr365:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st346
+tr493:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st346
+tr501:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st346
+tr512:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st346
+tr1014:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st346
+tr1023:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st346
+tr1027:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st346
+tr1035:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st346
+tr1040:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st346
+tr1045:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st346
+tr1055:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st346
+tr1068:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st346
+	st346:
+		if p++; p == pe {
+			goto _test_eof346
+		}
+	st_case_346:
+//line ragel/parse_datetime.go:13429
+		switch data[p] {
+		case 32:
+			goto st263
+		case 48:
+			goto tr482
+		case 51:
+			goto tr484
+		}
+		switch {
+		case data[p] < 49:
+			if 45 <= data[p] && data[p] <= 47 {
+				goto st341
+			}
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr485
+			}
+		default:
+			goto tr483
+		}
+		goto st0
+	st347:
+		if p++; p == pe {
+			goto _test_eof347
+		}
+	st_case_347:
+		if data[p] == 108 {
+			goto st348
+		}
+		goto st0
+	st348:
+		if p++; p == pe {
+			goto _test_eof348
+		}
+	st_case_348:
+		switch data[p] {
+		case 32:
+			goto tr363
+		case 46:
+			goto tr365
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr364
+		}
+		goto st0
+	st349:
+		if p++; p == pe {
+			goto _test_eof349
+		}
+	st_case_349:
+		if data[p] == 103 {
+			goto st350
+		}
+		goto st0
+	st350:
+		if p++; p == pe {
+			goto _test_eof350
+		}
+	st_case_350:
+		switch data[p] {
+		case 32:
+			goto tr491
+		case 46:
+			goto tr493
+		case 117:
+			goto st351
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr492
+		}
+		goto st0
+	st351:
+		if p++; p == pe {
+			goto _test_eof351
+		}
+	st_case_351:
+		if data[p] == 115 {
+			goto st352
+		}
+		goto st0
+	st352:
+		if p++; p == pe {
+			goto _test_eof352
+		}
+	st_case_352:
+		if data[p] == 116 {
+			goto st353
+		}
+		goto st0
+	st353:
+		if p++; p == pe {
+			goto _test_eof353
+		}
+	st_case_353:
+		switch data[p] {
+		case 32:
+			goto tr491
+		case 46:
+			goto tr493
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr492
+		}
+		goto st0
+	st354:
+		if p++; p == pe {
+			goto _test_eof354
+		}
+	st_case_354:
+		if data[p] == 101 {
+			goto st355
+		}
+		goto st0
+	st355:
+		if p++; p == pe {
+			goto _test_eof355
+		}
+	st_case_355:
+		if data[p] == 99 {
+			goto st356
+		}
+		goto st0
+	st356:
+		if p++; p == pe {
+			goto _test_eof356
+		}
+	st_case_356:
+		switch data[p] {
+		case 32:
+			goto tr499
+		case 46:
+			goto tr501
+		case 101:
+			goto st357
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr500
+		}
+		goto st0
+	st357:
+		if p++; p == pe {
+			goto _test_eof357
+		}
+	st_case_357:
+		if data[p] == 109 {
+			goto st358
+		}
+		goto st0
+	st358:
+		if p++; p == pe {
+			goto _test_eof358
+		}
+	st_case_358:
+		if data[p] == 98 {
+			goto st359
+		}
+		goto st0
+	st359:
+		if p++; p == pe {
+			goto _test_eof359
+		}
+	st_case_359:
+		if data[p] == 101 {
+			goto st360
+		}
+		goto st0
+	st360:
+		if p++; p == pe {
+			goto _test_eof360
+		}
+	st_case_360:
+		if data[p] == 114 {
+			goto st361
+		}
+		goto st0
+	st361:
+		if p++; p == pe {
+			goto _test_eof361
+		}
+	st_case_361:
+		switch data[p] {
+		case 32:
+			goto tr499
+		case 46:
+			goto tr501
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr500
+		}
+		goto st0
+	st362:
+		if p++; p == pe {
+			goto _test_eof362
+		}
+	st_case_362:
+		switch data[p] {
+		case 101:
+			goto st363
+		case 114:
+			goto st370
+		}
+		goto st0
+	st363:
+		if p++; p == pe {
+			goto _test_eof363
+		}
+	st_case_363:
+		if data[p] == 98 {
+			goto st364
+		}
+		goto st0
+	st364:
+		if p++; p == pe {
+			goto _test_eof364
+		}
+	st_case_364:
+		switch data[p] {
+		case 32:
+			goto tr510
+		case 46:
+			goto tr512
+		case 114:
+			goto st365
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr511
+		}
+		goto st0
+	st365:
+		if p++; p == pe {
+			goto _test_eof365
+		}
+	st_case_365:
+		if data[p] == 117 {
+			goto st366
+		}
+		goto st0
+	st366:
+		if p++; p == pe {
+			goto _test_eof366
+		}
+	st_case_366:
+		if data[p] == 97 {
+			goto st367
+		}
+		goto st0
+	st367:
+		if p++; p == pe {
+			goto _test_eof367
+		}
+	st_case_367:
+		if data[p] == 114 {
+			goto st368
+		}
+		goto st0
+	st368:
+		if p++; p == pe {
+			goto _test_eof368
+		}
+	st_case_368:
+		if data[p] == 121 {
+			goto st369
+		}
+		goto st0
+	st369:
+		if p++; p == pe {
+			goto _test_eof369
+		}
+	st_case_369:
+		switch data[p] {
+		case 32:
+			goto tr510
+		case 46:
+			goto tr512
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr511
+		}
+		goto st0
+	st370:
+		if p++; p == pe {
+			goto _test_eof370
+		}
+	st_case_370:
+		if data[p] == 105 {
+			goto st371
+		}
+		goto st0
 	st371:
 		if p++; p == pe {
 			goto _test_eof371
 		}
 	st_case_371:
-//line ragel/parse_datetime.go:12804
-		if data[p] == 50 {
-			goto tr498
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr499
-			}
-		case data[p] >= 48:
-			goto tr497
+		switch data[p] {
+		case 32:
+			goto st372
+		case 44:
+			goto st556
+		case 100:
+			goto st704
 		}
 		goto st0
-tr497:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st372
 	st372:
 		if p++; p == pe {
 			goto _test_eof372
 		}
 	st_case_372:
-//line ragel/parse_datetime.go:12826
+		switch data[p] {
+		case 65:
+			goto st373
+		case 68:
+			goto st498
+		case 70:
+			goto st506
+		case 74:
+			goto st514
+		case 77:
+			goto st526
+		case 78:
+			goto st532
+		case 79:
+			goto st540
+		case 83:
+			goto st547
+		case 97:
+			goto st373
+		case 100:
+			goto st498
+		case 102:
+			goto st506
+		case 106:
+			goto st514
+		case 109:
+			goto st526
+		case 110:
+			goto st532
+		case 111:
+			goto st540
+		case 115:
+			goto st547
+		}
+		goto st0
+	st373:
+		if p++; p == pe {
+			goto _test_eof373
+		}
+	st_case_373:
+		switch data[p] {
+		case 112:
+			goto st374
+		case 117:
+			goto st493
+		}
+		goto st0
+	st374:
+		if p++; p == pe {
+			goto _test_eof374
+		}
+	st_case_374:
+		if data[p] == 114 {
+			goto st375
+		}
+		goto st0
+	st375:
+		if p++; p == pe {
+			goto _test_eof375
+		}
+	st_case_375:
 		switch data[p] {
 		case 32:
-			goto tr500
+			goto tr533
+		case 46:
+			goto tr534
+		case 105:
+			goto st491
+		}
+		goto st0
+tr533:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st376
+tr748:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st376
+tr755:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st376
+tr764:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st376
+tr774:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st376
+tr782:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st376
+tr785:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st376
+tr791:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st376
+tr795:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st376
+tr799:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st376
+tr808:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st376
+tr816:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st376
+	st376:
+		if p++; p == pe {
+			goto _test_eof376
+		}
+	st_case_376:
+//line ragel/parse_datetime.go:13860
+		switch data[p] {
+		case 32:
+			goto st377
+		case 48:
+			goto tr537
+		case 51:
+			goto tr539
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr540
+			}
+		case data[p] >= 49:
+			goto tr538
+		}
+		goto st0
+	st377:
+		if p++; p == pe {
+			goto _test_eof377
+		}
+	st_case_377:
+		switch data[p] {
+		case 48:
+			goto tr541
+		case 51:
+			goto tr543
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr540
+			}
+		case data[p] >= 49:
+			goto tr542
+		}
+		goto st0
+tr541:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st378
+	st378:
+		if p++; p == pe {
+			goto _test_eof378
+		}
+	st_case_378:
+//line ragel/parse_datetime.go:13907
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st379
+		}
+		goto st0
+tr540:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st379
+	st379:
+		if p++; p == pe {
+			goto _test_eof379
+		}
+	st_case_379:
+//line ragel/parse_datetime.go:13921
+		if data[p] == 32 {
+			goto tr545
+		}
+		goto st0
+tr545:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+	goto st380
+	st380:
+		if p++; p == pe {
+			goto _test_eof380
+		}
+	st_case_380:
+//line ragel/parse_datetime.go:13942
+		if data[p] == 50 {
+			goto tr547
+		}
+		switch {
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr548
+			}
+		case data[p] >= 48:
+			goto tr546
+		}
+		goto st0
+tr546:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st381
+	st381:
+		if p++; p == pe {
+			goto _test_eof381
+		}
+	st_case_381:
+//line ragel/parse_datetime.go:13964
+		switch data[p] {
+		case 32:
+			goto tr549
 		case 43:
-			goto tr501
+			goto tr550
 		case 45:
-			goto tr502
+			goto tr551
 		case 47:
-			goto tr503
+			goto tr552
 		case 58:
-			goto tr505
+			goto tr554
 		case 65:
-			goto tr506
+			goto tr555
 		case 80:
-			goto tr506
+			goto tr555
 		case 90:
-			goto tr507
+			goto tr556
 		case 95:
-			goto tr503
+			goto tr552
 		case 97:
-			goto tr508
+			goto tr557
 		case 112:
-			goto tr508
+			goto tr557
 		}
 		switch {
 		case data[p] < 66:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto st396
+				goto st405
 			}
 		case data[p] > 89:
 			if 98 <= data[p] && data[p] <= 122 {
-				goto tr503
+				goto tr552
 			}
 		default:
-			goto tr503
+			goto tr552
 		}
 		goto st0
-tr500:
+tr549:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st373
-tr544:
+	goto st382
+tr593:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st373
-tr607:
+	goto st382
+tr656:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -12902,73 +14040,73 @@ tr607:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st373
-tr578:
+	goto st382
+tr627:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st373
-tr587:
+	goto st382
+tr636:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st373
-tr597:
+	goto st382
+tr646:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st373
-tr618:
+	goto st382
+tr667:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st373
-	st373:
+	goto st382
+	st382:
 		if p++; p == pe {
-			goto _test_eof373
+			goto _test_eof382
 		}
-	st_case_373:
-//line ragel/parse_datetime.go:12936
+	st_case_382:
+//line ragel/parse_datetime.go:14074
 		switch data[p] {
 		case 32:
-			goto st374
+			goto st383
 		case 43:
-			goto st378
+			goto st387
 		case 45:
-			goto st390
+			goto st399
 		case 47:
-			goto tr512
+			goto tr561
 		case 65:
-			goto tr514
+			goto tr563
 		case 80:
-			goto tr514
+			goto tr563
 		case 90:
-			goto tr515
+			goto tr564
 		case 95:
-			goto tr512
+			goto tr561
 		case 97:
-			goto tr516
+			goto tr565
 		case 112:
-			goto tr516
+			goto tr565
 		}
 		switch {
 		case data[p] < 66:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto tr513
+				goto tr562
 			}
 		case data[p] > 89:
 			if 98 <= data[p] && data[p] <= 122 {
-				goto tr512
+				goto tr561
 			}
 		default:
-			goto tr512
+			goto tr561
 		}
 		goto st0
-tr528:
+tr577:
 //line ragel/datetime.rl:194
 
     st.ZoneName = data[pb:p]
@@ -12976,66 +14114,66 @@ tr528:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st374
-tr543:
+	goto st383
+tr592:
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st374
-	st374:
+	goto st383
+	st383:
 		if p++; p == pe {
-			goto _test_eof374
+			goto _test_eof383
 		}
-	st_case_374:
-//line ragel/parse_datetime.go:12990
+	st_case_383:
+//line ragel/parse_datetime.go:14128
 		if 48 <= data[p] && data[p] <= 57 {
-			goto tr513
+			goto tr562
 		}
 		goto st0
-tr513:
+tr562:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st375
-	st375:
+	goto st384
+	st384:
 		if p++; p == pe {
-			goto _test_eof375
+			goto _test_eof384
 		}
-	st_case_375:
-//line ragel/parse_datetime.go:13004
+	st_case_384:
+//line ragel/parse_datetime.go:14142
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st376
+			goto st385
 		}
 		goto st0
-	st376:
+	st385:
 		if p++; p == pe {
-			goto _test_eof376
+			goto _test_eof385
 		}
-	st_case_376:
+	st_case_385:
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st377
+			goto st386
 		}
 		goto st0
-	st377:
+	st386:
 		if p++; p == pe {
-			goto _test_eof377
+			goto _test_eof386
 		}
-	st_case_377:
+	st_case_386:
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st858
+			goto st878
 		}
 		goto st0
-	st858:
+	st878:
 		if p++; p == pe {
-			goto _test_eof858
+			goto _test_eof878
 		}
-	st_case_858:
+	st_case_878:
 		goto st0
-tr501:
+tr550:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st378
-tr540:
+	goto st387
+tr589:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -13059,31 +14197,14 @@ tr540:
         }
     }
 
-	goto st378
-tr545:
+	goto st387
+tr594:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st378
-tr555:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st378
-tr563:
+	goto st387
+tr612:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -13113,76 +14234,93 @@ tr563:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-	goto st378
-tr579:
+	goto st387
+tr604:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st387
+tr628:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st378
-tr588:
+	goto st387
+tr637:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st378
-tr598:
+	goto st387
+tr647:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-	goto st378
-tr619:
+	goto st387
+tr668:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-	goto st378
-	st378:
+	goto st387
+	st387:
 		if p++; p == pe {
-			goto _test_eof378
+			goto _test_eof387
 		}
-	st_case_378:
-//line ragel/parse_datetime.go:13147
+	st_case_387:
+//line ragel/parse_datetime.go:14285
 		if data[p] == 50 {
-			goto tr521
+			goto tr570
 		}
 		switch {
 		case data[p] > 49:
 			if 51 <= data[p] && data[p] <= 57 {
-				goto tr522
+				goto tr571
 			}
 		case data[p] >= 48:
-			goto tr520
+			goto tr569
 		}
 		goto st0
-tr520:
+tr569:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st379
-tr535:
+	goto st388
+tr584:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st379
-	st379:
+	goto st388
+	st388:
 		if p++; p == pe {
-			goto _test_eof379
+			goto _test_eof388
 		}
-	st_case_379:
-//line ragel/parse_datetime.go:13175
+	st_case_388:
+//line ragel/parse_datetime.go:14313
 		switch data[p] {
 		case 32:
-			goto tr523
+			goto tr572
 		case 58:
-			goto tr525
+			goto tr574
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st384
+			goto st393
 		}
 		goto st0
-tr523:
+tr572:
 //line ragel/datetime.rl:166
 
     // 1 as 1 hour
@@ -13213,12 +14351,12 @@ tr523:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st380
-tr530:
+	goto st389
+tr579:
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st380
-tr533:
+	goto st389
+tr582:
 //line ragel/datetime.rl:157
 
     switch p - pb {
@@ -13230,77 +14368,77 @@ tr533:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-	goto st380
-	st380:
+	goto st389
+	st389:
 		if p++; p == pe {
-			goto _test_eof380
+			goto _test_eof389
 		}
-	st_case_380:
-//line ragel/parse_datetime.go:13240
+	st_case_389:
+//line ragel/parse_datetime.go:14378
 		switch data[p] {
 		case 47:
-			goto tr512
+			goto tr561
 		case 95:
-			goto tr512
+			goto tr561
 		}
 		switch {
 		case data[p] < 65:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto tr513
+				goto tr562
 			}
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr512
+				goto tr561
 			}
 		default:
-			goto tr512
+			goto tr561
 		}
 		goto st0
-tr512:
+tr561:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr503:
+	goto st390
+tr552:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr547:
+	goto st390
+tr596:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr581:
+	goto st390
+tr630:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr590:
+	goto st390
+tr639:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr601:
+	goto st390
+tr650:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr565:
+	goto st390
+tr614:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -13332,16 +14470,16 @@ tr565:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr622:
+	goto st390
+tr671:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-tr558:
+	goto st390
+tr607:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -13359,49 +14497,49 @@ tr558:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st381
-	st381:
+	goto st390
+	st390:
 		if p++; p == pe {
-			goto _test_eof381
+			goto _test_eof390
 		}
-	st_case_381:
-//line ragel/parse_datetime.go:13369
+	st_case_390:
+//line ragel/parse_datetime.go:14507
 		switch data[p] {
 		case 47:
-			goto st382
+			goto st391
 		case 95:
-			goto st382
+			goto st391
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
+				goto st391
 			}
 		case data[p] >= 65:
-			goto st382
+			goto st391
 		}
 		goto st0
-	st382:
+	st391:
 		if p++; p == pe {
-			goto _test_eof382
+			goto _test_eof391
 		}
-	st_case_382:
+	st_case_391:
 		switch data[p] {
 		case 47:
-			goto st383
+			goto st392
 		case 95:
-			goto st383
+			goto st392
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st383
+				goto st392
 			}
 		case data[p] >= 65:
-			goto st383
+			goto st392
 		}
 		goto st0
-tr542:
+tr591:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -13427,69 +14565,69 @@ tr542:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st383
-	st383:
+	goto st392
+	st392:
 		if p++; p == pe {
-			goto _test_eof383
+			goto _test_eof392
 		}
-	st_case_383:
-//line ragel/parse_datetime.go:13437
+	st_case_392:
+//line ragel/parse_datetime.go:14575
 		switch data[p] {
 		case 32:
-			goto tr528
+			goto tr577
 		case 47:
-			goto st383
+			goto st392
 		case 95:
-			goto st383
+			goto st392
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st383
+				goto st392
 			}
 		case data[p] >= 65:
-			goto st383
+			goto st392
 		}
 		goto st0
-tr522:
+tr571:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st384
-tr537:
+	goto st393
+tr586:
 //line ragel/datetime.rl:146
  st.NegtiveZoneOffset = true 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st384
-	st384:
+	goto st393
+	st393:
 		if p++; p == pe {
-			goto _test_eof384
+			goto _test_eof393
 		}
-	st_case_384:
-//line ragel/parse_datetime.go:13470
+	st_case_393:
+//line ragel/parse_datetime.go:14608
 		switch data[p] {
 		case 32:
-			goto tr523
+			goto tr572
 		case 58:
-			goto tr525
+			goto tr574
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st385
+			goto st394
 		}
 		goto st0
-	st385:
+	st394:
 		if p++; p == pe {
-			goto _test_eof385
+			goto _test_eof394
 		}
-	st_case_385:
+	st_case_394:
 		if data[p] == 32 {
-			goto tr523
+			goto tr572
 		}
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st385
+			goto st394
 		}
 		goto st0
-tr525:
+tr574:
 //line ragel/datetime.rl:148
 
     switch p - pb {
@@ -13499,775 +14637,156 @@ tr525:
             return
     }
 
-	goto st386
-	st386:
-		if p++; p == pe {
-			goto _test_eof386
-		}
-	st_case_386:
-//line ragel/parse_datetime.go:13509
-		if data[p] == 32 {
-			goto tr530
-		}
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr532
-			}
-		case data[p] >= 48:
-			goto tr531
-		}
-		goto st0
-tr531:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st387
-	st387:
-		if p++; p == pe {
-			goto _test_eof387
-		}
-	st_case_387:
-//line ragel/parse_datetime.go:13531
-		if data[p] == 32 {
-			goto tr533
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st388
-		}
-		goto st0
-tr532:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st388
-	st388:
-		if p++; p == pe {
-			goto _test_eof388
-		}
-	st_case_388:
-//line ragel/parse_datetime.go:13548
-		if data[p] == 32 {
-			goto tr533
-		}
-		goto st0
-tr521:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st389
-tr536:
-//line ragel/datetime.rl:146
- st.NegtiveZoneOffset = true 
-//line ragel/datetime.rl:5
- pb = p 
-	goto st389
-	st389:
-		if p++; p == pe {
-			goto _test_eof389
-		}
-	st_case_389:
-//line ragel/parse_datetime.go:13568
-		switch data[p] {
-		case 32:
-			goto tr523
-		case 58:
-			goto tr525
-		}
-		switch {
-		case data[p] > 51:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto st385
-			}
-		case data[p] >= 48:
-			goto st384
-		}
-		goto st0
-tr502:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st390
-tr541:
-//line ragel/datetime.rl:54
-
-    if st.Hour > 12 {
-        err = errors.New("hour out of range")
-        return st, err
-    }
-    if apm, err := parse_ampm(data[pb:]); err != nil {
-        return st, err
-    } else {
-        switch apm {
-            case AMPM_AM:
-                if (st.Hour == 12) {
-                    st.Hour -= 12; // 12:00:00 am == 00:00:00
-                }
-            case AMPM_PM: {
-                if (st.Hour < 12) {
-                    st.Hour += 12
-                }
-                // else {} // 12:00:00 pm = 12:00:00, do nothing
-            }
-        }
-    }
-
-	goto st390
-tr546:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st390
-tr556:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st390
-tr564:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st390
-tr580:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st390
-tr589:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st390
-tr599:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st390
-tr620:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st390
-	st390:
-		if p++; p == pe {
-			goto _test_eof390
-		}
-	st_case_390:
-//line ragel/parse_datetime.go:13698
-		if data[p] == 50 {
-			goto tr536
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr537
-			}
-		case data[p] >= 48:
-			goto tr535
-		}
-		goto st0
-tr514:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr506:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr550:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr584:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr592:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr603:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr609:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-tr623:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st391
-	st391:
-		if p++; p == pe {
-			goto _test_eof391
-		}
-	st_case_391:
-//line ragel/parse_datetime.go:13801
-		switch data[p] {
-		case 47:
-			goto st382
-		case 77:
-			goto st392
-		case 95:
-			goto st382
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
-			}
-		case data[p] >= 65:
-			goto st382
-		}
-		goto st0
-	st392:
-		if p++; p == pe {
-			goto _test_eof392
-		}
-	st_case_392:
-		switch data[p] {
-		case 32:
-			goto tr539
-		case 43:
-			goto tr540
-		case 45:
-			goto tr541
-		case 47:
-			goto tr542
-		case 95:
-			goto tr542
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr542
-			}
-		case data[p] >= 65:
-			goto tr542
-		}
-		goto st0
-tr539:
-//line ragel/datetime.rl:54
-
-    if st.Hour > 12 {
-        err = errors.New("hour out of range")
-        return st, err
-    }
-    if apm, err := parse_ampm(data[pb:]); err != nil {
-        return st, err
-    } else {
-        switch apm {
-            case AMPM_AM:
-                if (st.Hour == 12) {
-                    st.Hour -= 12; // 12:00:00 am == 00:00:00
-                }
-            case AMPM_PM: {
-                if (st.Hour < 12) {
-                    st.Hour += 12
-                }
-                // else {} // 12:00:00 pm = 12:00:00, do nothing
-            }
-        }
-    }
-
-	goto st393
-tr554:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-	goto st393
-tr562:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st393
-	st393:
-		if p++; p == pe {
-			goto _test_eof393
-		}
-	st_case_393:
-//line ragel/parse_datetime.go:13923
-		switch data[p] {
-		case 32:
-			goto st374
-		case 43:
-			goto st378
-		case 45:
-			goto st390
-		case 47:
-			goto tr512
-		case 90:
-			goto tr515
-		case 95:
-			goto tr512
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto tr513
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr512
-			}
-		default:
-			goto tr512
-		}
-		goto st0
-tr515:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr507:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr551:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr585:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr593:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr604:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr567:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr624:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-tr560:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st394
-	st394:
-		if p++; p == pe {
-			goto _test_eof394
-		}
-	st_case_394:
-//line ragel/parse_datetime.go:14060
-		switch data[p] {
-		case 32:
-			goto tr543
-		case 47:
-			goto st382
-		case 95:
-			goto st382
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
-			}
-		case data[p] >= 65:
-			goto st382
-		}
-		goto st0
-tr516:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr508:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr552:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr586:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr594:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr605:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr610:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st395
-tr625:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
 	goto st395
 	st395:
 		if p++; p == pe {
 			goto _test_eof395
 		}
 	st_case_395:
-//line ragel/parse_datetime.go:14168
-		switch data[p] {
-		case 47:
-			goto st382
-		case 95:
-			goto st382
-		case 109:
-			goto st392
+//line ragel/parse_datetime.go:14647
+		if data[p] == 32 {
+			goto tr579
 		}
 		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr581
 			}
-		case data[p] >= 65:
-			goto st382
+		case data[p] >= 48:
+			goto tr580
 		}
 		goto st0
+tr580:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st396
 	st396:
 		if p++; p == pe {
 			goto _test_eof396
 		}
 	st_case_396:
-		switch data[p] {
-		case 32:
-			goto tr544
-		case 43:
-			goto tr545
-		case 45:
-			goto tr546
-		case 47:
-			goto tr547
-		case 58:
-			goto tr549
-		case 65:
-			goto tr550
-		case 80:
-			goto tr550
-		case 90:
-			goto tr551
-		case 95:
-			goto tr547
-		case 97:
-			goto tr552
-		case 112:
-			goto tr552
+//line ragel/parse_datetime.go:14669
+		if data[p] == 32 {
+			goto tr582
 		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st397
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr547
-			}
-		default:
-			goto tr547
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st397
 		}
 		goto st0
+tr581:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st397
 	st397:
 		if p++; p == pe {
 			goto _test_eof397
 		}
 	st_case_397:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st398
+//line ragel/parse_datetime.go:14686
+		if data[p] == 32 {
+			goto tr582
 		}
 		goto st0
+tr570:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st398
+tr585:
+//line ragel/datetime.rl:146
+ st.NegtiveZoneOffset = true 
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st398
 	st398:
 		if p++; p == pe {
 			goto _test_eof398
 		}
 	st_case_398:
+//line ragel/parse_datetime.go:14706
 		switch data[p] {
 		case 32:
-			goto tr554
-		case 43:
-			goto tr555
-		case 45:
-			goto tr556
-		case 46:
-			goto tr557
-		case 47:
-			goto tr558
-		case 90:
-			goto tr560
-		case 95:
-			goto tr558
+			goto tr572
+		case 58:
+			goto tr574
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st409
+		case data[p] > 51:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto st394
 			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr558
-			}
-		default:
-			goto tr558
+		case data[p] >= 48:
+			goto st393
 		}
 		goto st0
-tr557:
+tr551:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st399
+tr590:
+//line ragel/datetime.rl:54
+
+    if st.Hour > 12 {
+        err = errors.New("hour out of range")
+        return st, err
+    }
+    if apm, err := parse_ampm(data[pb:]); err != nil {
+        return st, err
+    } else {
+        switch apm {
+            case AMPM_AM:
+                if (st.Hour == 12) {
+                    st.Hour -= 12; // 12:00:00 am == 00:00:00
+                }
+            case AMPM_PM: {
+                if (st.Hour < 12) {
+                    st.Hour += 12
+                }
+                // else {} // 12:00:00 pm = 12:00:00, do nothing
+            }
+        }
+    }
+
+	goto st399
+tr595:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st399
+tr613:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st399
+tr606:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -14284,17 +14803,130 @@ tr557:
     }
 
 	goto st399
+tr629:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st399
+tr638:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st399
+tr649:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st399
+tr670:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st399
 	st399:
 		if p++; p == pe {
 			goto _test_eof399
 		}
 	st_case_399:
-//line ragel/parse_datetime.go:14293
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr561
+//line ragel/parse_datetime.go:14836
+		if data[p] == 50 {
+			goto tr585
+		}
+		switch {
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr586
+			}
+		case data[p] >= 48:
+			goto tr584
 		}
 		goto st0
-tr561:
+tr563:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr555:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr599:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr633:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr641:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr652:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr658:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st400
+tr672:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
 //line ragel/datetime.rl:5
  pb = p 
 	goto st400
@@ -14303,32 +14935,22 @@ tr561:
 			goto _test_eof400
 		}
 	st_case_400:
-//line ragel/parse_datetime.go:14307
+//line ragel/parse_datetime.go:14939
 		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
 		case 47:
-			goto tr565
-		case 90:
-			goto tr567
+			goto st391
+		case 77:
+			goto st401
 		case 95:
-			goto tr565
+			goto st391
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st401
-			}
-		case data[p] > 89:
+		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto st391
 			}
-		default:
-			goto tr565
+		case data[p] >= 65:
+			goto st391
 		}
 		goto st0
 	st401:
@@ -14338,1467 +14960,26 @@ tr561:
 	st_case_401:
 		switch data[p] {
 		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st402
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st402:
-		if p++; p == pe {
-			goto _test_eof402
-		}
-	st_case_402:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st403
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st403:
-		if p++; p == pe {
-			goto _test_eof403
-		}
-	st_case_403:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st404
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st404:
-		if p++; p == pe {
-			goto _test_eof404
-		}
-	st_case_404:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st405
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st405:
-		if p++; p == pe {
-			goto _test_eof405
-		}
-	st_case_405:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st406
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st406:
-		if p++; p == pe {
-			goto _test_eof406
-		}
-	st_case_406:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st407
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st407:
-		if p++; p == pe {
-			goto _test_eof407
-		}
-	st_case_407:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st408
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st408:
-		if p++; p == pe {
-			goto _test_eof408
-		}
-	st_case_408:
-		switch data[p] {
-		case 32:
-			goto tr562
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		case data[p] >= 65:
-			goto tr565
-		}
-		goto st0
-	st409:
-		if p++; p == pe {
-			goto _test_eof409
-		}
-	st_case_409:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st410
-		}
-		goto st0
-	st410:
-		if p++; p == pe {
-			goto _test_eof410
-		}
-	st_case_410:
-		switch data[p] {
-		case 32:
-			goto tr554
-		case 43:
-			goto tr555
-		case 45:
-			goto tr556
-		case 46:
-			goto tr557
-		case 47:
-			goto tr558
-		case 90:
-			goto tr560
-		case 95:
-			goto tr558
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr558
-			}
-		case data[p] >= 65:
-			goto tr558
-		}
-		goto st0
-tr505:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st411
-tr549:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st411
-	st411:
-		if p++; p == pe {
-			goto _test_eof411
-		}
-	st_case_411:
-//line ragel/parse_datetime.go:14643
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr577
-			}
-		case data[p] >= 48:
-			goto tr576
-		}
-		goto st0
-tr576:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st412
-	st412:
-		if p++; p == pe {
-			goto _test_eof412
-		}
-	st_case_412:
-//line ragel/parse_datetime.go:14662
-		switch data[p] {
-		case 32:
-			goto tr578
-		case 43:
-			goto tr579
-		case 45:
-			goto tr580
-		case 47:
-			goto tr581
-		case 58:
-			goto tr583
-		case 65:
-			goto tr584
-		case 80:
-			goto tr584
-		case 90:
-			goto tr585
-		case 95:
-			goto tr581
-		case 97:
-			goto tr586
-		case 112:
-			goto tr586
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st413
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr581
-			}
-		default:
-			goto tr581
-		}
-		goto st0
-	st413:
-		if p++; p == pe {
-			goto _test_eof413
-		}
-	st_case_413:
-		switch data[p] {
-		case 32:
-			goto tr587
-		case 43:
 			goto tr588
-		case 45:
+		case 43:
 			goto tr589
-		case 47:
+		case 45:
 			goto tr590
-		case 58:
+		case 47:
 			goto tr591
-		case 65:
-			goto tr592
-		case 80:
-			goto tr592
-		case 90:
-			goto tr593
 		case 95:
-			goto tr590
-		case 97:
-			goto tr594
-		case 112:
-			goto tr594
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr590
-			}
-		case data[p] >= 66:
-			goto tr590
-		}
-		goto st0
-tr583:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st414
-tr591:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st414
-	st414:
-		if p++; p == pe {
-			goto _test_eof414
-		}
-	st_case_414:
-//line ragel/parse_datetime.go:14755
-		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr596
-			}
-		case data[p] >= 48:
-			goto tr595
-		}
-		goto st0
-tr595:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st415
-	st415:
-		if p++; p == pe {
-			goto _test_eof415
-		}
-	st_case_415:
-//line ragel/parse_datetime.go:14774
-		switch data[p] {
-		case 32:
-			goto tr597
-		case 43:
-			goto tr598
-		case 45:
-			goto tr599
-		case 46:
-			goto tr600
-		case 47:
-			goto tr601
-		case 65:
-			goto tr603
-		case 80:
-			goto tr603
-		case 90:
-			goto tr604
-		case 95:
-			goto tr601
-		case 97:
-			goto tr605
-		case 112:
-			goto tr605
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st426
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr601
-			}
-		default:
-			goto tr601
-		}
-		goto st0
-tr600:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st416
-tr621:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st416
-	st416:
-		if p++; p == pe {
-			goto _test_eof416
-		}
-	st_case_416:
-//line ragel/parse_datetime.go:14829
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr606
-		}
-		goto st0
-tr606:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st417
-	st417:
-		if p++; p == pe {
-			goto _test_eof417
-		}
-	st_case_417:
-//line ragel/parse_datetime.go:14843
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st418
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st418:
-		if p++; p == pe {
-			goto _test_eof418
-		}
-	st_case_418:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st419
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st419:
-		if p++; p == pe {
-			goto _test_eof419
-		}
-	st_case_419:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st420
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st420:
-		if p++; p == pe {
-			goto _test_eof420
-		}
-	st_case_420:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st421
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st421:
-		if p++; p == pe {
-			goto _test_eof421
-		}
-	st_case_421:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st422
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st422:
-		if p++; p == pe {
-			goto _test_eof422
-		}
-	st_case_422:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st423
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st423:
-		if p++; p == pe {
-			goto _test_eof423
-		}
-	st_case_423:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st424
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st424:
-		if p++; p == pe {
-			goto _test_eof424
-		}
-	st_case_424:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st425
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st425:
-		if p++; p == pe {
-			goto _test_eof425
-		}
-	st_case_425:
-		switch data[p] {
-		case 32:
-			goto tr607
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr609
-		case 80:
-			goto tr609
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr610
-		case 112:
-			goto tr610
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		case data[p] >= 66:
-			goto tr565
-		}
-		goto st0
-	st426:
-		if p++; p == pe {
-			goto _test_eof426
-		}
-	st_case_426:
-		switch data[p] {
-		case 32:
-			goto tr618
-		case 43:
-			goto tr619
-		case 45:
-			goto tr620
-		case 46:
-			goto tr621
-		case 47:
-			goto tr622
-		case 65:
-			goto tr623
-		case 80:
-			goto tr623
-		case 90:
-			goto tr624
-		case 95:
-			goto tr622
-		case 97:
-			goto tr625
-		case 112:
-			goto tr625
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr622
-			}
-		case data[p] >= 66:
-			goto tr622
-		}
-		goto st0
-tr596:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st427
-	st427:
-		if p++; p == pe {
-			goto _test_eof427
-		}
-	st_case_427:
-//line ragel/parse_datetime.go:15242
-		switch data[p] {
-		case 32:
-			goto tr597
-		case 43:
-			goto tr598
-		case 45:
-			goto tr599
-		case 46:
-			goto tr600
-		case 47:
-			goto tr601
-		case 65:
-			goto tr603
-		case 80:
-			goto tr603
-		case 90:
-			goto tr604
-		case 95:
-			goto tr601
-		case 97:
-			goto tr605
-		case 112:
-			goto tr605
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr601
-			}
-		case data[p] >= 66:
-			goto tr601
-		}
-		goto st0
-tr577:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st428
-	st428:
-		if p++; p == pe {
-			goto _test_eof428
-		}
-	st_case_428:
-//line ragel/parse_datetime.go:15285
-		switch data[p] {
-		case 32:
-			goto tr578
-		case 43:
-			goto tr579
-		case 45:
-			goto tr580
-		case 47:
-			goto tr581
-		case 58:
-			goto tr583
-		case 65:
-			goto tr584
-		case 80:
-			goto tr584
-		case 90:
-			goto tr585
-		case 95:
-			goto tr581
-		case 97:
-			goto tr586
-		case 112:
-			goto tr586
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr581
-			}
-		case data[p] >= 66:
-			goto tr581
-		}
-		goto st0
-tr498:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st429
-	st429:
-		if p++; p == pe {
-			goto _test_eof429
-		}
-	st_case_429:
-//line ragel/parse_datetime.go:15328
-		switch data[p] {
-		case 32:
-			goto tr500
-		case 43:
-			goto tr501
-		case 45:
-			goto tr502
-		case 47:
-			goto tr503
-		case 58:
-			goto tr505
-		case 65:
-			goto tr506
-		case 80:
-			goto tr506
-		case 90:
-			goto tr507
-		case 95:
-			goto tr503
-		case 97:
-			goto tr508
-		case 112:
-			goto tr508
-		}
-		switch {
-		case data[p] < 52:
-			if 48 <= data[p] && data[p] <= 51 {
-				goto st396
-			}
-		case data[p] > 57:
-			switch {
-			case data[p] > 89:
-				if 98 <= data[p] && data[p] <= 122 {
-					goto tr503
-				}
-			case data[p] >= 66:
-				goto tr503
-			}
-		default:
-			goto st430
-		}
-		goto st0
-	st430:
-		if p++; p == pe {
-			goto _test_eof430
-		}
-	st_case_430:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st397
-		}
-		goto st0
-tr499:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st431
-	st431:
-		if p++; p == pe {
-			goto _test_eof431
-		}
-	st_case_431:
-//line ragel/parse_datetime.go:15389
-		switch data[p] {
-		case 32:
-			goto tr500
-		case 43:
-			goto tr501
-		case 45:
-			goto tr502
-		case 47:
-			goto tr503
-		case 58:
-			goto tr505
-		case 65:
-			goto tr506
-		case 80:
-			goto tr506
-		case 90:
-			goto tr507
-		case 95:
-			goto tr503
-		case 97:
-			goto tr508
-		case 112:
-			goto tr508
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st430
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr503
-			}
-		default:
-			goto tr503
-		}
-		goto st0
-tr493:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st432
-	st432:
-		if p++; p == pe {
-			goto _test_eof432
-		}
-	st_case_432:
-//line ragel/parse_datetime.go:15436
-		if data[p] == 32 {
-			goto tr496
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st370
-		}
-		goto st0
-tr494:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st433
-	st433:
-		if p++; p == pe {
-			goto _test_eof433
-		}
-	st_case_433:
-//line ragel/parse_datetime.go:15453
-		if data[p] == 32 {
-			goto tr496
-		}
-		if 48 <= data[p] && data[p] <= 49 {
-			goto st370
-		}
-		goto st0
-tr488:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st434
-	st434:
-		if p++; p == pe {
-			goto _test_eof434
-		}
-	st_case_434:
-//line ragel/parse_datetime.go:15470
-		if 49 <= data[p] && data[p] <= 57 {
-			goto st435
-		}
-		goto st0
-	st435:
-		if p++; p == pe {
-			goto _test_eof435
-		}
-	st_case_435:
-		if data[p] == 32 {
-			goto tr628
-		}
-		goto st0
-tr628:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-	goto st436
-	st436:
-		if p++; p == pe {
-			goto _test_eof436
-		}
-	st_case_436:
-//line ragel/parse_datetime.go:15500
-		if data[p] == 50 {
-			goto tr630
-		}
-		switch {
-		case data[p] > 49:
-			if 51 <= data[p] && data[p] <= 57 {
-				goto tr631
-			}
-		case data[p] >= 48:
-			goto tr629
-		}
-		goto st0
-tr629:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st437
-	st437:
-		if p++; p == pe {
-			goto _test_eof437
-		}
-	st_case_437:
-//line ragel/parse_datetime.go:15522
-		switch data[p] {
-		case 32:
-			goto tr632
-		case 43:
-			goto tr501
-		case 45:
-			goto tr502
-		case 47:
-			goto tr503
-		case 58:
-			goto tr634
-		case 65:
-			goto tr635
-		case 80:
-			goto tr635
-		case 90:
-			goto tr507
-		case 95:
-			goto tr503
-		case 97:
-			goto tr636
-		case 112:
-			goto tr636
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st443
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr503
-			}
-		default:
-			goto tr503
-		}
-		goto st0
-tr632:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st438
-tr641:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st438
-tr680:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st438
-tr663:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st438
-tr668:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st438
-tr674:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st438
-tr691:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st438
-	st438:
-		if p++; p == pe {
-			goto _test_eof438
-		}
-	st_case_438:
-//line ragel/parse_datetime.go:15632
-		switch data[p] {
-		case 32:
-			goto st374
-		case 43:
-			goto st378
-		case 45:
-			goto st390
-		case 47:
-			goto tr512
-		case 65:
-			goto tr637
-		case 80:
-			goto tr637
-		case 90:
-			goto tr515
-		case 95:
-			goto tr512
-		case 97:
-			goto tr638
-		case 112:
-			goto tr638
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto tr336
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr512
-			}
-		default:
-			goto tr512
-		}
-		goto st0
-tr637:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr635:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr644:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr666:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr670:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr677:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr682:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-tr693:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-//line ragel/datetime.rl:5
- pb = p 
-	goto st439
-	st439:
-		if p++; p == pe {
-			goto _test_eof439
-		}
-	st_case_439:
-//line ragel/parse_datetime.go:15758
-		switch data[p] {
-		case 47:
-			goto st382
-		case 77:
-			goto st440
-		case 95:
-			goto st382
+			goto tr591
 		}
 		switch {
 		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
+				goto tr591
 			}
 		case data[p] >= 65:
-			goto st382
+			goto tr591
 		}
 		goto st0
-	st440:
-		if p++; p == pe {
-			goto _test_eof440
-		}
-	st_case_440:
-		switch data[p] {
-		case 32:
-			goto tr640
-		case 43:
-			goto tr540
-		case 45:
-			goto tr541
-		case 47:
-			goto tr542
-		case 95:
-			goto tr542
-		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr542
-			}
-		case data[p] >= 65:
-			goto tr542
-		}
-		goto st0
-tr640:
+tr588:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -15822,8 +15003,39 @@ tr640:
         }
     }
 
-	goto st441
-tr647:
+	goto st402
+tr611:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st402
+tr603:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -15839,116 +15051,85 @@ tr647:
             return
     }
 
-	goto st441
-tr651:
-//line ragel/datetime.rl:117
-
-    switch p - pb {
-        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
-        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
-        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
-        case 4: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
-        case 5: 
-            st.Millisecond = parse_digits(data[pb:pb+3]) 
-            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
-        case 6:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-        case 7:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
-        case 8:
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
-        default: 
-            st.Millisecond = parse_digits(data[pb:pb+3])
-            st.Microsecond = parse_digits(data[pb+3:pb+6])
-            st.Nanosecond =  parse_digits(data[pb+6:p])
-    }
-
-	goto st441
-	st441:
+	goto st402
+	st402:
 		if p++; p == pe {
-			goto _test_eof441
+			goto _test_eof402
 		}
-	st_case_441:
-//line ragel/parse_datetime.go:15880
+	st_case_402:
+//line ragel/parse_datetime.go:15061
 		switch data[p] {
 		case 32:
-			goto st374
+			goto st383
 		case 43:
-			goto st378
+			goto st387
 		case 45:
-			goto st390
+			goto st399
 		case 47:
-			goto tr512
+			goto tr561
 		case 90:
-			goto tr515
+			goto tr564
 		case 95:
-			goto tr512
+			goto tr561
 		}
 		switch {
 		case data[p] < 65:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto tr336
+				goto tr562
 			}
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr512
+				goto tr561
 			}
 		default:
-			goto tr512
+			goto tr561
 		}
 		goto st0
-tr638:
+tr564:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr636:
+	goto st403
+tr556:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr645:
+	goto st403
+tr600:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr667:
+	goto st403
+tr634:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr671:
+	goto st403
+tr642:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr678:
+	goto st403
+tr653:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr683:
+	goto st403
+tr616:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -15980,12 +15161,1436 @@ tr683:
 
 //line ragel/datetime.rl:5
  pb = p 
-	goto st442
-tr694:
+	goto st403
+tr673:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st403
+tr609:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st403
+	st403:
+		if p++; p == pe {
+			goto _test_eof403
+		}
+	st_case_403:
+//line ragel/parse_datetime.go:15198
+		switch data[p] {
+		case 32:
+			goto tr592
+		case 47:
+			goto st391
+		case 95:
+			goto st391
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st391
+			}
+		case data[p] >= 65:
+			goto st391
+		}
+		goto st0
+tr565:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr557:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr601:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr635:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr643:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr654:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr659:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+tr674:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st404
+	st404:
+		if p++; p == pe {
+			goto _test_eof404
+		}
+	st_case_404:
+//line ragel/parse_datetime.go:15306
+		switch data[p] {
+		case 47:
+			goto st391
+		case 95:
+			goto st391
+		case 109:
+			goto st401
+		}
+		switch {
+		case data[p] > 90:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto st391
+			}
+		case data[p] >= 65:
+			goto st391
+		}
+		goto st0
+	st405:
+		if p++; p == pe {
+			goto _test_eof405
+		}
+	st_case_405:
+		switch data[p] {
+		case 32:
+			goto tr593
+		case 43:
+			goto tr594
+		case 45:
+			goto tr595
+		case 47:
+			goto tr596
+		case 58:
+			goto tr598
+		case 65:
+			goto tr599
+		case 80:
+			goto tr599
+		case 90:
+			goto tr600
+		case 95:
+			goto tr596
+		case 97:
+			goto tr601
+		case 112:
+			goto tr601
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st406
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr596
+			}
+		default:
+			goto tr596
+		}
+		goto st0
+	st406:
+		if p++; p == pe {
+			goto _test_eof406
+		}
+	st_case_406:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st407
+		}
+		goto st0
+	st407:
+		if p++; p == pe {
+			goto _test_eof407
+		}
+	st_case_407:
+		switch data[p] {
+		case 32:
+			goto tr603
+		case 43:
+			goto tr604
+		case 45:
+			goto tr606
+		case 47:
+			goto tr607
+		case 90:
+			goto tr609
+		case 95:
+			goto tr607
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr605
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr607
+				}
+			case data[p] >= 65:
+				goto tr607
+			}
+		default:
+			goto st418
+		}
+		goto st0
+tr605:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st408
+	st408:
+		if p++; p == pe {
+			goto _test_eof408
+		}
+	st_case_408:
+//line ragel/parse_datetime.go:15434
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr610
+		}
+		goto st0
+tr610:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st409
+	st409:
+		if p++; p == pe {
+			goto _test_eof409
+		}
+	st_case_409:
+//line ragel/parse_datetime.go:15448
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st410
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st410:
+		if p++; p == pe {
+			goto _test_eof410
+		}
+	st_case_410:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st411
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st411:
+		if p++; p == pe {
+			goto _test_eof411
+		}
+	st_case_411:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st412
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st412:
+		if p++; p == pe {
+			goto _test_eof412
+		}
+	st_case_412:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st413
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st413:
+		if p++; p == pe {
+			goto _test_eof413
+		}
+	st_case_413:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st414
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st414:
+		if p++; p == pe {
+			goto _test_eof414
+		}
+	st_case_414:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st415
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st415:
+		if p++; p == pe {
+			goto _test_eof415
+		}
+	st_case_415:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st416
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st416:
+		if p++; p == pe {
+			goto _test_eof416
+		}
+	st_case_416:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st417
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st417:
+		if p++; p == pe {
+			goto _test_eof417
+		}
+	st_case_417:
+		switch data[p] {
+		case 32:
+			goto tr611
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		case data[p] >= 65:
+			goto tr614
+		}
+		goto st0
+	st418:
+		if p++; p == pe {
+			goto _test_eof418
+		}
+	st_case_418:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st419
+		}
+		goto st0
+	st419:
+		if p++; p == pe {
+			goto _test_eof419
+		}
+	st_case_419:
+		switch data[p] {
+		case 32:
+			goto tr603
+		case 43:
+			goto tr604
+		case 45:
+			goto tr606
+		case 47:
+			goto tr607
+		case 90:
+			goto tr609
+		case 95:
+			goto tr607
+		}
+		switch {
+		case data[p] < 65:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr605
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr607
+			}
+		default:
+			goto tr607
+		}
+		goto st0
+tr554:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st420
+tr598:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st420
+	st420:
+		if p++; p == pe {
+			goto _test_eof420
+		}
+	st_case_420:
+//line ragel/parse_datetime.go:15786
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr626
+			}
+		case data[p] >= 48:
+			goto tr625
+		}
+		goto st0
+tr625:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st421
+	st421:
+		if p++; p == pe {
+			goto _test_eof421
+		}
+	st_case_421:
+//line ragel/parse_datetime.go:15805
+		switch data[p] {
+		case 32:
+			goto tr627
+		case 43:
+			goto tr628
+		case 45:
+			goto tr629
+		case 47:
+			goto tr630
+		case 58:
+			goto tr632
+		case 65:
+			goto tr633
+		case 80:
+			goto tr633
+		case 90:
+			goto tr634
+		case 95:
+			goto tr630
+		case 97:
+			goto tr635
+		case 112:
+			goto tr635
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st422
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr630
+			}
+		default:
+			goto tr630
+		}
+		goto st0
+	st422:
+		if p++; p == pe {
+			goto _test_eof422
+		}
+	st_case_422:
+		switch data[p] {
+		case 32:
+			goto tr636
+		case 43:
+			goto tr637
+		case 45:
+			goto tr638
+		case 47:
+			goto tr639
+		case 58:
+			goto tr640
+		case 65:
+			goto tr641
+		case 80:
+			goto tr641
+		case 90:
+			goto tr642
+		case 95:
+			goto tr639
+		case 97:
+			goto tr643
+		case 112:
+			goto tr643
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr639
+			}
+		case data[p] >= 66:
+			goto tr639
+		}
+		goto st0
+tr632:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st423
+tr640:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st423
+	st423:
+		if p++; p == pe {
+			goto _test_eof423
+		}
+	st_case_423:
+//line ragel/parse_datetime.go:15898
+		switch {
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr645
+			}
+		case data[p] >= 48:
+			goto tr644
+		}
+		goto st0
+tr644:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st424
+	st424:
+		if p++; p == pe {
+			goto _test_eof424
+		}
+	st_case_424:
+//line ragel/parse_datetime.go:15917
+		switch data[p] {
+		case 32:
+			goto tr646
+		case 43:
+			goto tr647
+		case 45:
+			goto tr649
+		case 47:
+			goto tr650
+		case 65:
+			goto tr652
+		case 80:
+			goto tr652
+		case 90:
+			goto tr653
+		case 95:
+			goto tr650
+		case 97:
+			goto tr654
+		case 112:
+			goto tr654
+		}
+		switch {
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr648
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr650
+				}
+			case data[p] >= 66:
+				goto tr650
+			}
+		default:
+			goto st435
+		}
+		goto st0
+tr648:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st425
+tr669:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st425
+	st425:
+		if p++; p == pe {
+			goto _test_eof425
+		}
+	st_case_425:
+//line ragel/parse_datetime.go:15975
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr655
+		}
+		goto st0
+tr655:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st426
+	st426:
+		if p++; p == pe {
+			goto _test_eof426
+		}
+	st_case_426:
+//line ragel/parse_datetime.go:15989
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st427
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st427:
+		if p++; p == pe {
+			goto _test_eof427
+		}
+	st_case_427:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st428
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st428:
+		if p++; p == pe {
+			goto _test_eof428
+		}
+	st_case_428:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st429
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st429:
+		if p++; p == pe {
+			goto _test_eof429
+		}
+	st_case_429:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st430
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st430:
+		if p++; p == pe {
+			goto _test_eof430
+		}
+	st_case_430:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st431
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st431:
+		if p++; p == pe {
+			goto _test_eof431
+		}
+	st_case_431:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st432
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st432:
+		if p++; p == pe {
+			goto _test_eof432
+		}
+	st_case_432:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st433
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st433:
+		if p++; p == pe {
+			goto _test_eof433
+		}
+	st_case_433:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st434
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st434:
+		if p++; p == pe {
+			goto _test_eof434
+		}
+	st_case_434:
+		switch data[p] {
+		case 32:
+			goto tr656
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr658
+		case 80:
+			goto tr658
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr659
+		case 112:
+			goto tr659
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		case data[p] >= 66:
+			goto tr614
+		}
+		goto st0
+	st435:
+		if p++; p == pe {
+			goto _test_eof435
+		}
+	st_case_435:
+		switch data[p] {
+		case 32:
+			goto tr667
+		case 43:
+			goto tr668
+		case 45:
+			goto tr670
+		case 47:
+			goto tr671
+		case 65:
+			goto tr672
+		case 80:
+			goto tr672
+		case 90:
+			goto tr673
+		case 95:
+			goto tr671
+		case 97:
+			goto tr674
+		case 112:
+			goto tr674
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr669
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr671
+			}
+		default:
+			goto tr671
+		}
+		goto st0
+tr645:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st436
+	st436:
+		if p++; p == pe {
+			goto _test_eof436
+		}
+	st_case_436:
+//line ragel/parse_datetime.go:16390
+		switch data[p] {
+		case 32:
+			goto tr646
+		case 43:
+			goto tr647
+		case 45:
+			goto tr649
+		case 47:
+			goto tr650
+		case 65:
+			goto tr652
+		case 80:
+			goto tr652
+		case 90:
+			goto tr653
+		case 95:
+			goto tr650
+		case 97:
+			goto tr654
+		case 112:
+			goto tr654
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr648
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr650
+			}
+		default:
+			goto tr650
+		}
+		goto st0
+tr626:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st437
+	st437:
+		if p++; p == pe {
+			goto _test_eof437
+		}
+	st_case_437:
+//line ragel/parse_datetime.go:16435
+		switch data[p] {
+		case 32:
+			goto tr627
+		case 43:
+			goto tr628
+		case 45:
+			goto tr629
+		case 47:
+			goto tr630
+		case 58:
+			goto tr632
+		case 65:
+			goto tr633
+		case 80:
+			goto tr633
+		case 90:
+			goto tr634
+		case 95:
+			goto tr630
+		case 97:
+			goto tr635
+		case 112:
+			goto tr635
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr630
+			}
+		case data[p] >= 66:
+			goto tr630
+		}
+		goto st0
+tr547:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st438
+	st438:
+		if p++; p == pe {
+			goto _test_eof438
+		}
+	st_case_438:
+//line ragel/parse_datetime.go:16478
+		switch data[p] {
+		case 32:
+			goto tr549
+		case 43:
+			goto tr550
+		case 45:
+			goto tr551
+		case 47:
+			goto tr552
+		case 58:
+			goto tr554
+		case 65:
+			goto tr555
+		case 80:
+			goto tr555
+		case 90:
+			goto tr556
+		case 95:
+			goto tr552
+		case 97:
+			goto tr557
+		case 112:
+			goto tr557
+		}
+		switch {
+		case data[p] < 52:
+			if 48 <= data[p] && data[p] <= 51 {
+				goto st405
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr552
+				}
+			case data[p] >= 66:
+				goto tr552
+			}
+		default:
+			goto st439
+		}
+		goto st0
+	st439:
+		if p++; p == pe {
+			goto _test_eof439
+		}
+	st_case_439:
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st406
+		}
+		goto st0
+tr548:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st440
+	st440:
+		if p++; p == pe {
+			goto _test_eof440
+		}
+	st_case_440:
+//line ragel/parse_datetime.go:16539
+		switch data[p] {
+		case 32:
+			goto tr549
+		case 43:
+			goto tr550
+		case 45:
+			goto tr551
+		case 47:
+			goto tr552
+		case 58:
+			goto tr554
+		case 65:
+			goto tr555
+		case 80:
+			goto tr555
+		case 90:
+			goto tr556
+		case 95:
+			goto tr552
+		case 97:
+			goto tr557
+		case 112:
+			goto tr557
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st439
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr552
+			}
+		default:
+			goto tr552
+		}
+		goto st0
+tr542:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st441
+	st441:
+		if p++; p == pe {
+			goto _test_eof441
+		}
+	st_case_441:
+//line ragel/parse_datetime.go:16586
+		if data[p] == 32 {
+			goto tr545
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st379
+		}
+		goto st0
+tr543:
 //line ragel/datetime.rl:5
  pb = p 
 	goto st442
@@ -15994,64 +16599,26 @@ tr694:
 			goto _test_eof442
 		}
 	st_case_442:
-//line ragel/parse_datetime.go:15998
-		switch data[p] {
-		case 47:
-			goto st382
-		case 95:
-			goto st382
-		case 109:
-			goto st440
+//line ragel/parse_datetime.go:16603
+		if data[p] == 32 {
+			goto tr545
 		}
-		switch {
-		case data[p] > 90:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto st382
-			}
-		case data[p] >= 65:
-			goto st382
+		if 48 <= data[p] && data[p] <= 49 {
+			goto st379
 		}
 		goto st0
+tr537:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st443
 	st443:
 		if p++; p == pe {
 			goto _test_eof443
 		}
 	st_case_443:
-		switch data[p] {
-		case 32:
-			goto tr641
-		case 43:
-			goto tr545
-		case 45:
-			goto tr546
-		case 47:
-			goto tr547
-		case 58:
-			goto tr643
-		case 65:
-			goto tr644
-		case 80:
-			goto tr644
-		case 90:
-			goto tr551
-		case 95:
-			goto tr547
-		case 97:
-			goto tr645
-		case 112:
-			goto tr645
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st444
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr547
-			}
-		default:
-			goto tr547
+//line ragel/parse_datetime.go:16620
+		if 49 <= data[p] && data[p] <= 57 {
+			goto st444
 		}
 		goto st0
 	st444:
@@ -16059,138 +16626,300 @@ tr694:
 			goto _test_eof444
 		}
 	st_case_444:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st445
+		if data[p] == 32 {
+			goto tr677
 		}
 		goto st0
+tr677:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+	goto st445
 	st445:
 		if p++; p == pe {
 			goto _test_eof445
 		}
 	st_case_445:
-		switch data[p] {
-		case 32:
-			goto tr647
-		case 43:
-			goto tr555
-		case 45:
-			goto tr556
-		case 46:
-			goto tr648
-		case 47:
-			goto tr558
-		case 90:
-			goto tr560
-		case 95:
-			goto tr558
+//line ragel/parse_datetime.go:16650
+		if data[p] == 50 {
+			goto tr679
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st456
+		case data[p] > 49:
+			if 51 <= data[p] && data[p] <= 57 {
+				goto tr680
 			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr558
-			}
-		default:
-			goto tr558
+		case data[p] >= 48:
+			goto tr678
 		}
 		goto st0
-tr648:
-//line ragel/datetime.rl:35
-
-    switch p - pb {
-        case 4: 
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-        case 6:
-            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
-            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
-        default:
-            err = errors.New("invalid hhmmss digits")
-            return
-    }
-
+tr678:
+//line ragel/datetime.rl:5
+ pb = p 
 	goto st446
 	st446:
 		if p++; p == pe {
 			goto _test_eof446
 		}
 	st_case_446:
-//line ragel/parse_datetime.go:16123
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr650
+//line ragel/parse_datetime.go:16672
+		switch data[p] {
+		case 32:
+			goto tr681
+		case 43:
+			goto tr550
+		case 45:
+			goto tr551
+		case 47:
+			goto tr552
+		case 58:
+			goto tr683
+		case 65:
+			goto tr684
+		case 80:
+			goto tr684
+		case 90:
+			goto tr556
+		case 95:
+			goto tr552
+		case 97:
+			goto tr685
+		case 112:
+			goto tr685
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st452
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr552
+			}
+		default:
+			goto tr552
 		}
 		goto st0
-tr650:
-//line ragel/datetime.rl:5
- pb = p 
+tr681:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st447
+tr690:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st447
+tr729:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st447
+tr712:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st447
+tr717:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st447
+tr723:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st447
+tr740:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
 	goto st447
 	st447:
 		if p++; p == pe {
 			goto _test_eof447
 		}
 	st_case_447:
-//line ragel/parse_datetime.go:16137
+//line ragel/parse_datetime.go:16782
 		switch data[p] {
 		case 32:
-			goto tr651
+			goto st383
 		case 43:
-			goto tr563
+			goto st387
 		case 45:
-			goto tr564
+			goto st399
 		case 47:
-			goto tr565
+			goto tr561
+		case 65:
+			goto tr686
+		case 80:
+			goto tr686
 		case 90:
-			goto tr567
+			goto tr564
 		case 95:
-			goto tr565
+			goto tr561
+		case 97:
+			goto tr687
+		case 112:
+			goto tr687
 		}
 		switch {
-		case data[p] < 65:
+		case data[p] < 66:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto st448
+				goto tr383
 			}
 		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr561
 			}
 		default:
-			goto tr565
+			goto tr561
 		}
 		goto st0
+tr686:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr684:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr693:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr715:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr719:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr726:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr731:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
+tr742:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st448
 	st448:
 		if p++; p == pe {
 			goto _test_eof448
 		}
 	st_case_448:
+//line ragel/parse_datetime.go:16908
 		switch data[p] {
-		case 32:
-			goto tr651
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
 		case 47:
-			goto tr565
-		case 90:
-			goto tr567
+			goto st391
+		case 77:
+			goto st449
 		case 95:
-			goto tr565
+			goto st391
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st449
-			}
-		case data[p] > 89:
+		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto st391
 			}
-		default:
-			goto tr565
+		case data[p] >= 65:
+			goto st391
 		}
 		goto st0
 	st449:
@@ -16200,93 +16929,237 @@ tr650:
 	st_case_449:
 		switch data[p] {
 		case 32:
-			goto tr651
+			goto tr689
 		case 43:
-			goto tr563
+			goto tr589
 		case 45:
-			goto tr564
+			goto tr590
 		case 47:
-			goto tr565
-		case 90:
-			goto tr567
+			goto tr591
 		case 95:
-			goto tr565
+			goto tr591
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st450
-			}
-		case data[p] > 89:
+		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto tr591
 			}
-		default:
-			goto tr565
+		case data[p] >= 65:
+			goto tr591
 		}
 		goto st0
+tr689:
+//line ragel/datetime.rl:54
+
+    if st.Hour > 12 {
+        err = errors.New("hour out of range")
+        return st, err
+    }
+    if apm, err := parse_ampm(data[pb:]); err != nil {
+        return st, err
+    } else {
+        switch apm {
+            case AMPM_AM:
+                if (st.Hour == 12) {
+                    st.Hour -= 12; // 12:00:00 am == 00:00:00
+                }
+            case AMPM_PM: {
+                if (st.Hour < 12) {
+                    st.Hour += 12
+                }
+                // else {} // 12:00:00 pm = 12:00:00, do nothing
+            }
+        }
+    }
+
+	goto st450
+tr700:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+	goto st450
+tr696:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st450
 	st450:
 		if p++; p == pe {
 			goto _test_eof450
 		}
 	st_case_450:
+//line ragel/parse_datetime.go:17030
 		switch data[p] {
 		case 32:
-			goto tr651
+			goto st383
 		case 43:
-			goto tr563
+			goto st387
 		case 45:
-			goto tr564
+			goto st399
 		case 47:
-			goto tr565
+			goto tr561
 		case 90:
-			goto tr567
+			goto tr564
 		case 95:
-			goto tr565
+			goto tr561
 		}
 		switch {
 		case data[p] < 65:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto st451
+				goto tr383
 			}
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto tr561
 			}
 		default:
-			goto tr565
+			goto tr561
 		}
 		goto st0
+tr687:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr685:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr694:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr716:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr720:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr727:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr732:
+//line ragel/datetime.rl:117
+
+    switch p - pb {
+        case 1: st.Millisecond = parse_digits(data[pb:pb+1]) * 100
+        case 2: st.Millisecond = parse_digits(data[pb:pb+2])  * 10
+        case 3: st.Millisecond = parse_digits(data[pb:pb+3]) 
+        case 4: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+4])  * 100
+        case 5: 
+            st.Millisecond = parse_digits(data[pb:pb+3]) 
+            st.Microsecond = parse_digits(data[pb+3:pb+5]) * 10
+        case 6:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+        case 7:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+7]) * 100
+        case 8:
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:pb+8]) * 10
+        default: 
+            st.Millisecond = parse_digits(data[pb:pb+3])
+            st.Microsecond = parse_digits(data[pb+3:pb+6])
+            st.Nanosecond =  parse_digits(data[pb+6:p])
+    }
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
+tr743:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st451
 	st451:
 		if p++; p == pe {
 			goto _test_eof451
 		}
 	st_case_451:
+//line ragel/parse_datetime.go:17148
 		switch data[p] {
-		case 32:
-			goto tr651
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
 		case 47:
-			goto tr565
-		case 90:
-			goto tr567
+			goto st391
 		case 95:
-			goto tr565
+			goto st391
+		case 109:
+			goto st449
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st452
-			}
-		case data[p] > 89:
+		case data[p] > 90:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto st391
 			}
-		default:
-			goto tr565
+		case data[p] >= 65:
+			goto st391
 		}
 		goto st0
 	st452:
@@ -16296,29 +17169,39 @@ tr650:
 	st_case_452:
 		switch data[p] {
 		case 32:
-			goto tr651
+			goto tr690
 		case 43:
-			goto tr563
+			goto tr594
 		case 45:
-			goto tr564
+			goto tr595
 		case 47:
-			goto tr565
+			goto tr596
+		case 58:
+			goto tr692
+		case 65:
+			goto tr693
+		case 80:
+			goto tr693
 		case 90:
-			goto tr567
+			goto tr600
 		case 95:
-			goto tr565
+			goto tr596
+		case 97:
+			goto tr694
+		case 112:
+			goto tr694
 		}
 		switch {
-		case data[p] < 65:
+		case data[p] < 66:
 			if 48 <= data[p] && data[p] <= 57 {
 				goto st453
 			}
 		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr596
 			}
 		default:
-			goto tr565
+			goto tr596
 		}
 		goto st0
 	st453:
@@ -16326,31 +17209,8 @@ tr650:
 			goto _test_eof453
 		}
 	st_case_453:
-		switch data[p] {
-		case 32:
-			goto tr651
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st454
-			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st454
 		}
 		goto st0
 	st454:
@@ -16360,66 +17220,98 @@ tr650:
 	st_case_454:
 		switch data[p] {
 		case 32:
-			goto tr651
+			goto tr696
 		case 43:
-			goto tr563
+			goto tr604
 		case 45:
-			goto tr564
+			goto tr606
 		case 47:
-			goto tr565
+			goto tr607
 		case 90:
-			goto tr567
+			goto tr609
 		case 95:
-			goto tr565
+			goto tr607
 		}
 		switch {
-		case data[p] < 65:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st455
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr697
 			}
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 97 <= data[p] && data[p] <= 122 {
+					goto tr607
+				}
+			case data[p] >= 65:
+				goto tr607
 			}
 		default:
-			goto tr565
+			goto st465
 		}
 		goto st0
+tr697:
+//line ragel/datetime.rl:35
+
+    switch p - pb {
+        case 4: 
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+        case 6:
+            st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+            st.Minute, _ = strconv.Atoi(data[pb+2:pb+4])
+            st.Second, _ = strconv.Atoi(data[pb+4:pb+6])
+        default:
+            err = errors.New("invalid hhmmss digits")
+            return
+    }
+
+	goto st455
 	st455:
 		if p++; p == pe {
 			goto _test_eof455
 		}
 	st_case_455:
-		switch data[p] {
-		case 32:
-			goto tr651
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		}
-		switch {
-		case data[p] > 89:
-			if 97 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		case data[p] >= 65:
-			goto tr565
+//line ragel/parse_datetime.go:17276
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr699
 		}
 		goto st0
+tr699:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st456
 	st456:
 		if p++; p == pe {
 			goto _test_eof456
 		}
 	st_case_456:
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st457
+//line ragel/parse_datetime.go:17290
+		switch data[p] {
+		case 32:
+			goto tr700
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st457
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
 	st457:
@@ -16429,101 +17321,93 @@ tr650:
 	st_case_457:
 		switch data[p] {
 		case 32:
-			goto tr647
+			goto tr700
 		case 43:
-			goto tr555
+			goto tr612
 		case 45:
-			goto tr556
-		case 46:
-			goto tr648
+			goto tr613
 		case 47:
-			goto tr558
+			goto tr614
 		case 90:
-			goto tr560
+			goto tr616
 		case 95:
-			goto tr558
+			goto tr614
 		}
 		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st458
+			}
 		case data[p] > 89:
 			if 97 <= data[p] && data[p] <= 122 {
-				goto tr558
+				goto tr614
 			}
-		case data[p] >= 65:
-			goto tr558
+		default:
+			goto tr614
 		}
 		goto st0
-tr634:
-//line ragel/datetime.rl:102
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st458
-tr643:
-//line ragel/datetime.rl:99
-
-    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st458
 	st458:
 		if p++; p == pe {
 			goto _test_eof458
 		}
 	st_case_458:
-//line ragel/parse_datetime.go:16473
+		switch data[p] {
+		case 32:
+			goto tr700
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
 		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr662
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st459
 			}
-		case data[p] >= 48:
-			goto tr661
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
-tr661:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st459
 	st459:
 		if p++; p == pe {
 			goto _test_eof459
 		}
 	st_case_459:
-//line ragel/parse_datetime.go:16492
 		switch data[p] {
 		case 32:
-			goto tr663
+			goto tr700
 		case 43:
-			goto tr579
+			goto tr612
 		case 45:
-			goto tr580
+			goto tr613
 		case 47:
-			goto tr581
-		case 58:
-			goto tr665
-		case 65:
-			goto tr666
-		case 80:
-			goto tr666
+			goto tr614
 		case 90:
-			goto tr585
+			goto tr616
 		case 95:
-			goto tr581
-		case 97:
-			goto tr667
-		case 112:
-			goto tr667
+			goto tr614
 		}
 		switch {
-		case data[p] < 66:
+		case data[p] < 65:
 			if 48 <= data[p] && data[p] <= 57 {
 				goto st460
 			}
 		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr581
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
 			}
 		default:
-			goto tr581
+			goto tr614
 		}
 		goto st0
 	st460:
@@ -16533,176 +17417,153 @@ tr661:
 	st_case_460:
 		switch data[p] {
 		case 32:
-			goto tr668
+			goto tr700
 		case 43:
-			goto tr588
+			goto tr612
 		case 45:
-			goto tr589
+			goto tr613
 		case 47:
-			goto tr590
-		case 58:
-			goto tr669
-		case 65:
-			goto tr670
-		case 80:
-			goto tr670
+			goto tr614
 		case 90:
-			goto tr593
+			goto tr616
 		case 95:
-			goto tr590
-		case 97:
-			goto tr671
-		case 112:
-			goto tr671
+			goto tr614
 		}
 		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr590
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st461
 			}
-		case data[p] >= 66:
-			goto tr590
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
-tr665:
-//line ragel/datetime.rl:108
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st461
-tr669:
-//line ragel/datetime.rl:105
-
-    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st461
 	st461:
 		if p++; p == pe {
 			goto _test_eof461
 		}
 	st_case_461:
-//line ragel/parse_datetime.go:16585
+		switch data[p] {
+		case 32:
+			goto tr700
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
 		switch {
-		case data[p] > 53:
-			if 54 <= data[p] && data[p] <= 57 {
-				goto tr673
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st462
 			}
-		case data[p] >= 48:
-			goto tr672
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
-tr672:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st462
 	st462:
 		if p++; p == pe {
 			goto _test_eof462
 		}
 	st_case_462:
-//line ragel/parse_datetime.go:16604
 		switch data[p] {
 		case 32:
-			goto tr674
+			goto tr700
 		case 43:
-			goto tr598
+			goto tr612
 		case 45:
-			goto tr599
-		case 46:
-			goto tr675
+			goto tr613
 		case 47:
-			goto tr601
-		case 65:
-			goto tr677
-		case 80:
-			goto tr677
+			goto tr614
 		case 90:
-			goto tr604
+			goto tr616
 		case 95:
-			goto tr601
-		case 97:
-			goto tr678
-		case 112:
-			goto tr678
+			goto tr614
 		}
 		switch {
-		case data[p] < 66:
+		case data[p] < 65:
 			if 48 <= data[p] && data[p] <= 57 {
-				goto st473
+				goto st463
 			}
 		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr601
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
 			}
 		default:
-			goto tr601
+			goto tr614
 		}
 		goto st0
-tr675:
-//line ragel/datetime.rl:114
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+1])
-
-	goto st463
-tr692:
-//line ragel/datetime.rl:111
-
-    st.Second, _ = strconv.Atoi(data[pb:pb+2])
-
-	goto st463
 	st463:
 		if p++; p == pe {
 			goto _test_eof463
 		}
 	st_case_463:
-//line ragel/parse_datetime.go:16659
-		if 48 <= data[p] && data[p] <= 57 {
-			goto tr679
+		switch data[p] {
+		case 32:
+			goto tr700
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		}
+		switch {
+		case data[p] < 65:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st464
+			}
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
-tr679:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st464
 	st464:
 		if p++; p == pe {
 			goto _test_eof464
 		}
 	st_case_464:
-//line ragel/parse_datetime.go:16673
 		switch data[p] {
 		case 32:
-			goto tr680
+			goto tr700
 		case 43:
-			goto tr563
+			goto tr612
 		case 45:
-			goto tr564
+			goto tr613
 		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
+			goto tr614
 		case 90:
-			goto tr567
+			goto tr616
 		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
+			goto tr614
 		}
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st465
-			}
 		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr614
 			}
-		default:
-			goto tr565
+		case data[p] >= 65:
+			goto tr614
 		}
 		goto st0
 	st465:
@@ -16710,39 +17571,8 @@ tr679:
 			goto _test_eof465
 		}
 	st_case_465:
-		switch data[p] {
-		case 32:
-			goto tr680
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
-		}
-		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st466
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st466
 		}
 		goto st0
 	st466:
@@ -16752,105 +17582,91 @@ tr679:
 	st_case_466:
 		switch data[p] {
 		case 32:
-			goto tr680
+			goto tr696
 		case 43:
-			goto tr563
+			goto tr604
 		case 45:
-			goto tr564
+			goto tr606
 		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
+			goto tr607
 		case 90:
-			goto tr567
+			goto tr609
 		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
+			goto tr607
 		}
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st467
+		case data[p] < 65:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr697
 			}
 		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr607
 			}
 		default:
-			goto tr565
+			goto tr607
 		}
 		goto st0
+tr683:
+//line ragel/datetime.rl:102
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st467
+tr692:
+//line ragel/datetime.rl:99
+
+    st.Hour, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st467
 	st467:
 		if p++; p == pe {
 			goto _test_eof467
 		}
 	st_case_467:
-		switch data[p] {
-		case 32:
-			goto tr680
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
-		}
+//line ragel/parse_datetime.go:17628
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st468
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr711
 			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
+		case data[p] >= 48:
+			goto tr710
 		}
 		goto st0
+tr710:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st468
 	st468:
 		if p++; p == pe {
 			goto _test_eof468
 		}
 	st_case_468:
+//line ragel/parse_datetime.go:17647
 		switch data[p] {
 		case 32:
-			goto tr680
+			goto tr712
 		case 43:
-			goto tr563
+			goto tr628
 		case 45:
-			goto tr564
+			goto tr629
 		case 47:
-			goto tr565
+			goto tr630
+		case 58:
+			goto tr714
 		case 65:
-			goto tr682
+			goto tr715
 		case 80:
-			goto tr682
+			goto tr715
 		case 90:
-			goto tr567
+			goto tr634
 		case 95:
-			goto tr565
+			goto tr630
 		case 97:
-			goto tr683
+			goto tr716
 		case 112:
-			goto tr683
+			goto tr716
 		}
 		switch {
 		case data[p] < 66:
@@ -16859,10 +17675,10 @@ tr679:
 			}
 		case data[p] > 89:
 			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto tr630
 			}
 		default:
-			goto tr565
+			goto tr630
 		}
 		goto st0
 	st469:
@@ -16872,373 +17688,287 @@ tr679:
 	st_case_469:
 		switch data[p] {
 		case 32:
-			goto tr680
+			goto tr717
 		case 43:
-			goto tr563
+			goto tr637
 		case 45:
-			goto tr564
+			goto tr638
 		case 47:
-			goto tr565
+			goto tr639
+		case 58:
+			goto tr718
 		case 65:
-			goto tr682
+			goto tr719
 		case 80:
-			goto tr682
+			goto tr719
 		case 90:
-			goto tr567
+			goto tr642
 		case 95:
-			goto tr565
+			goto tr639
 		case 97:
-			goto tr683
+			goto tr720
 		case 112:
-			goto tr683
+			goto tr720
 		}
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st470
-			}
 		case data[p] > 89:
 			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
+				goto tr639
 			}
-		default:
-			goto tr565
+		case data[p] >= 66:
+			goto tr639
 		}
 		goto st0
+tr714:
+//line ragel/datetime.rl:108
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st470
+tr718:
+//line ragel/datetime.rl:105
+
+    st.Minute, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st470
 	st470:
 		if p++; p == pe {
 			goto _test_eof470
 		}
 	st_case_470:
-		switch data[p] {
-		case 32:
-			goto tr680
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
-		}
+//line ragel/parse_datetime.go:17740
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st471
+		case data[p] > 53:
+			if 54 <= data[p] && data[p] <= 57 {
+				goto tr722
 			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
+		case data[p] >= 48:
+			goto tr721
 		}
 		goto st0
+tr721:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st471
 	st471:
 		if p++; p == pe {
 			goto _test_eof471
 		}
 	st_case_471:
+//line ragel/parse_datetime.go:17759
 		switch data[p] {
 		case 32:
-			goto tr680
+			goto tr723
 		case 43:
-			goto tr563
+			goto tr647
 		case 45:
-			goto tr564
+			goto tr649
 		case 47:
-			goto tr565
+			goto tr650
 		case 65:
-			goto tr682
+			goto tr726
 		case 80:
-			goto tr682
+			goto tr726
 		case 90:
-			goto tr567
+			goto tr653
 		case 95:
-			goto tr565
+			goto tr650
 		case 97:
-			goto tr683
+			goto tr727
 		case 112:
-			goto tr683
+			goto tr727
 		}
 		switch {
-		case data[p] < 66:
-			if 48 <= data[p] && data[p] <= 57 {
-				goto st472
-			}
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		default:
-			goto tr565
-		}
-		goto st0
-	st472:
-		if p++; p == pe {
-			goto _test_eof472
-		}
-	st_case_472:
-		switch data[p] {
-		case 32:
-			goto tr680
-		case 43:
-			goto tr563
-		case 45:
-			goto tr564
-		case 47:
-			goto tr565
-		case 65:
-			goto tr682
-		case 80:
-			goto tr682
-		case 90:
-			goto tr567
-		case 95:
-			goto tr565
-		case 97:
-			goto tr683
-		case 112:
-			goto tr683
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr565
-			}
-		case data[p] >= 66:
-			goto tr565
-		}
-		goto st0
-	st473:
-		if p++; p == pe {
-			goto _test_eof473
-		}
-	st_case_473:
-		switch data[p] {
-		case 32:
-			goto tr691
-		case 43:
-			goto tr619
-		case 45:
-			goto tr620
-		case 46:
-			goto tr692
-		case 47:
-			goto tr622
-		case 65:
-			goto tr693
-		case 80:
-			goto tr693
-		case 90:
-			goto tr624
-		case 95:
-			goto tr622
-		case 97:
-			goto tr694
-		case 112:
-			goto tr694
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr622
-			}
-		case data[p] >= 66:
-			goto tr622
-		}
-		goto st0
-tr673:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st474
-	st474:
-		if p++; p == pe {
-			goto _test_eof474
-		}
-	st_case_474:
-//line ragel/parse_datetime.go:17072
-		switch data[p] {
-		case 32:
-			goto tr674
-		case 43:
-			goto tr598
-		case 45:
-			goto tr599
-		case 46:
-			goto tr675
-		case 47:
-			goto tr601
-		case 65:
-			goto tr677
-		case 80:
-			goto tr677
-		case 90:
-			goto tr604
-		case 95:
-			goto tr601
-		case 97:
-			goto tr678
-		case 112:
-			goto tr678
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr601
-			}
-		case data[p] >= 66:
-			goto tr601
-		}
-		goto st0
-tr662:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st475
-	st475:
-		if p++; p == pe {
-			goto _test_eof475
-		}
-	st_case_475:
-//line ragel/parse_datetime.go:17115
-		switch data[p] {
-		case 32:
-			goto tr663
-		case 43:
-			goto tr579
-		case 45:
-			goto tr580
-		case 47:
-			goto tr581
-		case 58:
-			goto tr665
-		case 65:
-			goto tr666
-		case 80:
-			goto tr666
-		case 90:
-			goto tr585
-		case 95:
-			goto tr581
-		case 97:
-			goto tr667
-		case 112:
-			goto tr667
-		}
-		switch {
-		case data[p] > 89:
-			if 98 <= data[p] && data[p] <= 122 {
-				goto tr581
-			}
-		case data[p] >= 66:
-			goto tr581
-		}
-		goto st0
-tr630:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st476
-	st476:
-		if p++; p == pe {
-			goto _test_eof476
-		}
-	st_case_476:
-//line ragel/parse_datetime.go:17158
-		switch data[p] {
-		case 32:
-			goto tr632
-		case 43:
-			goto tr501
-		case 45:
-			goto tr502
-		case 47:
-			goto tr503
-		case 58:
-			goto tr634
-		case 65:
-			goto tr635
-		case 80:
-			goto tr635
-		case 90:
-			goto tr507
-		case 95:
-			goto tr503
-		case 97:
-			goto tr636
-		case 112:
-			goto tr636
-		}
-		switch {
-		case data[p] < 52:
-			if 48 <= data[p] && data[p] <= 51 {
-				goto st443
+		case data[p] < 48:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr724
 			}
 		case data[p] > 57:
 			switch {
 			case data[p] > 89:
 				if 98 <= data[p] && data[p] <= 122 {
-					goto tr503
+					goto tr650
 				}
 			case data[p] >= 66:
-				goto tr503
+				goto tr650
 			}
 		default:
-			goto st477
+			goto st482
 		}
 		goto st0
-	st477:
+tr724:
+//line ragel/datetime.rl:114
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+1])
+
+	goto st472
+tr741:
+//line ragel/datetime.rl:111
+
+    st.Second, _ = strconv.Atoi(data[pb:pb+2])
+
+	goto st472
+	st472:
 		if p++; p == pe {
-			goto _test_eof477
+			goto _test_eof472
 		}
-	st_case_477:
+	st_case_472:
+//line ragel/parse_datetime.go:17817
 		if 48 <= data[p] && data[p] <= 57 {
-			goto st444
+			goto tr728
 		}
 		goto st0
-tr631:
+tr728:
 //line ragel/datetime.rl:5
  pb = p 
-	goto st478
-	st478:
+	goto st473
+	st473:
 		if p++; p == pe {
-			goto _test_eof478
+			goto _test_eof473
 		}
-	st_case_478:
-//line ragel/parse_datetime.go:17219
+	st_case_473:
+//line ragel/parse_datetime.go:17831
 		switch data[p] {
 		case 32:
-			goto tr632
+			goto tr729
 		case 43:
-			goto tr501
+			goto tr612
 		case 45:
-			goto tr502
+			goto tr613
 		case 47:
-			goto tr503
-		case 58:
-			goto tr634
+			goto tr614
 		case 65:
-			goto tr635
+			goto tr731
 		case 80:
-			goto tr635
+			goto tr731
 		case 90:
-			goto tr507
+			goto tr616
 		case 95:
-			goto tr503
+			goto tr614
 		case 97:
-			goto tr636
+			goto tr732
 		case 112:
-			goto tr636
+			goto tr732
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st474
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st474:
+		if p++; p == pe {
+			goto _test_eof474
+		}
+	st_case_474:
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st475
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st475:
+		if p++; p == pe {
+			goto _test_eof475
+		}
+	st_case_475:
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st476
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st476:
+		if p++; p == pe {
+			goto _test_eof476
+		}
+	st_case_476:
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
 		}
 		switch {
 		case data[p] < 66:
@@ -17247,44 +17977,170 @@ tr631:
 			}
 		case data[p] > 89:
 			if 98 <= data[p] && data[p] <= 122 {
-				goto tr503
+				goto tr614
 			}
 		default:
-			goto tr503
+			goto tr614
 		}
 		goto st0
-tr489:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st479
+	st477:
+		if p++; p == pe {
+			goto _test_eof477
+		}
+	st_case_477:
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st478
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
+	st478:
+		if p++; p == pe {
+			goto _test_eof478
+		}
+	st_case_478:
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st479
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
+		}
+		goto st0
 	st479:
 		if p++; p == pe {
 			goto _test_eof479
 		}
 	st_case_479:
-//line ragel/parse_datetime.go:17266
-		if data[p] == 32 {
-			goto tr496
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
 		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st435
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st480
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
-tr490:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st480
 	st480:
 		if p++; p == pe {
 			goto _test_eof480
 		}
 	st_case_480:
-//line ragel/parse_datetime.go:17283
-		if data[p] == 32 {
-			goto tr496
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
 		}
-		if 48 <= data[p] && data[p] <= 49 {
-			goto st435
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st481
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		default:
+			goto tr614
 		}
 		goto st0
 	st481:
@@ -17292,8 +18148,35 @@ tr490:
 			goto _test_eof481
 		}
 	st_case_481:
-		if data[p] == 108 {
-			goto st482
+		switch data[p] {
+		case 32:
+			goto tr729
+		case 43:
+			goto tr612
+		case 45:
+			goto tr613
+		case 47:
+			goto tr614
+		case 65:
+			goto tr731
+		case 80:
+			goto tr731
+		case 90:
+			goto tr616
+		case 95:
+			goto tr614
+		case 97:
+			goto tr732
+		case 112:
+			goto tr732
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr614
+			}
+		case data[p] >= 66:
+			goto tr614
 		}
 		goto st0
 	st482:
@@ -17301,37 +18184,178 @@ tr490:
 			goto _test_eof482
 		}
 	st_case_482:
-		if data[p] == 32 {
-			goto tr485
+		switch data[p] {
+		case 32:
+			goto tr740
+		case 43:
+			goto tr668
+		case 45:
+			goto tr670
+		case 47:
+			goto tr671
+		case 65:
+			goto tr742
+		case 80:
+			goto tr742
+		case 90:
+			goto tr673
+		case 95:
+			goto tr671
+		case 97:
+			goto tr743
+		case 112:
+			goto tr743
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr741
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr671
+			}
+		default:
+			goto tr671
 		}
 		goto st0
+tr722:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st483
 	st483:
 		if p++; p == pe {
 			goto _test_eof483
 		}
 	st_case_483:
-		if data[p] == 103 {
-			goto st484
+//line ragel/parse_datetime.go:18232
+		switch data[p] {
+		case 32:
+			goto tr723
+		case 43:
+			goto tr647
+		case 45:
+			goto tr649
+		case 47:
+			goto tr650
+		case 65:
+			goto tr726
+		case 80:
+			goto tr726
+		case 90:
+			goto tr653
+		case 95:
+			goto tr650
+		case 97:
+			goto tr727
+		case 112:
+			goto tr727
+		}
+		switch {
+		case data[p] < 66:
+			if 44 <= data[p] && data[p] <= 46 {
+				goto tr724
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr650
+			}
+		default:
+			goto tr650
 		}
 		goto st0
+tr711:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st484
 	st484:
 		if p++; p == pe {
 			goto _test_eof484
 		}
 	st_case_484:
+//line ragel/parse_datetime.go:18277
 		switch data[p] {
 		case 32:
-			goto tr698
-		case 117:
-			goto st485
+			goto tr712
+		case 43:
+			goto tr628
+		case 45:
+			goto tr629
+		case 47:
+			goto tr630
+		case 58:
+			goto tr714
+		case 65:
+			goto tr715
+		case 80:
+			goto tr715
+		case 90:
+			goto tr634
+		case 95:
+			goto tr630
+		case 97:
+			goto tr716
+		case 112:
+			goto tr716
+		}
+		switch {
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr630
+			}
+		case data[p] >= 66:
+			goto tr630
 		}
 		goto st0
+tr679:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st485
 	st485:
 		if p++; p == pe {
 			goto _test_eof485
 		}
 	st_case_485:
-		if data[p] == 115 {
+//line ragel/parse_datetime.go:18320
+		switch data[p] {
+		case 32:
+			goto tr681
+		case 43:
+			goto tr550
+		case 45:
+			goto tr551
+		case 47:
+			goto tr552
+		case 58:
+			goto tr683
+		case 65:
+			goto tr684
+		case 80:
+			goto tr684
+		case 90:
+			goto tr556
+		case 95:
+			goto tr552
+		case 97:
+			goto tr685
+		case 112:
+			goto tr685
+		}
+		switch {
+		case data[p] < 52:
+			if 48 <= data[p] && data[p] <= 51 {
+				goto st452
+			}
+		case data[p] > 57:
+			switch {
+			case data[p] > 89:
+				if 98 <= data[p] && data[p] <= 122 {
+					goto tr552
+				}
+			case data[p] >= 66:
+				goto tr552
+			}
+		default:
 			goto st486
 		}
 		goto st0
@@ -17340,47 +18364,147 @@ tr490:
 			goto _test_eof486
 		}
 	st_case_486:
-		if data[p] == 116 {
-			goto st487
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st453
 		}
 		goto st0
+tr680:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st487
 	st487:
 		if p++; p == pe {
 			goto _test_eof487
 		}
 	st_case_487:
-		if data[p] == 32 {
-			goto tr698
+//line ragel/parse_datetime.go:18381
+		switch data[p] {
+		case 32:
+			goto tr681
+		case 43:
+			goto tr550
+		case 45:
+			goto tr551
+		case 47:
+			goto tr552
+		case 58:
+			goto tr683
+		case 65:
+			goto tr684
+		case 80:
+			goto tr684
+		case 90:
+			goto tr556
+		case 95:
+			goto tr552
+		case 97:
+			goto tr685
+		case 112:
+			goto tr685
+		}
+		switch {
+		case data[p] < 66:
+			if 48 <= data[p] && data[p] <= 57 {
+				goto st486
+			}
+		case data[p] > 89:
+			if 98 <= data[p] && data[p] <= 122 {
+				goto tr552
+			}
+		default:
+			goto tr552
 		}
 		goto st0
+tr538:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st488
 	st488:
 		if p++; p == pe {
 			goto _test_eof488
 		}
 	st_case_488:
-		if data[p] == 101 {
-			goto st489
+//line ragel/parse_datetime.go:18428
+		if data[p] == 32 {
+			goto tr545
+		}
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st444
 		}
 		goto st0
+tr539:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st489
 	st489:
 		if p++; p == pe {
 			goto _test_eof489
 		}
 	st_case_489:
-		if data[p] == 99 {
-			goto st490
+//line ragel/parse_datetime.go:18445
+		if data[p] == 32 {
+			goto tr545
+		}
+		if 48 <= data[p] && data[p] <= 49 {
+			goto st444
 		}
 		goto st0
+tr534:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st490
+tr749:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st490
+tr756:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st490
+tr765:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st490
+tr775:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st490
+tr783:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st490
+tr786:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st490
+tr792:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st490
+tr796:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st490
+tr800:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st490
+tr809:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st490
+tr817:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st490
 	st490:
 		if p++; p == pe {
 			goto _test_eof490
 		}
 	st_case_490:
-		switch data[p] {
-		case 32:
-			goto tr704
-		case 101:
-			goto st491
+//line ragel/parse_datetime.go:18506
+		if data[p] == 32 {
+			goto st376
 		}
 		goto st0
 	st491:
@@ -17388,7 +18512,7 @@ tr490:
 			goto _test_eof491
 		}
 	st_case_491:
-		if data[p] == 109 {
+		if data[p] == 108 {
 			goto st492
 		}
 		goto st0
@@ -17397,8 +18521,11 @@ tr490:
 			goto _test_eof492
 		}
 	st_case_492:
-		if data[p] == 98 {
-			goto st493
+		switch data[p] {
+		case 32:
+			goto tr533
+		case 46:
+			goto tr534
 		}
 		goto st0
 	st493:
@@ -17406,7 +18533,7 @@ tr490:
 			goto _test_eof493
 		}
 	st_case_493:
-		if data[p] == 101 {
+		if data[p] == 103 {
 			goto st494
 		}
 		goto st0
@@ -17415,7 +18542,12 @@ tr490:
 			goto _test_eof494
 		}
 	st_case_494:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr748
+		case 46:
+			goto tr749
+		case 117:
 			goto st495
 		}
 		goto st0
@@ -17424,8 +18556,8 @@ tr490:
 			goto _test_eof495
 		}
 	st_case_495:
-		if data[p] == 32 {
-			goto tr704
+		if data[p] == 115 {
+			goto st496
 		}
 		goto st0
 	st496:
@@ -17433,7 +18565,7 @@ tr490:
 			goto _test_eof496
 		}
 	st_case_496:
-		if data[p] == 101 {
+		if data[p] == 116 {
 			goto st497
 		}
 		goto st0
@@ -17442,8 +18574,11 @@ tr490:
 			goto _test_eof497
 		}
 	st_case_497:
-		if data[p] == 98 {
-			goto st498
+		switch data[p] {
+		case 32:
+			goto tr748
+		case 46:
+			goto tr749
 		}
 		goto st0
 	st498:
@@ -17451,10 +18586,7 @@ tr490:
 			goto _test_eof498
 		}
 	st_case_498:
-		switch data[p] {
-		case 32:
-			goto tr712
-		case 114:
+		if data[p] == 101 {
 			goto st499
 		}
 		goto st0
@@ -17463,7 +18595,7 @@ tr490:
 			goto _test_eof499
 		}
 	st_case_499:
-		if data[p] == 117 {
+		if data[p] == 99 {
 			goto st500
 		}
 		goto st0
@@ -17472,7 +18604,12 @@ tr490:
 			goto _test_eof500
 		}
 	st_case_500:
-		if data[p] == 97 {
+		switch data[p] {
+		case 32:
+			goto tr755
+		case 46:
+			goto tr756
+		case 101:
 			goto st501
 		}
 		goto st0
@@ -17481,7 +18618,7 @@ tr490:
 			goto _test_eof501
 		}
 	st_case_501:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st502
 		}
 		goto st0
@@ -17490,7 +18627,7 @@ tr490:
 			goto _test_eof502
 		}
 	st_case_502:
-		if data[p] == 121 {
+		if data[p] == 98 {
 			goto st503
 		}
 		goto st0
@@ -17499,8 +18636,8 @@ tr490:
 			goto _test_eof503
 		}
 	st_case_503:
-		if data[p] == 32 {
-			goto tr712
+		if data[p] == 101 {
+			goto st504
 		}
 		goto st0
 	st504:
@@ -17508,11 +18645,8 @@ tr490:
 			goto _test_eof504
 		}
 	st_case_504:
-		switch data[p] {
-		case 97:
+		if data[p] == 114 {
 			goto st505
-		case 117:
-			goto st511
 		}
 		goto st0
 	st505:
@@ -17520,8 +18654,11 @@ tr490:
 			goto _test_eof505
 		}
 	st_case_505:
-		if data[p] == 110 {
-			goto st506
+		switch data[p] {
+		case 32:
+			goto tr755
+		case 46:
+			goto tr756
 		}
 		goto st0
 	st506:
@@ -17529,10 +18666,7 @@ tr490:
 			goto _test_eof506
 		}
 	st_case_506:
-		switch data[p] {
-		case 32:
-			goto tr721
-		case 117:
+		if data[p] == 101 {
 			goto st507
 		}
 		goto st0
@@ -17541,7 +18675,7 @@ tr490:
 			goto _test_eof507
 		}
 	st_case_507:
-		if data[p] == 97 {
+		if data[p] == 98 {
 			goto st508
 		}
 		goto st0
@@ -17550,7 +18684,12 @@ tr490:
 			goto _test_eof508
 		}
 	st_case_508:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr764
+		case 46:
+			goto tr765
+		case 114:
 			goto st509
 		}
 		goto st0
@@ -17559,7 +18698,7 @@ tr490:
 			goto _test_eof509
 		}
 	st_case_509:
-		if data[p] == 121 {
+		if data[p] == 117 {
 			goto st510
 		}
 		goto st0
@@ -17568,8 +18707,8 @@ tr490:
 			goto _test_eof510
 		}
 	st_case_510:
-		if data[p] == 32 {
-			goto tr721
+		if data[p] == 97 {
+			goto st511
 		}
 		goto st0
 	st511:
@@ -17577,11 +18716,8 @@ tr490:
 			goto _test_eof511
 		}
 	st_case_511:
-		switch data[p] {
-		case 108:
+		if data[p] == 114 {
 			goto st512
-		case 110:
-			goto st514
 		}
 		goto st0
 	st512:
@@ -17589,10 +18725,7 @@ tr490:
 			goto _test_eof512
 		}
 	st_case_512:
-		switch data[p] {
-		case 32:
-			goto tr728
-		case 121:
+		if data[p] == 121 {
 			goto st513
 		}
 		goto st0
@@ -17601,8 +18734,11 @@ tr490:
 			goto _test_eof513
 		}
 	st_case_513:
-		if data[p] == 32 {
-			goto tr728
+		switch data[p] {
+		case 32:
+			goto tr764
+		case 46:
+			goto tr765
 		}
 		goto st0
 	st514:
@@ -17611,10 +18747,10 @@ tr490:
 		}
 	st_case_514:
 		switch data[p] {
-		case 32:
-			goto tr730
-		case 101:
+		case 97:
 			goto st515
+		case 117:
+			goto st521
 		}
 		goto st0
 	st515:
@@ -17622,8 +18758,8 @@ tr490:
 			goto _test_eof515
 		}
 	st_case_515:
-		if data[p] == 32 {
-			goto tr730
+		if data[p] == 110 {
+			goto st516
 		}
 		goto st0
 	st516:
@@ -17631,7 +18767,12 @@ tr490:
 			goto _test_eof516
 		}
 	st_case_516:
-		if data[p] == 97 {
+		switch data[p] {
+		case 32:
+			goto tr774
+		case 46:
+			goto tr775
+		case 117:
 			goto st517
 		}
 		goto st0
@@ -17640,11 +18781,8 @@ tr490:
 			goto _test_eof517
 		}
 	st_case_517:
-		switch data[p] {
-		case 114:
+		if data[p] == 97 {
 			goto st518
-		case 121:
-			goto st521
 		}
 		goto st0
 	st518:
@@ -17652,10 +18790,7 @@ tr490:
 			goto _test_eof518
 		}
 	st_case_518:
-		switch data[p] {
-		case 32:
-			goto tr735
-		case 99:
+		if data[p] == 114 {
 			goto st519
 		}
 		goto st0
@@ -17664,7 +18799,7 @@ tr490:
 			goto _test_eof519
 		}
 	st_case_519:
-		if data[p] == 104 {
+		if data[p] == 121 {
 			goto st520
 		}
 		goto st0
@@ -17673,8 +18808,11 @@ tr490:
 			goto _test_eof520
 		}
 	st_case_520:
-		if data[p] == 32 {
-			goto tr735
+		switch data[p] {
+		case 32:
+			goto tr774
+		case 46:
+			goto tr775
 		}
 		goto st0
 	st521:
@@ -17682,8 +18820,11 @@ tr490:
 			goto _test_eof521
 		}
 	st_case_521:
-		if data[p] == 32 {
-			goto tr738
+		switch data[p] {
+		case 108:
+			goto st522
+		case 110:
+			goto st524
 		}
 		goto st0
 	st522:
@@ -17691,7 +18832,12 @@ tr490:
 			goto _test_eof522
 		}
 	st_case_522:
-		if data[p] == 111 {
+		switch data[p] {
+		case 32:
+			goto tr782
+		case 46:
+			goto tr783
+		case 121:
 			goto st523
 		}
 		goto st0
@@ -17700,8 +18846,11 @@ tr490:
 			goto _test_eof523
 		}
 	st_case_523:
-		if data[p] == 118 {
-			goto st524
+		switch data[p] {
+		case 32:
+			goto tr782
+		case 46:
+			goto tr783
 		}
 		goto st0
 	st524:
@@ -17711,7 +18860,9 @@ tr490:
 	st_case_524:
 		switch data[p] {
 		case 32:
-			goto tr741
+			goto tr785
+		case 46:
+			goto tr786
 		case 101:
 			goto st525
 		}
@@ -17721,8 +18872,11 @@ tr490:
 			goto _test_eof525
 		}
 	st_case_525:
-		if data[p] == 109 {
-			goto st526
+		switch data[p] {
+		case 32:
+			goto tr785
+		case 46:
+			goto tr786
 		}
 		goto st0
 	st526:
@@ -17730,7 +18884,7 @@ tr490:
 			goto _test_eof526
 		}
 	st_case_526:
-		if data[p] == 98 {
+		if data[p] == 97 {
 			goto st527
 		}
 		goto st0
@@ -17739,8 +18893,11 @@ tr490:
 			goto _test_eof527
 		}
 	st_case_527:
-		if data[p] == 101 {
+		switch data[p] {
+		case 114:
 			goto st528
+		case 121:
+			goto st531
 		}
 		goto st0
 	st528:
@@ -17748,7 +18905,12 @@ tr490:
 			goto _test_eof528
 		}
 	st_case_528:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr791
+		case 46:
+			goto tr792
+		case 99:
 			goto st529
 		}
 		goto st0
@@ -17757,8 +18919,8 @@ tr490:
 			goto _test_eof529
 		}
 	st_case_529:
-		if data[p] == 32 {
-			goto tr741
+		if data[p] == 104 {
+			goto st530
 		}
 		goto st0
 	st530:
@@ -17766,8 +18928,11 @@ tr490:
 			goto _test_eof530
 		}
 	st_case_530:
-		if data[p] == 99 {
-			goto st531
+		switch data[p] {
+		case 32:
+			goto tr791
+		case 46:
+			goto tr792
 		}
 		goto st0
 	st531:
@@ -17775,8 +18940,11 @@ tr490:
 			goto _test_eof531
 		}
 	st_case_531:
-		if data[p] == 116 {
-			goto st532
+		switch data[p] {
+		case 32:
+			goto tr795
+		case 46:
+			goto tr796
 		}
 		goto st0
 	st532:
@@ -17784,10 +18952,7 @@ tr490:
 			goto _test_eof532
 		}
 	st_case_532:
-		switch data[p] {
-		case 32:
-			goto tr749
-		case 111:
+		if data[p] == 111 {
 			goto st533
 		}
 		goto st0
@@ -17796,7 +18961,7 @@ tr490:
 			goto _test_eof533
 		}
 	st_case_533:
-		if data[p] == 98 {
+		if data[p] == 118 {
 			goto st534
 		}
 		goto st0
@@ -17805,7 +18970,12 @@ tr490:
 			goto _test_eof534
 		}
 	st_case_534:
-		if data[p] == 101 {
+		switch data[p] {
+		case 32:
+			goto tr799
+		case 46:
+			goto tr800
+		case 101:
 			goto st535
 		}
 		goto st0
@@ -17814,7 +18984,7 @@ tr490:
 			goto _test_eof535
 		}
 	st_case_535:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st536
 		}
 		goto st0
@@ -17823,8 +18993,8 @@ tr490:
 			goto _test_eof536
 		}
 	st_case_536:
-		if data[p] == 32 {
-			goto tr749
+		if data[p] == 98 {
+			goto st537
 		}
 		goto st0
 	st537:
@@ -17841,7 +19011,7 @@ tr490:
 			goto _test_eof538
 		}
 	st_case_538:
-		if data[p] == 112 {
+		if data[p] == 114 {
 			goto st539
 		}
 		goto st0
@@ -17852,9 +19022,9 @@ tr490:
 	st_case_539:
 		switch data[p] {
 		case 32:
-			goto tr756
-		case 116:
-			goto st540
+			goto tr799
+		case 46:
+			goto tr800
 		}
 		goto st0
 	st540:
@@ -17862,7 +19032,7 @@ tr490:
 			goto _test_eof540
 		}
 	st_case_540:
-		if data[p] == 101 {
+		if data[p] == 99 {
 			goto st541
 		}
 		goto st0
@@ -17871,7 +19041,7 @@ tr490:
 			goto _test_eof541
 		}
 	st_case_541:
-		if data[p] == 109 {
+		if data[p] == 116 {
 			goto st542
 		}
 		goto st0
@@ -17880,7 +19050,12 @@ tr490:
 			goto _test_eof542
 		}
 	st_case_542:
-		if data[p] == 98 {
+		switch data[p] {
+		case 32:
+			goto tr808
+		case 46:
+			goto tr809
+		case 111:
 			goto st543
 		}
 		goto st0
@@ -17889,7 +19064,7 @@ tr490:
 			goto _test_eof543
 		}
 	st_case_543:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st544
 		}
 		goto st0
@@ -17898,7 +19073,7 @@ tr490:
 			goto _test_eof544
 		}
 	st_case_544:
-		if data[p] == 114 {
+		if data[p] == 101 {
 			goto st545
 		}
 		goto st0
@@ -17907,8 +19082,8 @@ tr490:
 			goto _test_eof545
 		}
 	st_case_545:
-		if data[p] == 32 {
-			goto tr756
+		if data[p] == 114 {
+			goto st546
 		}
 		goto st0
 	st546:
@@ -17916,8 +19091,11 @@ tr490:
 			goto _test_eof546
 		}
 	st_case_546:
-		if data[p] == 32 {
-			goto st547
+		switch data[p] {
+		case 32:
+			goto tr808
+		case 46:
+			goto tr809
 		}
 		goto st0
 	st547:
@@ -17925,102 +19103,45 @@ tr490:
 			goto _test_eof547
 		}
 	st_case_547:
-		switch data[p] {
-		case 48:
-			goto tr764
-		case 51:
-			goto tr766
-		}
-		switch {
-		case data[p] > 50:
-			if 52 <= data[p] && data[p] <= 57 {
-				goto tr767
-			}
-		case data[p] >= 49:
-			goto tr765
+		if data[p] == 101 {
+			goto st548
 		}
 		goto st0
-tr764:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st548
 	st548:
 		if p++; p == pe {
 			goto _test_eof548
 		}
 	st_case_548:
-//line ragel/parse_datetime.go:17953
-		if 49 <= data[p] && data[p] <= 57 {
+		if data[p] == 112 {
 			goto st549
 		}
 		goto st0
-tr767:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st549
 	st549:
 		if p++; p == pe {
 			goto _test_eof549
 		}
 	st_case_549:
-//line ragel/parse_datetime.go:17967
 		switch data[p] {
 		case 32:
-			goto tr769
-		case 45:
-			goto tr770
+			goto tr816
+		case 46:
+			goto tr817
+		case 116:
+			goto st550
 		}
 		goto st0
-tr769:
-//line ragel/datetime.rl:90
-
-    switch p - pb {
-        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
-        default:
-            err = fmt.Errorf("invalid day digits %s", data[pb:p])
-            return
-    }
-
-	goto st550
 	st550:
 		if p++; p == pe {
 			goto _test_eof550
 		}
 	st_case_550:
-//line ragel/parse_datetime.go:17991
 		switch data[p] {
-		case 65:
+		case 32:
+			goto tr816
+		case 46:
+			goto tr817
+		case 101:
 			goto st551
-		case 68:
-			goto st561
-		case 70:
-			goto st569
-		case 74:
-			goto st577
-		case 77:
-			goto st589
-		case 78:
-			goto st595
-		case 79:
-			goto st603
-		case 83:
-			goto st610
-		case 97:
-			goto st551
-		case 100:
-			goto st561
-		case 102:
-			goto st569
-		case 106:
-			goto st577
-		case 109:
-			goto st589
-		case 110:
-			goto st595
-		case 111:
-			goto st603
-		case 115:
-			goto st610
 		}
 		goto st0
 	st551:
@@ -18028,11 +19149,8 @@ tr769:
 			goto _test_eof551
 		}
 	st_case_551:
-		switch data[p] {
-		case 112:
+		if data[p] == 109 {
 			goto st552
-		case 117:
-			goto st556
 		}
 		goto st0
 	st552:
@@ -18040,7 +19158,7 @@ tr769:
 			goto _test_eof552
 		}
 	st_case_552:
-		if data[p] == 114 {
+		if data[p] == 98 {
 			goto st553
 		}
 		goto st0
@@ -18049,10 +19167,7 @@ tr769:
 			goto _test_eof553
 		}
 	st_case_553:
-		switch data[p] {
-		case 32:
-			goto tr243
-		case 105:
+		if data[p] == 101 {
 			goto st554
 		}
 		goto st0
@@ -18061,7 +19176,7 @@ tr769:
 			goto _test_eof554
 		}
 	st_case_554:
-		if data[p] == 108 {
+		if data[p] == 114 {
 			goto st555
 		}
 		goto st0
@@ -18070,8 +19185,11 @@ tr769:
 			goto _test_eof555
 		}
 	st_case_555:
-		if data[p] == 32 {
-			goto tr243
+		switch data[p] {
+		case 32:
+			goto tr816
+		case 46:
+			goto tr817
 		}
 		goto st0
 	st556:
@@ -18079,7 +19197,7 @@ tr769:
 			goto _test_eof556
 		}
 	st_case_556:
-		if data[p] == 103 {
+		if data[p] == 32 {
 			goto st557
 		}
 		goto st0
@@ -18089,37 +19207,101 @@ tr769:
 		}
 	st_case_557:
 		switch data[p] {
-		case 32:
-			goto tr251
-		case 117:
-			goto st558
+		case 48:
+			goto tr825
+		case 51:
+			goto tr827
+		}
+		switch {
+		case data[p] > 50:
+			if 52 <= data[p] && data[p] <= 57 {
+				goto tr828
+			}
+		case data[p] >= 49:
+			goto tr826
 		}
 		goto st0
+tr825:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st558
 	st558:
 		if p++; p == pe {
 			goto _test_eof558
 		}
 	st_case_558:
-		if data[p] == 115 {
+//line ragel/parse_datetime.go:19234
+		if 49 <= data[p] && data[p] <= 57 {
 			goto st559
 		}
 		goto st0
+tr828:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st559
 	st559:
 		if p++; p == pe {
 			goto _test_eof559
 		}
 	st_case_559:
-		if data[p] == 116 {
-			goto st560
+//line ragel/parse_datetime.go:19248
+		switch data[p] {
+		case 32:
+			goto tr830
+		case 45:
+			goto tr831
 		}
 		goto st0
+tr830:
+//line ragel/datetime.rl:90
+
+    switch p - pb {
+        case 1,2: st.Day, _ = strconv.Atoi(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid day digits %s", data[pb:p])
+            return
+    }
+
+	goto st560
 	st560:
 		if p++; p == pe {
 			goto _test_eof560
 		}
 	st_case_560:
-		if data[p] == 32 {
-			goto tr251
+//line ragel/parse_datetime.go:19272
+		switch data[p] {
+		case 65:
+			goto st561
+		case 68:
+			goto st572
+		case 70:
+			goto st580
+		case 74:
+			goto st588
+		case 77:
+			goto st600
+		case 78:
+			goto st606
+		case 79:
+			goto st614
+		case 83:
+			goto st621
+		case 97:
+			goto st561
+		case 100:
+			goto st572
+		case 102:
+			goto st580
+		case 106:
+			goto st588
+		case 109:
+			goto st600
+		case 110:
+			goto st606
+		case 111:
+			goto st614
+		case 115:
+			goto st621
 		}
 		goto st0
 	st561:
@@ -18127,8 +19309,11 @@ tr769:
 			goto _test_eof561
 		}
 	st_case_561:
-		if data[p] == 101 {
+		switch data[p] {
+		case 112:
 			goto st562
+		case 117:
+			goto st567
 		}
 		goto st0
 	st562:
@@ -18136,7 +19321,7 @@ tr769:
 			goto _test_eof562
 		}
 	st_case_562:
-		if data[p] == 99 {
+		if data[p] == 114 {
 			goto st563
 		}
 		goto st0
@@ -18147,18 +19332,69 @@ tr769:
 	st_case_563:
 		switch data[p] {
 		case 32:
-			goto tr257
-		case 101:
-			goto st564
+			goto tr180
+		case 46:
+			goto tr843
+		case 105:
+			goto st565
 		}
 		goto st0
+tr843:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st564
+tr847:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st564
+tr853:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st564
+tr861:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st564
+tr870:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st564
+tr877:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st564
+tr879:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st564
+tr884:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st564
+tr887:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st564
+tr890:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st564
+tr898:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st564
+tr905:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st564
 	st564:
 		if p++; p == pe {
 			goto _test_eof564
 		}
 	st_case_564:
-		if data[p] == 109 {
-			goto st565
+//line ragel/parse_datetime.go:19396
+		if data[p] == 32 {
+			goto st118
 		}
 		goto st0
 	st565:
@@ -18166,7 +19402,7 @@ tr769:
 			goto _test_eof565
 		}
 	st_case_565:
-		if data[p] == 98 {
+		if data[p] == 108 {
 			goto st566
 		}
 		goto st0
@@ -18175,8 +19411,11 @@ tr769:
 			goto _test_eof566
 		}
 	st_case_566:
-		if data[p] == 101 {
-			goto st567
+		switch data[p] {
+		case 32:
+			goto tr180
+		case 46:
+			goto tr843
 		}
 		goto st0
 	st567:
@@ -18184,7 +19423,7 @@ tr769:
 			goto _test_eof567
 		}
 	st_case_567:
-		if data[p] == 114 {
+		if data[p] == 103 {
 			goto st568
 		}
 		goto st0
@@ -18193,8 +19432,13 @@ tr769:
 			goto _test_eof568
 		}
 	st_case_568:
-		if data[p] == 32 {
-			goto tr257
+		switch data[p] {
+		case 32:
+			goto tr194
+		case 46:
+			goto tr847
+		case 117:
+			goto st569
 		}
 		goto st0
 	st569:
@@ -18202,7 +19446,7 @@ tr769:
 			goto _test_eof569
 		}
 	st_case_569:
-		if data[p] == 101 {
+		if data[p] == 115 {
 			goto st570
 		}
 		goto st0
@@ -18211,7 +19455,7 @@ tr769:
 			goto _test_eof570
 		}
 	st_case_570:
-		if data[p] == 98 {
+		if data[p] == 116 {
 			goto st571
 		}
 		goto st0
@@ -18222,9 +19466,9 @@ tr769:
 	st_case_571:
 		switch data[p] {
 		case 32:
-			goto tr265
-		case 114:
-			goto st572
+			goto tr194
+		case 46:
+			goto tr847
 		}
 		goto st0
 	st572:
@@ -18232,7 +19476,7 @@ tr769:
 			goto _test_eof572
 		}
 	st_case_572:
-		if data[p] == 117 {
+		if data[p] == 101 {
 			goto st573
 		}
 		goto st0
@@ -18241,7 +19485,7 @@ tr769:
 			goto _test_eof573
 		}
 	st_case_573:
-		if data[p] == 97 {
+		if data[p] == 99 {
 			goto st574
 		}
 		goto st0
@@ -18250,7 +19494,12 @@ tr769:
 			goto _test_eof574
 		}
 	st_case_574:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr202
+		case 46:
+			goto tr853
+		case 101:
 			goto st575
 		}
 		goto st0
@@ -18259,7 +19508,7 @@ tr769:
 			goto _test_eof575
 		}
 	st_case_575:
-		if data[p] == 121 {
+		if data[p] == 109 {
 			goto st576
 		}
 		goto st0
@@ -18268,8 +19517,8 @@ tr769:
 			goto _test_eof576
 		}
 	st_case_576:
-		if data[p] == 32 {
-			goto tr265
+		if data[p] == 98 {
+			goto st577
 		}
 		goto st0
 	st577:
@@ -18277,11 +19526,8 @@ tr769:
 			goto _test_eof577
 		}
 	st_case_577:
-		switch data[p] {
-		case 97:
+		if data[p] == 101 {
 			goto st578
-		case 117:
-			goto st584
 		}
 		goto st0
 	st578:
@@ -18289,7 +19535,7 @@ tr769:
 			goto _test_eof578
 		}
 	st_case_578:
-		if data[p] == 110 {
+		if data[p] == 114 {
 			goto st579
 		}
 		goto st0
@@ -18300,9 +19546,9 @@ tr769:
 	st_case_579:
 		switch data[p] {
 		case 32:
-			goto tr274
-		case 117:
-			goto st580
+			goto tr202
+		case 46:
+			goto tr853
 		}
 		goto st0
 	st580:
@@ -18310,7 +19556,7 @@ tr769:
 			goto _test_eof580
 		}
 	st_case_580:
-		if data[p] == 97 {
+		if data[p] == 101 {
 			goto st581
 		}
 		goto st0
@@ -18319,7 +19565,7 @@ tr769:
 			goto _test_eof581
 		}
 	st_case_581:
-		if data[p] == 114 {
+		if data[p] == 98 {
 			goto st582
 		}
 		goto st0
@@ -18328,7 +19574,12 @@ tr769:
 			goto _test_eof582
 		}
 	st_case_582:
-		if data[p] == 121 {
+		switch data[p] {
+		case 32:
+			goto tr212
+		case 46:
+			goto tr861
+		case 114:
 			goto st583
 		}
 		goto st0
@@ -18337,8 +19588,8 @@ tr769:
 			goto _test_eof583
 		}
 	st_case_583:
-		if data[p] == 32 {
-			goto tr274
+		if data[p] == 117 {
+			goto st584
 		}
 		goto st0
 	st584:
@@ -18346,11 +19597,8 @@ tr769:
 			goto _test_eof584
 		}
 	st_case_584:
-		switch data[p] {
-		case 108:
+		if data[p] == 97 {
 			goto st585
-		case 110:
-			goto st587
 		}
 		goto st0
 	st585:
@@ -18358,10 +19606,7 @@ tr769:
 			goto _test_eof585
 		}
 	st_case_585:
-		switch data[p] {
-		case 32:
-			goto tr281
-		case 121:
+		if data[p] == 114 {
 			goto st586
 		}
 		goto st0
@@ -18370,8 +19615,8 @@ tr769:
 			goto _test_eof586
 		}
 	st_case_586:
-		if data[p] == 32 {
-			goto tr281
+		if data[p] == 121 {
+			goto st587
 		}
 		goto st0
 	st587:
@@ -18381,9 +19626,9 @@ tr769:
 	st_case_587:
 		switch data[p] {
 		case 32:
-			goto tr283
-		case 101:
-			goto st588
+			goto tr212
+		case 46:
+			goto tr861
 		}
 		goto st0
 	st588:
@@ -18391,8 +19636,11 @@ tr769:
 			goto _test_eof588
 		}
 	st_case_588:
-		if data[p] == 32 {
-			goto tr283
+		switch data[p] {
+		case 97:
+			goto st589
+		case 117:
+			goto st595
 		}
 		goto st0
 	st589:
@@ -18400,7 +19648,7 @@ tr769:
 			goto _test_eof589
 		}
 	st_case_589:
-		if data[p] == 97 {
+		if data[p] == 110 {
 			goto st590
 		}
 		goto st0
@@ -18410,10 +19658,12 @@ tr769:
 		}
 	st_case_590:
 		switch data[p] {
-		case 114:
+		case 32:
+			goto tr223
+		case 46:
+			goto tr870
+		case 117:
 			goto st591
-		case 121:
-			goto st594
 		}
 		goto st0
 	st591:
@@ -18421,10 +19671,7 @@ tr769:
 			goto _test_eof591
 		}
 	st_case_591:
-		switch data[p] {
-		case 32:
-			goto tr288
-		case 99:
+		if data[p] == 97 {
 			goto st592
 		}
 		goto st0
@@ -18433,7 +19680,7 @@ tr769:
 			goto _test_eof592
 		}
 	st_case_592:
-		if data[p] == 104 {
+		if data[p] == 114 {
 			goto st593
 		}
 		goto st0
@@ -18442,8 +19689,8 @@ tr769:
 			goto _test_eof593
 		}
 	st_case_593:
-		if data[p] == 32 {
-			goto tr288
+		if data[p] == 121 {
+			goto st594
 		}
 		goto st0
 	st594:
@@ -18451,8 +19698,11 @@ tr769:
 			goto _test_eof594
 		}
 	st_case_594:
-		if data[p] == 32 {
-			goto tr291
+		switch data[p] {
+		case 32:
+			goto tr223
+		case 46:
+			goto tr870
 		}
 		goto st0
 	st595:
@@ -18460,8 +19710,11 @@ tr769:
 			goto _test_eof595
 		}
 	st_case_595:
-		if data[p] == 111 {
+		switch data[p] {
+		case 108:
 			goto st596
+		case 110:
+			goto st598
 		}
 		goto st0
 	st596:
@@ -18469,7 +19722,12 @@ tr769:
 			goto _test_eof596
 		}
 	st_case_596:
-		if data[p] == 118 {
+		switch data[p] {
+		case 32:
+			goto tr232
+		case 46:
+			goto tr877
+		case 121:
 			goto st597
 		}
 		goto st0
@@ -18480,9 +19738,9 @@ tr769:
 	st_case_597:
 		switch data[p] {
 		case 32:
-			goto tr294
-		case 101:
-			goto st598
+			goto tr232
+		case 46:
+			goto tr877
 		}
 		goto st0
 	st598:
@@ -18490,7 +19748,12 @@ tr769:
 			goto _test_eof598
 		}
 	st_case_598:
-		if data[p] == 109 {
+		switch data[p] {
+		case 32:
+			goto tr236
+		case 46:
+			goto tr879
+		case 101:
 			goto st599
 		}
 		goto st0
@@ -18499,8 +19762,11 @@ tr769:
 			goto _test_eof599
 		}
 	st_case_599:
-		if data[p] == 98 {
-			goto st600
+		switch data[p] {
+		case 32:
+			goto tr236
+		case 46:
+			goto tr879
 		}
 		goto st0
 	st600:
@@ -18508,7 +19774,7 @@ tr769:
 			goto _test_eof600
 		}
 	st_case_600:
-		if data[p] == 101 {
+		if data[p] == 97 {
 			goto st601
 		}
 		goto st0
@@ -18517,8 +19783,11 @@ tr769:
 			goto _test_eof601
 		}
 	st_case_601:
-		if data[p] == 114 {
+		switch data[p] {
+		case 114:
 			goto st602
+		case 121:
+			goto st605
 		}
 		goto st0
 	st602:
@@ -18526,8 +19795,13 @@ tr769:
 			goto _test_eof602
 		}
 	st_case_602:
-		if data[p] == 32 {
-			goto tr294
+		switch data[p] {
+		case 32:
+			goto tr243
+		case 46:
+			goto tr884
+		case 99:
+			goto st603
 		}
 		goto st0
 	st603:
@@ -18535,7 +19809,7 @@ tr769:
 			goto _test_eof603
 		}
 	st_case_603:
-		if data[p] == 99 {
+		if data[p] == 104 {
 			goto st604
 		}
 		goto st0
@@ -18544,8 +19818,11 @@ tr769:
 			goto _test_eof604
 		}
 	st_case_604:
-		if data[p] == 116 {
-			goto st605
+		switch data[p] {
+		case 32:
+			goto tr243
+		case 46:
+			goto tr884
 		}
 		goto st0
 	st605:
@@ -18555,9 +19832,9 @@ tr769:
 	st_case_605:
 		switch data[p] {
 		case 32:
-			goto tr302
-		case 111:
-			goto st606
+			goto tr248
+		case 46:
+			goto tr887
 		}
 		goto st0
 	st606:
@@ -18565,7 +19842,7 @@ tr769:
 			goto _test_eof606
 		}
 	st_case_606:
-		if data[p] == 98 {
+		if data[p] == 111 {
 			goto st607
 		}
 		goto st0
@@ -18574,7 +19851,7 @@ tr769:
 			goto _test_eof607
 		}
 	st_case_607:
-		if data[p] == 101 {
+		if data[p] == 118 {
 			goto st608
 		}
 		goto st0
@@ -18583,7 +19860,12 @@ tr769:
 			goto _test_eof608
 		}
 	st_case_608:
-		if data[p] == 114 {
+		switch data[p] {
+		case 32:
+			goto tr253
+		case 46:
+			goto tr890
+		case 101:
 			goto st609
 		}
 		goto st0
@@ -18592,8 +19874,8 @@ tr769:
 			goto _test_eof609
 		}
 	st_case_609:
-		if data[p] == 32 {
-			goto tr302
+		if data[p] == 109 {
+			goto st610
 		}
 		goto st0
 	st610:
@@ -18601,7 +19883,7 @@ tr769:
 			goto _test_eof610
 		}
 	st_case_610:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st611
 		}
 		goto st0
@@ -18610,7 +19892,7 @@ tr769:
 			goto _test_eof611
 		}
 	st_case_611:
-		if data[p] == 112 {
+		if data[p] == 101 {
 			goto st612
 		}
 		goto st0
@@ -18619,10 +19901,7 @@ tr769:
 			goto _test_eof612
 		}
 	st_case_612:
-		switch data[p] {
-		case 32:
-			goto tr309
-		case 116:
+		if data[p] == 114 {
 			goto st613
 		}
 		goto st0
@@ -18631,8 +19910,11 @@ tr769:
 			goto _test_eof613
 		}
 	st_case_613:
-		if data[p] == 101 {
-			goto st614
+		switch data[p] {
+		case 32:
+			goto tr253
+		case 46:
+			goto tr890
 		}
 		goto st0
 	st614:
@@ -18640,7 +19922,7 @@ tr769:
 			goto _test_eof614
 		}
 	st_case_614:
-		if data[p] == 109 {
+		if data[p] == 99 {
 			goto st615
 		}
 		goto st0
@@ -18649,7 +19931,7 @@ tr769:
 			goto _test_eof615
 		}
 	st_case_615:
-		if data[p] == 98 {
+		if data[p] == 116 {
 			goto st616
 		}
 		goto st0
@@ -18658,7 +19940,12 @@ tr769:
 			goto _test_eof616
 		}
 	st_case_616:
-		if data[p] == 101 {
+		switch data[p] {
+		case 32:
+			goto tr263
+		case 46:
+			goto tr898
+		case 111:
 			goto st617
 		}
 		goto st0
@@ -18667,7 +19954,7 @@ tr769:
 			goto _test_eof617
 		}
 	st_case_617:
-		if data[p] == 114 {
+		if data[p] == 98 {
 			goto st618
 		}
 		goto st0
@@ -18676,11 +19963,126 @@ tr769:
 			goto _test_eof618
 		}
 	st_case_618:
-		if data[p] == 32 {
-			goto tr309
+		if data[p] == 101 {
+			goto st619
 		}
 		goto st0
-tr770:
+	st619:
+		if p++; p == pe {
+			goto _test_eof619
+		}
+	st_case_619:
+		if data[p] == 114 {
+			goto st620
+		}
+		goto st0
+	st620:
+		if p++; p == pe {
+			goto _test_eof620
+		}
+	st_case_620:
+		switch data[p] {
+		case 32:
+			goto tr263
+		case 46:
+			goto tr898
+		}
+		goto st0
+	st621:
+		if p++; p == pe {
+			goto _test_eof621
+		}
+	st_case_621:
+		if data[p] == 101 {
+			goto st622
+		}
+		goto st0
+	st622:
+		if p++; p == pe {
+			goto _test_eof622
+		}
+	st_case_622:
+		if data[p] == 112 {
+			goto st623
+		}
+		goto st0
+	st623:
+		if p++; p == pe {
+			goto _test_eof623
+		}
+	st_case_623:
+		switch data[p] {
+		case 32:
+			goto tr272
+		case 46:
+			goto tr905
+		case 116:
+			goto st624
+		}
+		goto st0
+	st624:
+		if p++; p == pe {
+			goto _test_eof624
+		}
+	st_case_624:
+		switch data[p] {
+		case 32:
+			goto tr272
+		case 46:
+			goto tr905
+		case 101:
+			goto st625
+		}
+		goto st0
+	st625:
+		if p++; p == pe {
+			goto _test_eof625
+		}
+	st_case_625:
+		if data[p] == 109 {
+			goto st626
+		}
+		goto st0
+	st626:
+		if p++; p == pe {
+			goto _test_eof626
+		}
+	st_case_626:
+		if data[p] == 98 {
+			goto st627
+		}
+		goto st0
+	st627:
+		if p++; p == pe {
+			goto _test_eof627
+		}
+	st_case_627:
+		if data[p] == 101 {
+			goto st628
+		}
+		goto st0
+	st628:
+		if p++; p == pe {
+			goto _test_eof628
+		}
+	st_case_628:
+		if data[p] == 114 {
+			goto st629
+		}
+		goto st0
+	st629:
+		if p++; p == pe {
+			goto _test_eof629
+		}
+	st_case_629:
+		switch data[p] {
+		case 32:
+			goto tr272
+		case 46:
+			goto tr905
+		}
+		goto st0
+tr831:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -18690,154 +20092,46 @@ tr770:
             return
     }
 
-	goto st619
-	st619:
-		if p++; p == pe {
-			goto _test_eof619
-		}
-	st_case_619:
-//line ragel/parse_datetime.go:18700
-		switch data[p] {
-		case 65:
-			goto st620
-		case 68:
-			goto st630
-		case 70:
-			goto st638
-		case 74:
-			goto st646
-		case 77:
-			goto st658
-		case 78:
-			goto st664
-		case 79:
-			goto st672
-		case 83:
-			goto st679
-		case 97:
-			goto st620
-		case 100:
-			goto st630
-		case 102:
-			goto st638
-		case 106:
-			goto st646
-		case 109:
-			goto st658
-		case 110:
-			goto st664
-		case 111:
-			goto st672
-		case 115:
-			goto st679
-		}
-		goto st0
-	st620:
-		if p++; p == pe {
-			goto _test_eof620
-		}
-	st_case_620:
-		switch data[p] {
-		case 112:
-			goto st621
-		case 117:
-			goto st625
-		}
-		goto st0
-	st621:
-		if p++; p == pe {
-			goto _test_eof621
-		}
-	st_case_621:
-		if data[p] == 114 {
-			goto st622
-		}
-		goto st0
-	st622:
-		if p++; p == pe {
-			goto _test_eof622
-		}
-	st_case_622:
-		switch data[p] {
-		case 45:
-			goto tr161
-		case 105:
-			goto st623
-		}
-		goto st0
-	st623:
-		if p++; p == pe {
-			goto _test_eof623
-		}
-	st_case_623:
-		if data[p] == 108 {
-			goto st624
-		}
-		goto st0
-	st624:
-		if p++; p == pe {
-			goto _test_eof624
-		}
-	st_case_624:
-		if data[p] == 45 {
-			goto tr161
-		}
-		goto st0
-	st625:
-		if p++; p == pe {
-			goto _test_eof625
-		}
-	st_case_625:
-		if data[p] == 103 {
-			goto st626
-		}
-		goto st0
-	st626:
-		if p++; p == pe {
-			goto _test_eof626
-		}
-	st_case_626:
-		switch data[p] {
-		case 45:
-			goto tr167
-		case 117:
-			goto st627
-		}
-		goto st0
-	st627:
-		if p++; p == pe {
-			goto _test_eof627
-		}
-	st_case_627:
-		if data[p] == 115 {
-			goto st628
-		}
-		goto st0
-	st628:
-		if p++; p == pe {
-			goto _test_eof628
-		}
-	st_case_628:
-		if data[p] == 116 {
-			goto st629
-		}
-		goto st0
-	st629:
-		if p++; p == pe {
-			goto _test_eof629
-		}
-	st_case_629:
-		if data[p] == 45 {
-			goto tr167
-		}
-		goto st0
+	goto st630
 	st630:
 		if p++; p == pe {
 			goto _test_eof630
 		}
 	st_case_630:
-		if data[p] == 101 {
+//line ragel/parse_datetime.go:20102
+		switch data[p] {
+		case 65:
 			goto st631
+		case 68:
+			goto st644
+		case 70:
+			goto st652
+		case 74:
+			goto st660
+		case 77:
+			goto st672
+		case 78:
+			goto st678
+		case 79:
+			goto st686
+		case 83:
+			goto st693
+		case 97:
+			goto st631
+		case 100:
+			goto st644
+		case 102:
+			goto st652
+		case 106:
+			goto st660
+		case 109:
+			goto st672
+		case 110:
+			goto st678
+		case 111:
+			goto st686
+		case 115:
+			goto st693
 		}
 		goto st0
 	st631:
@@ -18845,8 +20139,11 @@ tr770:
 			goto _test_eof631
 		}
 	st_case_631:
-		if data[p] == 99 {
+		switch data[p] {
+		case 112:
 			goto st632
+		case 117:
+			goto st639
 		}
 		goto st0
 	st632:
@@ -18854,10 +20151,7 @@ tr770:
 			goto _test_eof632
 		}
 	st_case_632:
-		switch data[p] {
-		case 45:
-			goto tr173
-		case 101:
+		if data[p] == 114 {
 			goto st633
 		}
 		goto st0
@@ -18866,35 +20160,175 @@ tr770:
 			goto _test_eof633
 		}
 	st_case_633:
-		if data[p] == 109 {
-			goto st634
+		switch data[p] {
+		case 45:
+			goto tr923
+		case 46:
+			goto tr924
+		case 105:
+			goto st637
 		}
 		goto st0
+tr923:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st634
+tr931:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st634
+tr938:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st634
+tr947:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st634
+tr957:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st634
+tr965:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st634
+tr968:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st634
+tr974:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st634
+tr978:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st634
+tr982:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st634
+tr991:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st634
+tr999:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st634
 	st634:
 		if p++; p == pe {
 			goto _test_eof634
 		}
 	st_case_634:
-		if data[p] == 98 {
-			goto st635
+//line ragel/parse_datetime.go:20226
+		if 48 <= data[p] && data[p] <= 57 {
+			goto tr926
 		}
 		goto st0
+tr926:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st635
 	st635:
 		if p++; p == pe {
 			goto _test_eof635
 		}
 	st_case_635:
-		if data[p] == 101 {
-			goto st636
+//line ragel/parse_datetime.go:20240
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st879
 		}
 		goto st0
+	st879:
+		if p++; p == pe {
+			goto _test_eof879
+		}
+	st_case_879:
+		switch data[p] {
+		case 32:
+			goto tr1212
+		case 43:
+			goto tr1213
+		case 45:
+			goto tr1214
+		case 47:
+			goto tr1215
+		case 84:
+			goto tr1216
+		case 90:
+			goto tr1217
+		case 95:
+			goto tr1218
+		case 116:
+			goto tr1218
+		}
+		switch {
+		case data[p] > 89:
+			if 97 <= data[p] && data[p] <= 122 {
+				goto tr1215
+			}
+		case data[p] >= 65:
+			goto tr1215
+		}
+		goto st0
+tr924:
+//line ragel/datetime.rl:80
+ st.Month = 4 
+	goto st636
+tr932:
+//line ragel/datetime.rl:84
+ st.Month = 8 
+	goto st636
+tr939:
+//line ragel/datetime.rl:88
+ st.Month = 12 
+	goto st636
+tr948:
+//line ragel/datetime.rl:78
+ st.Month = 2 
+	goto st636
+tr958:
+//line ragel/datetime.rl:77
+ st.Month = 1 
+	goto st636
+tr966:
+//line ragel/datetime.rl:83
+ st.Month = 7 
+	goto st636
+tr969:
+//line ragel/datetime.rl:82
+ st.Month = 6 
+	goto st636
+tr975:
+//line ragel/datetime.rl:79
+ st.Month = 3 
+	goto st636
+tr979:
+//line ragel/datetime.rl:81
+ st.Month = 5 
+	goto st636
+tr983:
+//line ragel/datetime.rl:87
+ st.Month = 11 
+	goto st636
+tr992:
+//line ragel/datetime.rl:86
+ st.Month = 10 
+	goto st636
+tr1000:
+//line ragel/datetime.rl:85
+ st.Month = 9 
+	goto st636
 	st636:
 		if p++; p == pe {
 			goto _test_eof636
 		}
 	st_case_636:
-		if data[p] == 114 {
-			goto st637
+//line ragel/parse_datetime.go:20330
+		if data[p] == 45 {
+			goto st634
 		}
 		goto st0
 	st637:
@@ -18902,8 +20336,8 @@ tr770:
 			goto _test_eof637
 		}
 	st_case_637:
-		if data[p] == 45 {
-			goto tr173
+		if data[p] == 108 {
+			goto st638
 		}
 		goto st0
 	st638:
@@ -18911,8 +20345,11 @@ tr770:
 			goto _test_eof638
 		}
 	st_case_638:
-		if data[p] == 101 {
-			goto st639
+		switch data[p] {
+		case 45:
+			goto tr923
+		case 46:
+			goto tr924
 		}
 		goto st0
 	st639:
@@ -18920,7 +20357,7 @@ tr770:
 			goto _test_eof639
 		}
 	st_case_639:
-		if data[p] == 98 {
+		if data[p] == 103 {
 			goto st640
 		}
 		goto st0
@@ -18931,8 +20368,10 @@ tr770:
 	st_case_640:
 		switch data[p] {
 		case 45:
-			goto tr181
-		case 114:
+			goto tr931
+		case 46:
+			goto tr932
+		case 117:
 			goto st641
 		}
 		goto st0
@@ -18941,7 +20380,7 @@ tr770:
 			goto _test_eof641
 		}
 	st_case_641:
-		if data[p] == 117 {
+		if data[p] == 115 {
 			goto st642
 		}
 		goto st0
@@ -18950,7 +20389,7 @@ tr770:
 			goto _test_eof642
 		}
 	st_case_642:
-		if data[p] == 97 {
+		if data[p] == 116 {
 			goto st643
 		}
 		goto st0
@@ -18959,8 +20398,11 @@ tr770:
 			goto _test_eof643
 		}
 	st_case_643:
-		if data[p] == 114 {
-			goto st644
+		switch data[p] {
+		case 45:
+			goto tr931
+		case 46:
+			goto tr932
 		}
 		goto st0
 	st644:
@@ -18968,7 +20410,7 @@ tr770:
 			goto _test_eof644
 		}
 	st_case_644:
-		if data[p] == 121 {
+		if data[p] == 101 {
 			goto st645
 		}
 		goto st0
@@ -18977,8 +20419,8 @@ tr770:
 			goto _test_eof645
 		}
 	st_case_645:
-		if data[p] == 45 {
-			goto tr181
+		if data[p] == 99 {
+			goto st646
 		}
 		goto st0
 	st646:
@@ -18987,10 +20429,12 @@ tr770:
 		}
 	st_case_646:
 		switch data[p] {
-		case 97:
+		case 45:
+			goto tr938
+		case 46:
+			goto tr939
+		case 101:
 			goto st647
-		case 117:
-			goto st653
 		}
 		goto st0
 	st647:
@@ -18998,7 +20442,7 @@ tr770:
 			goto _test_eof647
 		}
 	st_case_647:
-		if data[p] == 110 {
+		if data[p] == 109 {
 			goto st648
 		}
 		goto st0
@@ -19007,10 +20451,7 @@ tr770:
 			goto _test_eof648
 		}
 	st_case_648:
-		switch data[p] {
-		case 45:
-			goto tr190
-		case 117:
+		if data[p] == 98 {
 			goto st649
 		}
 		goto st0
@@ -19019,7 +20460,7 @@ tr770:
 			goto _test_eof649
 		}
 	st_case_649:
-		if data[p] == 97 {
+		if data[p] == 101 {
 			goto st650
 		}
 		goto st0
@@ -19037,8 +20478,11 @@ tr770:
 			goto _test_eof651
 		}
 	st_case_651:
-		if data[p] == 121 {
-			goto st652
+		switch data[p] {
+		case 45:
+			goto tr938
+		case 46:
+			goto tr939
 		}
 		goto st0
 	st652:
@@ -19046,8 +20490,8 @@ tr770:
 			goto _test_eof652
 		}
 	st_case_652:
-		if data[p] == 45 {
-			goto tr190
+		if data[p] == 101 {
+			goto st653
 		}
 		goto st0
 	st653:
@@ -19055,11 +20499,8 @@ tr770:
 			goto _test_eof653
 		}
 	st_case_653:
-		switch data[p] {
-		case 108:
+		if data[p] == 98 {
 			goto st654
-		case 110:
-			goto st656
 		}
 		goto st0
 	st654:
@@ -19069,8 +20510,10 @@ tr770:
 	st_case_654:
 		switch data[p] {
 		case 45:
-			goto tr197
-		case 121:
+			goto tr947
+		case 46:
+			goto tr948
+		case 114:
 			goto st655
 		}
 		goto st0
@@ -19079,8 +20522,8 @@ tr770:
 			goto _test_eof655
 		}
 	st_case_655:
-		if data[p] == 45 {
-			goto tr197
+		if data[p] == 117 {
+			goto st656
 		}
 		goto st0
 	st656:
@@ -19088,10 +20531,7 @@ tr770:
 			goto _test_eof656
 		}
 	st_case_656:
-		switch data[p] {
-		case 45:
-			goto tr199
-		case 101:
+		if data[p] == 97 {
 			goto st657
 		}
 		goto st0
@@ -19100,8 +20540,8 @@ tr770:
 			goto _test_eof657
 		}
 	st_case_657:
-		if data[p] == 45 {
-			goto tr199
+		if data[p] == 114 {
+			goto st658
 		}
 		goto st0
 	st658:
@@ -19109,7 +20549,7 @@ tr770:
 			goto _test_eof658
 		}
 	st_case_658:
-		if data[p] == 97 {
+		if data[p] == 121 {
 			goto st659
 		}
 		goto st0
@@ -19119,10 +20559,10 @@ tr770:
 		}
 	st_case_659:
 		switch data[p] {
-		case 114:
-			goto st660
-		case 121:
-			goto st663
+		case 45:
+			goto tr947
+		case 46:
+			goto tr948
 		}
 		goto st0
 	st660:
@@ -19131,10 +20571,10 @@ tr770:
 		}
 	st_case_660:
 		switch data[p] {
-		case 45:
-			goto tr204
-		case 99:
+		case 97:
 			goto st661
+		case 117:
+			goto st667
 		}
 		goto st0
 	st661:
@@ -19142,7 +20582,7 @@ tr770:
 			goto _test_eof661
 		}
 	st_case_661:
-		if data[p] == 104 {
+		if data[p] == 110 {
 			goto st662
 		}
 		goto st0
@@ -19151,8 +20591,13 @@ tr770:
 			goto _test_eof662
 		}
 	st_case_662:
-		if data[p] == 45 {
-			goto tr204
+		switch data[p] {
+		case 45:
+			goto tr957
+		case 46:
+			goto tr958
+		case 117:
+			goto st663
 		}
 		goto st0
 	st663:
@@ -19160,8 +20605,8 @@ tr770:
 			goto _test_eof663
 		}
 	st_case_663:
-		if data[p] == 45 {
-			goto tr207
+		if data[p] == 97 {
+			goto st664
 		}
 		goto st0
 	st664:
@@ -19169,7 +20614,7 @@ tr770:
 			goto _test_eof664
 		}
 	st_case_664:
-		if data[p] == 111 {
+		if data[p] == 114 {
 			goto st665
 		}
 		goto st0
@@ -19178,7 +20623,7 @@ tr770:
 			goto _test_eof665
 		}
 	st_case_665:
-		if data[p] == 118 {
+		if data[p] == 121 {
 			goto st666
 		}
 		goto st0
@@ -19189,9 +20634,9 @@ tr770:
 	st_case_666:
 		switch data[p] {
 		case 45:
-			goto tr210
-		case 101:
-			goto st667
+			goto tr957
+		case 46:
+			goto tr958
 		}
 		goto st0
 	st667:
@@ -19199,8 +20644,11 @@ tr770:
 			goto _test_eof667
 		}
 	st_case_667:
-		if data[p] == 109 {
+		switch data[p] {
+		case 108:
 			goto st668
+		case 110:
+			goto st670
 		}
 		goto st0
 	st668:
@@ -19208,7 +20656,12 @@ tr770:
 			goto _test_eof668
 		}
 	st_case_668:
-		if data[p] == 98 {
+		switch data[p] {
+		case 45:
+			goto tr965
+		case 46:
+			goto tr966
+		case 121:
 			goto st669
 		}
 		goto st0
@@ -19217,8 +20670,11 @@ tr770:
 			goto _test_eof669
 		}
 	st_case_669:
-		if data[p] == 101 {
-			goto st670
+		switch data[p] {
+		case 45:
+			goto tr965
+		case 46:
+			goto tr966
 		}
 		goto st0
 	st670:
@@ -19226,7 +20682,12 @@ tr770:
 			goto _test_eof670
 		}
 	st_case_670:
-		if data[p] == 114 {
+		switch data[p] {
+		case 45:
+			goto tr968
+		case 46:
+			goto tr969
+		case 101:
 			goto st671
 		}
 		goto st0
@@ -19235,8 +20696,11 @@ tr770:
 			goto _test_eof671
 		}
 	st_case_671:
-		if data[p] == 45 {
-			goto tr210
+		switch data[p] {
+		case 45:
+			goto tr968
+		case 46:
+			goto tr969
 		}
 		goto st0
 	st672:
@@ -19244,7 +20708,7 @@ tr770:
 			goto _test_eof672
 		}
 	st_case_672:
-		if data[p] == 99 {
+		if data[p] == 97 {
 			goto st673
 		}
 		goto st0
@@ -19253,8 +20717,11 @@ tr770:
 			goto _test_eof673
 		}
 	st_case_673:
-		if data[p] == 116 {
+		switch data[p] {
+		case 114:
 			goto st674
+		case 121:
+			goto st677
 		}
 		goto st0
 	st674:
@@ -19264,8 +20731,10 @@ tr770:
 	st_case_674:
 		switch data[p] {
 		case 45:
-			goto tr218
-		case 111:
+			goto tr974
+		case 46:
+			goto tr975
+		case 99:
 			goto st675
 		}
 		goto st0
@@ -19274,7 +20743,7 @@ tr770:
 			goto _test_eof675
 		}
 	st_case_675:
-		if data[p] == 98 {
+		if data[p] == 104 {
 			goto st676
 		}
 		goto st0
@@ -19283,8 +20752,11 @@ tr770:
 			goto _test_eof676
 		}
 	st_case_676:
-		if data[p] == 101 {
-			goto st677
+		switch data[p] {
+		case 45:
+			goto tr974
+		case 46:
+			goto tr975
 		}
 		goto st0
 	st677:
@@ -19292,8 +20764,11 @@ tr770:
 			goto _test_eof677
 		}
 	st_case_677:
-		if data[p] == 114 {
-			goto st678
+		switch data[p] {
+		case 45:
+			goto tr978
+		case 46:
+			goto tr979
 		}
 		goto st0
 	st678:
@@ -19301,8 +20776,8 @@ tr770:
 			goto _test_eof678
 		}
 	st_case_678:
-		if data[p] == 45 {
-			goto tr218
+		if data[p] == 111 {
+			goto st679
 		}
 		goto st0
 	st679:
@@ -19310,7 +20785,7 @@ tr770:
 			goto _test_eof679
 		}
 	st_case_679:
-		if data[p] == 101 {
+		if data[p] == 118 {
 			goto st680
 		}
 		goto st0
@@ -19319,7 +20794,12 @@ tr770:
 			goto _test_eof680
 		}
 	st_case_680:
-		if data[p] == 112 {
+		switch data[p] {
+		case 45:
+			goto tr982
+		case 46:
+			goto tr983
+		case 101:
 			goto st681
 		}
 		goto st0
@@ -19328,10 +20808,7 @@ tr770:
 			goto _test_eof681
 		}
 	st_case_681:
-		switch data[p] {
-		case 45:
-			goto tr225
-		case 116:
+		if data[p] == 109 {
 			goto st682
 		}
 		goto st0
@@ -19340,7 +20817,7 @@ tr770:
 			goto _test_eof682
 		}
 	st_case_682:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st683
 		}
 		goto st0
@@ -19349,7 +20826,7 @@ tr770:
 			goto _test_eof683
 		}
 	st_case_683:
-		if data[p] == 109 {
+		if data[p] == 101 {
 			goto st684
 		}
 		goto st0
@@ -19358,7 +20835,7 @@ tr770:
 			goto _test_eof684
 		}
 	st_case_684:
-		if data[p] == 98 {
+		if data[p] == 114 {
 			goto st685
 		}
 		goto st0
@@ -19367,8 +20844,11 @@ tr770:
 			goto _test_eof685
 		}
 	st_case_685:
-		if data[p] == 101 {
-			goto st686
+		switch data[p] {
+		case 45:
+			goto tr982
+		case 46:
+			goto tr983
 		}
 		goto st0
 	st686:
@@ -19376,7 +20856,7 @@ tr770:
 			goto _test_eof686
 		}
 	st_case_686:
-		if data[p] == 114 {
+		if data[p] == 99 {
 			goto st687
 		}
 		goto st0
@@ -19385,48 +20865,31 @@ tr770:
 			goto _test_eof687
 		}
 	st_case_687:
-		if data[p] == 45 {
-			goto tr225
+		if data[p] == 116 {
+			goto st688
 		}
 		goto st0
-tr765:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st688
 	st688:
 		if p++; p == pe {
 			goto _test_eof688
 		}
 	st_case_688:
-//line ragel/parse_datetime.go:19402
 		switch data[p] {
-		case 32:
-			goto tr769
 		case 45:
-			goto tr770
-		}
-		if 48 <= data[p] && data[p] <= 57 {
-			goto st549
+			goto tr991
+		case 46:
+			goto tr992
+		case 111:
+			goto st689
 		}
 		goto st0
-tr766:
-//line ragel/datetime.rl:5
- pb = p 
-	goto st689
 	st689:
 		if p++; p == pe {
 			goto _test_eof689
 		}
 	st_case_689:
-//line ragel/parse_datetime.go:19422
-		switch data[p] {
-		case 32:
-			goto tr769
-		case 45:
-			goto tr770
-		}
-		if 48 <= data[p] && data[p] <= 49 {
-			goto st549
+		if data[p] == 98 {
+			goto st690
 		}
 		goto st0
 	st690:
@@ -19434,7 +20897,7 @@ tr766:
 			goto _test_eof690
 		}
 	st_case_690:
-		if data[p] == 97 {
+		if data[p] == 101 {
 			goto st691
 		}
 		goto st0
@@ -19443,7 +20906,7 @@ tr766:
 			goto _test_eof691
 		}
 	st_case_691:
-		if data[p] == 121 {
+		if data[p] == 114 {
 			goto st692
 		}
 		goto st0
@@ -19453,10 +20916,10 @@ tr766:
 		}
 	st_case_692:
 		switch data[p] {
-		case 32:
-			goto st363
-		case 44:
-			goto st546
+		case 45:
+			goto tr991
+		case 46:
+			goto tr992
 		}
 		goto st0
 	st693:
@@ -19464,11 +20927,8 @@ tr766:
 			goto _test_eof693
 		}
 	st_case_693:
-		switch data[p] {
-		case 97:
+		if data[p] == 101 {
 			goto st694
-		case 117:
-			goto st700
 		}
 		goto st0
 	st694:
@@ -19476,7 +20936,7 @@ tr766:
 			goto _test_eof694
 		}
 	st_case_694:
-		if data[p] == 110 {
+		if data[p] == 112 {
 			goto st695
 		}
 		goto st0
@@ -19486,13 +20946,12 @@ tr766:
 		}
 	st_case_695:
 		switch data[p] {
-		case 32:
-			goto tr912
-		case 117:
+		case 45:
+			goto tr999
+		case 46:
+			goto tr1000
+		case 116:
 			goto st696
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr913
 		}
 		goto st0
 	st696:
@@ -19500,7 +20959,12 @@ tr766:
 			goto _test_eof696
 		}
 	st_case_696:
-		if data[p] == 97 {
+		switch data[p] {
+		case 45:
+			goto tr999
+		case 46:
+			goto tr1000
+		case 101:
 			goto st697
 		}
 		goto st0
@@ -19509,7 +20973,7 @@ tr766:
 			goto _test_eof697
 		}
 	st_case_697:
-		if data[p] == 114 {
+		if data[p] == 109 {
 			goto st698
 		}
 		goto st0
@@ -19518,7 +20982,7 @@ tr766:
 			goto _test_eof698
 		}
 	st_case_698:
-		if data[p] == 121 {
+		if data[p] == 98 {
 			goto st699
 		}
 		goto st0
@@ -19527,11 +20991,8 @@ tr766:
 			goto _test_eof699
 		}
 	st_case_699:
-		if data[p] == 32 {
-			goto tr912
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr913
+		if data[p] == 101 {
+			goto st700
 		}
 		goto st0
 	st700:
@@ -19539,11 +21000,8 @@ tr766:
 			goto _test_eof700
 		}
 	st_case_700:
-		switch data[p] {
-		case 108:
+		if data[p] == 114 {
 			goto st701
-		case 110:
-			goto st703
 		}
 		goto st0
 	st701:
@@ -19552,40 +21010,50 @@ tr766:
 		}
 	st_case_701:
 		switch data[p] {
-		case 32:
-			goto tr920
-		case 121:
-			goto st702
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr921
+		case 45:
+			goto tr999
+		case 46:
+			goto tr1000
 		}
 		goto st0
+tr826:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st702
 	st702:
 		if p++; p == pe {
 			goto _test_eof702
 		}
 	st_case_702:
-		if data[p] == 32 {
-			goto tr920
+//line ragel/parse_datetime.go:21029
+		switch data[p] {
+		case 32:
+			goto tr830
+		case 45:
+			goto tr831
 		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr921
+		if 48 <= data[p] && data[p] <= 57 {
+			goto st559
 		}
 		goto st0
+tr827:
+//line ragel/datetime.rl:5
+ pb = p 
+	goto st703
 	st703:
 		if p++; p == pe {
 			goto _test_eof703
 		}
 	st_case_703:
+//line ragel/parse_datetime.go:21049
 		switch data[p] {
 		case 32:
-			goto tr923
-		case 101:
-			goto st704
+			goto tr830
+		case 45:
+			goto tr831
 		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr924
+		if 48 <= data[p] && data[p] <= 49 {
+			goto st559
 		}
 		goto st0
 	st704:
@@ -19593,11 +21061,8 @@ tr766:
 			goto _test_eof704
 		}
 	st_case_704:
-		if data[p] == 32 {
-			goto tr923
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr924
+		if data[p] == 97 {
+			goto st705
 		}
 		goto st0
 	st705:
@@ -19605,11 +21070,8 @@ tr766:
 			goto _test_eof705
 		}
 	st_case_705:
-		switch data[p] {
-		case 97:
+		if data[p] == 121 {
 			goto st706
-		case 111:
-			goto st711
 		}
 		goto st0
 	st706:
@@ -19618,10 +21080,10 @@ tr766:
 		}
 	st_case_706:
 		switch data[p] {
-		case 114:
-			goto st707
-		case 121:
-			goto st710
+		case 32:
+			goto st372
+		case 44:
+			goto st556
 		}
 		goto st0
 	st707:
@@ -19630,13 +21092,10 @@ tr766:
 		}
 	st_case_707:
 		switch data[p] {
-		case 32:
-			goto tr930
-		case 99:
+		case 97:
 			goto st708
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr931
+		case 117:
+			goto st714
 		}
 		goto st0
 	st708:
@@ -19644,7 +21103,7 @@ tr766:
 			goto _test_eof708
 		}
 	st_case_708:
-		if data[p] == 104 {
+		if data[p] == 110 {
 			goto st709
 		}
 		goto st0
@@ -19653,11 +21112,16 @@ tr766:
 			goto _test_eof709
 		}
 	st_case_709:
-		if data[p] == 32 {
-			goto tr930
+		switch data[p] {
+		case 32:
+			goto tr1012
+		case 46:
+			goto tr1014
+		case 117:
+			goto st710
 		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr931
+			goto tr1013
 		}
 		goto st0
 	st710:
@@ -19665,11 +21129,8 @@ tr766:
 			goto _test_eof710
 		}
 	st_case_710:
-		if data[p] == 32 {
-			goto tr934
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr935
+		if data[p] == 97 {
+			goto st711
 		}
 		goto st0
 	st711:
@@ -19677,8 +21138,8 @@ tr766:
 			goto _test_eof711
 		}
 	st_case_711:
-		if data[p] == 110 {
-			goto st362
+		if data[p] == 114 {
+			goto st712
 		}
 		goto st0
 	st712:
@@ -19686,7 +21147,7 @@ tr766:
 			goto _test_eof712
 		}
 	st_case_712:
-		if data[p] == 111 {
+		if data[p] == 121 {
 			goto st713
 		}
 		goto st0
@@ -19695,8 +21156,14 @@ tr766:
 			goto _test_eof713
 		}
 	st_case_713:
-		if data[p] == 118 {
-			goto st714
+		switch data[p] {
+		case 32:
+			goto tr1012
+		case 46:
+			goto tr1014
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1013
 		}
 		goto st0
 	st714:
@@ -19705,13 +21172,10 @@ tr766:
 		}
 	st_case_714:
 		switch data[p] {
-		case 32:
-			goto tr938
-		case 101:
+		case 108:
 			goto st715
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr939
+		case 110:
+			goto st717
 		}
 		goto st0
 	st715:
@@ -19719,8 +21183,16 @@ tr766:
 			goto _test_eof715
 		}
 	st_case_715:
-		if data[p] == 109 {
+		switch data[p] {
+		case 32:
+			goto tr1021
+		case 46:
+			goto tr1023
+		case 121:
 			goto st716
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1022
 		}
 		goto st0
 	st716:
@@ -19728,8 +21200,14 @@ tr766:
 			goto _test_eof716
 		}
 	st_case_716:
-		if data[p] == 98 {
-			goto st717
+		switch data[p] {
+		case 32:
+			goto tr1021
+		case 46:
+			goto tr1023
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1022
 		}
 		goto st0
 	st717:
@@ -19737,8 +21215,16 @@ tr766:
 			goto _test_eof717
 		}
 	st_case_717:
-		if data[p] == 101 {
+		switch data[p] {
+		case 32:
+			goto tr1025
+		case 46:
+			goto tr1027
+		case 101:
 			goto st718
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1026
 		}
 		goto st0
 	st718:
@@ -19746,8 +21232,14 @@ tr766:
 			goto _test_eof718
 		}
 	st_case_718:
-		if data[p] == 114 {
-			goto st719
+		switch data[p] {
+		case 32:
+			goto tr1025
+		case 46:
+			goto tr1027
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1026
 		}
 		goto st0
 	st719:
@@ -19755,11 +21247,11 @@ tr766:
 			goto _test_eof719
 		}
 	st_case_719:
-		if data[p] == 32 {
-			goto tr938
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr939
+		switch data[p] {
+		case 97:
+			goto st720
+		case 111:
+			goto st725
 		}
 		goto st0
 	st720:
@@ -19767,8 +21259,11 @@ tr766:
 			goto _test_eof720
 		}
 	st_case_720:
-		if data[p] == 99 {
+		switch data[p] {
+		case 114:
 			goto st721
+		case 121:
+			goto st724
 		}
 		goto st0
 	st721:
@@ -19776,8 +21271,16 @@ tr766:
 			goto _test_eof721
 		}
 	st_case_721:
-		if data[p] == 116 {
+		switch data[p] {
+		case 32:
+			goto tr1033
+		case 46:
+			goto tr1035
+		case 99:
 			goto st722
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1034
 		}
 		goto st0
 	st722:
@@ -19785,14 +21288,8 @@ tr766:
 			goto _test_eof722
 		}
 	st_case_722:
-		switch data[p] {
-		case 32:
-			goto tr947
-		case 111:
+		if data[p] == 104 {
 			goto st723
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr948
 		}
 		goto st0
 	st723:
@@ -19800,8 +21297,14 @@ tr766:
 			goto _test_eof723
 		}
 	st_case_723:
-		if data[p] == 98 {
-			goto st724
+		switch data[p] {
+		case 32:
+			goto tr1033
+		case 46:
+			goto tr1035
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1034
 		}
 		goto st0
 	st724:
@@ -19809,8 +21312,14 @@ tr766:
 			goto _test_eof724
 		}
 	st_case_724:
-		if data[p] == 101 {
-			goto st725
+		switch data[p] {
+		case 32:
+			goto tr1038
+		case 46:
+			goto tr1040
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1039
 		}
 		goto st0
 	st725:
@@ -19818,8 +21327,8 @@ tr766:
 			goto _test_eof725
 		}
 	st_case_725:
-		if data[p] == 114 {
-			goto st726
+		if data[p] == 110 {
+			goto st371
 		}
 		goto st0
 	st726:
@@ -19827,11 +21336,8 @@ tr766:
 			goto _test_eof726
 		}
 	st_case_726:
-		if data[p] == 32 {
-			goto tr947
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr948
+		if data[p] == 111 {
+			goto st727
 		}
 		goto st0
 	st727:
@@ -19839,13 +21345,8 @@ tr766:
 			goto _test_eof727
 		}
 	st_case_727:
-		switch data[p] {
-		case 97:
+		if data[p] == 118 {
 			goto st728
-		case 101:
-			goto st732
-		case 117:
-			goto st711
 		}
 		goto st0
 	st728:
@@ -19853,8 +21354,16 @@ tr766:
 			goto _test_eof728
 		}
 	st_case_728:
-		if data[p] == 116 {
+		switch data[p] {
+		case 32:
+			goto tr1043
+		case 46:
+			goto tr1045
+		case 101:
 			goto st729
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1044
 		}
 		goto st0
 	st729:
@@ -19862,12 +21371,7 @@ tr766:
 			goto _test_eof729
 		}
 	st_case_729:
-		switch data[p] {
-		case 32:
-			goto st363
-		case 44:
-			goto st546
-		case 117:
+		if data[p] == 109 {
 			goto st730
 		}
 		goto st0
@@ -19876,7 +21380,7 @@ tr766:
 			goto _test_eof730
 		}
 	st_case_730:
-		if data[p] == 114 {
+		if data[p] == 98 {
 			goto st731
 		}
 		goto st0
@@ -19885,8 +21389,8 @@ tr766:
 			goto _test_eof731
 		}
 	st_case_731:
-		if data[p] == 100 {
-			goto st690
+		if data[p] == 101 {
+			goto st732
 		}
 		goto st0
 	st732:
@@ -19894,7 +21398,7 @@ tr766:
 			goto _test_eof732
 		}
 	st_case_732:
-		if data[p] == 112 {
+		if data[p] == 114 {
 			goto st733
 		}
 		goto st0
@@ -19905,12 +21409,12 @@ tr766:
 	st_case_733:
 		switch data[p] {
 		case 32:
-			goto tr959
-		case 116:
-			goto st734
+			goto tr1043
+		case 46:
+			goto tr1045
 		}
 		if 45 <= data[p] && data[p] <= 47 {
-			goto tr960
+			goto tr1044
 		}
 		goto st0
 	st734:
@@ -19918,7 +21422,7 @@ tr766:
 			goto _test_eof734
 		}
 	st_case_734:
-		if data[p] == 101 {
+		if data[p] == 99 {
 			goto st735
 		}
 		goto st0
@@ -19927,7 +21431,7 @@ tr766:
 			goto _test_eof735
 		}
 	st_case_735:
-		if data[p] == 109 {
+		if data[p] == 116 {
 			goto st736
 		}
 		goto st0
@@ -19936,8 +21440,16 @@ tr766:
 			goto _test_eof736
 		}
 	st_case_736:
-		if data[p] == 98 {
+		switch data[p] {
+		case 32:
+			goto tr1053
+		case 46:
+			goto tr1055
+		case 111:
 			goto st737
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1054
 		}
 		goto st0
 	st737:
@@ -19945,7 +21457,7 @@ tr766:
 			goto _test_eof737
 		}
 	st_case_737:
-		if data[p] == 101 {
+		if data[p] == 98 {
 			goto st738
 		}
 		goto st0
@@ -19954,7 +21466,7 @@ tr766:
 			goto _test_eof738
 		}
 	st_case_738:
-		if data[p] == 114 {
+		if data[p] == 101 {
 			goto st739
 		}
 		goto st0
@@ -19963,11 +21475,8 @@ tr766:
 			goto _test_eof739
 		}
 	st_case_739:
-		if data[p] == 32 {
-			goto tr959
-		}
-		if 45 <= data[p] && data[p] <= 47 {
-			goto tr960
+		if data[p] == 114 {
+			goto st740
 		}
 		goto st0
 	st740:
@@ -19976,10 +21485,13 @@ tr766:
 		}
 	st_case_740:
 		switch data[p] {
-		case 104:
-			goto st741
-		case 117:
-			goto st744
+		case 32:
+			goto tr1053
+		case 46:
+			goto tr1055
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1054
 		}
 		goto st0
 	st741:
@@ -19987,8 +21499,13 @@ tr766:
 			goto _test_eof741
 		}
 	st_case_741:
-		if data[p] == 117 {
+		switch data[p] {
+		case 97:
 			goto st742
+		case 101:
+			goto st746
+		case 117:
+			goto st725
 		}
 		goto st0
 	st742:
@@ -19996,12 +21513,7 @@ tr766:
 			goto _test_eof742
 		}
 	st_case_742:
-		switch data[p] {
-		case 32:
-			goto st363
-		case 44:
-			goto st546
-		case 114:
+		if data[p] == 116 {
 			goto st743
 		}
 		goto st0
@@ -20010,8 +21522,13 @@ tr766:
 			goto _test_eof743
 		}
 	st_case_743:
-		if data[p] == 115 {
-			goto st731
+		switch data[p] {
+		case 32:
+			goto st372
+		case 44:
+			goto st556
+		case 117:
+			goto st744
 		}
 		goto st0
 	st744:
@@ -20019,7 +21536,7 @@ tr766:
 			goto _test_eof744
 		}
 	st_case_744:
-		if data[p] == 101 {
+		if data[p] == 114 {
 			goto st745
 		}
 		goto st0
@@ -20028,13 +21545,8 @@ tr766:
 			goto _test_eof745
 		}
 	st_case_745:
-		switch data[p] {
-		case 32:
-			goto st363
-		case 44:
-			goto st546
-		case 115:
-			goto st731
+		if data[p] == 100 {
+			goto st704
 		}
 		goto st0
 	st746:
@@ -20042,7 +21554,7 @@ tr766:
 			goto _test_eof746
 		}
 	st_case_746:
-		if data[p] == 101 {
+		if data[p] == 112 {
 			goto st747
 		}
 		goto st0
@@ -20051,8 +21563,16 @@ tr766:
 			goto _test_eof747
 		}
 	st_case_747:
-		if data[p] == 100 {
+		switch data[p] {
+		case 32:
+			goto tr1066
+		case 46:
+			goto tr1068
+		case 116:
 			goto st748
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1067
 		}
 		goto st0
 	st748:
@@ -20062,11 +21582,14 @@ tr766:
 	st_case_748:
 		switch data[p] {
 		case 32:
-			goto st363
-		case 44:
-			goto st546
-		case 110:
+			goto tr1066
+		case 46:
+			goto tr1068
+		case 101:
 			goto st749
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1067
 		}
 		goto st0
 	st749:
@@ -20074,8 +21597,8 @@ tr766:
 			goto _test_eof749
 		}
 	st_case_749:
-		if data[p] == 101 {
-			goto st743
+		if data[p] == 109 {
+			goto st750
 		}
 		goto st0
 	st750:
@@ -20083,8 +21606,8 @@ tr766:
 			goto _test_eof750
 		}
 	st_case_750:
-		if data[p] == 101 {
-			goto st354
+		if data[p] == 98 {
+			goto st751
 		}
 		goto st0
 	st751:
@@ -20092,8 +21615,8 @@ tr766:
 			goto _test_eof751
 		}
 	st_case_751:
-		if data[p] == 97 {
-			goto st706
+		if data[p] == 101 {
+			goto st752
 		}
 		goto st0
 	st752:
@@ -20101,8 +21624,158 @@ tr766:
 			goto _test_eof752
 		}
 	st_case_752:
+		if data[p] == 114 {
+			goto st753
+		}
+		goto st0
+	st753:
+		if p++; p == pe {
+			goto _test_eof753
+		}
+	st_case_753:
+		switch data[p] {
+		case 32:
+			goto tr1066
+		case 46:
+			goto tr1068
+		}
+		if 45 <= data[p] && data[p] <= 47 {
+			goto tr1067
+		}
+		goto st0
+	st754:
+		if p++; p == pe {
+			goto _test_eof754
+		}
+	st_case_754:
+		switch data[p] {
+		case 104:
+			goto st755
+		case 117:
+			goto st758
+		}
+		goto st0
+	st755:
+		if p++; p == pe {
+			goto _test_eof755
+		}
+	st_case_755:
+		if data[p] == 117 {
+			goto st756
+		}
+		goto st0
+	st756:
+		if p++; p == pe {
+			goto _test_eof756
+		}
+	st_case_756:
+		switch data[p] {
+		case 32:
+			goto st372
+		case 44:
+			goto st556
+		case 114:
+			goto st757
+		}
+		goto st0
+	st757:
+		if p++; p == pe {
+			goto _test_eof757
+		}
+	st_case_757:
+		if data[p] == 115 {
+			goto st745
+		}
+		goto st0
+	st758:
+		if p++; p == pe {
+			goto _test_eof758
+		}
+	st_case_758:
 		if data[p] == 101 {
-			goto st732
+			goto st759
+		}
+		goto st0
+	st759:
+		if p++; p == pe {
+			goto _test_eof759
+		}
+	st_case_759:
+		switch data[p] {
+		case 32:
+			goto st372
+		case 44:
+			goto st556
+		case 115:
+			goto st745
+		}
+		goto st0
+	st760:
+		if p++; p == pe {
+			goto _test_eof760
+		}
+	st_case_760:
+		if data[p] == 101 {
+			goto st761
+		}
+		goto st0
+	st761:
+		if p++; p == pe {
+			goto _test_eof761
+		}
+	st_case_761:
+		if data[p] == 100 {
+			goto st762
+		}
+		goto st0
+	st762:
+		if p++; p == pe {
+			goto _test_eof762
+		}
+	st_case_762:
+		switch data[p] {
+		case 32:
+			goto st372
+		case 44:
+			goto st556
+		case 110:
+			goto st763
+		}
+		goto st0
+	st763:
+		if p++; p == pe {
+			goto _test_eof763
+		}
+	st_case_763:
+		if data[p] == 101 {
+			goto st757
+		}
+		goto st0
+	st764:
+		if p++; p == pe {
+			goto _test_eof764
+		}
+	st_case_764:
+		if data[p] == 101 {
+			goto st363
+		}
+		goto st0
+	st765:
+		if p++; p == pe {
+			goto _test_eof765
+		}
+	st_case_765:
+		if data[p] == 97 {
+			goto st720
+		}
+		goto st0
+	st766:
+		if p++; p == pe {
+			goto _test_eof766
+		}
+	st_case_766:
+		if data[p] == 101 {
+			goto st746
 		}
 		goto st0
 	st_out:
@@ -20113,42 +21786,24 @@ tr766:
 	_test_eof6: cs = 6; goto _test_eof
 	_test_eof7: cs = 7; goto _test_eof
 	_test_eof8: cs = 8; goto _test_eof
-	_test_eof753: cs = 753; goto _test_eof
-	_test_eof754: cs = 754; goto _test_eof
 	_test_eof9: cs = 9; goto _test_eof
 	_test_eof10: cs = 10; goto _test_eof
-	_test_eof755: cs = 755; goto _test_eof
-	_test_eof11: cs = 11; goto _test_eof
-	_test_eof756: cs = 756; goto _test_eof
-	_test_eof12: cs = 12; goto _test_eof
-	_test_eof757: cs = 757; goto _test_eof
-	_test_eof13: cs = 13; goto _test_eof
-	_test_eof14: cs = 14; goto _test_eof
-	_test_eof15: cs = 15; goto _test_eof
-	_test_eof758: cs = 758; goto _test_eof
-	_test_eof16: cs = 16; goto _test_eof
-	_test_eof759: cs = 759; goto _test_eof
-	_test_eof17: cs = 17; goto _test_eof
-	_test_eof760: cs = 760; goto _test_eof
-	_test_eof761: cs = 761; goto _test_eof
-	_test_eof762: cs = 762; goto _test_eof
-	_test_eof763: cs = 763; goto _test_eof
-	_test_eof764: cs = 764; goto _test_eof
-	_test_eof765: cs = 765; goto _test_eof
-	_test_eof766: cs = 766; goto _test_eof
-	_test_eof18: cs = 18; goto _test_eof
 	_test_eof767: cs = 767; goto _test_eof
 	_test_eof768: cs = 768; goto _test_eof
-	_test_eof19: cs = 19; goto _test_eof
+	_test_eof11: cs = 11; goto _test_eof
+	_test_eof12: cs = 12; goto _test_eof
 	_test_eof769: cs = 769; goto _test_eof
+	_test_eof13: cs = 13; goto _test_eof
 	_test_eof770: cs = 770; goto _test_eof
+	_test_eof14: cs = 14; goto _test_eof
 	_test_eof771: cs = 771; goto _test_eof
-	_test_eof20: cs = 20; goto _test_eof
-	_test_eof21: cs = 21; goto _test_eof
+	_test_eof15: cs = 15; goto _test_eof
+	_test_eof16: cs = 16; goto _test_eof
+	_test_eof17: cs = 17; goto _test_eof
 	_test_eof772: cs = 772; goto _test_eof
-	_test_eof22: cs = 22; goto _test_eof
+	_test_eof18: cs = 18; goto _test_eof
 	_test_eof773: cs = 773; goto _test_eof
-	_test_eof23: cs = 23; goto _test_eof
+	_test_eof19: cs = 19; goto _test_eof
 	_test_eof774: cs = 774; goto _test_eof
 	_test_eof775: cs = 775; goto _test_eof
 	_test_eof776: cs = 776; goto _test_eof
@@ -20156,17 +21811,19 @@ tr766:
 	_test_eof778: cs = 778; goto _test_eof
 	_test_eof779: cs = 779; goto _test_eof
 	_test_eof780: cs = 780; goto _test_eof
+	_test_eof20: cs = 20; goto _test_eof
 	_test_eof781: cs = 781; goto _test_eof
 	_test_eof782: cs = 782; goto _test_eof
-	_test_eof24: cs = 24; goto _test_eof
+	_test_eof21: cs = 21; goto _test_eof
 	_test_eof783: cs = 783; goto _test_eof
-	_test_eof25: cs = 25; goto _test_eof
 	_test_eof784: cs = 784; goto _test_eof
 	_test_eof785: cs = 785; goto _test_eof
-	_test_eof26: cs = 26; goto _test_eof
+	_test_eof22: cs = 22; goto _test_eof
+	_test_eof23: cs = 23; goto _test_eof
 	_test_eof786: cs = 786; goto _test_eof
-	_test_eof27: cs = 27; goto _test_eof
+	_test_eof24: cs = 24; goto _test_eof
 	_test_eof787: cs = 787; goto _test_eof
+	_test_eof25: cs = 25; goto _test_eof
 	_test_eof788: cs = 788; goto _test_eof
 	_test_eof789: cs = 789; goto _test_eof
 	_test_eof790: cs = 790; goto _test_eof
@@ -20176,20 +21833,35 @@ tr766:
 	_test_eof794: cs = 794; goto _test_eof
 	_test_eof795: cs = 795; goto _test_eof
 	_test_eof796: cs = 796; goto _test_eof
+	_test_eof26: cs = 26; goto _test_eof
 	_test_eof797: cs = 797; goto _test_eof
+	_test_eof27: cs = 27; goto _test_eof
 	_test_eof798: cs = 798; goto _test_eof
 	_test_eof799: cs = 799; goto _test_eof
 	_test_eof28: cs = 28; goto _test_eof
 	_test_eof800: cs = 800; goto _test_eof
+	_test_eof29: cs = 29; goto _test_eof
 	_test_eof801: cs = 801; goto _test_eof
 	_test_eof802: cs = 802; goto _test_eof
-	_test_eof29: cs = 29; goto _test_eof
-	_test_eof30: cs = 30; goto _test_eof
-	_test_eof31: cs = 31; goto _test_eof
-	_test_eof32: cs = 32; goto _test_eof
 	_test_eof803: cs = 803; goto _test_eof
 	_test_eof804: cs = 804; goto _test_eof
 	_test_eof805: cs = 805; goto _test_eof
+	_test_eof806: cs = 806; goto _test_eof
+	_test_eof807: cs = 807; goto _test_eof
+	_test_eof808: cs = 808; goto _test_eof
+	_test_eof809: cs = 809; goto _test_eof
+	_test_eof810: cs = 810; goto _test_eof
+	_test_eof811: cs = 811; goto _test_eof
+	_test_eof812: cs = 812; goto _test_eof
+	_test_eof813: cs = 813; goto _test_eof
+	_test_eof30: cs = 30; goto _test_eof
+	_test_eof814: cs = 814; goto _test_eof
+	_test_eof815: cs = 815; goto _test_eof
+	_test_eof816: cs = 816; goto _test_eof
+	_test_eof31: cs = 31; goto _test_eof
+	_test_eof817: cs = 817; goto _test_eof
+	_test_eof818: cs = 818; goto _test_eof
+	_test_eof32: cs = 32; goto _test_eof
 	_test_eof33: cs = 33; goto _test_eof
 	_test_eof34: cs = 34; goto _test_eof
 	_test_eof35: cs = 35; goto _test_eof
@@ -20262,22 +21934,24 @@ tr766:
 	_test_eof102: cs = 102; goto _test_eof
 	_test_eof103: cs = 103; goto _test_eof
 	_test_eof104: cs = 104; goto _test_eof
-	_test_eof806: cs = 806; goto _test_eof
-	_test_eof807: cs = 807; goto _test_eof
+	_test_eof819: cs = 819; goto _test_eof
 	_test_eof105: cs = 105; goto _test_eof
 	_test_eof106: cs = 106; goto _test_eof
 	_test_eof107: cs = 107; goto _test_eof
 	_test_eof108: cs = 108; goto _test_eof
 	_test_eof109: cs = 109; goto _test_eof
+	_test_eof820: cs = 820; goto _test_eof
+	_test_eof821: cs = 821; goto _test_eof
 	_test_eof110: cs = 110; goto _test_eof
 	_test_eof111: cs = 111; goto _test_eof
-	_test_eof808: cs = 808; goto _test_eof
 	_test_eof112: cs = 112; goto _test_eof
 	_test_eof113: cs = 113; goto _test_eof
 	_test_eof114: cs = 114; goto _test_eof
 	_test_eof115: cs = 115; goto _test_eof
 	_test_eof116: cs = 116; goto _test_eof
+	_test_eof822: cs = 822; goto _test_eof
 	_test_eof117: cs = 117; goto _test_eof
+	_test_eof823: cs = 823; goto _test_eof
 	_test_eof118: cs = 118; goto _test_eof
 	_test_eof119: cs = 119; goto _test_eof
 	_test_eof120: cs = 120; goto _test_eof
@@ -20345,7 +22019,6 @@ tr766:
 	_test_eof182: cs = 182; goto _test_eof
 	_test_eof183: cs = 183; goto _test_eof
 	_test_eof184: cs = 184; goto _test_eof
-	_test_eof809: cs = 809; goto _test_eof
 	_test_eof185: cs = 185; goto _test_eof
 	_test_eof186: cs = 186; goto _test_eof
 	_test_eof187: cs = 187; goto _test_eof
@@ -20426,40 +22099,20 @@ tr766:
 	_test_eof262: cs = 262; goto _test_eof
 	_test_eof263: cs = 263; goto _test_eof
 	_test_eof264: cs = 264; goto _test_eof
-	_test_eof810: cs = 810; goto _test_eof
 	_test_eof265: cs = 265; goto _test_eof
 	_test_eof266: cs = 266; goto _test_eof
-	_test_eof811: cs = 811; goto _test_eof
 	_test_eof267: cs = 267; goto _test_eof
 	_test_eof268: cs = 268; goto _test_eof
 	_test_eof269: cs = 269; goto _test_eof
-	_test_eof812: cs = 812; goto _test_eof
-	_test_eof813: cs = 813; goto _test_eof
-	_test_eof814: cs = 814; goto _test_eof
-	_test_eof815: cs = 815; goto _test_eof
-	_test_eof816: cs = 816; goto _test_eof
-	_test_eof817: cs = 817; goto _test_eof
-	_test_eof818: cs = 818; goto _test_eof
 	_test_eof270: cs = 270; goto _test_eof
-	_test_eof819: cs = 819; goto _test_eof
 	_test_eof271: cs = 271; goto _test_eof
+	_test_eof824: cs = 824; goto _test_eof
 	_test_eof272: cs = 272; goto _test_eof
 	_test_eof273: cs = 273; goto _test_eof
+	_test_eof825: cs = 825; goto _test_eof
 	_test_eof274: cs = 274; goto _test_eof
 	_test_eof275: cs = 275; goto _test_eof
 	_test_eof276: cs = 276; goto _test_eof
-	_test_eof277: cs = 277; goto _test_eof
-	_test_eof278: cs = 278; goto _test_eof
-	_test_eof820: cs = 820; goto _test_eof
-	_test_eof821: cs = 821; goto _test_eof
-	_test_eof279: cs = 279; goto _test_eof
-	_test_eof822: cs = 822; goto _test_eof
-	_test_eof823: cs = 823; goto _test_eof
-	_test_eof280: cs = 280; goto _test_eof
-	_test_eof824: cs = 824; goto _test_eof
-	_test_eof281: cs = 281; goto _test_eof
-	_test_eof825: cs = 825; goto _test_eof
-	_test_eof282: cs = 282; goto _test_eof
 	_test_eof826: cs = 826; goto _test_eof
 	_test_eof827: cs = 827; goto _test_eof
 	_test_eof828: cs = 828; goto _test_eof
@@ -20467,44 +22120,67 @@ tr766:
 	_test_eof830: cs = 830; goto _test_eof
 	_test_eof831: cs = 831; goto _test_eof
 	_test_eof832: cs = 832; goto _test_eof
+	_test_eof277: cs = 277; goto _test_eof
 	_test_eof833: cs = 833; goto _test_eof
-	_test_eof834: cs = 834; goto _test_eof
+	_test_eof278: cs = 278; goto _test_eof
+	_test_eof279: cs = 279; goto _test_eof
+	_test_eof280: cs = 280; goto _test_eof
+	_test_eof281: cs = 281; goto _test_eof
+	_test_eof282: cs = 282; goto _test_eof
 	_test_eof283: cs = 283; goto _test_eof
+	_test_eof834: cs = 834; goto _test_eof
 	_test_eof835: cs = 835; goto _test_eof
-	_test_eof284: cs = 284; goto _test_eof
 	_test_eof836: cs = 836; goto _test_eof
 	_test_eof837: cs = 837; goto _test_eof
-	_test_eof285: cs = 285; goto _test_eof
+	_test_eof284: cs = 284; goto _test_eof
 	_test_eof838: cs = 838; goto _test_eof
-	_test_eof286: cs = 286; goto _test_eof
 	_test_eof839: cs = 839; goto _test_eof
+	_test_eof285: cs = 285; goto _test_eof
 	_test_eof840: cs = 840; goto _test_eof
 	_test_eof841: cs = 841; goto _test_eof
+	_test_eof286: cs = 286; goto _test_eof
 	_test_eof842: cs = 842; goto _test_eof
 	_test_eof843: cs = 843; goto _test_eof
+	_test_eof287: cs = 287; goto _test_eof
 	_test_eof844: cs = 844; goto _test_eof
 	_test_eof845: cs = 845; goto _test_eof
+	_test_eof288: cs = 288; goto _test_eof
 	_test_eof846: cs = 846; goto _test_eof
+	_test_eof289: cs = 289; goto _test_eof
 	_test_eof847: cs = 847; goto _test_eof
+	_test_eof290: cs = 290; goto _test_eof
 	_test_eof848: cs = 848; goto _test_eof
 	_test_eof849: cs = 849; goto _test_eof
 	_test_eof850: cs = 850; goto _test_eof
 	_test_eof851: cs = 851; goto _test_eof
-	_test_eof287: cs = 287; goto _test_eof
 	_test_eof852: cs = 852; goto _test_eof
-	_test_eof288: cs = 288; goto _test_eof
-	_test_eof289: cs = 289; goto _test_eof
 	_test_eof853: cs = 853; goto _test_eof
 	_test_eof854: cs = 854; goto _test_eof
-	_test_eof290: cs = 290; goto _test_eof
 	_test_eof855: cs = 855; goto _test_eof
 	_test_eof856: cs = 856; goto _test_eof
 	_test_eof291: cs = 291; goto _test_eof
 	_test_eof857: cs = 857; goto _test_eof
 	_test_eof292: cs = 292; goto _test_eof
+	_test_eof858: cs = 858; goto _test_eof
+	_test_eof859: cs = 859; goto _test_eof
 	_test_eof293: cs = 293; goto _test_eof
+	_test_eof860: cs = 860; goto _test_eof
 	_test_eof294: cs = 294; goto _test_eof
+	_test_eof861: cs = 861; goto _test_eof
+	_test_eof862: cs = 862; goto _test_eof
+	_test_eof863: cs = 863; goto _test_eof
+	_test_eof864: cs = 864; goto _test_eof
+	_test_eof865: cs = 865; goto _test_eof
+	_test_eof866: cs = 866; goto _test_eof
+	_test_eof867: cs = 867; goto _test_eof
+	_test_eof868: cs = 868; goto _test_eof
+	_test_eof869: cs = 869; goto _test_eof
+	_test_eof870: cs = 870; goto _test_eof
+	_test_eof871: cs = 871; goto _test_eof
+	_test_eof872: cs = 872; goto _test_eof
+	_test_eof873: cs = 873; goto _test_eof
 	_test_eof295: cs = 295; goto _test_eof
+	_test_eof874: cs = 874; goto _test_eof
 	_test_eof296: cs = 296; goto _test_eof
 	_test_eof297: cs = 297; goto _test_eof
 	_test_eof298: cs = 298; goto _test_eof
@@ -20543,11 +22219,14 @@ tr766:
 	_test_eof331: cs = 331; goto _test_eof
 	_test_eof332: cs = 332; goto _test_eof
 	_test_eof333: cs = 333; goto _test_eof
+	_test_eof875: cs = 875; goto _test_eof
+	_test_eof876: cs = 876; goto _test_eof
 	_test_eof334: cs = 334; goto _test_eof
 	_test_eof335: cs = 335; goto _test_eof
 	_test_eof336: cs = 336; goto _test_eof
 	_test_eof337: cs = 337; goto _test_eof
 	_test_eof338: cs = 338; goto _test_eof
+	_test_eof877: cs = 877; goto _test_eof
 	_test_eof339: cs = 339; goto _test_eof
 	_test_eof340: cs = 340; goto _test_eof
 	_test_eof341: cs = 341; goto _test_eof
@@ -20587,7 +22266,6 @@ tr766:
 	_test_eof375: cs = 375; goto _test_eof
 	_test_eof376: cs = 376; goto _test_eof
 	_test_eof377: cs = 377; goto _test_eof
-	_test_eof858: cs = 858; goto _test_eof
 	_test_eof378: cs = 378; goto _test_eof
 	_test_eof379: cs = 379; goto _test_eof
 	_test_eof380: cs = 380; goto _test_eof
@@ -20597,6 +22275,7 @@ tr766:
 	_test_eof384: cs = 384; goto _test_eof
 	_test_eof385: cs = 385; goto _test_eof
 	_test_eof386: cs = 386; goto _test_eof
+	_test_eof878: cs = 878; goto _test_eof
 	_test_eof387: cs = 387; goto _test_eof
 	_test_eof388: cs = 388; goto _test_eof
 	_test_eof389: cs = 389; goto _test_eof
@@ -20846,6 +22525,7 @@ tr766:
 	_test_eof633: cs = 633; goto _test_eof
 	_test_eof634: cs = 634; goto _test_eof
 	_test_eof635: cs = 635; goto _test_eof
+	_test_eof879: cs = 879; goto _test_eof
 	_test_eof636: cs = 636; goto _test_eof
 	_test_eof637: cs = 637; goto _test_eof
 	_test_eof638: cs = 638; goto _test_eof
@@ -20963,35 +22643,49 @@ tr766:
 	_test_eof750: cs = 750; goto _test_eof
 	_test_eof751: cs = 751; goto _test_eof
 	_test_eof752: cs = 752; goto _test_eof
+	_test_eof753: cs = 753; goto _test_eof
+	_test_eof754: cs = 754; goto _test_eof
+	_test_eof755: cs = 755; goto _test_eof
+	_test_eof756: cs = 756; goto _test_eof
+	_test_eof757: cs = 757; goto _test_eof
+	_test_eof758: cs = 758; goto _test_eof
+	_test_eof759: cs = 759; goto _test_eof
+	_test_eof760: cs = 760; goto _test_eof
+	_test_eof761: cs = 761; goto _test_eof
+	_test_eof762: cs = 762; goto _test_eof
+	_test_eof763: cs = 763; goto _test_eof
+	_test_eof764: cs = 764; goto _test_eof
+	_test_eof765: cs = 765; goto _test_eof
+	_test_eof766: cs = 766; goto _test_eof
 
 	_test_eof: {}
 	if p == eof {
 		switch cs {
-		case 763, 771, 802, 815, 819:
+		case 777, 785, 816, 829, 833:
 //line ragel/datetime.rl:7
  st.Zoned = true 
-		case 807:
+		case 821:
 //line ragel/datetime.rl:13
 
     st.Month, _ = strconv.Atoi(data[pb:pb+2])
     st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
 
-		case 809, 810, 858:
+		case 823, 824, 834, 875, 877, 878:
 //line ragel/datetime.rl:17
 
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 
-		case 808:
+		case 822, 879:
 //line ragel/datetime.rl:21
 
     st.Year = parse_year_2_digits(data[pb:pb+2])
 
-		case 753, 806:
+		case 819, 820:
 //line ragel/datetime.rl:25
 
     st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 
-		case 773, 783, 835, 855:
+		case 787, 797, 847, 857:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -21007,12 +22701,12 @@ tr766:
             return
     }
 
-		case 756, 760:
+		case 770, 774:
 //line ragel/datetime.rl:50
 
     st.Ad_bc = ADBC_BC;
 
-		case 769, 822:
+		case 783, 844:
 //line ragel/datetime.rl:54
 
     if st.Hour > 12 {
@@ -21036,7 +22730,7 @@ tr766:
         }
     }
 
-		case 803, 804, 805:
+		case 767, 817, 818:
 //line ragel/datetime.rl:90
 
     switch p - pb {
@@ -21046,37 +22740,37 @@ tr766:
             return
     }
 
-		case 772, 824, 854:
+		case 786, 837, 846:
 //line ragel/datetime.rl:99
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+2])
 
-		case 767, 799, 800, 820, 851, 852, 853, 856, 857:
+		case 781, 813, 814, 836, 839, 840, 842, 873, 874:
 //line ragel/datetime.rl:102
 
     st.Hour, _ = strconv.Atoi(data[pb:pb+1])
 
-		case 785, 837:
+		case 799, 859:
 //line ragel/datetime.rl:105
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+2])
 
-		case 784, 798, 836, 850:
+		case 798, 812, 858, 872:
 //line ragel/datetime.rl:108
 
     st.Minute, _ = strconv.Atoi(data[pb:pb+1])
 
-		case 796, 848:
+		case 810, 870:
 //line ragel/datetime.rl:111
 
     st.Second, _ = strconv.Atoi(data[pb:pb+2])
 
-		case 786, 797, 838, 849:
+		case 800, 811, 860, 871:
 //line ragel/datetime.rl:114
 
     st.Second, _ = strconv.Atoi(data[pb:pb+1])
 
-		case 774, 775, 776, 777, 778, 779, 780, 781, 782, 787, 788, 789, 790, 791, 792, 793, 794, 795, 826, 827, 828, 829, 830, 831, 832, 833, 834, 839, 840, 841, 842, 843, 844, 845, 846, 847:
+		case 788, 789, 790, 791, 792, 793, 794, 795, 796, 801, 802, 803, 804, 805, 806, 807, 808, 809, 848, 849, 850, 851, 852, 853, 854, 855, 856, 861, 862, 863, 864, 865, 866, 867, 868, 869:
 //line ragel/datetime.rl:117
 
     switch p - pb {
@@ -21106,11 +22800,7 @@ tr766:
             st.Nanosecond =  parse_digits(data[pb+6:p])
     }
 
-		case 825:
-//line ragel/datetime.rl:17
-
-    st.Year, _ = strconv.Atoi(data[pb:pb+4])
-
+		case 838:
 //line ragel/datetime.rl:35
 
     switch p - pb {
@@ -21126,7 +22816,11 @@ tr766:
             return
     }
 
-		case 764, 765, 816, 817:
+//line ragel/datetime.rl:17
+
+    st.Year, _ = strconv.Atoi(data[pb:pb+4])
+
+		case 778, 779, 830, 831:
 //line ragel/datetime.rl:157
 
     switch p - pb {
@@ -21138,7 +22832,7 @@ tr766:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-		case 757, 761, 762, 766, 811, 813, 814, 818:
+		case 771, 775, 776, 780, 825, 827, 828, 832:
 //line ragel/datetime.rl:166
 
     // 1 as 1 hour
@@ -21169,7 +22863,7 @@ tr766:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-		case 758, 812:
+		case 772, 826:
 //line ragel/datetime.rl:194
 
     st.ZoneName = data[pb:p]
@@ -21177,7 +22871,7 @@ tr766:
 
 //line ragel/datetime.rl:7
  st.Zoned = true 
-//line ragel/parse_datetime.go:21181
+//line ragel/parse_datetime.go:22875
 		}
 	}
 
