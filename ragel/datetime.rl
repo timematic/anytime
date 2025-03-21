@@ -220,10 +220,10 @@ month_name = (
 ('Jun' | 'June' | 'jun' | 'june') %set_month_6 |
 ('Jul' | 'July' | 'jul' | 'july') %set_month_7 |
 ('Aug' | 'August' | 'aug' | 'august') %set_month_8 |
-('Sep' | 'September' | 'sep' | 'september') %set_month_9 |
+('Sep' | 'Sept' | 'September' | 'sep' | 'sept' | 'september') %set_month_9 |
 ('Oct' | 'October' | 'oct' | 'october') %set_month_10 |
 ('Nov' | 'November' | 'nov' | 'november') %set_month_11 |
-('Dec' | 'December' | 'dec' | 'december') %set_month_12);
+('Dec' | 'December' | 'dec' | 'december') %set_month_12) '.'?;
 month_digits = (nonzerodigit | '0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
 month = (month_name | month_digits);
 month_2_digit = ('0' . nonzerodigit | '1' . '0'..'2' ) >mark_pb %parse_month_digit;
@@ -239,7 +239,7 @@ mmdd = digit{4} >mark_pb %parse_mmdd_4_digit;
 
 ad_bc = 'AD' | ('BC' %set_bc);
 
-datesp = ('-' | '/' | '.');
+datesp = ('-' | '/' | '.' | sp);
 ymd = year_4digit datesp month datesp day;
 dmy = day datesp month_name datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
@@ -261,7 +261,7 @@ minute = (minute_1_digit | minute_2_digit);
 
 second_2_digit = sexagesimal >mark_pb %parse_second_2_digit;
 second_1_digit = digit >mark_pb %parse_second_1_digit;
-second_fraction = '.' digit{1,9} >mark_pb %parse_second_fraction;
+second_fraction = ('.' | ',') digit{1,9} >mark_pb %parse_second_fraction;
 second = (second_1_digit | second_2_digit) . second_fraction?;
 
 timeoffset_hour = (digit | '0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_offset_hour;
@@ -285,7 +285,7 @@ fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 # "Mon Jan 02 15:04:05 -0700 2006"
 ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
 pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
-america_datetime = month_name sp (day_2digit . ','?) sp (year_4digit . ','?) sp time; # "January 02, 2006, 15:04:05"
+america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (sp time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
 fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
