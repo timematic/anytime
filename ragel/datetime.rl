@@ -2,8 +2,6 @@
 %%{
 machine common;
 
-action parse_error { return st, err }
-
 action mark_pb { pb = p }
 
 action mark_zone { st.Zoned = true }
@@ -165,7 +163,7 @@ action parse_offset_minute {
     }
 }
 
-action parse_offset_digits { 
+action parse_offset_digits {
     // 1 as 1 hour
     // 12 as 12 hours
     // 123 as 1 hour 23 minutes
@@ -241,7 +239,7 @@ mmdd = digit{4} >mark_pb %parse_mmdd_4_digit;
 
 ad_bc = 'AD' | ('BC' %set_bc);
 
-datesp = ('-' | '/');
+datesp = ('-' | '/' | '.');
 ymd = year_4digit datesp month datesp day;
 dmy = day datesp month_name datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
@@ -273,7 +271,7 @@ timeoffset_digits = digit{1,} > mark_pb %parse_offset_digits;
 timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_digits);
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
-timezone = ('Z' | timenumoffset | timezone_abbreviation) %mark_zone;
+timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | timezone_abbreviation) %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
@@ -287,9 +285,10 @@ fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 # "Mon Jan 02 15:04:05 -0700 2006"
 ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
 pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
+america_datetime = month_name sp (day_2digit . ','?) sp (year_4digit . ','?) sp time; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
-fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime;
+fulldatetime = fulldate | ( date ('T' | sp | '_' | 't') time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
 
 fulltime = ('T'? . time) | ( date ('T' | sp) time );
 
