@@ -105,6 +105,12 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 		return date, nil
 	}
 
+	if upperzone := strings.ToUpper(state.ZoneName); upperzone == "UTC" { // special case in time.Parse()
+		// time.Parse("2006-01-02 MST-0700", "1970-01-01 UTC-0700") is "1970-01-01 00:00:00 +0000 UTC"
+		state.ZoneOffsetHour = 0
+		state.ZoneOffsetMinute = 0
+	}
+
 	if len(state.ZoneName) != 0 && state.ZoneOffsetHour == 0 && state.ZoneOffsetMinute == 0 {
 		_, ambiguous := ambiguousTimeZoneAbbrs[state.ZoneName]
 		if zone, err := time.LoadLocation(state.ZoneName); err == nil && !ambiguous {
