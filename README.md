@@ -6,6 +6,22 @@ a user friendly `time.Time` parser which no need specify the time `Layout`.
 
 alternative to [araddon/dateparse](https://github.com/araddon/dateparse)
 
+## Benchmark
+
+goos: darwin
+goarch: arm64
+pkg: github.com/timematic/anytime
+cpu: Apple M1 Pro
+
+|                                      | ns/op       |
+| ------------------------------------ | ----------- |
+| time.Parse date_only                 | 56.82 ns/op |
+| anytime.Parse date_only              | 34.11 ns/op |
+| araddon/dateparse.ParseAny date_only | 210.3 ns/op |
+| time.Parse rfc3339                   | 38.26 ns/op |
+| anytime.Parse rfc3339                | 67.56 ns/op |
+| araddon/dateparse.ParseAny rfc3339   | 304.7 ns/op |
+
 ## Support lots of time layout
 
 ```
@@ -15,6 +31,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-Jan-01":     "2006-Jan-02",
 	"1970/01/01":      "2006/01/02",
 	"1970/Jan/01":     "2006/Jan/02",
+	"1970/jan/01":     "2006/Jan/02",
 	"1970/January/01": "2006/January/02",
 	"01/Jan/1970":     "02/Jan/2006",
 	"Jan/01/1970":     "Jan/02/2006",
@@ -130,18 +147,3 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
     return time.ParseInLocation(layout, value, loc)
 }
 ```
-
-## Benchmark
-
-goos: darwin
-goarch: arm64
-pkg: github.com/timematic/anytime
-cpu: Apple M1 Pro
-| | ns/op |
-| ------------------------------------ | ----------- |
-| time.Parse date_only | 56.82 ns/op |
-| anytime.Parse date_only | 34.11 ns/op |
-| araddon/dateparse.ParseAny date_only | 210.3 ns/op |
-| time.Parse rfc3339 | 38.26 ns/op |
-| anytime.Parse rfc3339 | 67.56 ns/op |
-| araddon/dateparse.ParseAny rfc3339 | 304.7 ns/op |
