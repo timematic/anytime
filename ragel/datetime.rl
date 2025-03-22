@@ -239,9 +239,8 @@ nonzerodigit = '1'..'9';
 sexagesimal = '0'..'5' . '0'..'9';
 
 # 0..9 | 10..31
-day = (nonzerodigit | '0' . nonzerodigit | '1'..'2' . '0'..'9' | '3' . '0'..'1') >mark_pb %parse_day_digit;
-day_2digit =  ('0' . nonzerodigit | '1'..'2' . '0'..'9' | '3' . '0'..'1') >mark_pb %parse_day_digit;
-
+day_digits = (nonzerodigit | '0' . nonzerodigit | '1'..'2' . '0'..'9' | '3' . '0'..'1') >mark_pb %parse_day_digit;
+day = day_digits ('st' | 'nd' | 'rd' | 'th')?;
 
 # Jan .. Dec
 month_name = (
@@ -323,8 +322,8 @@ fulldate = ( date . ('T' | sp)? . timezone? . (sp ad_bc)?);
 date_time_seps = 'T' | ','? sp | '_' | 't' | sp ('at' | 'AT') sp;
 
 # "Mon Jan 02 15:04:05 -0700 2006"
-ruby_datetime = week_day_name sp month_name sp day_2digit sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
-pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
+ruby_datetime = week_day_name sp month_name sp day sp time sp year_4digit; # "Mon Jan 02 15:04:05 -0700 2006"
+pg_datetime = (week_day_name sp)? month_name sp day sp time_without_zone sp year_4digit (sp timezone)?; # "Mon Jan 02 15:04:05 2006 PST"
 america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (date_time_seps time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
