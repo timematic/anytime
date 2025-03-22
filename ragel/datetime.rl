@@ -26,6 +26,23 @@ action parse_day_of_year {
     st.DayOfYear, _ = strconv.Atoi(data[pb:pb+3])
 }
 
+action parse_ambiguous_md2 {
+    if st.Day == 0 {
+        value, _ := strconv.Atoi(data[pb:pb+2])
+        st.Day = value
+    }else {
+        value, _ := strconv.Atoi(data[pb:pb+2])
+        max_v := max(st.Day, value)
+        min_v := min(st.Day, value)
+        st.Day, st.Month = max_v, min_v
+        if st.Month > 12 {
+            err = errors.New("month value overflow")
+        } else if st.Day <=12 && st.Day != st.Month {
+            err = errors.New("ambiguous day/month")
+        }
+    }
+}
+
 action parse_yyyymmdd {
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
     st.Month, _ = strconv.Atoi(data[pb+4:pb+6])
@@ -53,7 +70,7 @@ action set_bc {
 
 action set_ampm {
     if st.Hour > 12 {
-        err = errors.New("hour out of range")
+        err = errors.New("hour value overflow")
         return st, err
     }
     if apm, err := parse_ampm(data[pb:]); err != nil {
@@ -244,8 +261,10 @@ mmdd = digit{4} >mark_pb %parse_mmdd_4_digit;
 ad_bc = 'AD' | ('BC' %set_bc);
 
 datesp = ('-' | '/' | '.' | sp);
+ambiguous_md2 = digit{1,2} >mark_pb %parse_ambiguous_md2;
+
 ymd = year_4digit datesp month datesp day;
-dmy = day datesp month_name datesp year_4digit;
+dmy = day datesp (month_name | ambiguous_md2) datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
 yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
 yyyymmdd = year_4digit mmdd;

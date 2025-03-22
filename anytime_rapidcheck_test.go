@@ -1,6 +1,8 @@
 package anytime_test
 
 import (
+	"fmt"
+	"strings"
 	"testing"
 	"time"
 
@@ -50,6 +52,10 @@ func TestRapidCheckParse(t *testing.T) {
 		}
 		output, err := anytime.Parse(str)
 		if err != nil {
+			if strings.Contains(err.Error(), "ambiguous") {
+				fmt.Printf("skip ambiguous str=%s, err=%s\n", str, err)
+				return
+			}
 			t.Fatalf("anytime.Parse('%s') err=%v", str, err)
 		}
 
@@ -80,6 +86,10 @@ func TestRapidCheckParseInLocation(t *testing.T) {
 		}
 		output, err := anytime.ParseInLocation(str, zone)
 		if err != nil {
+			if strings.Contains(err.Error(), "ambiguous") {
+				fmt.Printf("skip ambiguous str=%s, err=%s\n", str, err)
+				return
+			}
 			t.Fatalf("anytime.ParseInLocation('%s','%s') err=%v", str, loc, err)
 		}
 
