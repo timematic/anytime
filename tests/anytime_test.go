@@ -11,7 +11,7 @@ import (
 )
 
 var golang_time_formats = []string{
-	// time.Layout,
+	time.Layout,
 	time.ANSIC,
 	time.UnixDate,
 	time.RubyDate,
