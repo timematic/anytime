@@ -160,6 +160,18 @@ action parse_second_fraction {
     }
 }
 
+# m=±0.000000000
+action parse_monotonic_offset {
+    if dot_index := strings.IndexRune(data[pb:p], '.'); dot_index == -1 { // no '.'
+        monotonic_offset_sec := parse_digits(data[pb:p])
+        st.MonotonicOffsetNanosecond = int64(monotonic_offset_sec) * 1000000000
+    }else {
+        monotonic_offset_sec := parse_digits(data[pb:pb+dot_index])
+        monotonic_offset_nsec := parse_digits(data[pb+dot_index+1:p])
+        st.MonotonicOffsetNanosecond = int64(monotonic_offset_sec) * 1000000000 + int64(monotonic_offset_nsec)
+    }
+}
+
 action mark_negative_offset { st.NegtiveZoneOffset = true }
 
 action parse_offset_hour {
@@ -296,7 +308,8 @@ timenumoffset = ('+' | '-' %mark_negative_offset) (timeoffset_hhmm | timeoffset_
 
 timezone_abbreviation = (alpha | '/' | '_'){3,} >mark_pb %parse_timezone_abbr;
 timezone_extra_text = '(' . (alpha | digit | sp | '+' | '-' | ':'){1,} . ')';
-timezone = ('Z' | timenumoffset (sp timezone_abbreviation)? | (timezone_abbreviation timenumoffset?)) (sp timezone_extra_text)? %mark_zone;
+timezones = (timezone_abbreviation timenumoffset?) | (timenumoffset (sp (timezone_abbreviation|timenumoffset))?);
+timezone = ('Z' | timezones) (sp timezone_extra_text)? %mark_zone;
 
 am_pm = ('am' | 'pm' | 'AM' | 'PM') >mark_pb %set_ampm;
 
@@ -315,9 +328,10 @@ pg_datetime = (week_day_name sp)? month_name sp day_2digit sp time_without_zone 
 america_datetime = month_name sp (day . ','?) sp (year_4digit . ','?) (date_time_seps time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year_4digit; # "Mon Jan  2 15:04:05 -0700 2006"
 
-fulldatetime = fulldate | ( date date_time_seps time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
+datetime = fulldate | ( date date_time_seps time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
 
-fulltime = ('T'? . time) | ( date ('T' | sp) time );
+monotonic_offset = 'm=' ('+' | '-') (digit{1,} ('.' digit{1,})?) >mark_pb %parse_monotonic_offset;
+fulldatetime = datetime (sp monotonic_offset)?;
 
 }%%
  
