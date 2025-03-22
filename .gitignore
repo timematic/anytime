@@ -2,3 +2,4 @@ bin/
 ragel/*.ri
 .vscode/
 testdata/
+*.back
