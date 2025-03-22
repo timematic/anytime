@@ -37,6 +37,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"05-13-1970":      "01-02-2006",
 	"13-05-1970":      "02-01-2006",
 	"05-05-1970":      "02-01-2006",
+	"May 1st 2012":    "Jan 2st 2006",
 
 	// Multiple Zone Layout
 	"1970-01-01Z":                 "2006-01-02Z07:00",
