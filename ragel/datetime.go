@@ -80,22 +80,22 @@ type ParsedDatetime struct {
 	Hour, Minute, Second                 int
 	Millisecond, Microsecond, Nanosecond int
 
-	Zoned             bool
-	ZoneOffsetHour    int
-	ZoneOffsetMinute  int
-	NegtiveZoneOffset bool
-	ZoneOffsetIsValid bool
-	ZoneName          string // e.g., "MST"
-
+	Zoned                     bool
+	ZoneOffsetHour            int
+	ZoneOffsetMinute          int
+	NegtiveZoneOffset         bool
+	ZoneOffsetIsValid         bool
+	ZoneName                  string // e.g., "MST"
+	MonotonicOffsetNanosecond int64
 }
 
 func (state *ParsedDatetime) String() string {
 	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s ZoneOffsetHour=%d ZoneOffstMinute=%d\n",
+		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s ZoneOffsetHour=%d ZoneOffstMinute=%d m=%d\n",
 		state.Ad_bc, state.Year, state.Month, state.Day, state.DayOfYear,
 		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond, state.Nanosecond,
 		state.Zoned,
-		state.ZoneName, state.ZoneOffsetHour, state.ZoneOffsetMinute)
+		state.ZoneName, state.ZoneOffsetHour, state.ZoneOffsetMinute, state.MonotonicOffsetNanosecond)
 }
 
 func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.Location) (time.Time, error) {
@@ -107,7 +107,7 @@ func (state *ParsedDatetime) AsTime(defaultLoc *time.Location, targetLoc *time.L
 	}
 
 	var date time.Time
-	ns := state.Millisecond*1000000 + state.Microsecond*1000 + state.Nanosecond
+	ns := state.Millisecond*1000000 + state.Microsecond*1000 + state.Nanosecond + int(state.MonotonicOffsetNanosecond)
 	if !state.Zoned {
 		date = time.Date(state.Year, time.Month(state.Month), state.Day,
 			state.Hour, state.Minute, state.Second,

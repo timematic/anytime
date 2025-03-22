@@ -95,6 +95,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-01-01 +5":               "", // not supported by time.Parse
 	"1970-01-01 +5:0":             "", // not supported by time.Parse
 	"1970-01-01 -8:00":            "", // not supported by time.Parse
+	"2018-06-29 +0300 +03":        "2006-01-02 -0700 -07",
 
 	// ignore zone_abbrvs if contains zone_offset
 	"1970-01-01 PST-0300":                     "2006-01-02 PST-0700",
@@ -157,21 +158,23 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"07 Feb 2004, 09:07:07":  "02 Jan 2006, 15:04:05",
 
 	// Some Special Layout
-	"Wed Dec  3 07:37:16 1997":               "Mon Jan _2 15:04:05 2006",                // time.ANSIC
-	"Wed Dec  3 07:37:16 PST 1997":           "Mon Jan _2 15:04:05 MST 2006",            // time.UnixDate
-	"2006-01-02 15:04:05 +0800 CST":          "2006-01-02 15:04:05.999999999 -0700 MST", // time.String
-	"02 Jan 70 00:01 UTC":                    "02 Jan 06 15:04 MST",
-	"Mon, 02-Jan-70 00:01:02 UTC":            "Mon, 02-Jan-06 15:04:05 MST",
-	"Mon Jan 02 00:01:02 -0500 1970":         "Mon Jan 02 15:04:05 -0700 2006",
-	"Wed Dec 17 07:37:16 1997 PST":           "Mon Jan 02 15:04:05 2006 MST", // pg style
-	"Dec 17 07:37:16 1997 PST":               "Jan 02 15:04:05 2006 MST",     // pg style
-	"19700102T030405.123456":                 "20060102T150405.000000",
-	"January 02, 2006, 15:04:05":             "January 02, 2006, 15:04:05",
-	"January 02, 2006 15:04:05":              "January 02, 2006 15:04:05",
-	"January 02, 2006 03:04:05PM":            "January 02, 2006 03:04:05PM",
-	"September 17, 2012 at 5:00PM UTC":       "January 02, 2006 at 3:04PM MST",
-	"Tue, 11 Jul 2017 04:08:03 +0200 (CEST)": "Mon, 02 Jan 2006 15:04:05 -0700 (CEST)",
-	"Thu May 08 17:57:51 CEST 2009":          "Mon Jan 02 15:04:05 MST 2006",
+	"Wed Dec  3 07:37:16 1997":                     "Mon Jan _2 15:04:05 2006",                // time.ANSIC
+	"Wed Dec  3 07:37:16 PST 1997":                 "Mon Jan _2 15:04:05 MST 2006",            // time.UnixDate
+	"2006-01-02 15:04:05 +0800 CST":                "2006-01-02 15:04:05.999999999 -0700 MST", // time.String
+	"02 Jan 70 00:01 UTC":                          "02 Jan 06 15:04 MST",
+	"Mon, 02-Jan-70 00:01:02 UTC":                  "Mon, 02-Jan-06 15:04:05 MST",
+	"Mon Jan 02 00:01:02 -0500 1970":               "Mon Jan 02 15:04:05 -0700 2006",
+	"Wed Dec 17 07:37:16 1997 PST":                 "Mon Jan 02 15:04:05 2006 MST", // pg style
+	"Dec 17 07:37:16 1997 PST":                     "Jan 02 15:04:05 2006 MST",     // pg style
+	"19700102T030405.123456":                       "20060102T150405.000000",
+	"January 02, 2006, 15:04:05":                   "January 02, 2006, 15:04:05",
+	"January 02, 2006 15:04:05":                    "January 02, 2006 15:04:05",
+	"January 02, 2006 03:04:05PM":                  "January 02, 2006 03:04:05PM",
+	"September 17, 2012 at 5:00PM UTC":             "January 02, 2006 at 3:04PM MST",
+	"Tue, 11 Jul 2017 04:08:03 +0200 (CEST)":       "Mon, 02 Jan 2006 15:04:05 -0700 (CEST)",
+	"Thu May 08 17:57:51 CEST 2009":                "Mon Jan 02 15:04:05 MST 2006",
+	"2015-02-08 03:02:00 +0300 MSK m=+0.000000001": "2006-01-02 15:04:05 -0700 MST m=+0.000000000",
+	"2015-02-08 03:02:00 m=-0.000000001":           "2006-01-02 15:04:05 m=-0.000000000",
 }
 ```
 
