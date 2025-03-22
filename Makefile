@@ -17,8 +17,8 @@ endif
 	@go mod tidy
 
 ragel-go: FORCE
-	@echo "ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl"
-	@ragel -Z -G2 -e -o ragel/parse_datetime.go ragel/parse_datetime.go.rl
+	@echo "ragel -Z -G2 -e -o ragel_parse_datetime.go ragel/parse_datetime.go.rl"
+	@ragel -Z -G2 -e -o ragel_parse_datetime.go ragel/parse_datetime.go.rl
 
 fmt: FORCE
 	@echo "Formatting code"
@@ -29,10 +29,10 @@ vet:
 	@go vet ./.
 
 test:
-	@go test -v . -rapid.checks=10000
+	@go test -v ./tests -rapid.checks=10000
 
 bench:
-	@go test -bench .
+	cd tests && go test -bench .
 
 cli: fmt
 	cd cli && go build -o ../bin/anytime

@@ -2,8 +2,6 @@ package anytime
 
 import (
 	"time"
-
-	"github.com/timematic/anytime/ragel"
 )
 
 func Parse(str string) (time.Time, error) {
@@ -15,7 +13,7 @@ func ParseInLocation(str string, loc *time.Location) (time.Time, error) {
 }
 
 func parse(str string, defaultLoc *time.Location, targetLoc *time.Location) (time.Time, error) {
-	state, err := ragel.Parse(str)
+	state, err := ragelParse(str)
 	if err != nil {
 		return time.Time{}, err
 	}
