@@ -75,6 +75,10 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"Fri Jul 03 2015": "Mon Jan 02 2006",
 	"2014年04月08日":     "2006年01月02日",
 	"2014年4月8日":       "2006年1月2日",
+	"1970-05-13":      "2006-01-02",
+	"05-13-1970":      "01-02-2006",
+	"13-05-1970":      "02-01-2006",
+	"05-05-1970":      "02-01-2006",
 
 	// Multiple Zone Layout
 	"1970-01-01Z":                 "2006-01-02Z07:00",
@@ -204,5 +208,5 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
 
 ## Alternatives:
 
-- [github.com/araddon/dateparse](https://github.com/araddon/dateparse) `dateparse` support ambigous formats like `15-Jan-18`, while `anytime` does not support.
+- [github.com/araddon/dateparse](https://github.com/araddon/dateparse) `dateparse` support little more formats, while `anytime` does not support.
   - `anytime` is ~4x faster than `dateparse`
