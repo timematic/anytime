@@ -26,11 +26,18 @@ type parsedTime struct {
 
 func (state *parsedTime) String() string {
 	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s ZoneOffsetHour=%d ZoneOffstMinute=%d m=%d\n",
+		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s NegtiveZoneOffset=%v ZoneOffsetHour=%d ZoneOffstMinute=%d m=%d\n",
 		state.Ad_bc, state.Year, state.Month, state.Day, state.DayOfYear,
 		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond, state.Nanosecond,
 		state.Zoned,
-		state.ZoneName, state.ZoneOffsetHour, state.ZoneOffsetMinute, state.MonotonicOffsetNanosecond)
+		state.ZoneName, state.NegtiveZoneOffset, state.ZoneOffsetHour, state.ZoneOffsetMinute, state.MonotonicOffsetNanosecond)
+}
+
+func (state *parsedTime) unknow_day() bool {
+	return state.Day == 0 && state.DayOfYear == 0
+}
+func (state *parsedTime) unknow_month() bool {
+	return state.Month == 0 && state.DayOfYear == 0
 }
 
 func (state *parsedTime) AsTime(defaultLoc *time.Location, targetLoc *time.Location) (time.Time, error) {
@@ -39,6 +46,13 @@ func (state *parsedTime) AsTime(defaultLoc *time.Location, targetLoc *time.Locat
 	day_of_year_fmt := state.DayOfYear != 0
 	if day_of_year_fmt {
 		state.Month = 1
+	}
+
+	if state.unknow_month() { // "2004"
+		state.Month = 1
+	}
+	if state.unknow_day() { // "2004/05"
+		state.Day = 1
 	}
 
 	var date time.Time
