@@ -1,3 +1,5 @@
+ <img align="left" width="600px" height="480px" src="avatar.jpg">
+
 ![CI Status](https://github.com/timematic/anytime/actions/workflows/test.yml/badge.svg)
 
 # anytime
