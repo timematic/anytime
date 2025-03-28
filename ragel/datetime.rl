@@ -284,7 +284,7 @@ date_rfc1123 = week_day_name ','? sp (dmy | mdy);
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
 date_chinese = year_4digit '年' month_digits '月' day '日';
-date = ( ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822 | date_chinese);
+date = (ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822 | date_chinese);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;
@@ -328,7 +328,7 @@ pg_datetime = (week_day_name sp)? month datesp day sp time_without_zone sp year 
 america_datetime = month_name sp (day . ','?) sp (year . ','?) (date_time_seps time)?; # "January 02, 2006, 15:04:05"
 unix_datetime = week_day_name sp month_name sp (sp? day) sp time sp year; # "Mon Jan  2 15:04:05 -0700 2006"
 
-datetime = fulldate | ( date date_time_seps time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
+datetime = year_4digit | (year_4digit ('/' | '.' | '-') month) | fulldate | ( date date_time_seps time (sp ad_bc)?) | ruby_datetime | pg_datetime | unix_datetime | america_datetime;
 
 monotonic_offset = 'm=' ('+' | '-') (digit{1,} ('.' digit{1,})?) >mark_pb %parse_monotonic_offset;
 fulldatetime = datetime (sp monotonic_offset)?;
