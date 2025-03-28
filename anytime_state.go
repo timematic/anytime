@@ -25,12 +25,7 @@ type parsedTime struct {
 }
 
 func (state *parsedTime) String() string {
-	return fmt.Sprintf(
-		"ab_bc=%v, year=%d, month=%d, day=%d, day_of_year=%d, hour=%d, minute=%d, second=%d, ms=%d, us=%d, ns=%d, zoned=%v ZoneName=%s NegtiveZoneOffset=%v ZoneOffsetHour=%d ZoneOffstMinute=%d m=%d\n",
-		state.Ad_bc, state.Year, state.Month, state.Day, state.DayOfYear,
-		state.Hour, state.Minute, state.Second, state.Millisecond, state.Microsecond, state.Nanosecond,
-		state.Zoned,
-		state.ZoneName, state.NegtiveZoneOffset, state.ZoneOffsetHour, state.ZoneOffsetMinute, state.MonotonicOffsetNanosecond)
+	return fmt.Sprintf("%#v", state)
 }
 
 func (state *parsedTime) unknow_day() bool {
