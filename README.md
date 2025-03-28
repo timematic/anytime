@@ -193,37 +193,6 @@ var anytime_layouts = map[string]string{ // map[value]layout
 }
 ```
 
-## APIs
-
-### `anytime.Parse(value string) (time.Time, error)`
-
-automatically figure out the time `Layout` and parse to `time.Time`.
-**possible implementation**:
-
-```go
-Parse(value string) (time.Time, error){
-    layout, err := ExtractLayout(str)
-    if err != nil {
-        return time.Time{}, err
-    }
-    return time.Parse(layout, value)
-}
-```
-
-### `anytime.ParseInLocation(value string, loc *time.Location) (time.Time, error)`
-
-**possible implementation**:
-
-```go
-ParseInLocation(value string, loc *time.Location) (time.Time, error){
-    layout, err := ExtractLayout(str)
-    if err != nil {
-        return time.Time{}, err
-    }
-    return time.ParseInLocation(layout, value, loc)
-}
-```
-
 ## Alternatives:
 
 - [github.com/araddon/dateparse](https://github.com/araddon/dateparse)
