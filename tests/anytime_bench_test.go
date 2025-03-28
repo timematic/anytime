@@ -24,10 +24,10 @@ func BenchmarkAnytimeParse_DateOnly(b *testing.B) {
 	}
 }
 
-func BenchmarkAraddonParseAny_DateOnly(b *testing.B) {
+func BenchmarkAraddonParseStrict_DateOnly(b *testing.B) {
 	b.ReportAllocs()
 	for n := 0; n < b.N; n++ {
-		dateparse.ParseAny(dateonly)
+		dateparse.ParseStrict(dateonly)
 	}
 }
 
@@ -46,9 +46,10 @@ func BenchmarkAnytimeParse_RFC3339(b *testing.B) {
 		anytime.Parse(rfc3339)
 	}
 }
-func BenchmarkAraddonParseAny_RFC3339(b *testing.B) {
+
+func BenchmarkAraddonParseStrict_RFC3339(b *testing.B) {
 	b.ReportAllocs()
 	for n := 0; n < b.N; n++ {
-		dateparse.ParseAny(rfc3339)
+		dateparse.ParseStrict(rfc3339)
 	}
 }

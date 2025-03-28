@@ -37,14 +37,14 @@ goarch: arm64
 pkg: github.com/timematic/anytime
 cpu: Apple M1 Pro
 
-|                                      | ns/op       | allocation bytes | allocation times |
-| ------------------------------------ | ----------- | ---------------- | ---------------- |
-| time.Parse date_only                 | 56.82 ns/op | 0 B/op           | 0 allocs/op      |
-| anytime.Parse date_only              | 34.11 ns/op | 0 B/op           | 0 allocs/op      |
-| araddon/dateparse.ParseAny date_only | 210.3 ns/op | 288 B/op         | 3 allocs/op      |
-| time.Parse rfc3339                   | 38.26 ns/op | 0 B/op           | 0 allocs/op      |
-| anytime.Parse rfc3339                | 67.56 ns/op | 0 B/op           | 0 allocs/op      |
-| araddon/dateparse.ParseAny rfc3339   | 304.7 ns/op | 320 B/op         | 3 allocs/op      |
+|                                         | ns/op       | allocation bytes | allocation times |
+| --------------------------------------- | ----------- | ---------------- | ---------------- |
+| time.Parse date_only                    | 55.90 ns/op | 0 B/op           | 0 allocs/op      |
+| anytime.Parse date_only                 | 34.45 ns/op | 0 B/op           | 0 allocs/op      |
+| araddon/dateparse.ParseStrict date_only | 184.5 ns/op | 288 B/op         | 3 allocs/op      |
+| time.Parse rfc3339                      | 36.76 ns/op | 0 B/op           | 0 allocs/op      |
+| anytime.Parse rfc3339                   | 69.54 ns/op | 0 B/op           | 0 allocs/op      |
+| araddon/dateparse.ParseStrict rfc3339   | 300.5 ns/op | 320 B/op         | 3 allocs/op      |
 
 ## Support lots of time layout
 
@@ -226,5 +226,9 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
 
 ## Alternatives:
 
-- [github.com/araddon/dateparse](https://github.com/araddon/dateparse) `dateparse` support little more formats, while `anytime` does not support.
+- [github.com/araddon/dateparse](https://github.com/araddon/dateparse)
   - `anytime` is ~4x faster than `dateparse`
+  - `anytime` support few less formats than `dateparse`:
+    - `04:02:2014 04:08:09`: ':' as year month day seperator
+    - `06/May/2008:08:11:17`: ':' as date time seperator
+    - `2012-08-17T18:31:59:257`: ':' as fraction seconds seperator
