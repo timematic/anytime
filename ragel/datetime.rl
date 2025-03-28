@@ -6,14 +6,42 @@ action mark_pb { pb = p }
 
 action mark_zone { st.Zoned = true }
 
+action parse_time_digits {
+    switch p - pb {
+        case 6: // 200405
+            st.Year = parse_digits(data[pb:pb+4])
+            st.Month = parse_digits(data[pb+4:pb+6])
+        case 7: // 2004005 day_of_year
+            st.Year = parse_digits(data[pb:pb+4])
+            st.DayOfYear = parse_digits(data[pb+4:pb+7])
+        case 8: // 20040501
+            st.Year = parse_digits(data[pb:pb+4])
+            st.Month = parse_digits(data[pb+4:pb+6])
+            st.Day = parse_digits(data[pb+6:pb+8])
+        case 14: // 20040102150304
+            st.Year = parse_digits(data[pb:pb+4])
+            st.Month = parse_digits(data[pb+4:pb+6])
+            st.Day = parse_digits(data[pb+6:pb+8])
+            st.Hour = parse_digits(data[pb+8:pb+10])
+            st.Minute = parse_digits(data[pb+10:pb+12])
+            st.Second = parse_digits(data[pb+12:pb+14])
+        case 10: // timestamp second
+            st.Second = parse_digits(data[pb:p])
+        case 13: // timestamp millisecond
+            st.Millisecond = parse_digits(data[pb:p])
+        case 16: // timestamp microsecond
+            st.Microsecond = parse_digits(data[pb:p])
+        case 19: // timestamp nanosecond
+            st.Nanosecond = parse_digits(data[pb:p])
+        default:
+            err = fmt.Errorf("invalid digits value: %s",data[pb:p])
+    }
+}
+
 action parse_month_digit {
     st.Month, _ = strconv.Atoi(data[pb:p])
 }
 
-action parse_mmdd_4_digit {
-    st.Month, _ = strconv.Atoi(data[pb:pb+2])
-    st.Day, _ = strconv.Atoi(data[pb+2:pb+4])
-}
 action parse_year_4_digit {
     st.Year, _ = strconv.Atoi(data[pb:pb+4])
 }
@@ -267,8 +295,6 @@ year_2digit = '\''? digit{2} >mark_pb %parse_year_2_digit;
 year = year_2digit | year_4digit;
 
 day_of_year = digit{3} >mark_pb %parse_day_of_year;
- 
-mmdd = digit{4} >mark_pb %parse_mmdd_4_digit;
 
 ad_bc = 'AD' | ('BC' %set_bc);
 
@@ -278,13 +304,13 @@ ambiguous_md2 = digit{1,2} >mark_pb %parse_ambiguous_md2;
 ymd = year_4digit datesp month datesp day;
 dmy = day datesp (month_name | ambiguous_md2) datesp year_4digit;
 mdy = month_name datesp day datesp year_4digit;
-yyyyddd = year_4digit ('-' | '/' | '.')? day_of_year;
-yyyymmdd = year_4digit mmdd;
+yyyyddd = year_4digit ('-' | '/' | '.') day_of_year;
+pure_digits = digit{6,} >mark_pb %parse_time_digits;
 date_rfc1123 = week_day_name ','? sp (dmy | mdy);
 date_rfc850 = week_day_name ',' sp day '-' month_name '-' year_2digit;
 date_rfc822 = day sp month_name sp year_2digit;
 date_chinese = year_4digit '年' month_digits '月' day '日';
-date = (ymd | mdy | dmy | yyyyddd | yyyymmdd | date_rfc1123 | date_rfc850 | date_rfc822 | date_chinese);
+date = (ymd | mdy | dmy | yyyyddd | pure_digits | date_rfc1123 | date_rfc850 | date_rfc822 | date_chinese);
 
 # 01..23
 hour_2_digit = ('0'..'1' . '0'..'9' | '2' . '0'..'3') >mark_pb %parse_hour_2_digit;

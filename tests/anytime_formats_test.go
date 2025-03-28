@@ -24,7 +24,7 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"1970-01-01T":     "2006-01-02T",
 	"1970.001":        "2006.002",
 	"1970-001":        "2006-002",
-	"1970001":         "2006002",
+	"1970005":         "2006002",
 	"1970 01 23":      "2006 01 02",
 	"1970 Jan 23":     "2006 Jan 02",
 	"Jan 23 1970":     "Jan 02 2006",
@@ -143,6 +143,11 @@ var anytime_layouts = map[string]string{ // map[value]layout
 	"Thu May 08 17:57:51 CEST '09":                 "Mon Jan 02 15:04:05 MST '06",
 	"2015-02-08 03:02:00 +0300 MSK m=+0.000000001": "2006-01-02 15:04:05 -0700 MST m=+0.000000000",
 	"2015-02-08 03:02:00 m=-0.000000001":           "2006-01-02 15:04:05 m=-0.000000000",
+	"1332151919":                                   "", // unix timestamp second
+	"1384216367111":                                "", // unix timestamp ms
+	"1384216367111222":                             "", // unix timestamp us
+	"1384216367111222333":                          "", // unix timestamp ns
+	"20140722105203":                               "20060102150405",
 }
 
 func TestAnytimeFormats(t *testing.T) {
