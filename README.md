@@ -226,5 +226,9 @@ ParseInLocation(value string, loc *time.Location) (time.Time, error){
 
 ## Alternatives:
 
-- [github.com/araddon/dateparse](https://github.com/araddon/dateparse) `dateparse` support little more formats, while `anytime` does not support.
+- [github.com/araddon/dateparse](https://github.com/araddon/dateparse)
   - `anytime` is ~4x faster than `dateparse`
+  - `anytime` support few less formats than `dateparse`:
+    - `04:02:2014 04:08:09`: ':' as year month day seperator
+    - `06/May/2008:08:11:17`: ':' as date time seperator
+    - `2012-08-17T18:31:59:257`: ':' as fraction seconds seperator
