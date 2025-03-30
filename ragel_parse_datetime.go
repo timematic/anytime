@@ -9975,17 +9975,17 @@ tr283:
 //line ragel/datetime.rl:57
 
     if st.Day == 0 {
-        value, _ := strconv.Atoi(data[pb:pb+2])
+        value, _ := strconv.Atoi(data[pb:p])
         st.Day = value
     }else {
-        value, _ := strconv.Atoi(data[pb:pb+2])
+        value, _ := strconv.Atoi(data[pb:p])
         max_v := max(st.Day, value)
         min_v := min(st.Day, value)
         st.Day, st.Month = max_v, min_v
         if st.Month > 12 {
             err = errors.New("month value overflow")
         } else if st.Day <=12 && st.Day != st.Month {
-            err = errors.New("ambiguous day/month")
+            err = fmt.Errorf("ambiguous day/month: day=%d, month=%d",st.Day, st.Month)
         }
     }
 
@@ -10114,17 +10114,17 @@ tr290:
 //line ragel/datetime.rl:57
 
     if st.Day == 0 {
-        value, _ := strconv.Atoi(data[pb:pb+2])
+        value, _ := strconv.Atoi(data[pb:p])
         st.Day = value
     }else {
-        value, _ := strconv.Atoi(data[pb:pb+2])
+        value, _ := strconv.Atoi(data[pb:p])
         max_v := max(st.Day, value)
         min_v := min(st.Day, value)
         st.Day, st.Month = max_v, min_v
         if st.Month > 12 {
             err = errors.New("month value overflow")
         } else if st.Day <=12 && st.Day != st.Month {
-            err = errors.New("ambiguous day/month")
+            err = fmt.Errorf("ambiguous day/month: day=%d, month=%d",st.Day, st.Month)
         }
     }
 
