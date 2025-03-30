@@ -27,12 +27,24 @@ action parse_time_digits {
             st.Second = parse_digits(data[pb+12:pb+14])
         case 10: // timestamp second
             st.Second = parse_digits(data[pb:p])
+            st.Year = 1970
+            st.Month = 1
+            st.Day = 1
         case 13: // timestamp millisecond
             st.Millisecond = parse_digits(data[pb:p])
+            st.Year = 1970
+            st.Month = 1
+            st.Day = 1
         case 16: // timestamp microsecond
             st.Microsecond = parse_digits(data[pb:p])
+            st.Year = 1970
+            st.Month = 1
+            st.Day = 1
         case 19: // timestamp nanosecond
             st.Nanosecond = parse_digits(data[pb:p])
+            st.Year = 1970
+            st.Month = 1
+            st.Day = 1
         default:
             err = fmt.Errorf("invalid digits value: %s",data[pb:p])
     }
