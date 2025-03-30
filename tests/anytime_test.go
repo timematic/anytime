@@ -74,7 +74,8 @@ func gen_datetime_formats() []string {
 		}
 	}
 
-	for _, layout := range anytime_layouts {
+	for _, item := range anytime_tests {
+		layout := item.layout
 		if layout != "" {
 			fmts = append(fmts, layout)
 		}
