@@ -37,6 +37,9 @@ bench:
 cli: fmt
 	cd cli && go build -o ../bin/anytime
 
+tidy: FORCE
+	go mod tidy -go=1.18
+
 clean: FORCE
 	@echo "Cleaning"
 	rm -rf ./bin
