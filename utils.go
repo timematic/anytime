@@ -6,19 +6,7 @@ import (
 	"strings"
 )
 
-func max(a int, b int) int {
-	if a >= b {
-		return a
-	}
-	return b
-}
-func min(a int, b int) int {
-	if a <= b {
-		return a
-	}
-	return b
-}
-
+// ADBC represents AD (Anno Domini) or BC (Before Christ) era for years.
 type ADBC int32
 
 const (
@@ -26,6 +14,7 @@ const (
 	ADBC_BC ADBC = 1
 )
 
+// AMPM represents AM or PM indicator for 12-hour time format.
 type AMPM int32
 
 const (
@@ -33,6 +22,7 @@ const (
 	AMPM_PM AMPM = 1
 )
 
+// parse_ampm parses AM/PM indicator from string.
 func parse_ampm(s string) (AMPM, error) {
 	if len(s) < 2 {
 		return AMPM_AM, errors.New("parse_ampm too short")
@@ -47,6 +37,8 @@ func parse_ampm(s string) (AMPM, error) {
 	return AMPM_AM, errors.New("parse_ampm invalid")
 }
 
+// parse_digits parses a string into an integer.
+// Panics on error - should only be called with validated digit strings.
 func parse_digits(str string) int {
 	num, err := strconv.Atoi(str)
 	if err != nil {
@@ -55,6 +47,8 @@ func parse_digits(str string) int {
 	return num
 }
 
+// parse_year_2_digits parses a 2-digit year into a full year.
+// Years >= 69 are treated as 1969-1999, others as 2000-2068.
 func parse_year_2_digits(str string) int {
 	year, err := strconv.Atoi(str)
 	if err != nil {
@@ -68,6 +62,8 @@ func parse_year_2_digits(str string) int {
 	return year
 }
 
+// ambiguousTimeZoneAbbrs contains timezone abbreviations that have multiple meanings
+// and should be handled with caution.
 var ambiguousTimeZoneAbbrs = map[string]bool{
 	"CST":  true, // Central Standard Time (UTC-6), China Standard Time (UTC+8), Cuba Standard Time (UTC-5)
 	"PST":  true, // Pacific Standard Time (UTC-8), Philippine Standard Time (UTC+8)
