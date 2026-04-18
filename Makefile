@@ -28,6 +28,10 @@ vet:
 	@echo "Vetting code"
 	@go vet ./.
 
+lint:
+	@echo "Linting code"
+	@golangci-lint run ./...
+
 test:
 	@go test -v ./tests -rapid.checks=10000
 
@@ -38,7 +42,7 @@ cli: fmt
 	cd cli && go build -o ../bin/anytime
 
 tidy: FORCE
-	go mod tidy -go=1.18
+	go mod tidy -go=1.23
 
 clean: FORCE
 	@echo "Cleaning"

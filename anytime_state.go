@@ -7,20 +7,34 @@ import (
 
 // parsedTime is the struct representing a parsed time value.
 type parsedTime struct {
-	Ad_bc                                ADBC
-	Year                                 int
-	Month                                int
-	Day                                  int
-	DayOfYear                            int
-	Hour, Minute, Second                 int
+	// Ad_bc indicates whether year is AD (0) or BC (1)
+	Ad_bc ADBC
+	// Year is the year component (e.g., 2023)
+	Year int
+	// Month is the month component (1-12)
+	Month int
+	// Day is the day component (1-31)
+	Day int
+	// DayOfYear is the day of year (1-366), used when parsing formats like "2006.002"
+	DayOfYear int
+	// Hour, Minute, Second are the time components
+	Hour, Minute, Second int
+	// Millisecond, Microsecond, Nanosecond are the fractional second components
 	Millisecond, Microsecond, Nanosecond int
 
-	Zoned                     bool
-	ZoneOffsetHour            int
-	ZoneOffsetMinute          int
-	NegtiveZoneOffset         bool
-	ZoneOffsetIsValid         bool
-	ZoneName                  string // e.g., "MST"
+	// Zoned indicates whether input string contained timezone information
+	Zoned bool
+	// ZoneOffsetHour is the hour component of timezone offset
+	ZoneOffsetHour int
+	// ZoneOffsetMinute is the minute component of timezone offset
+	ZoneOffsetMinute int
+	// NegativeZoneOffset indicates whether timezone offset is negative
+	NegativeZoneOffset bool
+	// ZoneOffsetIsValid indicates whether timezone offset was successfully parsed
+	ZoneOffsetIsValid bool
+	// ZoneName is the timezone abbreviation or IANA name (e.g., "MST", "America/New_York")
+	ZoneName string
+	// MonotonicOffsetNanosecond is the monotonic clock offset in nanoseconds
 	MonotonicOffsetNanosecond int64
 }
 
@@ -28,13 +42,16 @@ func (state *parsedTime) String() string {
 	return fmt.Sprintf("%#v", state)
 }
 
-func (state *parsedTime) unknow_day() bool {
+func (state *parsedTime) unknown_day() bool {
 	return state.Day == 0 && state.DayOfYear == 0
 }
-func (state *parsedTime) unknow_month() bool {
+func (state *parsedTime) unknown_month() bool {
 	return state.Month == 0 && state.DayOfYear == 0
 }
 
+// AsTime converts the parsedTime to a standard Go time.Time value.
+// defaultLoc is the timezone to use when no timezone information is present in input.
+// targetLoc is the timezone to use for ambiguous timezone abbreviations.
 func (state *parsedTime) AsTime(defaultLoc *time.Location, targetLoc *time.Location) (time.Time, error) {
 	// fmt.Printf("%s\n", state.String())
 
@@ -43,10 +60,10 @@ func (state *parsedTime) AsTime(defaultLoc *time.Location, targetLoc *time.Locat
 		state.Month = 1
 	}
 
-	if state.unknow_month() { // "2004"
+	if state.unknown_month() { // "2004"
 		state.Month = 1
 	}
-	if state.unknow_day() { // "2004/05"
+	if state.unknown_day() { // "2004/05"
 		state.Day = 1
 	}
 
@@ -108,11 +125,11 @@ func (state *parsedTime) AsTime(defaultLoc *time.Location, targetLoc *time.Locat
 	}
 
 	utcdate := time.Date(state.Year, time.Month(state.Month), state.Day,
-		state.Hour, state.Minute, state.Second,
-		ns, time.UTC)
+			state.Hour, state.Minute, state.Second,
+			ns, time.UTC)
 
 	offset := time.Duration(state.ZoneOffsetHour*int(time.Hour) + state.ZoneOffsetMinute*int(time.Minute))
-	if state.NegtiveZoneOffset {
+	if state.NegativeZoneOffset {
 		utcdate = utcdate.Add(offset)
 	} else {
 		utcdate = utcdate.Add(-offset)
